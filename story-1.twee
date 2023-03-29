@@ -490,59 +490,61 @@ En gras les mots : “L’excision est pratiquée par tradition et est considér
 
 
 :: 6.2.13 {"position":"1925,1225","size":"100,100"}
-— Pour elle, c’est notre devoir.
-— Mais…
+— D’après nenek, les femmes doivent être sages pour le mariage.
 
-[[Suivant->6.2.14]]
+''//Sang qui coule entre les jambes //''
+
+[[Mais… je suis sage… et même pas mariée ?->6.2.14]]
+[[C’est injuste ! Nous ne méritons pas ça ! Je ne comprends pas…->6.2.14]]
 
 
 :: 6.2.14 {"position":"2050,1225","size":"100,100"}
-— Je sais, ce n’est pas normal, Dian, ce n’est pas normal du tout.
-
-''//Dian fronce les sourcils, perdue / de l’autre côté Satria à l’air triste ? elle pleure en silence ?//''
+— Pour elle, c’est notre devoir.
+— Mais…
 
 [[Suivant->6.2.15]]
 
 
 :: 6.2.15 {"position":"2175,1225","size":"100,100"}
+— Je sais, ce n’est pas normal, Dian, ce n’est pas normal du tout.
+
+''//Dian fronce les sourcils, perdue / de l’autre côté Satria à l’air triste ? elle pleure en silence ?//''
+
+[[Suivant->6.2.16]]
+
+
+:: 6.2.16 {"position":"2300,1225","size":"100,100"}
 — On ne t’en a pas parlé, en France ? À l’école ou quoi ?
 
 ''//Images de mains qui se mettent sur des bouches (peut-être certaines sont cousues, comme pour l'excision)//''
 
 — Jamais…
 
-[[Suivant->6.2.16]]
-
-
-:: 6.2.16 {"position":"2300,1225","size":"100,100"}
-— Peut-être… peut-être que tu peux… c’est difficile, je sais, mais-
-— Je ne sais pas si je pourrai.
-
 [[Suivant->6.2.17]]
 
 
 :: 6.2.17 {"position":"2425,1225","size":"100,100"}
-— Prends ton temps, je sais que c’est dur, Dian.
-— Maman sait ?
-— … oui, forcément.
+— Peut-être… peut-être que tu peux… c’est difficile, je sais, mais-
+— Je ne sais pas si je pourrai.
 
 [[Suivant->6.2.18]]
 
 
-
 :: 6.2.18 {"position":"2550,1225","size":"100,100"}
-''//Visage en colère//''
-
-POURQUOI ?
+— Prends ton temps, je sais que c’est dur, Dian.
+— Maman sait ?
+— … oui, forcément.
 
 [[Suivant->6.2.19]]
 
 
-:: 6.2.19 {"position":"2675,1225","size":"100,100"}
-''//Dian pleure
-Dian s’endort au téléphone//''
 
-[[Suivant->7.1]]
+:: 6.2.19 {"position":"2675,1225","size":"100,100"}
+''//Visage en colère//''
+
+POURQUOI ?
+
+[[Suivant->6.2.20]]
 
 
 :: 6.2.2 {"position":"550,1225","size":"100,100"}
@@ -551,6 +553,13 @@ Dian s’endort au téléphone//''
 
 
 [[Suivant->6.2.3]]
+
+
+:: 6.2.20 {"position":"2800,1225","size":"100,100"}
+''//Dian pleure
+Dian s’endort au téléphone//''
+
+[[Suivant->7.1]]
 
 
 :: 6.2.3 {"position":"675,1225","size":"100,100"}
@@ -673,26 +682,30 @@ L’infirmière prend et serre chaleureusement la main de Dian//''
 ''//Le mot est représenté en écho (ou une étiquette) //''
 Aujourd’hui, en France, c’est interdit, mais jusque dans les années 60, plein de femmes étaient comme toi.
 
-— Vraiment ?
+[[Vraiment ?->7.8]]
+[[Alors je suis... normale ?->7.8]]
+
+
+:: 7.7 {"position":"1175,1375","size":"100,100"}
 
 — Oui, mais c’est puni par la loi maintenant. Et il y a plein d’associations qui aident les femmes ayant subi ça.
 
 ''//Logos des associations qui apparaissent à l’écran ?//''
 
-[[Suivant->7.7]]
+[[Suivant->7.8]]
 
 
-:: 7.7 {"position":"1175,1375","size":"100,100"}
+:: 7.8 {"position":"1300,1375","size":"100,100"}
 — Ça t’intéresse de parler à quelqu’un ? Je peux te mettre en contact avec une gynéco, ou parler à quelqu’un de l’association.
 
 ''//Dian se serre les bras//''
 
 — Je ne sais pas…
 
-[[Suivant->7.8]]
+[[Suivant->7.9]]
 
 
-:: 7.8 {"position":"1300,1375","size":"100,100"}
+:: 7.9 {"position":"1425,1375","size":"100,100"}
 — C’est ton choix, Dian, va à ton rythme.
 
 [[Demander un rendez-vous chez la gynéco->8.1]]
