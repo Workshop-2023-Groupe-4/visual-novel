@@ -1,0 +1,178 @@
+:: StoryTitle
+VisualNovel
+
+
+:: StoryData
+{
+  "ifid": "70EA29AA-352A-417D-B70E-35692C303992",
+  "format": "Harlowe",
+  "format-version": "3.3.5",
+  "start": "1.0",
+  "zoom": 1
+}
+
+
+:: 1.0 {"position":"425,350","size":"100,100"}
+//''Image face à face avec son amie''//
+
+
+
+
+[[Suivant->1.1]]
+
+
+:: 1.1 {"position":"550,350","size":"100,100"}
+//''Image face à face avec son amie''//
+
+
+
+
+
+
+
+
+
+
+— Dis Dian, tu es déjà partie dans le pays de tes parents ?
+
+— Oui ! On essaie d’y aller tous les ans… bon, avec le covid, ça a été pas mal compromis…
+
+
+[[Suivant->1.2]]
+
+
+:: 1.2 {"position":"675,350","size":"100,100"}
+//''Image face à face avec son amie''//
+
+
+
+
+
+
+
+
+
+— Tu t’entends bien avec ta famille ? C’est pas trop dur ?
+— Non, tout le monde est super gentil avec moi, je suis bien intégrée !
+
+[[Suivant->1.3]]
+
+
+:: 1.3 {"position":"800,350","size":"100,100"}
+//''Image face à face avec son amie''//
+
+
+
+
+
+
+
+
+
+— C’est quoi ton souvenir le plus marquant ?
+— … (elle réfléchit) Je plonge de temps en temps à Sulawesi, je suis toujours émerveillée de voir les poissons multicolores !
+
+
+[[Suivant->1.4]]
+
+
+:: 1.4 {"position":"925,350","size":"100,100"}
+//''Image face à face avec son amie''//
+
+
+
+
+
+
+
+
+
+— La chance ! Ça doit être incroyable !
+— Oui ! C’est-
+
+
+
+[[Suivant->full-illu--black]]
+
+
+:: 1.5 {"position":"1425,350","size":"100,100"}
+//''Image face à face avec son amie''//
+
+
+
+
+
+
+
+
+
+— J’aimerais tellement vivre là-bas !
+— Je…
+
+
+[[Suivant->1.6]]
+
+
+:: 1.6 {"position":"1550,350","size":"100,100"}
+//''Image face à face avec son amie''//
+
+
+
+
+
+
+
+
+
+//Je n’en suis plus si sûre…//
+
+
+[[Suivant->1.7]]
+
+
+:: 1.7 {"position":"1675,350","size":"100,100"}
+//''Image en classe''//
+
+
+
+
+
+
+
+
+
+//C’est bizarre… Je ne me sens pas bien…//
+
+[[Suivant->1.8]]
+
+
+:: 1.8 {"position":"1800,350","size":"100,100"}
+//''Image arrêt de bus : Elle est pliée de douleur''//
+
+
+
+
+
+
+
+
+
+//J’ai si mal… qu’est-ce qui se passe ? C’est pas normal…//
+
+
+:: full-illu--black {"position":"1050,350","size":"100,100"}
+(t8n-time:0.5s)[[Suivant->full-illu--closed-eyes]]
+
+
+:: full-illu--closed-eyes {"position":"1175,350","size":"100,100"}
+//''Image : elle ferme les yeux''//
+
+(t8n-time:0.5s)[[Suivant->full-illu--red]]
+
+
+
+:: full-illu--red {"position":"1300,350","size":"100,100"}
+(enchant:?page,(bg:red))
+
+
+[[Suivant->1.5]]
