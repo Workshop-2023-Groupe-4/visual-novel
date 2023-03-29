@@ -268,9 +268,9 @@ VisualNovel
 
 — Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
 
-— Non ! Tout va bien, pardon.
-
-[[Suivant->3.3]]
+[[Non ! Tout va bien, pardon.->3.3]]
+[[Non.->3.3]]
+[[Garder le silence->3.3]]
 
 
 :: 3.3 {"position":"675,650","size":"100,100"}
