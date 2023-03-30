@@ -5,7 +5,8 @@ const filepath = './story-1.twee';
 
 function getJsonFromLines(lines)
 {
-    const json = [];
+    const namesUsed = [];
+    const json = {};
     let isInPassage = false;
     let passage = null;
 
@@ -16,7 +17,7 @@ function getJsonFromLines(lines)
         }
 
         if(passage) {
-            json.push(passage);
+            json[passage.name] = passage;
         }
 
         isInPassage = true
@@ -27,9 +28,13 @@ function getJsonFromLines(lines)
             metadata,
             lines: []
         };
+        if(namesUsed.includes(name)) {
+            console.warn(name + ' is present multiple times')
+        }
+        namesUsed.push(name)
     });
 
-    json.push(passage);
+    json[passage.name] = passage;
 
 
 

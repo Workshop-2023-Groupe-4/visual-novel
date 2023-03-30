@@ -73,11 +73,11 @@ describe('function getJsonFromLines', function () {
             "— Oui ! On essaie d’y aller tous les ans… bon, avec le covid, ça a été pas mal compromis…",
         ]
 
-        const expectedJson = [
-            {
+        const expectedJson = {
+            '1.0': {
                 name: '1.0',
                 tags: [],
-                metadata: {position:"425,350", size:"100,100"},
+                metadata: {position: "425,350", size: "100,100"},
                 lines: [
                     "//''Image face à face avec son amie''//",
                     '<img src="assets/illustrations/seq1.svg" width="256" height="256">',
@@ -87,10 +87,10 @@ describe('function getJsonFromLines', function () {
                     "[[Suivant->1.1]]"
                 ]
             },
-            {
+            '1.1': {
                 name: '1.1',
                 tags: [],
-                metadata: {position:"550,350",size:"100,100"},
+                metadata: {position: "550,350", size: "100,100"},
                 lines: [
                     "//''Image face à face avec son amie''//",
                     '<img src="assets/illustrations/seq1.svg" width="256" height="256">',
@@ -101,7 +101,7 @@ describe('function getJsonFromLines', function () {
                     "— Oui ! On essaie d’y aller tous les ans… bon, avec le covid, ça a été pas mal compromis…",
                 ]
             }
-        ]
+        }
 
         assert.equal(getJsonFromLines(lines), JSON.stringify(expectedJson))
     });
