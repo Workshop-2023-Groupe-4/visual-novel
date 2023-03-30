@@ -1,5 +1,5 @@
 :: StoryTitle
-VisualNovel
+Histoire amnésie
 
 
 :: StoryData
@@ -162,6 +162,52 @@ VisualNovel
 
 
 [[Suivant->2.0]]
+
+
+:: 10.1 {"position":"425,1825","size":"100,100"}
+Cette histoire représente une réalité qui touche aujourd’hui plus de 200 millions de femmes dans le monde. 
+
+Avec cette expérience que tu viens de réaliser, nous voulions te sensibiliser sur ce sujet et te faire prendre conscience que cela nous concerne tous et toutes.
+
+[[Suivant->10.2]]
+
+
+:: 10.2 {"position":"550,1825","size":"100,100"}
+* 6 filles sont mutilées toute les minutes.
+* 125 mille femmes excisées en France.
+* Cette pratique concerne toutes les cultures et toutes les religions.
+
+[[Suivant->10.3]]
+
+
+:: 10.3 {"position":"675,1825","size":"100,100"}
+Les conséquences sont nombreuses :
+
+* Douleurs
+* Traumatismes
+* Troubles psychologiques
+* Exclusion
+* Rapports sexuels sans plaisir
+* Douleurs et infections chroniques
+
+[[Suivant->10.4]]
+
+
+:: 10.4 {"position":"800,1825","size":"100,100"}
+Cela se produit aux quatre coins du monde.
+
+''//Carte des endroits ou ça se passe//''
+
+[[Suivant->10.5]]
+
+
+:: 10.5 {"position":"925,1825","size":"100,100"}
+Les orchidées rouges est une association qui permet d’accompagner les victimes d’excision dans la guérison et la réinsertion. 
+
+Plus d’informations : 
+
+lesorchideesrouges.org
++33 5 57 34 92 37
 
 
 :: 2.0 {"position":"425,500","size":"100,100"}
@@ -431,7 +477,6 @@ Mais //pourquoi// ?
 [[Suivant->6.1.8]]
 
 
-
 :: 6.1.8 {"position":"1175,1075","size":"100,100"}
 ''//Elle reprend son téléphone et continue à lire les informations sur l’excision
 
@@ -471,7 +516,6 @@ En gras les mots : “L’excision est pratiquée par tradition et est considér
 [[Suivant->6.2.11]]
 
 
-
 :: 6.2.11 {"position":"1675,1225","size":"100,100"}
 //Je suis peut-être normale !//
 
@@ -486,7 +530,6 @@ En gras les mots : “L’excision est pratiquée par tradition et est considér
 — Pourquoi ?
 
 [[Suivant->6.2.13]]
-
 
 
 :: 6.2.13 {"position":"1925,1225","size":"100,100"}
@@ -536,7 +579,6 @@ En gras les mots : “L’excision est pratiquée par tradition et est considér
 — … oui, forcément.
 
 [[Suivant->6.2.19]]
-
 
 
 :: 6.2.19 {"position":"2675,1225","size":"100,100"}
@@ -626,7 +668,6 @@ Dian s’endort au téléphone//''
 [[Suivant->6.2.10]]
 
 
-
 :: 7.1 {"position":"425,1375","size":"100,100"}
 ''//Trajet de bus//''
 
@@ -687,7 +728,6 @@ Aujourd’hui, en France, c’est interdit, mais jusque dans les années 60, ple
 
 
 :: 7.7 {"position":"1175,1375","size":"100,100"}
-
 — Oui, mais c’est puni par la loi maintenant. Et il y a plein d’associations qui aident les femmes ayant subi ça.
 
 ''//Logos des associations qui apparaissent à l’écran ?//''
@@ -749,6 +789,8 @@ Elle a décidé d’attendre d’être majeure pour demander à bénéficier d�
 :: 8.6 {"position":"1050,1525","size":"100,100"}
 Celle-ci lui permettra de reprendre confiance en elle et de se réapproprier son corps.
 
+[[Suivant->10.1]]
+
 
 :: 9.1 {"position":"425,1675","size":"100,100"}
 Grâce à l’infirmière, Dian a pu en apprendre plus sur les associations qui accompagnent les jeunes femme et les jeunes filles victimes d’excision. 
@@ -763,13 +805,15 @@ Elle a pu contacter l’une d’entre elles, les Orchidées rouges et a été re
 
 
 :: 9.3 {"position":"675,1675","size":"100,100"}
- Elle a pu assister à des ateliers thérapeutiques et rencontrer d’autres femmes qui comme elles ont vécu une excision, s’en sont remises et militent maintenant contre cette pratique qui perdure à travers les époques.
+Elle a pu assister à des ateliers thérapeutiques et rencontrer d’autres femmes qui comme elles ont vécu une excision, s’en sont remises et militent maintenant contre cette pratique qui perdure à travers les époques.
 
 [[Suivant->9.4]]
 
 
 :: 9.4 {"position":"800,1675","size":"100,100"}
 La blessure dans le cœur de Dian n’est pas encore prête à cicatriser mais elle est un peu plus apaisée, mais elle sait à présent qu’elle n’est pas seule.
+
+[[Suivant->10.1]]
 
 
 :: full-illu--black {"position":"1050,350","size":"100,100"}
@@ -780,7 +824,6 @@ La blessure dans le cœur de Dian n’est pas encore prête à cicatriser mais e
 //''Image : elle ferme les yeux''//
 
 (t8n-time:0.5s)[[Suivant->full-illu--red]]
-
 
 
 :: full-illu--red {"position":"1300,350","size":"100,100"}
