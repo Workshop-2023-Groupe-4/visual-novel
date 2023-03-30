@@ -3,13 +3,7 @@
 Nous utilisons [Twine](https://twinery.org/) pour créer et modifier l'histoire.
 Téléchargez-le ou utilisez la version web
 
-### 2. Installer tweego
-(instruction sur le [gist de jsoma](https://gist.github.com/jsoma/5ef3045b2004a610455f371479a6f0cf))
-```shell
-/bin/bash -c "$(curl -fsSL https://gist.githubusercontent.com/jsoma/5ef3045b2004a610455f371479a6f0cf/raw/b6c9224faa18fd52f3e1bf7120af17eed6da8ec1/tweego.sh)"
-```
-
-### 3. Import/mise à jour de l'histoire sur Twine
+### 2. Import/mise à jour de l'histoire sur Twine
 1.
    - Si vous n'avez pas cloné le repo faites le
    - Si vous avez déjà le repo sur votre pc, faites un pull
@@ -22,7 +16,7 @@ Téléchargez-le ou utilisez la version web
    2. Cliquez sur importer <img src="./doc/6-click-import.png">
 7. Et voilà, l'histoire est importée (ou mise à jour) <img src="./doc/7-file-imported.png">
 
-### 4. Écriture et envoi
+### 3. Écriture et envoi
 L'histoire importée sur Twine vous pouvez ajouter les éléments.  
 **Pensez à pull avant de travailler**
 Une fois que vous avez terminé, exportez l'histoire 
@@ -30,3 +24,13 @@ Une fois que vous avez terminé, exportez l'histoire
 2. Exportez l'histoire en fichier .twee <img src="./doc/2-export-as-twee.png">
 3. Exportez le fichier à la racine du repo <img src="./doc/3-export-file.png">
 4. Si un du même nom existe déjà, écrasez-le sans pitié <img src="./doc/4-overwrite-file.png">
+
+### 4. Build du html
+Installez les dépendances avant, si ce n'est pas déjà fait
+```shell
+npm i
+```
+Lancez le build
+```shell
+npm run build
+```
