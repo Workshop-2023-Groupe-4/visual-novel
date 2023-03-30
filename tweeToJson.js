@@ -1,8 +1,3 @@
-const fs = require('fs');
-const lineReader = require('line-reader');
-
-const filepath = './story-1.twee';
-
 function getJsonFromLines(lines)
 {
     const namesUsed = [];
