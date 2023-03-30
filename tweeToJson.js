@@ -6,22 +6,63 @@ const filepath = './story-1.twee';
 function getJsonFromLines(lines)
 {
     const namesUsed = [];
-    const json = {};
+    const json = {
+        data: {
+            title: null,
+            start: null,
+        },
+        passages: {},
+    };
     let isInPassage = false;
+    let isInStoryTitle = false;
+    let isInStoryData = false;
+    let storyDataJson = "";
     let passage = null;
 
     lines.forEach(line=>{
+        if(isInStoryTitle) {
+            json.data.title = line;
+            isInStoryTitle = false;
+            return;
+        }
+
+        if(isInStoryData) {
+            storyDataJson += line;
+
+            if(line === "}") {
+                isInStoryData = false;
+
+                const storyData = JSON.parse(storyDataJson);
+
+                json.data.start = storyData.start;
+            }
+            return;
+        }
+
         if(!isLineAPassageHeader(line)) {
-            passage.lines.push(line)
+            if(passage) {
+                passage.lines.push(line);
+            }
             return;
         }
 
         if(passage) {
-            json[passage.name] = passage;
+            json.passages[passage.name] = passage;
         }
 
-        isInPassage = true
         const {name, tags, metadata} = identifyPassageHeader(line);
+
+        if(name === "StoryTitle") {
+            isInStoryTitle = true;
+            return;
+        }
+
+        if(name === "StoryData") {
+            isInStoryData = true;
+            return;
+        }
+
+        isInPassage = true;
         passage = {
             name,
             tags,
@@ -31,10 +72,10 @@ function getJsonFromLines(lines)
         if(namesUsed.includes(name)) {
             console.warn(name + ' is present multiple times')
         }
-        namesUsed.push(name)
+        namesUsed.push(name);
     });
 
-    json[passage.name] = passage;
+    json.passages[passage.name] = passage;
 
 
 

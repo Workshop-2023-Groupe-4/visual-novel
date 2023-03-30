@@ -56,6 +56,19 @@ describe('function isLineAPassageHeader', function () {
 describe('function getJsonFromLines', function () {
     it('should return valid json from twee lines', function () {
         const lines = [
+            ':: StoryTitle',
+            'Histoire amnésie',
+            "",
+            "",
+            "",
+            ':: StoryData',
+            '{',
+            '    "ifid": "70EA29AA-352A-417D-B70E-35692C303992",',
+            '    "format": "Harlowe",',
+            '    "format-version": "3.3.5",',
+            '    "start": "1.0",',
+            '    "zoom": 1',
+            '}',
             ':: 1.0 {"position":"425,350","size":"100,100"}',
             "//''Image face à face avec son amie''//",
             '<img src="assets/illustrations/seq1.svg" width="256" height="256">',
@@ -74,32 +87,38 @@ describe('function getJsonFromLines', function () {
         ]
 
         const expectedJson = {
-            '1.0': {
-                name: '1.0',
-                tags: [],
-                metadata: {position: "425,350", size: "100,100"},
-                lines: [
-                    "//''Image face à face avec son amie''//",
-                    '<img src="assets/illustrations/seq1.svg" width="256" height="256">',
-                    "",
-                    "",
-                    "",
-                    "[[Suivant->1.1]]"
-                ]
+            data: {
+                title: 'Histoire amnésie',
+                start: '1.0',
             },
-            '1.1': {
-                name: '1.1',
-                tags: [],
-                metadata: {position: "550,350", size: "100,100"},
-                lines: [
-                    "//''Image face à face avec son amie''//",
-                    '<img src="assets/illustrations/seq1.svg" width="256" height="256">',
-                    "",
-                    "",
-                    "— Dis Dian, tu es déjà partie dans le pays de tes parents ?",
-                    "",
-                    "— Oui ! On essaie d’y aller tous les ans… bon, avec le covid, ça a été pas mal compromis…",
-                ]
+            passages: {
+                '1.0': {
+                    name: '1.0',
+                    tags: [],
+                    metadata: {position: "425,350", size: "100,100"},
+                    lines: [
+                        "//''Image face à face avec son amie''//",
+                        '<img src="assets/illustrations/seq1.svg" width="256" height="256">',
+                        "",
+                        "",
+                        "",
+                        "[[Suivant->1.1]]"
+                    ]
+                },
+                '1.1': {
+                    name: '1.1',
+                    tags: [],
+                    metadata: {position: "550,350", size: "100,100"},
+                    lines: [
+                        "//''Image face à face avec son amie''//",
+                        '<img src="assets/illustrations/seq1.svg" width="256" height="256">',
+                        "",
+                        "",
+                        "— Dis Dian, tu es déjà partie dans le pays de tes parents ?",
+                        "",
+                        "— Oui ! On essaie d’y aller tous les ans… bon, avec le covid, ça a été pas mal compromis…",
+                    ]
+                }
             }
         }
 
