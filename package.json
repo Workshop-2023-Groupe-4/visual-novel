@@ -1,0 +1,26 @@
+{
+  "name": "visual-novel",
+  "version": "1.0.0",
+  "description": "Nous utilisons [Twine](https://twinery.org/) pour créer et modifier l'histoire. Téléchargez-le ou utilisez la version web",
+  "main": "index.js",
+  "directories": {
+    "doc": "doc"
+  },
+  "scripts": {
+    "build-s1": "npx extwee -c -i story-1.twee -s story-formats/harlowe-3.3.5/format.js -o stories/1.html",
+    "build": "npm run build-s1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Workshop-2023-Groupe-4/visual-novel.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Workshop-2023-Groupe-4/visual-novel/issues"
+  },
+  "homepage": "https://github.com/Workshop-2023-Groupe-4/visual-novel#readme",
+  "dependencies": {
+    "extwee": "^2.0.6"
+  }
+}

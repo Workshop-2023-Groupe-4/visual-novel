@@ -14,7 +14,7 @@ Téléchargez-le ou utilisez la version web
 6. 
    1. Si vous avez déjà une histoire avec le même nom Twine vous demandera quelle histoire importer, choisissez votre fichier <img src="./doc/5-check-story-1.png">
    2. Cliquez sur importer <img src="./doc/6-click-import.png">
-7Et voilà, l'histoire est importée (ou mise à jour) <img src="./doc/7-file-imported.png">
+7. Et voilà, l'histoire est importée (ou mise à jour) <img src="./doc/7-file-imported.png">
 
 ### 3. Écriture et envoi
 L'histoire importée sur Twine vous pouvez ajouter les éléments.  
@@ -24,3 +24,13 @@ Une fois que vous avez terminé, exportez l'histoire
 2. Exportez l'histoire en fichier .twee <img src="./doc/2-export-as-twee.png">
 3. Exportez le fichier à la racine du repo <img src="./doc/3-export-file.png">
 4. Si un du même nom existe déjà, écrasez-le sans pitié <img src="./doc/4-overwrite-file.png">
+
+### 4. Build du html
+Installez les dépendances avant, si ce n'est pas déjà fait
+```shell
+npm i
+```
+Lancez le build
+```shell
+npm run build
+```
