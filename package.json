@@ -7,6 +7,8 @@
     "doc": "doc"
   },
   "scripts": {
+    "test": "mocha tweeToJson.test.js",
+    "jsonize": "node jsonize.js",
     "build-s1": "npx extwee -c -i story-1.twee -s story-formats/harlowe-3.3.5/format.js -o stories/1.html",
     "build": "npm run build-s1"
   },
@@ -21,6 +23,11 @@
   },
   "homepage": "https://github.com/Workshop-2023-Groupe-4/visual-novel#readme",
   "dependencies": {
-    "extwee": "^2.0.6"
+    "extwee": "^2.0.6",
+    "line-reader": "^0.4.0"
+  },
+  "devDependencies": {
+    "mocha": "^10.2.0",
+    "request": "^2.88.2"
   }
 }
