@@ -13,8 +13,8 @@ Histoire amnésie
 
 
 :: 1.0 {"position":"425,350","size":"100,100"}
-//''Image face à face avec son amie''//
-<img src="assets/illustrations/seq1.svg" width="256" height="256">
+<!-- Image face à face avec son amie -->
+<img src="/assets/illustrations/seq1.svg" width="256" height="256">
 
 
 
@@ -22,8 +22,8 @@ Histoire amnésie
 
 
 :: 1.1 {"position":"550,350","size":"100,100"}
-//''Image face à face avec son amie''//
-<img src="assets/illustrations/seq1.svg" width="256" height="256">
+<!-- Image face à face avec son amie -->
+<img src="/assets/illustrations/seq1.svg" width="256" height="256">
 
 
 
@@ -42,8 +42,8 @@ Histoire amnésie
 
 
 :: 1.2 {"position":"675,350","size":"100,100"}
-//''Image face à face avec son amie''//
-<img src="assets/illustrations/seq1.svg" width="256" height="256">
+<!-- Image face à face avec son amie -->
+<img src="/assets/illustrations/seq1.svg" width="256" height="256">
 
 
 
@@ -59,8 +59,8 @@ Histoire amnésie
 
 
 :: 1.3 {"position":"800,350","size":"100,100"}
-//''Image face à face avec son amie''//
-<img src="assets/illustrations/seq1.svg" width="256" height="256">
+<!-- Image face à face avec son amie -->
+<img src="/assets/illustrations/seq1.svg" width="256" height="256">
 
 
 
@@ -77,8 +77,8 @@ Histoire amnésie
 
 
 :: 1.4 {"position":"925,350","size":"100,100"}
-//''Image face à face avec son amie''//
-<img src="assets/illustrations/seq1.svg" width="256" height="256">
+<!-- Image face à face avec son amie -->
+<img src="/assets/illustrations/seq1.svg" width="256" height="256">
 
 
 
@@ -96,8 +96,8 @@ Histoire amnésie
 
 
 :: 1.5 {"position":"1425,350","size":"100,100"}
-//''Image face à face avec son amie''//
-<img src="assets/illustrations/seq1.svg" width="256" height="256">
+<!-- Image face à face avec son amie -->
+<img src="/assets/illustrations/seq1.svg" width="256" height="256">
 
 
 
@@ -114,8 +114,8 @@ Histoire amnésie
 
 
 :: 1.6 {"position":"1550,350","size":"100,100"}
-//''Image face à face avec son amie''//
-<img src="assets/illustrations/seq1.svg" width="256" height="256">
+<!-- Image face à face avec son amie -->
+<img src="/assets/illustrations/seq1.svg" width="256" height="256">
 
 
 
@@ -131,8 +131,8 @@ Histoire amnésie
 
 
 :: 1.7 {"position":"1675,350","size":"100,100"}
-//''Image en classe''//
-<img src="assets/illustrations/seq3.svg" width="256" height="256">
+<!-- Image en classe -->
+<img src="/assets/illustrations/seq3.svg" width="256" height="256">
 
 
 
@@ -147,8 +147,8 @@ Histoire amnésie
 
 
 :: 1.8 {"position":"1800,350","size":"100,100"}
-//''Image arrêt de bus : Elle est pliée de douleur''//
-<img src="assets/illustrations/seq4.svg" width="256" height="256">
+<!-- Image en classe -->
+<img src="/assets/illustrations/seq4.svg" width="256" height="256">
 
 
 
@@ -821,8 +821,8 @@ La blessure dans le cœur de Dian n’est pas encore prête à cicatriser mais e
 
 
 :: full-illu--closed-eyes {"position":"1175,350","size":"100,100"}
-//''Image : elle ferme les yeux''//
-<img src="assets/illustrations/seq2.svg" width="256" height="256">
+<!-- Image: elle ferme les yeux -->
+<img src="/assets/illustrations/seq2.svg" width="256" height="256">
 
 
 
