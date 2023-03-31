@@ -1,0 +1,27 @@
+header#header
+    left: 0
+    position: fixed
+    top: 0
+    width: 100%
+    z-index: 9
+    nav
+        .menu
+            @extend .container
+            background: $black
+            display: none
+            flex-direction: column
+            justify-content: center
+            height: 100vh
+            left: 0
+            position: absolute
+            right: 0
+            top: 0
+            &.is-opened
+                display: flex
+            a
+                @include h1
+                text-decoration: none
+                padding: px2rem(25) 0
+                border-bottom: 1px solid transparentize(#4D4B4B, .6)
+                &:first-of-type
+                    border-top: 1px solid transparentize(#4D4B4B, .6)

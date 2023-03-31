@@ -11,3 +11,12 @@ a,
 a:visited
     color: $link-color
     text-decoration-color: opacify($link-color, .3)
+
+h1, .h1
+    font-family: $body-font-family
+    font-size: px2rem(32)
+    line-height: 120%
+    text-transform: uppercase
+
+@mixin h1
+    @extend .h1
