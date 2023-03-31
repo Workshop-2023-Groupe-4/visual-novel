@@ -6,7 +6,7 @@ draft: false
 country: France
 protagonist: Dian
 summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-illustration: https://wallpapercave.com/wp/wp9553608.jpg
+illustration: /assets/images/grad1.jpeg
 
 ---
 
