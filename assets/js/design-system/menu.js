@@ -1,5 +1,5 @@
 const CLASSES = {
-    mainMenuOpened: 'is-opened',
+    mainMenuOpened: 'menu-is-opened',
     isAnimating: 'is-animating',
     scrollingDown: 'is-scrolling-down',
     menusOpened: 'has-menu-opened',
@@ -9,6 +9,7 @@ class Menu {
     constructor (selector) {
         this.element = document.querySelector(selector);
         this.menu = this.element.querySelector('.menu');
+        this.nav = this.element.querySelector('header#header nav');
         this.mainButton = this.element.querySelector('button');
 
         this.state = {
@@ -30,7 +31,7 @@ class Menu {
         this.state.isOpened = open;
         classAction = this.state.isOpened ? 'add' : 'remove';
         this.mainButton.setAttribute('aria-expanded', this.state.isOpened);
-        this.menu.classList[classAction](CLASSES.mainMenuOpened);
+        this.nav.classList[classAction](CLASSES.mainMenuOpened);
 
         // Close dropdown to avoid keeping overlay when mobile and menu closed 
         if (this.state.isMobile && !this.state.isOpened) {

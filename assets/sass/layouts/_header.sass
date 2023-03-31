@@ -8,6 +8,8 @@ header#header
         align-items: center
         display: flex
         justify-content: space-between
+        padding-bottom: $content-margin-sm
+        padding-top: $content-margin-sm
     nav
         button
             @include icon($icon-menu, before)
@@ -16,6 +18,8 @@ header#header
             z-index: 3
             span
                 font-size: 0
+            &::before
+                font-size: px2rem(24)
         .menu
             @extend .container
             background: $black
@@ -28,8 +32,6 @@ header#header
             right: 0
             top: 0
             z-index: 2
-            &.is-opened
-                display: flex
             a
                 @include h1
                 text-decoration: none
@@ -37,3 +39,8 @@ header#header
                 border-bottom: 1px solid transparentize(#4D4B4B, .6)
                 &:first-of-type
                     border-top: 1px solid transparentize(#4D4B4B, .6)
+        &.menu-is-opened
+            button
+                @include icon($icon-close, before)
+            .menu
+                display: flex
