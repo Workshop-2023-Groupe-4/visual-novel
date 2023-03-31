@@ -1,4 +1,5 @@
 import Splide from '@splidejs/splide';
+import { splideTransition } from '../helpers/splideTransition'
 
 var sliders = document.querySelectorAll('.splide'),
   i = 0;
@@ -20,6 +21,6 @@ if (sliders) {
             padding: { left: 70, right: 60 },
           },
         }
-      } ).mount();
+      } ).mount({}, splideTransition);
   }
 }
