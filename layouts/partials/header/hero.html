@@ -1,0 +1,12 @@
+<header class="hero">
+  <div class="container">
+    {{if .Params.description }}
+      <hgroup>
+        <h1>{{ .Title }}</h1>
+        <p>{{ .Params.description }}</p>
+      </hgroup>
+    {{ else }}
+      <h1>{{ .Title }}</h1>
+    {{ end }}
+  </div>
+</header>

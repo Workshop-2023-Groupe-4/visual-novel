@@ -1,5 +1,9 @@
 {{ define "main" }}
-  
-  {{ .Content }}
+
+  {{- partial "header/hero.html" . -}}
+
+  <div class="container">
+    {{ .Content }}
+  </div>
 
 {{ end }}

@@ -30,11 +30,11 @@ expandedTitle = '1 minute dans le monde'
     weight = 3
   [[menu.legal]]
     name = "Mentions légales"
-    url = "mentions-legales"
+    url = "/mentions-legales"
     weight = 1
   [[menu.legal]]
     name = "Plan du site"
-    url = "plan-du-site"
+    url = "/plan-du-site"
     weight = 2
   [[menu.legal]]
     name = "À propos"
