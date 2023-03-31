@@ -2,11 +2,11 @@ body
     background: $black
     color: $base-color
     position: relative
-    > * + *
-        margin-bottom: 100px
 
-main
-    padding-top: 100px
+main 
+    > div > *
+        padding-top: $spacing-5
+
 
 .container
     @include container
