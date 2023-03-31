@@ -2,7 +2,8 @@
   <div class="container">
     LOGO
     <nav>
-      <div id="navigation">
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Toggle navigation"><span>Ouvrir le menu</span></button>
+      <div class="menu" id="navigation">
         {{ range .Site.Menus.main }}
           <a href="{{ .URL }}">
             {{ if .Pre }}
