@@ -10,7 +10,7 @@ if (sliders) {
         perPage: 1,
         focus: 'center',
         arrows: false,
-        padding: { left: 280, right: 300 },
+        padding: { left: 280, right: 290 },
         breakpoints: {
           920: {
             perPage: 1,

@@ -12,14 +12,15 @@
         width: fit-content
         h3
             @include h2
+            margin-top: px2rem(20)
+        a
+            @include stretched-link
+            text-decoration: none
         img
             @include image-mask("../assets/images/mask.svg", true)
             max-height: 331px
             aspect-ratio: 222/331
             @include media-breakpoint-down(md)
                 transform: scale(.9)
-        a
-            @include stretched-link
-            text-decoration: none
     .story-modal    
         display: none
