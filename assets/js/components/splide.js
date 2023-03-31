@@ -10,14 +10,14 @@ if (sliders) {
         perPage: 1,
         focus: 'center',
         arrows: false,
-        padding: { left: 300, right: 300 },
+        padding: { left: 280, right: 300 },
         breakpoints: {
           920: {
             perPage: 1,
-            padding: { left: 150, right: 150 },
+            padding: { left: 160, right: 170 },
           },
           400: {
-            padding: { left: 70, right: 40 },
+            padding: { left: 70, right: 60 },
           },
         }
       } ).mount();
