@@ -1,0 +1,28 @@
+{{ with .Site.GetPage "/stories" }}
+
+  <section>
+    <div class="splide" aria-label="Splide Basic HTML Example">
+      <div class="splide__track">
+        <ul class="splide__list stories-list">
+          {{ range .Pages }}
+            <li class="splide__slide">
+              <div class="content">
+                <div class="story-heading">
+                  <img src="{{ .Params.illustration }}" alt="">
+                  <h3>
+                    <a href="{{ .Permalink }}">{{ .Params.Title }}</a>
+                  </h3>
+                </div>
+                <div class="story-modal">
+                  <h4>{{.Params.protagonist}}</h4>
+                  <p>{{ .Params.Summary }}</p>
+                </div>
+              </div>
+            </li>
+          {{ end }}
+        </ul>
+      </div>
+    </div>
+  </section>
+  
+{{ end }}

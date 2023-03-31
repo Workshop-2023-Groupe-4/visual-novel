@@ -1,0 +1,34 @@
+{{- if or .PrevInSection .NextInSection -}}
+  <nav class="stories-navigation" aria-label="Navigation entre histoires">
+    <ul>
+      <li class="next">
+        {{- if .NextInSection -}}
+          {{with .Site.RegularPages.Next . }}
+              {{ $title := .Title -}}
+              <span>
+                Histoire suivante
+              </span>
+              <br>
+              <a href="{{.RelPermalink}}" title="Découvrir l'histoire suivante">
+                {{- $title -}}
+              </a>
+          {{end}}
+        </li>
+      {{- end -}}
+      <li class="previous">
+        {{- if .PrevInSection -}}
+          {{with .Site.RegularPages.Prev . }}
+            {{ $title := .Title -}}
+            <span>
+              Histoire précédente
+            </span>
+            <br>
+            <a href="{{.RelPermalink}}" title="Découvrir l'histoire précédente">
+              {{- $title -}}
+            </a>
+          {{end}}
+        {{- end -}}
+      </li>
+    </ul>
+  </nav>
+{{- end -}}
