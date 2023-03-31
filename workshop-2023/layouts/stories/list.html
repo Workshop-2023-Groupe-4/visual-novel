@@ -1,0 +1,9 @@
+{{ define "main" }}
+  
+  <ul class="stories-list">
+    {{ range (where .Data.Pages "Section" "story").ByTitle }}
+      {{- partial "stories/item.html" . -}}
+    {{ end }}
+  </ul>
+
+{{ end }}

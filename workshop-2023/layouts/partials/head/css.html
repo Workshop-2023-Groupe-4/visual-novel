@@ -1,0 +1,6 @@
+<!-- CSS -->
+{{ $main_options := (dict "targetPath" "css/main.css" "outputStyle" "compressed") }}
+{{ $main_template := resources.Get "sass/main.sass" }}
+{{ $main_style := $main_template | resources.ExecuteAsTemplate "main_parsed.sass" . | toCSS $main_options | resources.Minify }}
+
+<link rel="stylesheet" href="{{ $main_style.RelPermalink }}">

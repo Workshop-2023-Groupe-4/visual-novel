@@ -1,0 +1,18 @@
+{{- $seoTitle := htmlUnescape site.Title -}}
+{{- $seoDescription := "" -}}
+{{- $seoUrl := .Permalink -}}
+
+{{- if .Title -}}
+  {{- $seoTitle = printf "%s | %s" (chomp (htmlUnescape .Title)) $seoTitle -}}
+{{- end -}}
+
+{{- if .Params.meta_description -}}
+  {{- $seoDescription = .Params.meta_description -}}
+{{- else if .Params.summary -}}
+  {{- $seoDescription = .Params.summary -}}
+{{- else if .Content -}}
+  {{- $seoDescription = .Content -}}
+{{- end -}}
+
+<title>{{ $seoTitle }}</title>
+<meta name="description" content="{{ $seoDescription }}">

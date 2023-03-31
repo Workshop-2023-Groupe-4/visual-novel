@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    {{ partial "head/css.html" }}
+    {{ partial "head/seo.html" . }}
+    {{ partial "head/favicons.html" . }}
+    {{ $title := print .Site.Title " | " .Title }}
+    {{ if .IsHome }}{{ $title = .Site.Title }}{{ end }}
+    <title>{{ $title }}</title>
+  </head>
+
+  {{ $body_class := printf "%s__%s" .Type .Kind }}
+  {{ $pageclass := partial "GetBodyclass" . }}
+  {{ $body_class = printf "%s %s" $body_class $pageclass }}
+
+  <body class="{{ $body_class }}">
+    {{- partial "header/accessibility.html" -}}
+    {{- partial "header/header.html" . -}}
+
+    <main id="main" tabindex="-1" data-barba="wrapper">
+      <div data-barba="container" data-barba-namespace="{{- if .IsHome -}}home{{- else -}} {{ $body_class }}{{- end -}}">
+        {{- block "main" . }}{{- end }}
+      </div>
+    </main>
+    {{- partial "footer/footer.html" . -}}
+    {{- partial "footer/js.html" . -}}
+  </body>
+
+</html>

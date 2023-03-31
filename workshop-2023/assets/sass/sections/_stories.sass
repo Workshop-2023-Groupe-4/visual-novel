@@ -1,0 +1,17 @@
+.stories-list
+    .splide__slide
+        &.is-prev
+            transform: rotate(-15deg) skew(-5deg) scale(.9)
+        &.is-next
+            transform: rotate(15deg) skew(5deg) scale(.9)
+    .story-heading
+        text-align: center
+        img
+            @include image-mask("../assets/images/mask.svg", true)
+            max-height: 331px
+            aspect-ratio: 222/331
+            @include media-breakpoint-down(md)
+                transform: scale(.9)
+
+    .story-modal    
+        display: none
