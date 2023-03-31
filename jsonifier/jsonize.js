@@ -3,7 +3,7 @@ const lineReader = require('line-reader');
 const {getJsonFromLines} = require("./tweeToJson");
 
 const input = './stories/amnesia.twee';
-const output = './front/data/stories/amnesia.twee';
+const output = './data/stories/amnesia.twee';
 
 const lines = [];
 lineReader.eachLine(input, function(line, last) {
