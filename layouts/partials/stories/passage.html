@@ -1,0 +1,6 @@
+<article class="passage">
+    <h3>{{ .name }}</h3>
+    {{ range .lines }}
+    <p>{{ safeHTML . }}</p>
+    {{ end}}
+</article>

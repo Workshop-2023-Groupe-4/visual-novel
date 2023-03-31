@@ -1,5 +1,16 @@
 {{ define "main" }}
 
-  {{- partial "stories/story.html" . -}}
+<section class="story">
+  <div class="container">
+    <article class="story__summary">
+      <h2>{{ .Title }}</h2>
+
+      {{- .Render "single/twee" -}}
+
+
+    </article>
+    {{- .Render "single/navigation" -}}
+  </div>
+</section>
 
 {{ end }}

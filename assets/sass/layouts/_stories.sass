@@ -1,0 +1,11 @@
+.story
+  padding-bottom: $content-margin-sm
+  padding-top: $content-margin-sm
+  @include media-breakpoint-up(md)
+    padding-bottom: $content-margin
+    padding-top: $content-margin
+
+  @include media-breakpoint-down(md)
+    > .container
+      > div + *
+        margin-top: $spacing-4
