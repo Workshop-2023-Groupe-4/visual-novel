@@ -10,10 +10,12 @@ header#header
         justify-content: space-between
     nav
         button
+            @include icon($icon-menu, before)
+            color: white
             position: relative
             z-index: 3
             span
-                color: white
+                font-size: 0
         .menu
             @extend .container
             background: $black
