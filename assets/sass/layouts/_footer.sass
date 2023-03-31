@@ -35,3 +35,11 @@ footer
         text-decoration-color: transparentize($black, .4)
     ul, * + p
         margin-top: $spacing-1
+    .footer-title,
+    .footer-resources,
+    .footer-credits
+        a
+            @include icon($icon-link, after)
+            &::after
+                display: inline-table
+                margin-left: half($spacing-0)
