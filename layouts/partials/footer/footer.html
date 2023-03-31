@@ -1,17 +1,44 @@
 <footer id="footer" role="contentinfo">
   <div class="container">
     <div>
-      <h2>Histoires</h2>
-      <ul>
-        
-      </ul>
+      <h2>{{.Site.Title}}</h2>
+      <p>Une expérience proposée par <a href="https://lesorchideesrouges.org/" title="site officiel" target="_blank">Les Orchidées Rouges</a>.</p>
     </div>
     <div>
-      
+      <h2>Pour aller plus loin</h2>
+      <ul>
+        {{ range .Site.Menus.resources }}
+          <li>
+            <a href="{{ .URL }}">
+              {{ if .Pre }}
+                {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+                {{ $icon }}
+              {{ end }}
+              {{ $text := print .Name | safeHTML }}
+              {{ $text }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
     </div>
-  </div>
-  <div class="container">
-    associations/ressources listées
+    <div class="footer-credits">
+      <p>Expérience réalisée par les étudiantes et étudiants MMI Bordeaux :</p>
+      <p>
+        <a href="https://www.linkedin.com/in/astrid-chapron-b2b603252/" target="_blank" title="Linkedin">Astrid CHAPRON</a> • 
+        <a href="https://www.linkedin.com/in/chlo%C3%A9-faye-b06947252/" target="_blank" title="Linkedin">Chloé FAYE</a> • 
+        <a href="https://www.linkedin.com/in/bryan-goncalves-575605252/" target="_blank" title="Linkedin">Bryan GONCALVES</a> • 
+        <a href="https://www.linkedin.com/in/clara-manhes-9ba96519b/" target="_blank" title="Linkedin">Clara MANHES</a> • 
+        <a href="https://www.linkedin.com/in/arthaud-proust/" target="_blank" title="Linkedin">Arthaud PROUST</a> • 
+        <a href="https://www.linkedin.com/in/jos%C3%A9phine-saint-ygnan-622604252/" target="_blank" title="Linkedin">Joséphine SAINT-YGNAN</a> • 
+        <a href="https://www.linkedin.com/in/auriane-mirana-sicard-razaka-8a925a175/" target="_blank" title="Linkedin">Auriane-Mirana SICARD-RAZAKA</a> • 
+        <a href="https://www.linkedin.com/in/olivia-simonet-3847aa1aa/" target="_blank" title="Linkedin">Olivia SIMONET</a> • 
+        <a href="https://www.linkedin.com/in/nehemia-telusma/" target="_blank" title="Linkedin">Nehémia TELUSMA</a> • 
+        <a href="https://www.linkedin.com/in/ayline-travers/" target="_blank" title="Linkedin">Ayline TRAVERS</a> • 
+        <a href="https://www.linkedin.com/in/natachatwyffels/" target="_blank" title="Linkedin">Natacha TWYFFELS</a>
+        
+        
+      </p>
+    </div>
   </div>
 </footer>
   

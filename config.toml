@@ -1,6 +1,7 @@
 baseURL = 'https://orchidee-rouges.netlify.app/'
 languageCode = 'fr'
-title = 'Workshop 2023'
+title = '1 minute'
+expandedTitle = '1 minute dans le monde'
 
 [menu]
   [[menu.main]]
@@ -14,4 +15,16 @@ title = 'Workshop 2023'
   [[menu.main]]
     name = "Mentions légales"
     url = "/mentions-legales/"
+    weight = 3
+  [[menu.resources]]
+    name = "Génération égalité"
+    url = "url"
+    weight = 1
+  [[menu.resources]]
+    name = "ONU Femmes France"
+    url = "url"
+    weight = 2
+  [[menu.resources]]
+    name = "ECOSOC"
+    url = "url"
     weight = 3

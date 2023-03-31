@@ -1,3 +1,14 @@
 footer 
     min-height: 100vh
     margin-top: $spacing-6
+    padding-bottom: $content-margin-sm
+    padding-top: $content-margin-sm
+    > .container
+        > div + *
+            margin-top: $spacing-4
+    a
+        text-decoration-color: transparentize(white, .4)
+        text-decoration-thickness: .5px
+        text-underline-offset: 5px
+    ul, p
+        margin-top: $spacing-1
