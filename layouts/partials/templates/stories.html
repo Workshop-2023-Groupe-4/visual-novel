@@ -10,7 +10,7 @@
                 <div class="story-heading">
                   <img src="{{ .Params.illustration }}" alt="">
                   <h3>
-                    <a href="{{ .Permalink }}">{{ .Params.Title }}</a>
+                    <a href="{{ if .Params.Link }}{{ .Params.Link }}{{ else }}{{ .Permalink}} {{end}}">{{ .Params.Title }}</a>
                   </h3>
                 </div>
                 <div class="story-modal">
