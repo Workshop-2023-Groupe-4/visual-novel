@@ -10,6 +10,8 @@
         margin: auto
         position: relative
         width: fit-content
+        h3
+            @include h2
         img
             @include image-mask("../assets/images/mask.svg", true)
             max-height: 331px
@@ -18,5 +20,6 @@
                 transform: scale(.9)
         a
             @include stretched-link
+            text-decoration: none
     .story-modal    
         display: none
