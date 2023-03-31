@@ -28,3 +28,15 @@ expandedTitle = '1 minute dans le monde'
     name = "ECOSOC"
     url = "url"
     weight = 3
+  [[menu.legal]]
+    name = "Mentions légales"
+    url = "mentions-legales"
+    weight = 1
+  [[menu.legal]]
+    name = "Plan du site"
+    url = "plan-du-site"
+    weight = 2
+  [[menu.legal]]
+    name = "À propos"
+    url = "/a-propos"
+    weight = 3

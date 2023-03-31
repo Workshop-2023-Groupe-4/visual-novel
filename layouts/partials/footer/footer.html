@@ -35,9 +35,23 @@
         <a href="https://www.linkedin.com/in/nehemia-telusma/" target="_blank" title="Linkedin">Nehémia TELUSMA</a> • 
         <a href="https://www.linkedin.com/in/ayline-travers/" target="_blank" title="Linkedin">Ayline TRAVERS</a> • 
         <a href="https://www.linkedin.com/in/natachatwyffels/" target="_blank" title="Linkedin">Natacha TWYFFELS</a>
-        
-        
       </p>
+    </div>
+    <div class="footer-legals">
+      <ul>
+        {{ range .Site.Menus.legal }}
+          <li>
+            <a href="{{ .URL }}">
+              {{ if .Pre }}
+                {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+                {{ $icon }}
+              {{ end }}
+              {{ $text := print .Name | safeHTML }}
+              {{ $text }}
+            </a>
+          </li>
+        {{ end }}
+      </ul>
     </div>
   </div>
 </footer>
