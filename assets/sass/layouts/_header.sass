@@ -4,7 +4,16 @@ header#header
     top: 0
     width: 100%
     z-index: 9
+    > div
+        align-items: center
+        display: flex
+        justify-content: space-between
     nav
+        button
+            position: relative
+            z-index: 3
+            span
+                color: white
         .menu
             @extend .container
             background: $black
@@ -16,6 +25,7 @@ header#header
             position: absolute
             right: 0
             top: 0
+            z-index: 2
             &.is-opened
                 display: flex
             a
