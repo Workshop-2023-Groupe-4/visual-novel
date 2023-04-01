@@ -60,7 +60,7 @@ describe('function isLineAPassageHeader', function () {
 })
 
 describe('function getJsonFromLines', function () {
-    it('should return valid json from twee lines', function () {
+    it('should return trimed json from twee lines', function () {
         const lines = [
             ':: StoryTitle',
             'Histoire amnésie',
@@ -104,9 +104,6 @@ describe('function getJsonFromLines', function () {
                     lines: [
                         "Image face à face avec son amie",
                         '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
-                        "",
-                        "",
-                        "",
                     ]
                 },
                 '1.1': {
@@ -116,10 +113,7 @@ describe('function getJsonFromLines', function () {
                     lines: [
                         "Image face à face avec son amie",
                         '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
-                        "",
-                        "",
                         "— Dis Dian, tu es déjà partie dans le pays de tes parents ?",
-                        "",
                         "— Oui ! On essaie d’y aller tous les ans… bon, avec le covid, ça a été pas mal compromis…",
                     ]
                 }

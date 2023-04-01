@@ -47,9 +47,15 @@ function getJsonFromLines(lines) {
         }
 
         if (!isLineAPassageHeader(line)) {
-            if (passage) {
-                passage.lines.push(formattedLine(line));
+            if (!passage) {
+                return
             }
+
+            if (line === "") {
+                return
+            }
+
+            passage.lines.push(formattedLine(line));
             return;
         }
 
