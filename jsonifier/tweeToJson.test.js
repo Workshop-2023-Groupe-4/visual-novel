@@ -1,4 +1,4 @@
-const {identifyPassageHeader, isLineAPassageHeader, getJsonFromLines} = require("./tweeToJson");
+const {identifyPassageHeader, isLineAPassageHeader, getJsonFromLines, formattedLine} = require("./tweeToJson");
 const assert = require('assert').strict;
 
 describe('function identifyPassageHeader', function () {
@@ -34,8 +34,14 @@ describe('function identifyPassageHeader', function () {
 
         assert.equal(identifyPassageHeader(simple).metadata, null)
         assert.equal(identifyPassageHeader(tags).metadata, null)
-        assert.equal(JSON.stringify(identifyPassageHeader(metadata).metadata), JSON.stringify({"position":"600,400","size":"100,200"}))
-        assert.equal(JSON.stringify(identifyPassageHeader(full).metadata), JSON.stringify({"position":"600,400","size":"100,200"}))
+        assert.equal(JSON.stringify(identifyPassageHeader(metadata).metadata), JSON.stringify({
+            "position": "600,400",
+            "size": "100,200"
+        }))
+        assert.equal(JSON.stringify(identifyPassageHeader(full).metadata), JSON.stringify({
+            "position": "600,400",
+            "size": "100,200"
+        }))
     })
 })
 
@@ -75,7 +81,6 @@ describe('function getJsonFromLines', function () {
             "",
             "",
             "",
-            "[[Suivant->1.1]]",
             ':: 1.1 {"position":"550,350","size":"100,100"}',
             "//''Image face à face avec son amie''//",
             '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
@@ -102,7 +107,6 @@ describe('function getJsonFromLines', function () {
                         "",
                         "",
                         "",
-                        "[[Suivant->1.1]]"
                     ]
                 },
                 '1.1': {
@@ -126,3 +130,10 @@ describe('function getJsonFromLines', function () {
     });
 })
 
+describe('function formattedLine', function () {
+    it('should identify link', function () {
+        const line = '[[Suivant->1.1]]';
+
+        assert.equal(formattedLine(line), '<a href="#passage-1.1">Suivant</a>')
+    })
+})

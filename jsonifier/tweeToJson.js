@@ -48,7 +48,7 @@ function getJsonFromLines(lines) {
 
         if (!isLineAPassageHeader(line)) {
             if (passage) {
-                passage.lines.push(line);
+                passage.lines.push(formattedLine(line));
             }
             return;
         }
@@ -134,10 +134,21 @@ function isLineAPassageHeader(line) {
     return line.startsWith('::')
 }
 
+function formattedLine(line) {
+    if (line.startsWith('[[') && line.endsWith(']]')) {
+        const linkContent = line.replace('[[', '').replace(']]', '');
+        const [text, href] = linkContent.split('->');
+        return `<a href="#passage-${href}">${text}</a>`;
+    }
+
+    return line
+}
+
 module.exports = {
     isLineAPassageHeader,
     getJsonFromLines,
     identifyPassageHeader,
+    formattedLine,
     jsonizeStory
 }
 
