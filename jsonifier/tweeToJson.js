@@ -135,11 +135,10 @@ function isLineAPassageHeader(line) {
 }
 
 function formattedLine(line) {
-    if (line.startsWith('[[') && line.endsWith(']]')) {
-        const linkContent = line.replace('[[', '').replace(']]', '');
-        const [text, href] = linkContent.split('->');
-        return `<a href="#passage-${href}">${text}</a>`;
-    }
+    const linkRegex = /\[\[(.+)->(.+)]]/gm
+    const linkSubstitution = '<a href="#passage-$2">$1</a>';
+
+    line = line.replace(linkRegex, linkSubstitution);
 
     return line
 }

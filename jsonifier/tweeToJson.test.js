@@ -132,8 +132,8 @@ describe('function getJsonFromLines', function () {
 
 describe('function formattedLine', function () {
     it('should identify link', function () {
-        const line = '[[Suivant->1.1]]';
+        const line = 'blablabla[[Suivant->1.1]]blablabla';
 
-        assert.equal(formattedLine(line), '<a href="#passage-1.1">Suivant</a>')
+        assert.equal(formattedLine(line), 'blablabla<a href="#passage-1.1">Suivant</a>blablabla')
     })
 })
