@@ -140,6 +140,11 @@ function formattedLine(line) {
 
     line = line.replace(linkRegex, linkSubstitution);
 
+    const italicRegex = /\/\/''(.+)''\/\//gm;
+    const italicSubstitution = '<i>$1</i>';
+
+    line = line.replace(italicRegex, italicSubstitution);
+
     return line
 }
 

@@ -76,13 +76,13 @@ describe('function getJsonFromLines', function () {
             '    "zoom": 1',
             '}',
             ':: 1.0 {"position":"425,350","size":"100,100"}',
-            "//''Image face à face avec son amie''//",
+            "Image face à face avec son amie",
             '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
             "",
             "",
             "",
             ':: 1.1 {"position":"550,350","size":"100,100"}',
-            "//''Image face à face avec son amie''//",
+            "Image face à face avec son amie",
             '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
             "",
             "",
@@ -102,7 +102,7 @@ describe('function getJsonFromLines', function () {
                     tags: [],
                     metadata: {position: "425,350", size: "100,100"},
                     lines: [
-                        "//''Image face à face avec son amie''//",
+                        "Image face à face avec son amie",
                         '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
                         "",
                         "",
@@ -114,7 +114,7 @@ describe('function getJsonFromLines', function () {
                     tags: [],
                     metadata: {position: "550,350", size: "100,100"},
                     lines: [
-                        "//''Image face à face avec son amie''//",
+                        "Image face à face avec son amie",
                         '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
                         "",
                         "",
@@ -135,5 +135,11 @@ describe('function formattedLine', function () {
         const line = 'blablabla[[Suivant->1.1]]blablabla';
 
         assert.equal(formattedLine(line), 'blablabla<a href="#passage-1.1">Suivant</a>blablabla')
+    })
+
+    it('should identify italic text', function () {
+        const line = "//''Image de la classe''//";
+
+        assert.equal(formattedLine(line), '<i>Image de la classe</i>')
     })
 })
