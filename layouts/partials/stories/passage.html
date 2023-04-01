@@ -1,5 +1,4 @@
 <article class="story__passage" id="passage-{{urlize .name}}">
-    <h3>{{ .name }}</h3>
     {{ range .lines }}
     <p>{{ safeHTML . }}</p>
     {{ end}}
