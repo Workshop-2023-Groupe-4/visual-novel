@@ -12,4 +12,7 @@
     </div>
 </section>
 
+{{ $js := resources.Get "js/in-story.js" | js.Build (dict "minify" hugo.IsProduction) | fingerprint }}
+<script src="{{ $js.RelPermalink }}" defer integrity="{{ $js.Data.Integrity }}"></script>
+
 {{ end }}
