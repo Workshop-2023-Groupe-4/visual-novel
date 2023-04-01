@@ -1,7 +1,7 @@
 {
   "name": "visual-novel",
   "scripts": {
-    "hugo": "hugo serve --disableFastRender",
+    "hugo": "npm run jsonifier && hugo serve --disableFastRender",
     "hugo:build": "hugo --gc --minify",
     "jsonifier:test": "mocha jsonifier/tweeToJson.test.js",
     "jsonifier": "node jsonifier/jsonize.js",
