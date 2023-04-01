@@ -5,8 +5,6 @@
     "hugo:build": "hugo --gc --minify",
     "jsonifier:test": "mocha jsonifier/tweeToJson.test.js",
     "jsonifier": "node jsonifier/jsonize.js",
-    "build:s1": "npx extwee -c -i story-1.twee -s story-formats/harlowe-3.3.5/format.js -o stories/1.html",
-    "build:stories": "npm run build:s1",
     "build": "npm run jsonifier && npm run hugo:build"
   },
   "dependencies": {
