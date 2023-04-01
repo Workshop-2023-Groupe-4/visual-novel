@@ -3,12 +3,13 @@ const {jsonizeStory} = require("./tweeToJson");
 
 
 const storiesInputFolder = './stories/';
-const storiesOutputFolder = './data/stories/';
 const stories = fs.readdirSync(storiesInputFolder);
 
 stories.forEach(storyFilename => {
+    const storyName = storyFilename.replace('.twee', '');
+
     jsonizeStory(
         storiesInputFolder + storyFilename,
-        storiesOutputFolder + storyFilename.replace('.twee', '.json')
+        './content/stories/' + storyName + '/story.json'
     )
 })

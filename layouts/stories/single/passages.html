@@ -1,6 +1,8 @@
 <section class="story__passages">
-    {{ $story := index $.Site.Data.stories.amnesia }}
+    {{ with .Resources.GetMatch "story.json" }}
+    {{ $story := .Content | unmarshal }}
     {{ range $story.passages }}
     {{ partial "stories/passage" . }}
+    {{ end }}
     {{ end }}
 </section>
