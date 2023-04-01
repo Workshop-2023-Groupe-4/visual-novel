@@ -1,6 +1,6 @@
-<ul>
+<section class="story__passages">
     {{ $story := index $.Site.Data.stories.amnesia }}
     {{ range $story.passages }}
     {{ partial "stories/passage" . }}
     {{ end }}
-</ul>
+</section>

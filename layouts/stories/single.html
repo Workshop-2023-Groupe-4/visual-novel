@@ -1,16 +1,15 @@
 {{ define "main" }}
 
 <section class="story">
-  <div class="container">
-    <article class="story__summary">
-      <h2>{{ .Title }}</h2>
+    <div class="container">
+        <article class="story__summary">
+            <h2>{{ .Title }}</h2>
+        </article>
 
-      {{- .Render "single/twee" -}}
+        {{- .Render "single/passages" -}}
 
-
-    </article>
-    {{- .Render "single/navigation" -}}
-  </div>
+        {{- .Render "single/navigation" -}}
+    </div>
 </section>
 
 {{ end }}
