@@ -132,9 +132,9 @@ describe('function getJsonFromLines', function () {
 
 describe('function formattedLine', function () {
     it('should identify link', function () {
-        const line = 'blablabla[[Suivant->1.1]]blablabla';
+        const line = '(t8n-time:0.5s)[[Suivant->full-illu--closed-eyes]]blablabla';
 
-        assert.equal(formattedLine(line), 'blablabla<a href="#passage-1.1">Suivant</a>blablabla')
+        assert.equal(formattedLine(line), '(t8n-time:0.5s)<a href="#passage-full-illu--closed-eyes">Suivant</a>blablabla')
     })
 
     it('should identify italic text', function () {
