@@ -1,5 +1,17 @@
-function getJsonFromLines(lines)
-{
+const fs = require('fs');
+const lineReader = require('line-reader');
+
+function jsonizeStory(tweeInputPath, jsonOutputPath) {
+    const lines = [];
+    lineReader.eachLine(tweeInputPath, function (line, last) {
+        lines.push(line)
+        if (last) {
+            fs.writeFileSync(jsonOutputPath, getJsonFromLines(lines))
+        }
+    });
+}
+
+function getJsonFromLines(lines) {
     const namesUsed = [];
     const json = {
         data: {
@@ -14,17 +26,17 @@ function getJsonFromLines(lines)
     let storyDataJson = "";
     let passage = null;
 
-    lines.forEach(line=>{
-        if(isInStoryTitle) {
+    lines.forEach(line => {
+        if (isInStoryTitle) {
             json.data.title = line;
             isInStoryTitle = false;
             return;
         }
 
-        if(isInStoryData) {
+        if (isInStoryData) {
             storyDataJson += line;
 
-            if(line === "}") {
+            if (line === "}") {
                 isInStoryData = false;
 
                 const storyData = JSON.parse(storyDataJson);
@@ -34,25 +46,31 @@ function getJsonFromLines(lines)
             return;
         }
 
-        if(!isLineAPassageHeader(line)) {
-            if(passage) {
-                passage.lines.push(line);
+        if (!isLineAPassageHeader(line)) {
+            if (!passage) {
+                return
             }
+
+            if (line === "") {
+                return
+            }
+
+            passage.lines.push(formattedLine(line));
             return;
         }
 
-        if(passage) {
+        if (passage) {
             json.passages[passage.name] = passage;
         }
 
         const {name, tags, metadata} = identifyPassageHeader(line);
 
-        if(name === "StoryTitle") {
+        if (name === "StoryTitle") {
             isInStoryTitle = true;
             return;
         }
 
-        if(name === "StoryData") {
+        if (name === "StoryData") {
             isInStoryData = true;
             return;
         }
@@ -64,7 +82,7 @@ function getJsonFromLines(lines)
             metadata,
             lines: []
         };
-        if(namesUsed.includes(name)) {
+        if (namesUsed.includes(name)) {
             console.warn(name + ' is present multiple times')
         }
         namesUsed.push(name);
@@ -73,12 +91,10 @@ function getJsonFromLines(lines)
     json.passages[passage.name] = passage;
 
 
-
     return JSON.stringify(json);
 }
 
-function identifyPassageHeader(line)
-{
+function identifyPassageHeader(line) {
     const lineWithoutPrefix = line.replace('::', '').trim();
 
     const lineItems = lineWithoutPrefix.split(' ');
@@ -88,24 +104,24 @@ function identifyPassageHeader(line)
     let metadata = null;
     let isInTags = false;
 
-    lineItems.forEach(item=>{
-        if(item.startsWith('{') && item.endsWith('}')) {
+    lineItems.forEach(item => {
+        if (item.startsWith('{') && item.endsWith('}')) {
             metadata = JSON.parse(item);
             return
         }
 
-        if(item.startsWith('[')) {
+        if (item.startsWith('[')) {
             tags.push(item.replace('[', ''));
             isInTags = true;
             return
         }
-        if(item.endsWith(']')) {
+        if (item.endsWith(']')) {
             tags.push(item.replace(']', ''));
             isInTags = false;
             return
         }
 
-        if(isInTags) {
+        if (isInTags) {
             tags.push(item);
             return;
         }
@@ -120,14 +136,34 @@ function identifyPassageHeader(line)
     }
 }
 
-function isLineAPassageHeader(line)
-{
+function isLineAPassageHeader(line) {
     return line.startsWith('::')
+}
+
+function formattedLine(line) {
+    const linkRegex = /\[\[(.+)->(.+)]]/gm
+    const linkSubstitution = '<a href="#passage-$2">$1</a>';
+
+    line = line.replace(linkRegex, linkSubstitution);
+
+    const italicRegex = /\/\/(.+)\/\//gm;
+    const italicSubstitution = '<i>$1</i>';
+
+    line = line.replace(italicRegex, italicSubstitution);
+
+    const boldRegex = /''(.+)''/gm;
+    const boldSubstitution = '<b>$1</b>';
+
+    line = line.replace(boldRegex, boldSubstitution);
+
+    return line
 }
 
 module.exports = {
     isLineAPassageHeader,
     getJsonFromLines,
-    identifyPassageHeader
+    identifyPassageHeader,
+    formattedLine,
+    jsonizeStory
 }
 

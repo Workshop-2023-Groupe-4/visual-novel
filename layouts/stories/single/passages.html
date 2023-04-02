@@ -1,0 +1,8 @@
+<section class="story__passages">
+    {{ with .Resources.GetMatch "story.json" }}
+    {{ $story := .Content | unmarshal }}
+    {{ range $story.passages }}
+    {{ partial "stories/passage" . }}
+    {{ end }}
+    {{ end }}
+</section>

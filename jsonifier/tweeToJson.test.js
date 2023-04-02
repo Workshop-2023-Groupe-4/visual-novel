@@ -1,4 +1,4 @@
-const {identifyPassageHeader, isLineAPassageHeader, getJsonFromLines} = require("./tweeToJson");
+const {identifyPassageHeader, isLineAPassageHeader, getJsonFromLines, formattedLine} = require("./tweeToJson");
 const assert = require('assert').strict;
 
 describe('function identifyPassageHeader', function () {
@@ -34,8 +34,14 @@ describe('function identifyPassageHeader', function () {
 
         assert.equal(identifyPassageHeader(simple).metadata, null)
         assert.equal(identifyPassageHeader(tags).metadata, null)
-        assert.equal(JSON.stringify(identifyPassageHeader(metadata).metadata), JSON.stringify({"position":"600,400","size":"100,200"}))
-        assert.equal(JSON.stringify(identifyPassageHeader(full).metadata), JSON.stringify({"position":"600,400","size":"100,200"}))
+        assert.equal(JSON.stringify(identifyPassageHeader(metadata).metadata), JSON.stringify({
+            "position": "600,400",
+            "size": "100,200"
+        }))
+        assert.equal(JSON.stringify(identifyPassageHeader(full).metadata), JSON.stringify({
+            "position": "600,400",
+            "size": "100,200"
+        }))
     })
 })
 
@@ -54,7 +60,7 @@ describe('function isLineAPassageHeader', function () {
 })
 
 describe('function getJsonFromLines', function () {
-    it('should return valid json from twee lines', function () {
+    it('should return trimed json from twee lines', function () {
         const lines = [
             ':: StoryTitle',
             'Histoire amnésie',
@@ -70,14 +76,13 @@ describe('function getJsonFromLines', function () {
             '    "zoom": 1',
             '}',
             ':: 1.0 {"position":"425,350","size":"100,100"}',
-            "//''Image face à face avec son amie''//",
+            "Image face à face avec son amie",
             '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
             "",
             "",
             "",
-            "[[Suivant->1.1]]",
             ':: 1.1 {"position":"550,350","size":"100,100"}',
-            "//''Image face à face avec son amie''//",
+            "Image face à face avec son amie",
             '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
             "",
             "",
@@ -97,12 +102,8 @@ describe('function getJsonFromLines', function () {
                     tags: [],
                     metadata: {position: "425,350", size: "100,100"},
                     lines: [
-                        "//''Image face à face avec son amie''//",
+                        "Image face à face avec son amie",
                         '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
-                        "",
-                        "",
-                        "",
-                        "[[Suivant->1.1]]"
                     ]
                 },
                 '1.1': {
@@ -110,12 +111,9 @@ describe('function getJsonFromLines', function () {
                     tags: [],
                     metadata: {position: "550,350", size: "100,100"},
                     lines: [
-                        "//''Image face à face avec son amie''//",
+                        "Image face à face avec son amie",
                         '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
-                        "",
-                        "",
                         "— Dis Dian, tu es déjà partie dans le pays de tes parents ?",
-                        "",
                         "— Oui ! On essaie d’y aller tous les ans… bon, avec le covid, ça a été pas mal compromis…",
                     ]
                 }
@@ -126,3 +124,20 @@ describe('function getJsonFromLines', function () {
     });
 })
 
+describe('function formattedLine', function () {
+    it('should identify link', function () {
+        const line = '(t8n-time:0.5s)[[Suivant->full-illu--closed-eyes]]blablabla';
+
+        assert.equal(formattedLine(line), '(t8n-time:0.5s)<a href="#passage-full-illu--closed-eyes">Suivant</a>blablabla')
+    })
+
+    it('should identify image description text', function () {
+        const line = "//''Image de la classe''//";
+        assert.equal(formattedLine(line), '<i>[Image de la classe]</i>')
+    })
+
+    it('should identify italic text', function () {
+        const line = "//Image de la classe//";
+        assert.equal(formattedLine(line), '<i>Image de la classe</i>')
+    })
+})

@@ -1,0 +1,5 @@
+<article class="story__passage" id="passage-{{.name}}">
+    {{ range .lines }}
+    <p>{{ safeHTML . }}</p>
+    {{ end}}
+</article>

@@ -1,16 +1,15 @@
 const fs = require('fs');
-const lineReader = require('line-reader');
-const {getJsonFromLines} = require("./tweeToJson");
-
-const input = './stories/amnesia.twee';
-const output = './data/stories/amnesia.twee';
-
-const lines = [];
-lineReader.eachLine(input, function(line, last) {
-    lines.push(line)
-    if(last) {
-        fs.writeFileSync(output, getJsonFromLines(lines))
-    }
-});
+const {jsonizeStory} = require("./tweeToJson");
 
 
+const storiesInputFolder = './stories/';
+const stories = fs.readdirSync(storiesInputFolder);
+
+stories.forEach(storyFilename => {
+    const storyName = storyFilename.replace('.twee', '');
+
+    jsonizeStory(
+        storiesInputFolder + storyFilename,
+        './content/stories/' + storyName + '/story.json'
+    )
+})

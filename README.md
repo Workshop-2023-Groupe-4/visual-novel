@@ -1,4 +1,16 @@
-# Mise en place
+# Dev
+### Dépendances
+- hugo Go
+- npm / yarn
+### Installation
+```shell
+npm run install
+```
+### Développement
+```shell
+npm run hugo
+```
+# Écriture
 ### 1. Application d'édition de l'histoire 
 Nous utilisons [Twine](https://twinery.org/) pour créer et modifier l'histoire.
 Téléchargez-le ou utilisez la version web
@@ -24,13 +36,3 @@ Une fois que vous avez terminé, exportez l'histoire
 2. Exportez l'histoire en fichier .twee <img src="./doc/2-export-as-twee.png">
 3. Exportez le fichier à la racine du repo <img src="./doc/3-export-file.png">
 4. Si un du même nom existe déjà, écrasez-le sans pitié <img src="./doc/4-overwrite-file.png">
-
-### 4. Build du html
-Installez les dépendances avant, si ce n'est pas déjà fait
-```shell
-npm i
-```
-Lancez le build
-```shell
-npm run build
-```
