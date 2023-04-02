@@ -146,15 +146,15 @@ function formattedLine(line) {
 
     line = line.replace(linkRegex, linkSubstitution);
 
-    const imageDescriptionRegex = /\/\/''(.+)''\/\//gm;
-    const imageDescriptionSubstitution = '<i>[$1]</i>';
-
-    line = line.replace(imageDescriptionRegex, imageDescriptionSubstitution);
-
     const italicRegex = /\/\/(.+)\/\//gm;
     const italicSubstitution = '<i>$1</i>';
 
     line = line.replace(italicRegex, italicSubstitution);
+
+    const boldRegex = /''(.+)''/gm;
+    const boldSubstitution = '<b>$1</b>';
+
+    line = line.replace(boldRegex, boldSubstitution);
 
     return line
 }
