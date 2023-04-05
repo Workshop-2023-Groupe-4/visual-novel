@@ -1,4 +1,4 @@
-baseURL = 'https://orchidees-rouges.netlify.app/'
+baseURL = '/'
 languageCode = 'fr'
 title = '1 minute'
 expandedTitle = '1 minute dans le monde'
