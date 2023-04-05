@@ -1,5 +1,5 @@
 :: StoryTitle
-Histoire amnésie
+dian
 
 
 :: StoryData
@@ -819,6 +819,8 @@ La blessure dans le cœur de Dian n’est pas encore prête à cicatriser mais e
 
 
 :: full-illu--black {"position":"1050,350","size":"100,100"}
+<img src="/assets/illustrations/story-1/seq1/black.png" width="300" height="400">
+
 (t8n-time:0.5s)[[Suivant->full-illu--closed-eyes]]
 
 
@@ -835,7 +837,7 @@ La blessure dans le cœur de Dian n’est pas encore prête à cicatriser mais e
 
 
 :: full-illu--red {"position":"1300,350","size":"100,100"}
-(enchant:?page,(bg:red))
+<img src="/assets/illustrations/story-1/seq1/red.png" width="300" height="400">
 
 
 [[Suivant->1.5]]
