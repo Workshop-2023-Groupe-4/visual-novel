@@ -131,12 +131,6 @@ describe('function getJsonFromLines', function () {
 })
 
 describe('function formattedLine', function () {
-    it('should identify link', function () {
-        const line = '(t8n-time:0.5s)[[Suivant->full-illu--closed-eyes]]blablabla';
-
-        assert.equal(formattedLine(line), '(t8n-time:0.5s)<a href="#passage-full-illu--closed-eyes">Suivant</a>blablabla')
-    })
-
     it('should identify bold text', function () {
         const line = "''Image de la classe''";
         assert.equal(formattedLine(line), '<b>Image de la classe</b>')

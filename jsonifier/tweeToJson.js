@@ -97,6 +97,13 @@ function getJsonFromLines(lines) {
 
     json.passages[passage.name] = passage;
 
+    Object.values(json.passages).forEach(passage => {
+        const {links, linesWithoutLinks} = extractLinksFromLines(passage.lines);
+
+        passage.links = links;
+        passage.lines = linesWithoutLinks
+    })
+
 
     return JSON.stringify(json);
 }
@@ -148,7 +155,6 @@ function isLineAPassageHeader(line) {
 }
 
 function formattedLine(line) {
-    line = line.replace(linkRegex, linkSubstitution);
     line = line.replace(italicRegex, italicSubstitution);
     line = line.replace(boldRegex, boldSubstitution);
 
@@ -159,7 +165,6 @@ function extractLinksFromLines(lines) {
     const links = [];
     const text = lines.join('\n');
 
-    console.log('ok')
     const textWithoutLinks = text.replace(linkRegex, (match, $1, $2) => {
         links.push({
             text: $1,
