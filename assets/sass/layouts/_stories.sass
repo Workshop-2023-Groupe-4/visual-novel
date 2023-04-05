@@ -20,11 +20,13 @@
       width: 100%
       height: auto
       @include media-breakpoint-up(md)
-        width: 50%
+        max-height: 50vh
+        width: auto
 
     .storyPassage__links
       display: flex
-      flex-direction: column
+      @include media-breakpoint-down(md)
+        flex-direction: column
       gap: $spacing-0
 
       a
