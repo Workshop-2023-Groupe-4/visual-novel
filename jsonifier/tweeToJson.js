@@ -1,7 +1,7 @@
 const fs = require('fs');
 const lineReader = require('line-reader');
 
-const linkRegex = /\[\[([\w .?!,]+)->([\w.-]+)]]/gm
+const linkRegex = /\[\[(.+)->([\w.-]+)]]/gm
 const italicRegex = /\/\/(.+)\/\//gm;
 const italicSubstitution = '<i>$1</i>';
 const boldRegex = /''(.+)''/gm;
