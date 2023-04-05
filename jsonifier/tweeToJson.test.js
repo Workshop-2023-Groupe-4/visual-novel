@@ -1,4 +1,10 @@
-const {identifyPassageHeader, isLineAPassageHeader, getJsonFromLines, formattedLine} = require("./tweeToJson");
+const {
+    identifyPassageHeader,
+    isLineAPassageHeader,
+    getJsonFromLines,
+    formattedLine,
+    extractLinksFromLines
+} = require("./tweeToJson");
 const assert = require('assert').strict;
 
 describe('function identifyPassageHeader', function () {
@@ -151,3 +157,43 @@ describe('function formattedLine', function () {
         assert.equal(formattedLine(line), '<i><b>Image de la classe</b></i>')
     })
 })
+
+describe('function extractLinksFromLines', function () {
+    it('should return links lists in order', function () {
+        const lines = [
+            'qsldjqskldjqd',
+            'qsdjqskd',
+            'sqds [[Suivant->1.1]]',
+            'zdqsd',
+            '[[Suivant->1.2]]',
+        ];
+
+        const {links} = extractLinksFromLines(lines);
+
+        assert.equal(links.length, 2);
+        assert.equal(JSON.stringify(links[0]), JSON.stringify({text: 'Suivant', href: '1.1'}));
+        assert.equal(JSON.stringify(links[1]), JSON.stringify({text: 'Suivant', href: '1.2'}));
+    })
+
+    it('should return lines without links', function () {
+        const linesWithLinks = [
+            'line 1',
+            'line 2',
+            'line 3 [[Suivant->1.1]]',
+            'line 4',
+            '[[Suivant->1.2]]',
+        ];
+
+        const expectedLines = [
+            'line 1',
+            'line 2',
+            'line 3',
+            'line 4',
+        ];
+
+        const {linesWithoutLinks} = extractLinksFromLines(linesWithLinks);
+
+        assert.equal(JSON.stringify(linesWithoutLinks), JSON.stringify(expectedLines));
+    })
+})
+

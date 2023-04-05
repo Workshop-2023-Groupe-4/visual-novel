@@ -1,6 +1,13 @@
 const fs = require('fs');
 const lineReader = require('line-reader');
 
+const linkRegex = /\[\[(\w+)->([\w.-]+)]]/gm
+const linkSubstitution = '<a href="#passage-$2">$1</a>';
+const italicRegex = /\/\/(.+)\/\//gm;
+const italicSubstitution = '<i>$1</i>';
+const boldRegex = /''(.+)''/gm;
+const boldSubstitution = '<b>$1</b>';
+
 function jsonizeStory(tweeInputPath, jsonOutputPath) {
     const lines = [];
     lineReader.eachLine(tweeInputPath, function (line, last) {
@@ -141,22 +148,33 @@ function isLineAPassageHeader(line) {
 }
 
 function formattedLine(line) {
-    const linkRegex = /\[\[(.+)->(.+)]]/gm
-    const linkSubstitution = '<a href="#passage-$2">$1</a>';
-
     line = line.replace(linkRegex, linkSubstitution);
-
-    const italicRegex = /\/\/(.+)\/\//gm;
-    const italicSubstitution = '<i>$1</i>';
-
     line = line.replace(italicRegex, italicSubstitution);
-
-    const boldRegex = /''(.+)''/gm;
-    const boldSubstitution = '<b>$1</b>';
-
     line = line.replace(boldRegex, boldSubstitution);
 
     return line
+}
+
+function extractLinksFromLines(lines) {
+    const links = [];
+    const text = lines.join('\n');
+
+    console.log('ok')
+    const textWithoutLinks = text.replace(linkRegex, (match, $1, $2) => {
+        links.push({
+            text: $1,
+            href: $2
+        })
+
+        return ''
+    });
+
+    const linesWithoutLinks = textWithoutLinks.split('\n').map(line => line.trim()).filter(line => line !== '');
+
+    return {
+        links,
+        linesWithoutLinks
+    }
 }
 
 module.exports = {
@@ -164,6 +182,7 @@ module.exports = {
     getJsonFromLines,
     identifyPassageHeader,
     formattedLine,
-    jsonizeStory
+    jsonizeStory,
+    extractLinksFromLines,
 }
 
