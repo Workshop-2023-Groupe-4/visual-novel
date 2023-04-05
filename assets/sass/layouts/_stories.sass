@@ -2,17 +2,23 @@
   padding-bottom: $spacing-4
   padding-top: $spacing-4
 
-  .story__passage
+
+  .storyPassage
     padding-bottom: $spacing-4
     padding-top: $spacing-4
     min-height: 100vh
+    display: flex
+    flex-direction: column
 
     &.hidden
       display: none
-      
+
     img
       width: 100%
       height: auto
       margin: $spacing-1 0
       @include media-breakpoint-up(md)
         width: 50%
+
+    .storyPassage__links
+      margin-top: auto
