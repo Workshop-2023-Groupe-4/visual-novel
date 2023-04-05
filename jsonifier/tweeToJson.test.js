@@ -110,7 +110,8 @@ describe('function getJsonFromLines', function () {
                     lines: [
                         "Image face à face avec son amie",
                         '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
-                    ]
+                    ],
+                    links: [],
                 },
                 '1.1': {
                     name: '1.1',
@@ -121,7 +122,8 @@ describe('function getJsonFromLines', function () {
                         '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
                         "— Dis Dian, tu es déjà partie dans le pays de tes parents ?",
                         "— Oui ! On essaie d’y aller tous les ans… bon, avec le covid, ça a été pas mal compromis…",
-                    ]
+                    ],
+                    links: [],
                 }
             }
         }
@@ -159,14 +161,14 @@ describe('function extractLinksFromLines', function () {
             'qsdjqskd',
             'sqds [[Suivant->1.1]]',
             'zdqsd',
-            '[[Suivant->1.2]]',
+            '[[Non ! Tout va bien, pardon.->1.2]]',
         ];
 
         const {links} = extractLinksFromLines(lines);
 
         assert.equal(links.length, 2);
         assert.equal(JSON.stringify(links[0]), JSON.stringify({text: 'Suivant', href: '1.1'}));
-        assert.equal(JSON.stringify(links[1]), JSON.stringify({text: 'Suivant', href: '1.2'}));
+        assert.equal(JSON.stringify(links[1]), JSON.stringify({text: 'Non ! Tout va bien, pardon.', href: '1.2'}));
     })
 
     it('should return lines without links', function () {
@@ -175,7 +177,7 @@ describe('function extractLinksFromLines', function () {
             'line 2',
             'line 3 [[Suivant->1.1]]',
             'line 4',
-            '[[Suivant->1.2]]',
+            '[[Non ! Tout va bien, pardon.->1.2]]',
         ];
 
         const expectedLines = [
