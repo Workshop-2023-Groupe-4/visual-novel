@@ -1,4 +1,10 @@
-const {identifyPassageHeader, isLineAPassageHeader, getJsonFromLines, formattedLine} = require("./tweeToJson");
+const {
+    identifyPassageHeader,
+    isLineAPassageHeader,
+    getJsonFromLines,
+    formattedLine,
+    extractLinksFromLines
+} = require("./tweeToJson");
 const assert = require('assert').strict;
 
 describe('function identifyPassageHeader', function () {
@@ -104,7 +110,8 @@ describe('function getJsonFromLines', function () {
                     lines: [
                         "Image face à face avec son amie",
                         '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
-                    ]
+                    ],
+                    links: [],
                 },
                 '1.1': {
                     name: '1.1',
@@ -115,7 +122,8 @@ describe('function getJsonFromLines', function () {
                         '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
                         "— Dis Dian, tu es déjà partie dans le pays de tes parents ?",
                         "— Oui ! On essaie d’y aller tous les ans… bon, avec le covid, ça a été pas mal compromis…",
-                    ]
+                    ],
+                    links: [],
                 }
             }
         }
@@ -125,19 +133,63 @@ describe('function getJsonFromLines', function () {
 })
 
 describe('function formattedLine', function () {
-    it('should identify link', function () {
-        const line = '(t8n-time:0.5s)[[Suivant->full-illu--closed-eyes]]blablabla';
-
-        assert.equal(formattedLine(line), '(t8n-time:0.5s)<a href="#passage-full-illu--closed-eyes">Suivant</a>blablabla')
-    })
-
-    it('should identify image description text', function () {
-        const line = "//''Image de la classe''//";
-        assert.equal(formattedLine(line), '<i>[Image de la classe]</i>')
+    it('should identify bold text', function () {
+        const line = "''Image de la classe''";
+        assert.equal(formattedLine(line), '<b>Image de la classe</b>')
     })
 
     it('should identify italic text', function () {
         const line = "//Image de la classe//";
         assert.equal(formattedLine(line), '<i>Image de la classe</i>')
     })
+
+    it('should identify italic in bold text', function () {
+        const line = "''//Image de la classe//''";
+        assert.equal(formattedLine(line), '<b><i>Image de la classe</i></b>')
+    })
+
+    it('should identify bold in italic text', function () {
+        const line = "//''Image de la classe''//";
+        assert.equal(formattedLine(line), '<i><b>Image de la classe</b></i>')
+    })
 })
+
+describe('function extractLinksFromLines', function () {
+    it('should return links lists in order', function () {
+        const lines = [
+            'qsldjqskldjqd',
+            'qsdjqskd',
+            'sqds [[Suivant->1.1]]',
+            'zdqsd',
+            '[[Non ! Tout va bien, pardon.->1.2]]',
+        ];
+
+        const {links} = extractLinksFromLines(lines);
+
+        assert.equal(links.length, 2);
+        assert.equal(JSON.stringify(links[0]), JSON.stringify({text: 'Suivant', href: '1.1'}));
+        assert.equal(JSON.stringify(links[1]), JSON.stringify({text: 'Non ! Tout va bien, pardon.', href: '1.2'}));
+    })
+
+    it('should return lines without links', function () {
+        const linesWithLinks = [
+            'line 1',
+            'line 2',
+            'line 3 [[Suivant->1.1]]',
+            'line 4',
+            '[[Non ! Tout va bien, pardon.->1.2]]',
+        ];
+
+        const expectedLines = [
+            'line 1',
+            'line 2',
+            'line 3',
+            'line 4',
+        ];
+
+        const {linesWithoutLinks} = extractLinksFromLines(linesWithLinks);
+
+        assert.equal(JSON.stringify(linesWithoutLinks), JSON.stringify(expectedLines));
+    })
+})
+

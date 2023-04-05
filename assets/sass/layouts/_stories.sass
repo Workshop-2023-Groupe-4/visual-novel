@@ -2,17 +2,40 @@
   padding-bottom: $spacing-4
   padding-top: $spacing-4
 
-  .story__passage
+
+  .storyPassage
     padding-bottom: $spacing-4
     padding-top: $spacing-4
     min-height: 100vh
+    display: flex
+    flex-direction: column
 
     &.hidden
       display: none
-      
+
+    > p
+      margin-bottom: $spacing-0
+
     img
       width: 100%
       height: auto
-      margin: $spacing-1 0
       @include media-breakpoint-up(md)
-        width: 50%
+        max-height: 50vh
+        width: auto
+
+    .storyPassage__links
+      display: flex
+      @include media-breakpoint-down(md)
+        flex-direction: column
+      gap: $spacing-0
+
+      a
+        display: block
+        background: $white
+        color: $black
+        padding: $spacing-0
+        border-radius: $rounded-1
+
+
+    &:not(:first-child) .storyPassage__links
+      margin-top: auto

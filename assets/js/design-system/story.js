@@ -1,6 +1,6 @@
 const CLASSES = {
     hidden: 'hidden',
-    storyPassage: 'story__passage',
+    storyPassage: 'storyPassage',
 };
 
 export default class Story {
