@@ -131,13 +131,23 @@ describe('function formattedLine', function () {
         assert.equal(formattedLine(line), '(t8n-time:0.5s)<a href="#passage-full-illu--closed-eyes">Suivant</a>blablabla')
     })
 
-    it('should identify image description text', function () {
-        const line = "//''Image de la classe''//";
-        assert.equal(formattedLine(line), '<i>[Image de la classe]</i>')
+    it('should identify bold text', function () {
+        const line = "''Image de la classe''";
+        assert.equal(formattedLine(line), '<b>Image de la classe</b>')
     })
 
     it('should identify italic text', function () {
         const line = "//Image de la classe//";
         assert.equal(formattedLine(line), '<i>Image de la classe</i>')
+    })
+
+    it('should identify italic in bold text', function () {
+        const line = "''//Image de la classe//''";
+        assert.equal(formattedLine(line), '<b><i>Image de la classe</i></b>')
+    })
+
+    it('should identify bold in italic text', function () {
+        const line = "//''Image de la classe''//";
+        assert.equal(formattedLine(line), '<i><b>Image de la classe</b></i>')
     })
 })
