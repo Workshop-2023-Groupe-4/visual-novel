@@ -36,3 +36,31 @@ Une fois que vous avez terminé, exportez l'histoire
 2. Exportez l'histoire en fichier .twee <img src="./doc/2-export-as-twee.png">
 3. Exportez le fichier à la racine du repo <img src="./doc/3-export-file.png">
 4. Si un du même nom existe déjà, écrasez-le sans pitié <img src="./doc/4-overwrite-file.png">
+
+## Syntaxe Twee
+### Dialogues
+Faire parler le personnage principal  
+`@(Jhonette Doe): Lorem ipsum dolor sit amet` 
+
+Faire parler un personnage secondaire  
+`@Jhonette Doe: Lorem ipsum dolor sit amet`  
+
+Afficher des pensées  
+`@@ Lorem ipsum dolor sit amet`  
+
+### Mettre une image
+Largeur complète  
+`<img src="/assets/illustrations/...">`  
+
+Moitié gauche  
+`<img class="left" src="/assets/illustrations/...">`  
+
+Moitié droite  
+`<img class="right" src="/assets/illustrations/...">`
+
+### Texte
+Gras  
+`''Lorem ipsum dolor sit amet''`
+
+Italique  
+`//Lorem ipsum dolor sit amet//`
