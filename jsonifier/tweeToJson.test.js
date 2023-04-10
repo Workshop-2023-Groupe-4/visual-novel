@@ -134,15 +134,21 @@ describe('function getJsonFromLines', function () {
 
 describe('function formattedLine', function () {
     it('should identity hero dialog', function () {
-        const line = "((Dian)) (elle réfléchit) Coucou (elle s'avance) ça va?";
+        const line = "@(Dian): (elle réfléchit) Coucou (elle s'avance) ça va?";
 
         assert.equal(formattedLine(line), '<div class="dialog" data-hero="true"><span>Dian</span><p>(elle réfléchit) Coucou (elle s\'avance) ça va?</p></div>')
     })
 
     it('should identity dialog', function () {
-        const line = "(Infirmière scolaire) (elle réfléchit) Coucou (elle s'avance) ça va?";
+        const line = "@Infirmière scolaire: (elle réfléchit) Coucou (elle s'avance) ça va?";
 
         assert.equal(formattedLine(line), '<div class="dialog" data-hero="false"><span>Infirmière scolaire</span><p>(elle réfléchit) Coucou (elle s\'avance) ça va?</p></div>')
+    })
+
+    it('should identity thoughts', function () {
+        const line = "@@ Je n’en suis plus si sûre...";
+
+        assert.equal(formattedLine(line), '<p class="thoughts">Je n’en suis plus si sûre...</p>')
     })
 
     it('should identify bold text', function () {
