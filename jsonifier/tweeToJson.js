@@ -1,7 +1,11 @@
 const fs = require('fs');
 const lineReader = require('line-reader');
 
-const linkRegex = /\[\[(.+)->([\w.-]+)]]/gm
+const linkRegex = /\[\[(.+)->([\w.-]+)]]/gm;
+const heroDialogRegex = /^\(\(([ a-zA-ZÀ-ÖÙ-öù-ÿ0-9]+)\)\) (.+)/gm;
+const heroDialogSubstitution = '<div class="dialog" data-hero="true"><span>$1</span><p>$2</p></div>'
+const dialogRegex = /^\(([ a-zA-ZÀ-ÖÙ-öù-ÿ0-9]+)\) (.+)/gm;
+const dialogSubstitution = '<div class="dialog" data-hero="false"><span>$1</span><p>$2</p></div>'
 const italicRegex = /\/\/(.+)\/\//gm;
 const italicSubstitution = '<i>$1</i>';
 const boldRegex = /''(.+)''/gm;
@@ -154,6 +158,8 @@ function isLineAPassageHeader(line) {
 }
 
 function formattedLine(line) {
+    line = line.replace(heroDialogRegex, heroDialogSubstitution);
+    line = line.replace(dialogRegex, dialogSubstitution);
     line = line.replace(italicRegex, italicSubstitution);
     line = line.replace(boldRegex, boldSubstitution);
 
