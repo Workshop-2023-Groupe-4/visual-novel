@@ -23,37 +23,17 @@ dian
 
 :: 1.1 {"position":"550,350","size":"100,100"}
 <!-- Image face à face avec son amie -->
-<img src="/assets/illustrations/story-1/seq1/seq1-1.svg" width="256" height="256">
+<img class="left" src="/assets/illustrations/story-1/seq1/seq1-1.svg" width="256" height="256">
 
 
+(Amie de Dian) Dis Dian, tu es déjà partie dans le pays de tes parents ?
+
+((Dian)) Oui ! On essaie d’y aller tous les ans… bon, avec le covid, ça a été pas mal compromis…
 
 
+(Amie de Dian) Tu t’entends bien avec ta famille ? C’est pas trop dur ?
 
-
-
-
-
-— Dis Dian, tu es déjà partie dans le pays de tes parents ?
-
-— Oui ! On essaie d’y aller tous les ans… bon, avec le covid, ça a été pas mal compromis…
-
-
-[[Suivant->1.2]]
-
-
-:: 1.2 {"position":"675,350","size":"100,100"}
-<!-- Image face à face avec son amie -->
-<img src="/assets/illustrations/story-1/seq1/seq1-1.svg" width="256" height="256">
-
-
-
-
-
-
-
-
-— Tu t’entends bien avec ta famille ? C’est pas trop dur ?
-— Non, tout le monde est super gentil avec moi, je suis bien intégrée !
+((Dian)) Non, tout le monde est super gentil avec moi, je suis bien intégrée !
 
 [[Suivant->1.3]]
 
@@ -69,8 +49,8 @@ dian
 
 
 
-— C’est quoi ton souvenir le plus marquant ?
-— … (elle réfléchit) Je plonge de temps en temps à Sulawesi, je suis toujours émerveillée de voir les poissons multicolores !
+C’est quoi ton souvenir le plus marquant ?
+((Dian)) … (elle réfléchit) Je plonge de temps en temps à Sulawesi, je suis toujours émerveillée de voir les poissons multicolores !
 
 
 [[Suivant->1.4]]
@@ -81,15 +61,8 @@ dian
 <img src="/assets/illustrations/story-1/seq1/seq1-1.svg" width="256" height="256">
 
 
-
-
-
-
-
-
-— La chance ! Ça doit être incroyable !
-— Oui ! C’est-
-
+La chance ! Ça doit être incroyable !
+((Dian)) Oui ! C’est-
 
 
 [[Suivant->full-illu--black]]
@@ -106,8 +79,8 @@ dian
 
 
 
-— J’aimerais tellement vivre là-bas !
-— Je…
+J’aimerais tellement vivre là-bas !
+((Dian)) Je…
 
 
 [[Suivant->1.6]]
@@ -228,8 +201,8 @@ lesorchideesrouges.org
 
 
 
-— Non !
-— Reste tranquille !
+Non !
+Reste tranquille !
 
 
 
@@ -243,8 +216,8 @@ lesorchideesrouges.org
 
 
 
-— Non Nenek stop  !
-— Arrête Dian, c’est pour ton bien !
+((Dian)) Non Nenek stop  !
+(Nenek) Arrête Dian, c’est pour ton bien !
 
 
 
@@ -270,7 +243,7 @@ lesorchideesrouges.org
 
 
 
-— C’était quoi… ça ?
+((Dian)) C’était quoi… ça ?
 
 
 
@@ -287,7 +260,7 @@ lesorchideesrouges.org
 
 
 
-— Dian, c’est l’heure de se réveiller, tu vas être en retard en cours !
+(Maman de Dian) Dian, c’est l’heure de se réveiller, tu vas être en retard en cours !
 
 
 
@@ -305,7 +278,7 @@ lesorchideesrouges.org
 //''Image d’elle assise en classe, elle est distraite''//
 <img src="/assets/illustrations/story-1/seq3/seq3-1.svg" width="256" height="256">
 
-— Dian tu m'écoutes ?
+(Maitresse) Dian tu m'écoutes ?
 
 [[Suivant->3.2]]
 
@@ -313,7 +286,7 @@ lesorchideesrouges.org
 :: 3.2 {"position":"550,650","size":"100,100"}
 //''Trait tirés, fatigués''//
 <img src="/assets/illustrations/story-1/seq3/seq3-2.svg" width="256" height="256">
-— Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
+(Maitresse) Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
 
 [[Non ! Tout va bien, pardon.->3.3]]
 [[Non.->3.3]]
@@ -397,7 +370,7 @@ Qu’est-ce que je dois faire ?
 
 
 :: 6.1.10 {"position":"1425,1075","size":"100,100"}
-Je me souviens, Maman était là, il y avait aussi Nenek (mot étranger pas en italique). 
+Je me souviens, Maman était là, il y avait aussi Nenek (mot étranger pas en italique).
 
 [[Suivant->6.1.11]]
 
@@ -435,7 +408,7 @@ Je ne comprends pas.
 
 
 :: 6.1.2.1 {"position":"550,950","size":"100,100"}
-Non... Non c'est pas ce que j'ai...
+((Dian)) Non... Non c'est pas ce que j'ai...
 
 ''//L'écran de l'ordinateur se reflète dans ses yeux //''
 
@@ -463,7 +436,7 @@ Je crois qu'il y avait des cris, des pleurs… Je sais que je n’étais pas tou
 
 ''//Puis visage de sa mère, flou//''
 
-Est-ce que Maman était là ?
+((Dian)) Est-ce que Maman était là ?
 
 [[Suivant->6.1.6]]
 
@@ -471,7 +444,7 @@ Est-ce que Maman était là ?
 :: 6.1.6 {"position":"1050,1075","size":"100,100"}
 ''//Dian se prend la tête dans les mains, autour d’elle des bribes de souvenirs reviennent, elle revoit sa mère,  présente//''
 
-Mais //pourquoi// ?
+((Dian)) Mais //pourquoi// ?
 
 [[Suivant->6.1.8]]
 
@@ -491,7 +464,7 @@ Mais //pourquoi// ?
 
 ''//transition avec du sang ?//''
 
-— Impossible…
+((Dian)) Impossible…
 
 [[Suivant->6.1.10]]
 
@@ -499,18 +472,18 @@ Mais //pourquoi// ?
 :: 6.2.1 {"position":"425,1225","size":"100,100"}
 ''//Ecran divisé : Dian d’un côté et sa cousine de l’autre, au téléphone (celle-ci était en train de dormir car 5h de décalage)//''
 
-— Allô ? Whaou Dian, tu sais qu’il est 3 heures du matin, ici ?
-— Désolée, je-
+((Dian)) Allô ? Whaou Dian, tu sais qu’il est 3 heures du matin, ici ?
+((Dian)) Désolée, je-
 
 [[Suivant->6.2.2]]
 
 
 :: 6.2.10 {"position":"1550,1225","size":"100,100"}
-— Oui. J’ai vécu la même chose ?
+(Satria) Oui. J’ai vécu la même chose ?
 
 ''//Les yeux de Dian s'écarquillent, ceux de la cousine se ferment.//''
 
-— Toi aussi ?! 
+((Dian)) Toi aussi ?!
 
 [[Suivant->6.2.11]]
 
@@ -522,17 +495,17 @@ Mais //pourquoi// ?
 
 
 :: 6.2.12 {"position":"1800,1225","size":"100,100"}
-— Oui… pour mon mariage.
+(Satria) Oui… pour mon mariage.
 
 ''//Images de cloches et symboles du mariages qui se transforment en rasoir.//''
 
-— Pourquoi ?
+((Dian)) Pourquoi ?
 
 [[Suivant->6.2.13]]
 
 
 :: 6.2.13 {"position":"1925,1225","size":"100,100"}
-— D’après nenek, les femmes doivent être sages pour le mariage.
+(Satria) D’après nenek, les femmes doivent être sages pour le mariage.
 
 ''//Sang qui coule entre les jambes //''
 
@@ -541,14 +514,14 @@ Mais //pourquoi// ?
 
 
 :: 6.2.14 {"position":"2050,1225","size":"100,100"}
-— Pour elle, c’est notre devoir.
-— Mais…
+(Satria) Pour elle, c’est notre devoir.
+((Dian)) Mais…
 
 [[Suivant->6.2.15]]
 
 
 :: 6.2.15 {"position":"2175,1225","size":"100,100"}
-— Je sais, ce n’est pas normal, Dian, ce n’est pas normal du tout.
+(Stria) Je sais, ce n’est pas normal, Dian, ce n’est pas normal du tout.
 
 ''//Dian fronce les sourcils, perdue / de l’autre côté Satria à l’air triste ? elle pleure en silence ?//''
 
@@ -556,26 +529,26 @@ Mais //pourquoi// ?
 
 
 :: 6.2.16 {"position":"2300,1225","size":"100,100"}
-— On ne t’en a pas parlé, en France ? À l’école ou quoi ?
+(Stria) On ne t’en a pas parlé, en France ? À l’école ou quoi ?
 
 ''//Images de mains qui se mettent sur des bouches (peut-être certaines sont cousues, comme pour l'excision)//''
 
-— Jamais…
+((Dian)) Jamais…
 
 [[Suivant->6.2.17]]
 
 
 :: 6.2.17 {"position":"2425,1225","size":"100,100"}
-— Peut-être… peut-être que tu peux… c’est difficile, je sais, mais-
-— Je ne sais pas si je pourrai.
+Peut-être… peut-être que tu peux… c’est difficile, je sais, mais-
+Je ne sais pas si je pourrai.
 
 [[Suivant->6.2.18]]
 
 
 :: 6.2.18 {"position":"2550,1225","size":"100,100"}
-— Prends ton temps, je sais que c’est dur, Dian.
-— Maman sait ?
-— … oui, forcément.
+Prends ton temps, je sais que c’est dur, Dian.
+Maman sait ?
+… oui, forcément.
 
 [[Suivant->6.2.19]]
 
@@ -589,23 +562,23 @@ POURQUOI ?
 
 
 :: 6.2.2 {"position":"550,1225","size":"100,100"}
-— Ça va ?
-— N- Non…
+Ça va ?
+N- Non…
 
 
 [[Suivant->6.2.3]]
 
 
 :: 6.2.20 {"position":"2800,1225","size":"100,100"}
-''//Dian pleure
-Dian s’endort au téléphone//''
+''//Dian pleure//''
+''//Dian s’endort au téléphone//''
 
 [[Suivant->7.1]]
 
 
 :: 6.2.3 {"position":"675,1225","size":"100,100"}
-— Ça va ?
-— N- Non…
+(Satria) Ça va ?
+((Dian)) N- Non…
 
 [[Suivant->6.2.4]]
 
@@ -613,7 +586,7 @@ Dian s’endort au téléphone//''
 :: 6.2.4 {"position":"800,1225","size":"100,100"}
 //''Silence, on voit Dian serrer le téléphone contre elle en pleurant''//
 
-— Ok. Qu’est-ce qu’il se passe, //sayang// (ma puce) ?
+(Satria) Ok. Qu’est-ce qu’il se passe, //sayang// (ma puce) ?
 
 [[Suivant->6.2.5]]
 
@@ -621,27 +594,27 @@ Dian s’endort au téléphone//''
 :: 6.2.5 {"position":"925,1225","size":"100,100"}
 //''Grande inspiration de Dian —> zoom sur elle''//
 
-— J’ai… J’ai eu ce cours… en sciences… et
+((Dian)) J’ai… J’ai eu ce cours… en sciences… et
 
 ''//Orchidée qui fleurit //''
 
-— Prends ton temps, t’inquiète.
+(Satria) Prends ton temps, t’inquiète.
 
 [[Suivant->6.2.6]]
 
 
 :: 6.2.6 {"position":"1050,1225","size":"100,100"}
-— Je… Je crois que je ne suis pas normale.
-— Pourquoi ?
+((Dian)) Je… Je crois que je ne suis pas normale.
+(Satria) Pourquoi ?
 
 [[Suivant->6.2.7]]
 
 
 :: 6.2.7 {"position":"1175,1225","size":"100,100"}
 ''//L'orchidée fâne//''
-— C’est… intime…
+((Dian)) C’est… intime…
 
-— Ah…
+(Satria) Ah…
 
 ''//La cousine ferme les yeux d'un air douloureux.//''
 
@@ -649,20 +622,20 @@ Dian s’endort au téléphone//''
 
 
 :: 6.2.8 {"position":"1300,1225","size":"100,100"}
-— …
-— Tu parles de ce qu’à fait //nenek//, non ?
-— Grand-mère ?
+…
+(Satria) Tu parles de ce qu’à fait //nenek//, non ?
+((Dian)) Grand-mère ?
 
 [[Suivant->6.2.9]]
 
 
 :: 6.2.9 {"position":"1425,1225","size":"100,100"}
-— Oui, tu ne te souviens pas ?
-— Non…
+(Satria) Oui, tu ne te souviens pas ?
+((Dian)) Non…
 
 ''//Les mains réapparaissent à l’écran//''
 
-— Ce sont des... souvenirs…?
+Ce sont des... souvenirs…?
 
 [[Suivant->6.2.10]]
 
@@ -678,8 +651,8 @@ Si maman est au courant… je ne peux pas lui en parler…
 :: 7.2 {"position":"550,1375","size":"100,100"}
 ''//Porte de l’infirmerie (affiches de prévention contre plein de trucs). Dian fait les 100 pas//''
 
-— Dian, tu veux me dire quelque chose ?
-— Ah ! Bonjour… Madame… je-
+(Infirmière) Dian, tu veux me dire quelque chose ?
+((Dian)) Ah ! Bonjour… Madame… je-
 
 [[Suivant->7.3]]
 
@@ -687,11 +660,11 @@ Si maman est au courant… je ne peux pas lui en parler…
 :: 7.3 {"position":"675,1375","size":"100,100"}
 ''//Regard de bas en haut de l’infirmière, puis sourire//''
 
-— Je prends justement ma pause café, tu veux entrer ? J’aime pas être toute seule.
+(Infirmière) Je prends justement ma pause café, tu veux entrer ? J’aime pas être toute seule.
 
 ''//Dian se tord les doigts nerveusement//''
 
-— … D’accord…
+((Dian)) … D’accord…
 
 [[Suivant->7.4]]
 
@@ -701,32 +674,32 @@ Si maman est au courant… je ne peux pas lui en parler…
 
 ''//L’infirmière prend et serre chaleureusement la main de Dian//''
 
-— Merci… Merci de m’avoir parlé, Dian.
+(Infirmière) Merci… Merci de m’avoir parlé, Dian.
 
 [[Suivant->7.5]]
 
 
 :: 7.5 {"position":"925,1375","size":"100,100"}
 ''//Dian a les yeux rouges et fermés, la tête baissée (on peut ne pas voir son visage par ex)//''
-— …
-— Tu sais comment ça s’appelle, cette pratique ?
-— Je crois… je suis pas sûre…
+((Dian)) …
+(Infirmière) Tu sais comment ça s’appelle, cette pratique ?
+((Dian)) Je crois… je suis pas sûre…
 
 [[Suivant->7.6]]
 
 
 :: 7.6 {"position":"1050,1375","size":"100,100"}
-— C’est l’excision. 
+(Infirmière) C’est l’excision.
 
 ''//Le mot est représenté en écho (ou une étiquette) //''
-Aujourd’hui, en France, c’est interdit, mais jusque dans les années 60, plein de femmes étaient comme toi.
+(Infirmière) Aujourd’hui, en France, c’est interdit, mais jusque dans les années 60, plein de femmes étaient comme toi.
 
 [[Vraiment ?->7.7]]
 [[Alors je suis... normale ?->7.7]]
 
 
 :: 7.7 {"position":"1175,1375","size":"100,100"}
-— Oui, mais c’est puni par la loi maintenant. Et il y a plein d’associations qui aident les femmes ayant subi ça.
+(Infirmière) Oui, mais c’est puni par la loi maintenant. Et il y a plein d’associations qui aident les femmes ayant subi ça.
 
 ''//Logos des associations qui apparaissent à l’écran ?//''
 
@@ -734,17 +707,17 @@ Aujourd’hui, en France, c’est interdit, mais jusque dans les années 60, ple
 
 
 :: 7.8 {"position":"1300,1375","size":"100,100"}
-— Ça t’intéresse de parler à quelqu’un ? Je peux te mettre en contact avec une gynéco, ou parler à quelqu’un de l’association.
+(Infirmière) Ça t’intéresse de parler à quelqu’un ? Je peux te mettre en contact avec une gynéco, ou parler à quelqu’un de l’association.
 
 ''//Dian se serre les bras//''
 
-— Je ne sais pas…
+((Dian)) Je ne sais pas…
 
 [[Suivant->7.9]]
 
 
 :: 7.9 {"position":"1425,1375","size":"100,100"}
-— C’est ton choix, Dian, va à ton rythme.
+(Infirmière) C’est ton choix, Dian, va à ton rythme.
 
 [[Demander un rendez-vous chez la gynéco->8.1]]
 
