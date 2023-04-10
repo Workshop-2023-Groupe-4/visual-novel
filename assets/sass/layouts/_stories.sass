@@ -4,7 +4,7 @@
 
 
   .storyPassage
-    padding-bottom: $spacing-4
+    padding-bottom: $spacing-1
     padding-top: $spacing-4
     min-height: 100vh
     display: flex
@@ -12,6 +12,15 @@
 
     &.hidden
       display: none
+
+    > i,
+    > b
+      margin-bottom: px2rem(35)
+
+    > .thoughts
+      margin-bottom: px2rem(35)
+      font-family: $thought-font-family
+
 
     > .dialog
       position: relative
