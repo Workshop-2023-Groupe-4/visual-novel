@@ -7,12 +7,12 @@ dian
   "ifid": "70EA29AA-352A-417D-B70E-35692C303992",
   "format": "Harlowe",
   "format-version": "3.3.5",
-  "start": "1.0",
+  "start": "1.1",
   "zoom": 1
 }
 
 
-:: 1.0 {"position":"425,350","size":"100,100"}
+:: 1.1 {"position":"425,350","size":"100,100"}
 <!-- Image face à face avec son amie -->
 <img class="left" src="/assets/illustrations/story-1/seq1/seq1-1.svg" width="256" height="256">
 
@@ -33,29 +33,29 @@ dian
 @Amie de Dian: La chance ! Ça doit être incroyable !
 @(Dian): Oui ! C’est-
 
-[[Suivant->1.1]]
-
-
-:: 1.1 {"position":"550,350","size":"100,100"}
-<img src="/assets/illustrations/story-1/seq1/black.png" width="300" height="400">
-
 [[Suivant->1.2]]
 
 
-:: 1.2 {"position":"675,350","size":"100,100"}
-<!-- Image: elle ferme les yeux -->
-<img src="/assets/illustrations/story-1/seq1/seq1-2.svg" width="256" height="256">
+:: 1.2 {"position":"550,350","size":"100,100"}
+<img src="/assets/illustrations/story-1/seq1/black.png" width="300" height="400">
 
 [[Suivant->1.3]]
 
 
-:: 1.3 {"position":"800,350","size":"100,100"}
-<img src="/assets/illustrations/story-1/seq1/red.png" width="300" height="400">
+:: 1.3 {"position":"675,350","size":"100,100"}
+<!-- Image: elle ferme les yeux -->
+<img src="/assets/illustrations/story-1/seq1/seq1-2.svg" width="256" height="256">
 
 [[Suivant->1.4]]
 
 
-:: 1.4 {"position":"925,350","size":"100,100"}
+:: 1.4 {"position":"800,350","size":"100,100"}
+<img src="/assets/illustrations/story-1/seq1/red.png" width="300" height="400">
+
+[[Suivant->1.5]]
+
+
+:: 1.5 {"position":"925,350","size":"100,100"}
 <img src="/assets/illustrations/story-1/seq1/seq1-1.svg" alt="Dian est face à face avec son amie">
 
 @@Amie de Dian: J’aimerais tellement vivre là-bas !
@@ -73,26 +73,14 @@ dian
 
 @@ J’ai si mal... qu’est-ce qui se passe ? C’est pas normal...
 
-[[Suivant->2.0]]
+[[Suivant->2.1]]
 
 
-:: 10.1 {"position":"425,1800","size":"100,100"}
-Cette histoire représente une réalité qui touche aujourd’hui plus de 200 millions de femmes dans le monde. 
-
-Avec cette expérience que tu viens de réaliser, nous voulions te sensibiliser sur ce sujet et te faire prendre conscience que cela nous concerne tous et toutes.
-
-[[Suivant->10.2]]
-
-
-:: 10.2 {"position":"550,1800","size":"100,100"}
+:: 10.2 {"position":"550,1700","size":"100,100"}
 * 6 filles sont mutilées toute les minutes.
 * 125 mille femmes excisées en France.
 * Cette pratique concerne toutes les cultures et toutes les religions.
 
-[[Suivant->10.3]]
-
-
-:: 10.3 {"position":"675,1800","size":"100,100"}
 Les conséquences sont nombreuses :
 
 * Douleurs
@@ -102,10 +90,6 @@ Les conséquences sont nombreuses :
 * Rapports sexuels sans plaisir
 * Douleurs et infections chroniques
 
-[[Suivant->10.4]]
-
-
-:: 10.4 {"position":"800,1800","size":"100,100"}
 Cela se produit aux quatre coins du monde.
 
 ''//Carte des endroits ou ça se passe//''
@@ -113,7 +97,7 @@ Cela se produit aux quatre coins du monde.
 [[Suivant->10.5]]
 
 
-:: 10.5 {"position":"925,1800","size":"100,100"}
+:: 10.5 {"position":"675,1700","size":"100,100"}
 Les orchidées rouges est une association qui permet d’accompagner les victimes d’excision dans la guérison et la réinsertion. 
 
 Plus d’informations : 
@@ -122,7 +106,7 @@ lesorchideesrouges.org
 +33 5 57 34 92 37
 
 
-:: 2.0 {"position":"425,500","size":"100,100"}
+:: 2.1 {"position":"425,500","size":"100,100"}
 <img src="/assets/illustrations/story-1/seq2/seq2-1.svg" alt="Dian est roulée en boule dans sa couette, c’est la nuit">
 
 //''On voit des souvenirs un peu flash dans sa tête ''//
@@ -147,10 +131,10 @@ lesorchideesrouges.org
 
 <img src="/assets/illustrations/story-1/seq2/seq2-7.svg" alt="Dian pince les lèvres d’un air préoccupé">
 
-[[Suivant->3.0]]
+[[Suivant->3.1]]
 
 
-:: 3.0 {"position":"425,650","size":"100,100"}
+:: 3.1 {"position":"425,650","size":"100,100"}
 <img src="/assets/illustrations/story-1/seq3/seq3-1.svg" alt="Image d’elle assise en classe, elle est distraite">
 
 @@Maitresse: Dian tu m'écoutes ?
@@ -159,12 +143,12 @@ lesorchideesrouges.org
 
 @Maitresse: Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
 
-[[Non ! Tout va bien, pardon.->3.1]]
-[[Non.->3.1]]
-[[Garder le silence->3.1]]
+[[Non ! Tout va bien, pardon.->3.2]]
+[[Non.->3.2]]
+[[Garder le silence->3.2]]
 
 
-:: 3.1 {"position":"550,650","size":"100,100"}
+:: 3.2 {"position":"550,650","size":"100,100"}
 <img src="/assets/illustrations/story-1/seq3/seq3-3.svg" alt="Elle se recroqueville">
 
 @@ Je n’ai pas besoin. Je suis normale.
@@ -179,10 +163,10 @@ lesorchideesrouges.org
 
 <img src="/assets/illustrations/story-1/seq3/seq3-6.svg" alt="Elle lève la main pour poser une question">
 
-[[Suivant->4.0]]
+[[Suivant->4.1]]
 
 
-:: 4.0 {"position":"425,800","size":"100,100"}
+:: 4.1 {"position":"425,800","size":"100,100"}
 ''//Elle est assise devant un miroir un peu enfantin (tout mims), elle sourit de curiosité//''
 ''//Elle plisse les yeux//''
 ''//Son sourire s’efface//''
@@ -199,119 +183,11 @@ lesorchideesrouges.org
 
 @@ Qu’est-ce que je dois faire ?
 
-[[Rechercher sur internet : Vulve pas normale pourquoi ?->6.1.1]]
+[[Rechercher sur internet : Vulve pas normale pourquoi ?->6.A.1]]
 [[Appeler Satria, ta cousine indonésienne que tu adores->6.2.1]]
 
 
-:: 6.1.1 {"position":"425,950","size":"100,100"}
-''//Défilement forum//''
-
-[[Pathologie->6.1.2.1]]
-[[Ablation->6.1.2.1]]
-[[Excision->6.1.2]]
-
-
-:: 6.1.10 {"position":"1425,1075","size":"100,100"}
-Je me souviens, Maman était là, il y avait aussi Nenek (mot étranger pas en italique).
-
-[[Suivant->6.1.11]]
-
-
-:: 6.1.11 {"position":"1550,1075","size":"100,100"}
-C’est elles qui m’ont fait ça.
-
-[[Suivant->6.1.12]]
-
-
-:: 6.1.12 {"position":"1675,1075","size":"100,100"}
-Qui NOUES ont fait ça.
-
-[[Suivant->6.1.13]]
-
-
-:: 6.1.13 {"position":"1800,1075","size":"100,100"}
-''//Autour d'elle, d'autres petites filles apparaissent, floues et transparentes.//''
-
-Je n’étais pas seule, d’autres petites filles encore plus jeunes que moi criaient et pleuraient de douleur.
-
-Je ne comprends pas.
-
-''//Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé//''
-
-[[Suivant->7.1]]
-
-
-:: 6.1.2 {"position":"550,1075","size":"100,100"}
-''//L'écran de l'ordinateur se reflète dans ses yeux //''
-
-“Excision”
-
-[[Suivant->6.1.3]]
-
-
-:: 6.1.2.1 {"position":"550,950","size":"100,100"}
-@(Dian): Non... Non c'est pas ce que j'ai...
-
-''//L'écran de l'ordinateur se reflète dans ses yeux //''
-
-“Excision”
-
-[[Suivant->6.1.3]]
-
-
-:: 6.1.3 {"position":"675,1075","size":"100,100"}
-Est-ce vraiment ce qui m'est arrivé ?
-
-''//Image avec des rasoirs qui remplissent la scène petit à petit//''
-
-[[Suivant->6.1.4]]
-
-
-:: 6.1.4 {"position":"800,1075","size":"100,100"}
-Je crois qu'il y avait des cris, des pleurs... Je sais que je n’étais pas toute seule.
-
-[[Suivant->6.1.5]]
-
-
-:: 6.1.5 {"position":"925,1075","size":"100,100"}
-''//Visage d’elle petite fille, déformé par les cris//''
-
-''//Puis visage de sa mère, flou//''
-
-@(Dian): Est-ce que Maman était là ?
-
-[[Suivant->6.1.6]]
-
-
-:: 6.1.6 {"position":"1050,1075","size":"100,100"}
-''//Dian se prend la tête dans les mains, autour d’elle des bribes de souvenirs reviennent, elle revoit sa mère,  présente//''
-
-@(Dian): Mais //pourquoi// ?
-
-[[Suivant->6.1.8]]
-
-
-:: 6.1.8 {"position":"1175,1075","size":"100,100"}
-''//Elle reprend son téléphone et continue à lire les informations sur l’excision//''
-
-''//En gras les mots : “L’excision est pratiquée par tradition et est considéré comme un rite de passage car il est dit que les filles qui ne sont pas excisées risquent d'être atteintes de "problèmes mentaux et handicaps".//''
-
-[[Suivant->6.1.9]]
-
-
-:: 6.1.9 {"position":"1300,1075","size":"100,100"}
-''//Choc sur son visage//''
-
-6 petites filles excisées toutes les minutes dans le monde
-
-''//transition avec du sang ?//''
-
-@(Dian): Impossible...
-
-[[Suivant->6.1.10]]
-
-
-:: 6.2.1 {"position":"425,1225","size":"100,100"}
+:: 6.2.1 {"position":"425,1100","size":"100,100"}
 ''//Ecran divisé : Dian d’un côté et sa cousine de l’autre, au téléphone (celle-ci était en train de dormir car 5h de décalage)//''
 
 @Satria: Allô ? Whaou Dian, tu sais qu’il est 3 heures du matin, ici ?
@@ -322,100 +198,6 @@ Je crois qu'il y avait des cris, des pleurs... Je sais que je n’étais pas tou
 
 @(Dian): N- Non...
 
-[[Suivant->6.2.4]]
-
-
-:: 6.2.10 {"position":"1550,1225","size":"100,100"}
-@Satria: Oui. J’ai vécu la même chose ?
-
-''//Les yeux de Dian s'écarquillent, ceux de la cousine se ferment.//''
-
-@(Dian): Toi aussi ?!
-
-[[Suivant->6.2.11]]
-
-
-:: 6.2.11 {"position":"1675,1225","size":"100,100"}
-//Je suis peut-être normale !//
-
-[[Suivant->6.2.12]]
-
-
-:: 6.2.12 {"position":"1800,1225","size":"100,100"}
-@Satria: Oui... pour mon mariage.
-
-''//Images de cloches et symboles du mariages qui se transforment en rasoir.//''
-
-@(Dian): Pourquoi ?
-
-[[Suivant->6.2.13]]
-
-
-:: 6.2.13 {"position":"1925,1225","size":"100,100"}
-@Satria: D’après nenek, les femmes doivent être sages pour le mariage.
-
-''//Sang qui coule entre les jambes //''
-
-[[Mais... je suis sage... et même pas mariée ?->6.2.14]]
-[[C’est injuste ! Nous ne méritons pas ça ! Je ne comprends pas...->6.2.14]]
-
-
-:: 6.2.14 {"position":"2050,1225","size":"100,100"}
-@Satria: Pour elle, c’est notre devoir.
-@(Dian): Mais...
-
-[[Suivant->6.2.15]]
-
-
-:: 6.2.15 {"position":"2175,1225","size":"100,100"}
-@Satria: Je sais, ce n’est pas normal, Dian, ce n’est pas normal du tout.
-
-''//Dian fronce les sourcils, perdue / de l’autre côté Satria à l’air triste ? elle pleure en silence ?//''
-
-[[Suivant->6.2.16]]
-
-
-:: 6.2.16 {"position":"2300,1225","size":"100,100"}
-@Satria: On ne t’en a pas parlé, en France ? À l’école ou quoi ?
-
-''//Images de mains qui se mettent sur des bouches (peut-être certaines sont cousues, comme pour l'excision)//''
-
-@(Dian): Jamais...
-
-[[Suivant->6.2.17]]
-
-
-:: 6.2.17 {"position":"2425,1225","size":"100,100"}
-Peut-être... peut-être que tu peux... c’est difficile, je sais, mais-
-Je ne sais pas si je pourrai.
-
-[[Suivant->6.2.18]]
-
-
-:: 6.2.18 {"position":"2550,1225","size":"100,100"}
-Prends ton temps, je sais que c’est dur, Dian.
-Maman sait ?
-... oui, forcément.
-
-[[Suivant->6.2.19]]
-
-
-:: 6.2.19 {"position":"2675,1225","size":"100,100"}
-''//Visage en colère//''
-
-POURQUOI ?
-
-[[Suivant->6.2.20]]
-
-
-:: 6.2.20 {"position":"2800,1225","size":"100,100"}
-''//Dian pleure//''
-''//Dian s’endort au téléphone//''
-
-[[Suivant->7.1]]
-
-
-:: 6.2.4 {"position":"550,1225","size":"100,100"}
 //''Silence, on voit Dian serrer le téléphone contre elle en pleurant''//
 
 @Satria: Ok. Qu’est-ce qu’il se passe, //sayang// (ma puce) ?
@@ -432,10 +214,6 @@ POURQUOI ?
 
 @Satria: Pourquoi ?
 
-[[Suivant->6.2.7]]
-
-
-:: 6.2.7 {"position":"1175,1225","size":"100,100"}
 ''//L'orchidée fâne//''
 @(Dian): C’est... intime...
 
@@ -449,21 +227,141 @@ POURQUOI ?
 
 @(Dian): Grand-mère ?
 
-[[Suivant->6.2.9]]
-
-
-:: 6.2.9 {"position":"1425,1225","size":"100,100"}
 @Satria: Oui, tu ne te souviens pas ?
+
 @(Dian): Non...
 
 ''//Les mains réapparaissent à l’écran//''
 
 Ce sont des... souvenirs...?
 
-[[Suivant->6.2.10]]
+@Satria: Oui. J’ai vécu la même chose ?
+
+''//Les yeux de Dian s'écarquillent, ceux de la cousine se ferment.//''
+
+@(Dian): Toi aussi ?!
+
+@@ Je suis peut-être normale !
+
+@Satria: Oui... pour mon mariage.
+
+''//Images de cloches et symboles du mariages qui se transforment en rasoir.//''
+
+@(Dian): Pourquoi ?
+
+@Satria: D’après nenek, les femmes doivent être sages pour le mariage.
+
+''//Sang qui coule entre les jambes //''
+
+[[Mais... je suis sage... et même pas mariée ?->6.2.14]]
+[[C’est injuste ! Nous ne méritons pas ça ! Je ne comprends pas...->6.2.14]]
 
 
-:: 7.1 {"position":"425,1375","size":"100,100"}
+:: 6.2.14 {"position":"550,1100","size":"100,100"}
+@Satria: Pour elle, c’est notre devoir.
+
+@(Dian): Mais...
+
+@Satria: Je sais, ce n’est pas normal, Dian, ce n’est pas normal du tout.
+
+''//Dian fronce les sourcils, perdue / de l’autre côté Satria à l’air triste ? elle pleure en silence ?//''
+
+@Satria: On ne t’en a pas parlé, en France ? À l’école ou quoi ?
+
+''//Images de mains qui se mettent sur des bouches (peut-être certaines sont cousues, comme pour l'excision)//''
+
+@(Dian): Jamais...
+
+Peut-être... peut-être que tu peux... c’est difficile, je sais, mais-
+Je ne sais pas si je pourrai.
+
+Prends ton temps, je sais que c’est dur, Dian.
+Maman sait ?
+... oui, forcément.
+
+''//Visage en colère//''
+
+POURQUOI ?
+
+''//Dian pleure//''
+''//Dian s’endort au téléphone//''
+
+[[Suivant->7.1]]
+
+
+:: 6.A.1 {"position":"500,950","size":"100,100"}
+''//Défilement forum//''
+
+[[Pathologie->6.A.2.B]]
+[[Ablation->6.A.2.B]]
+[[Excision->6.A.2.A]]
+
+
+:: 6.A.2.A {"position":"675,950","size":"100,100"}
+''//L'écran de l'ordinateur se reflète dans ses yeux //''
+
+“Excision”
+
+[[Suivant->6.A.3]]
+
+
+:: 6.A.2.B {"position":"675,825","size":"100,100"}
+@(Dian): Non... Non c'est pas ce que j'ai...
+
+''//L'écran de l'ordinateur se reflète dans ses yeux //''
+
+“Excision”
+
+[[Suivant->6.A.3]]
+
+
+:: 6.A.3 {"position":"800,950","size":"100,100"}
+Est-ce vraiment ce qui m'est arrivé ?
+
+''//Image avec des rasoirs qui remplissent la scène petit à petit//''
+
+Je crois qu'il y avait des cris, des pleurs... Je sais que je n’étais pas toute seule.
+
+''//Visage d’elle petite fille, déformé par les cris//''
+
+''//Puis visage de sa mère, flou//''
+
+@(Dian): Est-ce que Maman était là ?
+
+''//Dian se prend la tête dans les mains, autour d’elle des bribes de souvenirs reviennent, elle revoit sa mère,  présente//''
+
+@(Dian): Mais //pourquoi// ?
+
+''//Elle reprend son téléphone et continue à lire les informations sur l’excision//''
+
+''//En gras les mots : “L’excision est pratiquée par tradition et est considéré comme un rite de passage car il est dit que les filles qui ne sont pas excisées risquent d'être atteintes de "problèmes mentaux et handicaps".//''
+
+''//Choc sur son visage//''
+
+6 petites filles excisées toutes les minutes dans le monde
+
+''//transition avec du sang ?//''
+
+@(Dian): Impossible...
+
+@@ Je me souviens, Maman était là, il y avait aussi Nenek (mot étranger pas en italique).
+
+@@ C’est elles qui m’ont fait ça.
+
+@@ Qui NOUES ont fait ça.
+
+''//Autour d'elle, d'autres petites filles apparaissent, floues et transparentes.//''
+
+@@ Je n’étais pas seule, d’autres petites filles encore plus jeunes que moi criaient et pleuraient de douleur.
+
+@@ Je ne comprends pas.
+
+''//Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé//''
+
+[[Suivant->7.1]]
+
+
+:: 7.1 {"position":"425,1250","size":"100,100"}
 ''//Trajet de bus//''
 
 @@ Si maman est au courant... je ne peux pas lui en parler...
@@ -487,7 +385,7 @@ Ce sont des... souvenirs...?
 [[Suivant->7.2]]
 
 
-:: 7.2 {"position":"550,1375","size":"100,100"}
+:: 7.2 {"position":"550,1250","size":"100,100"}
 <img src="/assets/illustrations/story-1/seq7/coffee-right.png"/>
 
 ''//L’infirmière prend et serre chaleureusement la main de Dian//''
@@ -512,7 +410,7 @@ Ce sont des... souvenirs...?
 [[Alors je suis... normale ?->7.3]]
 
 
-:: 7.3 {"position":"675,1375","size":"100,100"}
+:: 7.3 {"position":"675,1250","size":"100,100"}
 @Infirmière: Oui, mais c’est puni par la loi maintenant. Et il y a plein d’associations qui aident les femmes ayant subi ça.
 
 ''//Logos des associations qui apparaissent à l’écran ?//''
@@ -525,11 +423,11 @@ Ce sont des... souvenirs...?
 
 @Infirmière: C’est ton choix, Dian, va à ton rythme.
 
-[[Demander un rendez-vous chez la gynéco->8.1]]
-[[Demander à entrer à entrer en contact avec Les Orchidées Rouges->9.1]]
+[[Demander un rendez-vous chez la gynéco->8.A]]
+[[Demander à entrer à entrer en contact avec Les Orchidées Rouges->8.B]]
 
 
-:: 8.1 {"position":"425,1525","size":"100,100"}
+:: 8.A {"position":"425,1400","size":"100,100"}
 Dian s’est rendue chez une gynécologue de confiance.
 
 Cela s’est fait en plusieurs séances, Dian n’étant pas en confiance avec son corps mutilé.
@@ -537,36 +435,32 @@ Celle-ci lui a expliqué avec plus de précision la nature de la mutilation gén
 
 Elle a appris que partout dans le monde, et même à Paris, des petites filles subissent le même sort, parfois avec des amputations plus importantes.
 
-[[Suivant->8.2]]
-
-
-:: 8.2 {"position":"550,1525","size":"100,100"}
 Certaines en meurent.
 
-[[Suivant->8.3]]
-
-
-:: 8.3 {"position":"675,1525","size":"100,100"}
 Dian a développé des douleurs terribles et quotidiennes depuis sa sortie d’amnésie, sa gynécologue l’accompagne pour rendre sa vie supportable, mais ce n’est pas une solution à long terme.
 
 Elle a décidé d’attendre d’être majeure pour demander à bénéficier d’une chirurgie réparatrice.
 
 Celle-ci lui permettra de reprendre confiance en elle et de se réapproprier son corps.
 
-[[Suivant->10.1]]
+[[Suivant->9.1]]
 
 
-:: 9.1 {"position":"425,1650","size":"100,100"}
+:: 8.B {"position":"425,1550","size":"100,100"}
 Grâce à l’infirmière, Dian a pu en apprendre plus sur les associations qui accompagnent les jeunes femme et les jeunes filles victimes d’excision. 
 
 Elle a pu contacter l’une d’entre elles, les Orchidées rouges et a été reçue par une psychologue qui a pu la rassurer et l’écouter, cela lui a fait du bien de se sentir comprise. 
 
-[[Suivant->9.2]]
-
-
-:: 9.2 {"position":"550,1650","size":"100,100"}
 Elle a pu assister à des ateliers thérapeutiques et rencontrer d’autres femmes qui comme elles ont vécu une excision, s’en sont remises et militent maintenant contre cette pratique qui perdure à travers les époques.
 
 La blessure dans le cœur de Dian n’est pas encore prête à cicatriser mais elle est un peu plus apaisée, mais elle sait à présent qu’elle n’est pas seule.
 
-[[Suivant->10.1]]
+[[Suivant->9.1]]
+
+
+:: 9.1 {"position":"425,1700","size":"100,100"}
+Cette histoire représente une réalité qui touche aujourd’hui plus de 200 millions de femmes dans le monde. 
+
+Avec cette expérience que tu viens de réaliser, nous voulions te sensibiliser sur ce sujet et te faire prendre conscience que cela nous concerne tous et toutes.
+
+[[Suivant->10.2]]
