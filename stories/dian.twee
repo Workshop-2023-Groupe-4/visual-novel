@@ -290,7 +290,7 @@ POURQUOI ?
 
 
 :: 6.A.1 {"position":"500,950","size":"100,100"}
-''//Défilement forum//''
+<img src="/assets/illustrations/dian/seq6/forum.png" alt="Défilement forum"/>
 
 [[Pathologie->6.A.2.B]]
 [[Ablation->6.A.2.B]]
@@ -298,7 +298,7 @@ POURQUOI ?
 
 
 :: 6.A.2.A {"position":"675,950","size":"100,100"}
-''//L'écran de l'ordinateur se reflète dans ses yeux //''
+//L'écran de l'ordinateur se reflète dans ses yeux //
 
 “Excision”
 
@@ -308,7 +308,7 @@ POURQUOI ?
 :: 6.A.2.B {"position":"675,825","size":"100,100"}
 @(Dian): Non... Non c'est pas ce que j'ai...
 
-''//L'écran de l'ordinateur se reflète dans ses yeux //''
+//L'écran de l'ordinateur se reflète dans ses yeux //
 
 “Excision”
 
@@ -316,29 +316,27 @@ POURQUOI ?
 
 
 :: 6.A.3 {"position":"800,950","size":"100,100"}
-Est-ce vraiment ce qui m'est arrivé ?
+@@ Est-ce vraiment ce qui m'est arrivé ?
 
-''//Image avec des rasoirs qui remplissent la scène petit à petit//''
+<img class="fill" src="/assets/illustrations/dian/seq6/razor.png" alt="Image avec des rasoirs qui remplissent la scène petit à petit"/>
 
-Je crois qu'il y avait des cris, des pleurs... Je sais que je n’étais pas toute seule.
+@@ Je crois qu'il y avait des cris, des pleurs... Je sais que je n’étais pas toute seule.
 
-''//Visage d’elle petite fille, déformé par les cris//''
-
-''//Puis visage de sa mère, flou//''
+<img src="/assets/illustrations/dian/seq6/little-girl-screaming.png" alt="Visage d’elle petite fille, déformé par les cris"/>
 
 @(Dian): Est-ce que Maman était là ?
 
-''//Dian se prend la tête dans les mains, autour d’elle des bribes de souvenirs reviennent, elle revoit sa mère,  présente//''
+<img src="/assets/illustrations/dian/seq6/mother-shadow.png" alt="Dian se prend la tête dans les mains, autour d’elle des bribes de souvenirs reviennent, elle revoit sa mère,  présente"/>
 
 @(Dian): Mais //pourquoi// ?
 
-''//Elle reprend son téléphone et continue à lire les informations sur l’excision//''
+<img src="/assets/illustrations/dian/seq6/forum.png" alt="Elle reprend son téléphone et continue à lire les informations sur l’excision"/>
 
-''//En gras les mots : “L’excision est pratiquée par tradition et est considéré comme un rite de passage car il est dit que les filles qui ne sont pas excisées risquent d'être atteintes de "problèmes mentaux et handicaps".//''
+''“L’excision est pratiquée par tradition et est considéré comme un rite de passage car il est dit que les filles qui ne sont pas excisées risquent d'être atteintes de problèmes mentaux et handicaps".''
 
-''//Choc sur son visage//''
+<img src="/assets/illustrations/dian/seq6/socked.png" alt="Choc sur son visage"/>
 
-6 petites filles excisées toutes les minutes dans le monde
+''6 petites filles excisées toutes les minutes dans le monde''
 
 ''//transition avec du sang ?//''
 
@@ -350,52 +348,50 @@ Je crois qu'il y avait des cris, des pleurs... Je sais que je n’étais pas tou
 
 @@ Qui NOUES ont fait ça.
 
-''//Autour d'elle, d'autres petites filles apparaissent, floues et transparentes.//''
+<img src="/assets/illustrations/dian/seq6/little-girls.png" alt="Autour d'elle, d'autres petites filles apparaissent, floues et transparentes."/>
 
 @@ Je n’étais pas seule, d’autres petites filles encore plus jeunes que moi criaient et pleuraient de douleur.
 
 @@ Je ne comprends pas.
 
-''//Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé//''
+<img src="/assets/illustrations/dian/seq6/crying-in-bed.png" alt="Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé."/>
 
 [[Suivant->7.1]]
 
 
 :: 7.1 {"position":"425,1250","size":"100,100"}
+''//Trajet de bus//''
 
 @@ Si maman est au courant... je ne peux pas lui en parler...
 
 ''//Porte de l’infirmerie (affiches de prévention contre plein de trucs). Dian fait les 100 pas//''
-<img src="/assets/illustrations/dian/seq7/1.png" alt="Porte de l’infirmerie"/>
 
 @@Infirmière: Dian, tu veux me dire quelque chose ?
 
 @(Dian): Ah ! Bonjour... Madame... je-
 
-//L'infimière regarde Dian de bas en haut et souris. //
-
+''//Regard de bas en haut de l’infirmière, puis sourire//''
 
 @Infirmière: Je prends justement ma pause café, tu veux entrer ? J’aime pas être toute seule.
 
 ''//Dian se tord les doigts nerveusement//''
-<img src="/assets/illustrations/dian/seq7/2.png" alt="Dian se tord les doigts nerveusement"/>
+
 @(Dian): ... D’accord...
 
-<img src="/assets/illustrations/dian/seq7/coffee-left.png"/>
+<img src="/assets/illustrations/story-1/seq7/coffee-left.png"/>
 
 [[Suivant->7.2]]
 
 
 :: 7.2 {"position":"550,1250","size":"100,100"}
-<img src="/assets/illustrations/dian/seq7/coffee-right.png"/>
+<img src="/assets/illustrations/story-1/seq7/coffee-right.png"/>
 
 ''//L’infirmière prend et serre chaleureusement la main de Dian//''
-<img src="/assets/illustrations/dian/seq7/3.png" alt="Dian est sur sa chaise"/>
 
 @@Infirmière: Merci... Merci de m’avoir parlé, Dian.
 
 ''//Dian a les yeux rouges et fermés, la tête baissée (on peut ne pas voir son visage par ex)//''
-<img src="/assets/illustrations/dian/seq7/4.png" alt="Dian a les yeux rouges et fermés, la tête baissée"/>
+
 @(Dian): ...
 
 @Infirmière: Tu sais comment ça s’appelle, cette pratique ?
@@ -420,7 +416,7 @@ Je crois qu'il y avait des cris, des pleurs... Je sais que je n’étais pas tou
 @Infirmière: Ça t’intéresse de parler à quelqu’un ? Je peux te mettre en contact avec une gynéco, ou parler à quelqu’un de l’association.
 
 ''//Dian se serre les bras//''
-<img src="/assets/illustrations/dian/seq7/5.png" alt="Dian se serre les bras"/>
+
 @(Dian): Je ne sais pas...
 
 @Infirmière: C’est ton choix, Dian, va à ton rythme.
