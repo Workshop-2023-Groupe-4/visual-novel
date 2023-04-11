@@ -1,6 +1,6 @@
 <article class="storyPassage hidden" id="passage-{{.name}}">
     {{ range .lines }}
-    <p>{{ safeHTML . }}</p>
+    {{ safeHTML . }}
     {{ end}}
 
     <ul class="storyPassage__links">
