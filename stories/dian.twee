@@ -17,7 +17,7 @@ dian
 <img class="left" src="/assets/illustrations/story-1/seq1/seq1-1.svg" width="256" height="256">
 
 
-@Amie de Dian:  Dis Dian, tu es déjà partie dans le pays de tes parents ?
+@@Amie de Dian:  Dis Dian, tu es déjà partie dans le pays de tes parents ?
 
 @(Dian): Oui ! On essaie d’y aller tous les ans... bon, avec le covid, ça a été pas mal compromis...
 
@@ -58,7 +58,7 @@ dian
 :: 1.4 {"position":"925,350","size":"100,100"}
 <img src="/assets/illustrations/story-1/seq1/seq1-1.svg" alt="Dian est face à face avec son amie">
 
-@Amie de Dian: J’aimerais tellement vivre là-bas !
+@@Amie de Dian: J’aimerais tellement vivre là-bas !
 
 @(Dian): Je...
 
@@ -127,7 +127,7 @@ lesorchideesrouges.org
 
 //''On voit des souvenirs un peu flash dans sa tête ''//
 
-@Nenek: Non !
+@@Nenek: Non !
 @Nenek: Reste tranquille !
 
 //''Une femme, sa grand-mère (on ne voit que la main/bras → possible tatouages/marques traditionnelles ?) l’attrape par le bras et la maintient au sol''//
@@ -153,11 +153,11 @@ lesorchideesrouges.org
 :: 3.0 {"position":"425,650","size":"100,100"}
 <img src="/assets/illustrations/story-1/seq3/seq3-1.svg" alt="Image d’elle assise en classe, elle est distraite">
 
-@Maitresse: Dian tu m'écoutes ?
+@@Maitresse: Dian tu m'écoutes ?
 
 <img src="/assets/illustrations/story-1/seq3/seq3-2.svg" alt="Trait tirés, fatigués">
 
-@Maitresse: Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
+@Maitresse: Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
 
 [[Non ! Tout va bien, pardon.->3.1]]
 [[Non.->3.1]]
@@ -191,13 +191,13 @@ lesorchideesrouges.org
 
 ''//Souvenir : elle petite qui pleure et voit du sang qui coule sur ses jambes ?//''
 
+@@ Ce n’est pas normal...
+
 ''//Elle pleure//''
 
-Ce n’est pas normal...
+@@ JE ne suis pas normale...
 
-JE ne suis pas normale...
-
-Qu’est-ce que je dois faire ?
+@@ Qu’est-ce que je dois faire ?
 
 [[Rechercher sur internet : Vulve pas normale pourquoi ?->6.1.1]]
 [[Appeler Satria, ta cousine indonésienne que tu adores->6.2.1]]
