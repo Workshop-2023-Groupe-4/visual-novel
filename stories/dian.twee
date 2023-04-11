@@ -13,14 +13,11 @@ dian
 
 
 :: 1.1 {"position":"425,350","size":"100,100"}
-<!-- Image face à face avec son amie -->
-<img class="left" src="/assets/illustrations/story-1/seq1/seq1-1.svg" width="256" height="256">
-
+<img class="left" src="/assets/illustrations/dian/seq1/friend.png" alt="Image face à face avec son amie">
 
 @@Amie de Dian:  Dis Dian, tu es déjà partie dans le pays de tes parents ?
 
 @(Dian): Oui ! On essaie d’y aller tous les ans... bon, avec le covid, ça a été pas mal compromis...
-
 
 @Amie de Dian: Tu t’entends bien avec ta famille ? C’est pas trop dur ?
 
@@ -37,26 +34,25 @@ dian
 
 
 :: 1.2 {"position":"550,350","size":"100,100"}
-<img src="/assets/illustrations/story-1/seq1/black.png" width="300" height="400">
+<img src="/assets/illustrations/dian/seq1/black.png" alt="Image noire symbolisant un flashback">
 
 [[Suivant->1.3]]
 
 
 :: 1.3 {"position":"675,350","size":"100,100"}
-<!-- Image: elle ferme les yeux -->
-<img src="/assets/illustrations/story-1/seq1/seq1-2.svg" width="256" height="256">
+<img src="/assets/illustrations/dian/seq1/eye-closed.png" alt="Dian ferme les yeux">
 
 [[Suivant->1.4]]
 
 
 :: 1.4 {"position":"800,350","size":"100,100"}
-<img src="/assets/illustrations/story-1/seq1/red.png" width="300" height="400">
+<img src="/assets/illustrations/dian/seq1/red.png" alt="Image rouge symbolisant le sang">
 
 [[Suivant->1.5]]
 
 
 :: 1.5 {"position":"925,350","size":"100,100"}
-<img src="/assets/illustrations/story-1/seq1/seq1-1.svg" alt="Dian est face à face avec son amie">
+<img src="/assets/illustrations/dian/seq1/friend.png" alt="Dian est face à face avec son amie">
 
 @@Amie de Dian: J’aimerais tellement vivre là-bas !
 
@@ -64,11 +60,11 @@ dian
 
 @@ Je n’en suis plus si sûre...
 
-<img src="/assets/illustrations/story-1/seq1/seq1-3.svg" alt="Dian est en cours">
+<img src="/assets/illustrations/dian/seq1/distraiteClass.svg" alt="Dian est en cours">
 
 @@ C'est bizarre... Je ne me sens pas bien...
 
-<img src="/assets/illustrations/story-1/seq1/seq1-4.svg" alt="Dian se tord de douleur devant l'arrêt de bus">
+<img src="/assets/illustrations/dian/seq1/bus.png" alt="Dian se tord de douleur devant l'arrêt de bus">
 
 
 @@ J’ai si mal... qu’est-ce qui se passe ? C’est pas normal...
@@ -107,39 +103,41 @@ lesorchideesrouges.org
 
 
 :: 2.1 {"position":"425,500","size":"100,100"}
-<img src="/assets/illustrations/story-1/seq2/seq2-1.svg" alt="Dian est roulée en boule dans sa couette, c’est la nuit">
+<img src="/assets/illustrations/dian/seq2/in-bed.png" alt="Dian est roulée en boule dans sa couette, c’est la nuit">
 
-//''On voit des souvenirs un peu flash dans sa tête ''//
+<img src="/assets/illustrations/dian/seq2/flashback.png" alt="On voit des souvenirs un peu flash dans sa tête">
 
 @@Nenek: Non !
+
 @Nenek: Reste tranquille !
 
-//''Une femme, sa grand-mère (on ne voit que la main/bras → possible tatouages/marques traditionnelles ?) l’attrape par le bras et la maintient au sol''//
+<img src="/assets/illustrations/dian/seq2/hand-on-ground.png" alt="Une femme, sa grand-mère (on ne voit que la main) l’attrape par la main et la maintient au sol">
 
 @(Dian): Non Nenek stop  !
+
 @Nenek: Arrête Dian, c’est pour ton bien !
 
-<img src="/assets/illustrations/story-1/seq2/seq2-4.svg" alt="Dian crie dans son sommeil">
+<img src="/assets/illustrations/dian/seq2/scream.png" alt="Dian crie dans son sommeil">
 
-<img src="/assets/illustrations/story-1/seq2/seq2-5.svg" alt="Elle ouvre les yeux, en larmes">
+<img src="/assets/illustrations/dian/seq2/cry.png" alt="Elle ouvre les yeux, en larmes">
 
 @@ C’était quoi... ça ?
 
-<img src="/assets/illustrations/story-1/seq2/seq2-6.svg" alt="Elle frotte ses poignets comme pour soulager la douleur du rêve">
+<img src="/assets/illustrations/dian/seq2/rub-wrist.png" alt="Elle frotte ses poignets comme pour soulager la douleur du rêve">
 
 @Maman de Dian: Dian, c’est l’heure de se réveiller, tu vas être en retard en cours !
 
-<img src="/assets/illustrations/story-1/seq2/seq2-7.svg" alt="Dian pince les lèvres d’un air préoccupé">
+<img src="/assets/illustrations/dian/seq2/pinch-lips.png" alt="Dian pince les lèvres d’un air préoccupé">
 
 [[Suivant->3.1]]
 
 
 :: 3.1 {"position":"425,650","size":"100,100"}
-<img src="/assets/illustrations/story-1/seq3/seq3-1.svg" alt="Image d’elle assise en classe, elle est distraite">
+<img src="/assets/illustrations/dian/seq3/absent-minded.png" alt="Image d’elle assise en classe, elle est distraite">
 
 @@Maitresse: Dian tu m'écoutes ?
 
-<img src="/assets/illustrations/story-1/seq3/seq3-2.svg" alt="Trait tirés, fatigués">
+<img src="/assets/illustrations/dian/seq3/tired.png" alt="Trait tirés, fatigués">
 
 @Maitresse: Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
 
@@ -149,35 +147,37 @@ lesorchideesrouges.org
 
 
 :: 3.2 {"position":"550,650","size":"100,100"}
-<img src="/assets/illustrations/story-1/seq3/seq3-3.svg" alt="Elle se recroqueville">
+<img src="/assets/illustrations/dian/seq3/huddled.png" alt="Elle se recroqueville">
 
 @@ Je n’ai pas besoin. Je suis normale.
 
-<img src="/assets/illustrations/story-1/seq3/seq3-4.svg" alt="Elle relève le nez vers le tableau où la professeure a dessiné un schéma de vulve">
+<img src="/assets/illustrations/dian/seq3/class.png" alt="Elle relève le nez vers le tableau où la professeure a dessiné un schéma de vulve">
 
 @@ On dirait une fleur, une espèce d’orchidée...
 
-<img src="/assets/illustrations/story-1/seq3/seq3-5.svg" alt="Ses yeux sont fascinés">
+<img src="/assets/illustrations/dian/seq3/surprised.png" alt="Ses yeux sont fascinés">
 
 @@ On est toutes pareilles ?
 
-<img src="/assets/illustrations/story-1/seq3/seq3-6.svg" alt="Elle lève la main pour poser une question">
+<img src="/assets/illustrations/dian/seq3/hand-up.png" alt="Elle lève la main pour poser une question">
 
 [[Suivant->4.1]]
 
 
 :: 4.1 {"position":"425,800","size":"100,100"}
-''//Elle est assise devant un miroir un peu enfantin (tout mims), elle sourit de curiosité//''
-''//Elle plisse les yeux//''
-''//Son sourire s’efface//''
+<img src="/assets/illustrations/dian/seq4/mirror.png" alt="Elle est assise devant un miroir un peu enfantin (tout mims), elle sourit de curiosité"/>
 
-''//Elle écarquille les yeux et sa bouche s’ouvre//''
+<img src="/assets/illustrations/dian/seq4/close-eyes.png" alt="Elle plisse les yeux"/>
 
-''//Souvenir : elle petite qui pleure et voit du sang qui coule sur ses jambes ?//''
+<img src="/assets/illustrations/dian/seq4/open-eyes.png" alt="Son sourire s’efface"/>
+
+<img src="/assets/illustrations/dian/seq4/eyes-open-wide.png" alt="Elle écarquille les yeux et sa bouche s’ouvre"/>
+
+<img src="/assets/illustrations/dian/seq4/remember.png" alt="Souvenir : elle petite qui pleure et voit du sang qui coule sur ses jambes ?"/>
 
 @@ Ce n’est pas normal...
 
-''//Elle pleure//''
+<img src="/assets/illustrations/dian/seq4/cry.png" alt="Elle pleure"/>
 
 @@ JE ne suis pas normale...
 
@@ -362,38 +362,40 @@ Je crois qu'il y avait des cris, des pleurs... Je sais que je n’étais pas tou
 
 
 :: 7.1 {"position":"425,1250","size":"100,100"}
-''//Trajet de bus//''
 
 @@ Si maman est au courant... je ne peux pas lui en parler...
 
 ''//Porte de l’infirmerie (affiches de prévention contre plein de trucs). Dian fait les 100 pas//''
+<img src="/assets/illustrations/dian/seq7/1.png" alt="Porte de l’infirmerie"/>
 
 @@Infirmière: Dian, tu veux me dire quelque chose ?
 
 @(Dian): Ah ! Bonjour... Madame... je-
 
-''//Regard de bas en haut de l’infirmière, puis sourire//''
+//L'infimière regarde Dian de bas en haut et souris. //
+
 
 @Infirmière: Je prends justement ma pause café, tu veux entrer ? J’aime pas être toute seule.
 
 ''//Dian se tord les doigts nerveusement//''
-
+<img src="/assets/illustrations/dian/seq7/2.png" alt="Dian se tord les doigts nerveusement"/>
 @(Dian): ... D’accord...
 
-<img src="/assets/illustrations/story-1/seq7/coffee-left.png"/>
+<img src="/assets/illustrations/dian/seq7/coffee-left.png"/>
 
 [[Suivant->7.2]]
 
 
 :: 7.2 {"position":"550,1250","size":"100,100"}
-<img src="/assets/illustrations/story-1/seq7/coffee-right.png"/>
+<img src="/assets/illustrations/dian/seq7/coffee-right.png"/>
 
 ''//L’infirmière prend et serre chaleureusement la main de Dian//''
+<img src="/assets/illustrations/dian/seq7/3.png" alt="Dian est sur sa chaise"/>
 
 @@Infirmière: Merci... Merci de m’avoir parlé, Dian.
 
 ''//Dian a les yeux rouges et fermés, la tête baissée (on peut ne pas voir son visage par ex)//''
-
+<img src="/assets/illustrations/dian/seq7/4.png" alt="Dian a les yeux rouges et fermés, la tête baissée"/>
 @(Dian): ...
 
 @Infirmière: Tu sais comment ça s’appelle, cette pratique ?
@@ -418,7 +420,7 @@ Je crois qu'il y avait des cris, des pleurs... Je sais que je n’étais pas tou
 @Infirmière: Ça t’intéresse de parler à quelqu’un ? Je peux te mettre en contact avec une gynéco, ou parler à quelqu’un de l’association.
 
 ''//Dian se serre les bras//''
-
+<img src="/assets/illustrations/dian/seq7/5.png" alt="Dian se serre les bras"/>
 @(Dian): Je ne sais pas...
 
 @Infirmière: C’est ton choix, Dian, va à ton rythme.
