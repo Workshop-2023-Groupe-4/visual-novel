@@ -1,9 +1,11 @@
 .stories-list
+    color: $black
     .story-heading
         text-align: center
         margin: auto
         position: relative
         width: fit-content
+
 
         h3
             @include h2
@@ -12,6 +14,7 @@
         a
             @include stretched-link
             text-decoration: none
+            color: $black
 
         img
             @include image-mask("../assets/images/mask.svg", true)

@@ -1,0 +1,17 @@
+<section class="introducing">
+  {{ $home_hero_intro_1 := resources.Get "/media/intro-1.png" }}
+  {{ $home_hero_intro_2 := resources.Get "/media/intro-2.png" }}
+
+  <div class="introducing__items">
+    <img src="{{ $home_hero_intro_1.RelPermalink }}" alt="">
+    <span>Une expérience interactive</span>
+  </div>
+  <div class="introducing__items">
+    <img src="{{ $home_hero_intro_2.RelPermalink }}" alt="">
+    <span>forte</span>
+  </div>
+  <div class="introducing__items">
+    <span>Basé sur des témoignages réels de femmes excisées</span>
+    <span class="items__second-text">Un projet réalisé pour l’association ‘les Orchidées rouges’</span>
+  </div>
+</section>
