@@ -42,33 +42,33 @@
         &::after
           content: close-quote
 
-      &[data-hero="false"]:first-of-type
-        display: flex
-        flex-direction: column
-        justify-content: center
-        width: fit-content
-        aspect-ratio: 2.5 / 1
-        margin-bottom: px2rem(35)
-        transform: rotate(-3.5deg)
+    > .paper
+      display: flex
+      flex-direction: column
+      justify-content: center
+      width: fit-content
+      aspect-ratio: 2.5 / 1
+      margin-bottom: px2rem(35)
+      transform: rotate(-3.5deg)
 
-        > span,
-        > p
-          color: $black
-          padding: 0 px2rem(25)
+      > span,
+      > p
+        color: $black
+        padding: 0 px2rem(25)
 
-        &::before
-          z-index: -1
-          position: absolute
-          display: block
-          content: " "
-          background-image: url("/assets/images/paper.png")
-          background-size: contain
-          background-repeat: no-repeat
-          background-position: center
-          top: 0
-          left: 0
-          width: 100%
-          height: 100%
+      &::before
+        z-index: -1
+        position: absolute
+        display: block
+        content: " "
+        background-image: url("/assets/images/paper.png")
+        background-size: contain
+        background-repeat: no-repeat
+        background-position: center
+        top: 0
+        left: 0
+        width: 100%
+        height: 100%
 
     > img
       width: 100%

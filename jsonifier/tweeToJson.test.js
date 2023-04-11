@@ -133,6 +133,12 @@ describe('function getJsonFromLines', function () {
 })
 
 describe('function formattedLine', function () {
+    it('should identity paper dialog', function () {
+        const line = "@@Dian: Dian réveille toi !";
+
+        assert.equal(formattedLine(line), '<div class="paper"><span>Dian</span><p>Dian réveille toi !</p></div>')
+    })
+
     it('should identity hero dialog', function () {
         const line = "@(Dian): (elle réfléchit) Coucou (elle s'avance) ça va?";
 

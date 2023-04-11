@@ -45,6 +45,9 @@ Faire parler le personnage principal
 Faire parler un personnage secondaire  
 `@Jhonette Doe: Lorem ipsum dolor sit amet`  
 
+Faire parler un personnage sur le papier
+`@@Jhonette Doe: Lorem ipsum dolor sit amet`
+
 Afficher des pensées  
 `@@ Lorem ipsum dolor sit amet`  
 

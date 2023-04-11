@@ -2,6 +2,8 @@ const fs = require('fs');
 const lineReader = require('line-reader');
 
 const linkRegex = /\[\[(.+)->([\w.-]+)]]/gm;
+const paperDialogRegex = /^@@([ a-zA-ZÀ-ÖÙ-öù-ÿ0-9]+): (.+)/gm;
+const paperDialogSubstitution = '<div class="paper"><span>$1</span><p>$2</p></div>';
 const thoughtRegex = /^@@ (.+)/gm;
 const thoughtSubstitution = '<p class="thoughts">$1</p>'
 const heroDialogRegex = /^@\(([ a-zA-ZÀ-ÖÙ-öù-ÿ0-9]+)\): (.+)/gm;
@@ -160,6 +162,7 @@ function isLineAPassageHeader(line) {
 }
 
 function formattedLine(line) {
+    line = line.replace(paperDialogRegex, paperDialogSubstitution);
     line = line.replace(thoughtRegex, thoughtSubstitution);
     line = line.replace(heroDialogRegex, heroDialogSubstitution);
     line = line.replace(dialogRegex, dialogSubstitution);
