@@ -1,0 +1,25 @@
+{{ $home_hero_img := resources.Get "/media/home-hero.png" }}
+{{ $home_hero_img_label := resources.Get "/media/label.svg" }}
+<section class="home-hero">
+  <img src="{{ $home_hero_img.RelPermalink }}" alt="">
+
+  <div class="home-hero__label">
+    <img src="{{ $home_hero_img_label.RelPermalink }}" alt="">
+    <span>souffrance</span>
+  </div>
+
+  <div class="home-hero__label">
+    <img src="{{ $home_hero_img_label.RelPermalink }}" alt="">
+    <span>tradition</span>
+  </div>
+
+  <div class="home-hero__label">
+    <img src="{{ $home_hero_img_label.RelPermalink }}" alt="">
+    <span>excision</span>
+  </div>
+
+  <div class="home-hero__label">
+    <img src="{{ $home_hero_img_label.RelPermalink }}" alt="">
+    <span>trauma</span>
+  </div>
+</section>
