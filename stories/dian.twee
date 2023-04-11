@@ -362,38 +362,40 @@ Je crois qu'il y avait des cris, des pleurs... Je sais que je n’étais pas tou
 
 
 :: 7.1 {"position":"425,1250","size":"100,100"}
-''//Trajet de bus//''
 
 @@ Si maman est au courant... je ne peux pas lui en parler...
 
 ''//Porte de l’infirmerie (affiches de prévention contre plein de trucs). Dian fait les 100 pas//''
+<img src="/assets/illustrations/dian/seq7/1.png" alt="Porte de l’infirmerie"/>
 
 @@Infirmière: Dian, tu veux me dire quelque chose ?
 
 @(Dian): Ah ! Bonjour... Madame... je-
 
-''//Regard de bas en haut de l’infirmière, puis sourire//''
+//L'infimière regarde Dian de bas en haut et souris. //
+
 
 @Infirmière: Je prends justement ma pause café, tu veux entrer ? J’aime pas être toute seule.
 
 ''//Dian se tord les doigts nerveusement//''
-
+<img src="/assets/illustrations/dian/seq7/2.png" alt="Dian se tord les doigts nerveusement"/>
 @(Dian): ... D’accord...
 
-<img src="/assets/illustrations/story-1/seq7/coffee-left.png"/>
+<img src="/assets/illustrations/dian/seq7/coffee-left.png"/>
 
 [[Suivant->7.2]]
 
 
 :: 7.2 {"position":"550,1250","size":"100,100"}
-<img src="/assets/illustrations/story-1/seq7/coffee-right.png"/>
+<img src="/assets/illustrations/dian/seq7/coffee-right.png"/>
 
 ''//L’infirmière prend et serre chaleureusement la main de Dian//''
+<img src="/assets/illustrations/dian/seq7/3.png" alt="Dian est sur sa chaise"/>
 
 @@Infirmière: Merci... Merci de m’avoir parlé, Dian.
 
 ''//Dian a les yeux rouges et fermés, la tête baissée (on peut ne pas voir son visage par ex)//''
-
+<img src="/assets/illustrations/dian/seq7/4.png" alt="Dian a les yeux rouges et fermés, la tête baissée"/>
 @(Dian): ...
 
 @Infirmière: Tu sais comment ça s’appelle, cette pratique ?
@@ -418,7 +420,7 @@ Je crois qu'il y avait des cris, des pleurs... Je sais que je n’étais pas tou
 @Infirmière: Ça t’intéresse de parler à quelqu’un ? Je peux te mettre en contact avec une gynéco, ou parler à quelqu’un de l’association.
 
 ''//Dian se serre les bras//''
-
+<img src="/assets/illustrations/dian/seq7/5.png" alt="Dian se serre les bras"/>
 @(Dian): Je ne sais pas...
 
 @Infirmière: C’est ton choix, Dian, va à ton rythme.
