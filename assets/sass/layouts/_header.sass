@@ -19,6 +19,7 @@ header#header
             span
                 font-size: 0
             &::before
+                color: $black
                 font-size: px2rem(24)
         .menu
             @extend .container
@@ -48,5 +49,7 @@ header#header
         &.menu-is-opened
             button
                 @include icon($icon-close, before)
+                &::before
+                  color: $white
             .menu
                 display: flex
