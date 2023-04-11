@@ -61,6 +61,9 @@ Moitié gauche
 Moitié droite  
 `<img class="right" src="/assets/illustrations/...">`
 
+Largeur pleine sans marge à gauche ni à droite 
+`<img class="fill" src="/assets/illustrations/...">`
+
 ### Texte
 Gras  
 `''Lorem ipsum dolor sit amet''`
