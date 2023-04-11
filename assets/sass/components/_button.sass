@@ -1,0 +1,15 @@
+.primary-btn
+  padding: $spacing-0 $spacing-0
+  border-radius: $rounded-1
+  width: calc(100% - 160px)
+  text-decoration: none
+  background-color: $black
+  color: $white
+  text-align: center
+  transition: background .3s ease-out
+  @include media-breakpoint-down(lg)
+    width: calc(100% - 72px)
+  &:hover
+    background-color: $white
+    color: $black
+    border: 1px solid $black
