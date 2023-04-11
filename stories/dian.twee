@@ -147,60 +147,46 @@ lesorchideesrouges.org
 
 <img src="/assets/illustrations/story-1/seq2/seq2-7.svg" alt="Dian pince les lèvres d’un air préoccupé">
 
-[[Suivant->3.1]]
+[[Suivant->3.0]]
 
 
-:: 3.1 {"position":"425,650","size":"100,100"}
-//''Image d’elle assise en classe, elle est distraite''//
-<img src="/assets/illustrations/story-1/seq3/seq3-1.svg" width="256" height="256">
+:: 3.0 {"position":"425,650","size":"100,100"}
+<img src="/assets/illustrations/story-1/seq3/seq3-1.svg" alt="Image d’elle assise en classe, elle est distraite">
 
 @Maitresse: Dian tu m'écoutes ?
 
-//''Trait tirés, fatigués''//
-<img src="/assets/illustrations/story-1/seq3/seq3-2.svg" width="256" height="256">
+<img src="/assets/illustrations/story-1/seq3/seq3-2.svg" alt="Trait tirés, fatigués">
 
 @Maitresse: Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
 
-[[Non ! Tout va bien, pardon.->3.3]]
-[[Non.->3.3]]
-[[Garder le silence->3.3]]
+[[Non ! Tout va bien, pardon.->3.1]]
+[[Non.->3.1]]
+[[Garder le silence->3.1]]
 
 
-:: 3.3 {"position":"550,650","size":"100,100"}
-//''Elle se recroqueville''//
-<img src="/assets/illustrations/story-1/seq3/seq3-3.svg" width="256" height="256">
+:: 3.1 {"position":"550,650","size":"100,100"}
+<img src="/assets/illustrations/story-1/seq3/seq3-3.svg" alt="Elle se recroqueville">
 
 @@ Je n’ai pas besoin. Je suis normale.
 
-[[Suivant->3.4]]
-
-
-:: 3.4 {"position":"675,650","size":"100,100"}
-//''Elle relève le nez vers le tableau où la professeure a dessiné un schéma de vulve''//
-<img src="/assets/illustrations/story-1/seq3/seq3-4.svg" width="256" height="256">
+<img src="/assets/illustrations/story-1/seq3/seq3-4.svg" alt="Elle relève le nez vers le tableau où la professeure a dessiné un schéma de vulve">
 
 @@ On dirait une fleur, une espèce d’orchidée...
 
-//''Ses yeux sont fascinés''//
-<img src="/assets/illustrations/story-1/seq3/seq3-5.svg" width="256" height="256">
+<img src="/assets/illustrations/story-1/seq3/seq3-5.svg" alt="Ses yeux sont fascinés">
 
 @@ On est toutes pareilles ?
 
-//''Elle lève la main pour poser une question''//
-<img src="/assets/illustrations/story-1/seq3/seq3-6.svg" width="256" height="256">
+<img src="/assets/illustrations/story-1/seq3/seq3-6.svg" alt="Elle lève la main pour poser une question">
 
-[[Suivant->4.1]]
-
-
-:: 4.1 {"position":"425,800","size":"100,100"}
-''//Elle est assise devant un miroir un peu enfantin, elle sourit de curiosité//''
-
-''//Elle plisse les yeux, son sourire s’efface.//''
-
-[[Suivant->4.2]]
+[[Suivant->4.0]]
 
 
-:: 4.2 {"position":"550,800","size":"100,100"}
+:: 4.0 {"position":"425,800","size":"100,100"}
+''//Elle est assise devant un miroir un peu enfantin (tout mims), elle sourit de curiosité//''
+''//Elle plisse les yeux//''
+''//Son sourire s’efface//''
+
 ''//Elle écarquille les yeux et sa bouche s’ouvre//''
 
 ''//Souvenir : elle petite qui pleure et voit du sang qui coule sur ses jambes ?//''
