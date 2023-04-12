@@ -76,6 +76,9 @@ Moitié gauche
 Moitié droite  
 `<img class="right" src="/assets/illustrations/...">`
 
+Moitié centrée  
+`<img class="center" src="/assets/illustrations/...">`
+
 Largeur pleine sans marge à gauche ni à droite 
 `<img class="fill" src="/assets/illustrations/...">`
 

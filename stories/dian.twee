@@ -13,7 +13,7 @@ dian
 
 
 :: 1.1 {"position":"425,350","size":"100,100"}
-<img class="left parallax" src="/assets/illustrations/dian/seq1/friend.png" data-depth='0.10' alt="Image face à face avec son amie">
+<img class="left" src="/assets/illustrations/dian/seq1/friend.png" alt="Image face à face avec son amie">
 
 @@Amie de Dian: Dis Dian, tu es déjà partie dans le pays de tes parents ?
 
@@ -40,7 +40,7 @@ dian
 
 
 :: 1.3 {"position":"675,350","size":"100,100"}
-<img src="/assets/illustrations/dian/seq1/eye-closed.png" alt="Dian ferme les yeux">
+<img class="right" src="/assets/illustrations/dian/seq1/eye-closed.png" alt="Dian ferme les yeux">
 
 [[Suivant->1.4]]
 
@@ -201,15 +201,15 @@ lesorchideesrouges.org
 
 @(Dian): N- Non...
 
-//''Silence, on voit Dian serrer le téléphone contre elle en pleurant''//
+<img class="right" src="/assets/illustrations/dian/seq6/rub-wrist.png" alt="Silence, on voit Dian serrer le téléphone contre elle en pleurant.">
 
 @Satria: Ok. Qu’est-ce qu’il se passe, //sayang// (ma puce) ?
 
-//''Grande inspiration de Dian> zoom sur elle''//
+<!--Grande inspiration de Dian —> zoom sur elle-->
 
 @(Dian): J’ai... J’ai eu ce cours... en sciences... et
 
-''//Orchidée qui fleurit //''
+<img class="center" src="/assets/illustrations/dian/seq6/orchidee-start.png" alt="Orchidée qui fleurit."/>
 
 @Satria: Prends ton temps, t’inquiète.
 
@@ -217,12 +217,13 @@ lesorchideesrouges.org
 
 @Satria: Pourquoi ?
 
-''//L'orchidée fâne//''
+<img class="center" src="/assets/illustrations/dian/seq6/orchidee-end.png" alt="L'orchidée fâne."/>
+
 @(Dian): C’est... intime...
 
 @Satria: Ah...
 
-''//La cousine ferme les yeux d'un air douloureux.//''
+<img class="left" src="/assets/illustrations/dian/seq6/satria-sad.png" alt="La cousine ferme les yeux d'un air douloureux.">
 
 @@ ...
 
@@ -234,27 +235,27 @@ lesorchideesrouges.org
 
 @(Dian): Non...
 
-''//Les mains réapparaissent à l’écran//''
+<!--Les mains réapparaissent à l’écran.-->
 
-Ce sont des... souvenirs...?
+@@ Ce sont des... souvenirs...?
 
-@Satria: Oui. J’ai vécu la même chose ?
+@Satria: Oui. J’ai vécu la même chose.
 
-''//Les yeux de Dian s'écarquillent, ceux de la cousine se ferment.//''
+<img class="right" src="/assets/illustrations/dian/seq6/socked.png" alt="Les yeux de Dian s'écarquillent.">
 
 @(Dian): Toi aussi ?!
 
 @@ Je suis peut-être normale !
 
-@Satria: Oui... pour mon mariage.
+<img class="left" src="/assets/illustrations/dian/seq6/satria-tired.png" alt="Ceux de la cousine se ferment.">
 
-''//Images de cloches et symboles du mariages qui se transforment en rasoir.//''
+@Satria: Oui... pour mon mariage.
 
 @(Dian): Pourquoi ?
 
 @Satria: D’après nenek, les femmes doivent être sages pour le mariage.
 
-''//Sang qui coule entre les jambes //''
+<!--Sang qui coule entre les jambes.-->
 
 [[Mais... je suis sage... et même pas mariée ?->6.2.14]]
 [[C’est injuste ! Nous ne méritons pas ça ! Je ne comprends pas...->6.2.14]]
@@ -267,11 +268,13 @@ Ce sont des... souvenirs...?
 
 @Satria: Je sais, ce n’est pas normal, Dian, ce n’est pas normal du tout.
 
-''//Dian fronce les sourcils, perdue / de l’autre côté Satria à l’air triste ? elle pleure en silence ?//''
+<img class="left" src="/assets/illustrations/dian/seq6/satria-sad.png" alt="Satria à l’air triste, elle pleure en silence."/>
+
+<img class="right" src="/assets/illustrations/dian/seq6/dian-shocked.png" alt="Dian fronce les sourcils, perdue"/>
 
 @Satria: On ne t’en a pas parlé, en France ? À l’école ou quoi ?
 
-''//Images de mains qui se mettent sur des bouches (peut-être certaines sont cousues, comme pour l'excision)//''
+<img class="center" src="/assets/illustrations/dian/seq6/little-girl-muted.png" alt="Une main recouvre la bouche d'une petite fille "/>
 
 @(Dian): Jamais...
 
@@ -286,8 +289,7 @@ Maman sait ?
 
 POURQUOI ?
 
-''//Dian pleure//''
-''//Dian s’endort au téléphone//''
+<img src="/assets/illustrations/dian/seq6/crying-in-bed.png" alt="Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé."/>
 
 [[Suivant->7.1]]
 
@@ -341,7 +343,7 @@ POURQUOI ?
 
 ''6 petites filles excisées toutes les minutes dans le monde''
 
-''//transition avec du sang ?//''
+<!--<img src="/assets/illustrations/dian/seq6/blood.png" alt="Transition avec du sang"/>-->
 
 @(Dian): Impossible...
 
@@ -364,7 +366,7 @@ POURQUOI ?
 
 :: 7.1 {"position":"425,1250","size":"100,100"}
 @@ Si maman est au courant... je ne peux pas lui en parler...
-
+test
 <img class="left" src="/assets/illustrations/dian/seq7/door.png" alt="Porte de l’infirmerie (affiches de prévention contre plein de trucs). Dian fait les 100 pas"/>
 
 @@Infirmière: Dian, tu veux me dire quelque chose ?
