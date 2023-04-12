@@ -37,21 +37,22 @@
         @include media-breakpoint-up(md)
             max-width: 200px
     .home-hero
-        position: relative
-        height: 100vh
+        align-items: center
         display: flex
         flex-direction: column
-        align-items: center
+        height: 100vh
+        justify-content: center
+        position: relative
         .cover
-            bottom: 0
             height: 100%
             object-fit: contain
             pointer-events: none
             position: absolute
-            top: 0
+            &:nth-child(2)
+                height: 40vh
         &__label
             background:
-                image: url(/media/label-background.svg)
+                image: url('/assets/images/home/label-background.svg')
                 size: cover
                 repeat: no-repeat
             color: white
@@ -66,7 +67,7 @@
             color: white
             font-family: $headings-font-family
             font-size: $body-highlight-font-size
-        &__label:nth-child(2)
+        &__label:nth-child(6)
             left: 45%
             top: 25%
         &__label:nth-child(3)
