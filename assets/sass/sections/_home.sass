@@ -38,17 +38,19 @@
             bottom: 0
             height: 100%
             object-fit: contain
+            pointer-events: none
             position: absolute
             top: 0
         &__label
             background:
-                image: url(/media/label.svg)
+                image: url(/media/label-background.svg)
                 size: cover
                 repeat: no-repeat
+            min-width: 18vw
             padding: px2rem(6) px2rem(14)
+            pointer-events: none
             position: absolute
             text-align: center
-            min-width: 18vw
             @include media-breakpoint-up(md)
                 padding: px2rem(10) px2rem(20)
         span
