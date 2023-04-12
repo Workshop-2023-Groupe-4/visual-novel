@@ -13,7 +13,7 @@ dian
 
 
 :: 1.1 {"position":"425,350","size":"100,100"}
-<img class="left" src="/assets/illustrations/dian/seq1/friend.png" alt="Image face à face avec son amie">
+<img src="/assets/illustrations/dian/seq1/friend.png" alt="Image face à face avec son amie">
 
 @@Amie de Dian: Dis Dian, tu es déjà partie dans le pays de tes parents ?
 
@@ -30,23 +30,18 @@ dian
 @Amie de Dian: La chance ! Ça doit être incroyable !
 @(Dian): Oui ! C’est-
 
-[[Suivant->1.2]]
-
-
-:: 1.2 {"position":"550,350","size":"100,100"}
-<img src="/assets/illustrations/dian/seq1/black.png" alt="Image noire symbolisant un flashback">
-
 [[Suivant->1.3]]
 
-
 :: 1.3 {"position":"675,350","size":"100,100"}
-<img class="right" src="/assets/illustrations/dian/seq1/eye-closed.png" alt="Dian ferme les yeux">
+<img class="right" src="/assets/illustrations/dian/seq1/dian-thinks.png" alt="Dian ferme les yeux">
 
-[[Suivant->1.4]]
+<img src="/assets/illustrations/dian/seq6/hands.png" alt="Souvenir : mains menaçantes">
 
+<img src="/assets/illustrations/dian/seq6/little-girl-screaming.png" alt="Souvenirs : visage flou qui crie">
 
-:: 1.4 {"position":"800,350","size":"100,100"}
-<img src="/assets/illustrations/dian/seq1/red.png" alt="Image rouge symbolisant le sang">
+<img class="right" src="/assets/illustrations/dian/seq1/dian-confused.png" alt="Dian ne comprend pas">
+
+@@ Qu'est-ce que...
 
 [[Suivant->1.5]]
 
@@ -70,38 +65,6 @@ dian
 @@ J’ai si mal... qu’est-ce qui se passe ? C’est pas normal...
 
 [[Suivant->2.1]]
-
-
-:: 10.2 {"position":"550,1700","size":"100,100"}
-* 6 filles sont mutilées toute les minutes.
-* 125 000 femmes vivant en France sont touchées par l’excision
-* Cette pratique concerne toutes les cultures et toutes les religions.
-
-Les conséquences sont nombreuses :
-
-* Douleurs
-* Traumatismes
-* Troubles psychologiques
-* Exclusion
-* Rapports sexuels sans plaisir
-* Douleurs et infections chroniques
-* Difficultés lors de l'accouchement
-
-Cela se produit aux quatre coins du monde.
-
-''//Carte des endroits ou ça se passe//''
-
-[[Suivant->10.5]]
-
-
-:: 10.5 {"position":"675,1700","size":"100,100"}
-Les Orchidées Rouges est une ONG qui permet d’accompagner les survivantes d’excision dans leur reconstruction physique et psychique et leur réinsertion socio-professionnelle.
-
-Plus d’informations : 
-
-lesorchideesrouges.org
-+33 5 57 34 92 37
-
 
 :: 2.1 {"position":"425,500","size":"100,100"}
 <img src="/assets/illustrations/dian/seq2/in-bed.png" alt="Dian est roulée en boule dans sa couette, c’est la nuit">
@@ -174,13 +137,13 @@ lesorchideesrouges.org
 
 <img src="/assets/illustrations/dian/seq4/eyes-open-wide.png" alt="Elle écarquille les yeux et sa bouche s’ouvre"/>
 
-<img src="/assets/illustrations/dian/seq4/remember.png" alt="Souvenir : elle petite qui pleure et voit du sang qui coule sur ses jambes ?"/>
-
 @@ Ce n’est pas normal...
 
-<img src="/assets/illustrations/dian/seq4/cry.png" alt="Elle pleure"/>
+<img src="/assets/illustrations/dian/seq4/remember.png" alt="Souvenir : elle petite qui pleure et voit du sang qui coule sur ses jambes ?"/>
 
 @@ JE ne suis pas normale...
+
+<img src="/assets/illustrations/dian/seq4/cry.png" alt="Elle pleure"/>
 
 @@ Qu’est-ce que je dois faire ?
 
@@ -227,7 +190,7 @@ lesorchideesrouges.org
 
 @@ ...
 
-@Satria: Tu parles de ce qu’à fait //nenek//, non ?
+@Satria: Tu parles de ce qu’à fait //Nenek//, non ?
 
 @(Dian): Grand-mère ?
 
@@ -235,10 +198,9 @@ lesorchideesrouges.org
 
 @(Dian): Non...
 
+<img src="/assets/illustrations/dian/seq6/hands.png" alt="Un souvenir menaçant de main réaparait">
 
-<img class="fill" src="/assets/illustrations/dian/seq6/hands.png" alt="Des mains apparaissent à l'écran">
-
-@@ Ce sont des... souvenirs...?
+@(Dian): Ce sont des... souvenirs...?
 
 @Satria: Oui. J’ai vécu la même chose.
 
@@ -254,9 +216,9 @@ lesorchideesrouges.org
 
 @(Dian): Pourquoi ?
 
-@Satria: D’après nenek, les femmes doivent être sages pour le mariage.
+@Satria: D’après //Nenek//, les femmes doivent être sages pour le mariage.
 
-<!--Sang qui coule entre les jambes.-->
+<img src="/assets/illustrations/dian/seq6/bloody-legs.png" alt="Jambes ensanglantées">
 
 [[Mais... je suis sage... et même pas mariée ?->6.2.14]]
 [[C’est injuste ! Nous ne méritons pas ça ! Je ne comprends pas...->6.2.14]]
@@ -275,21 +237,24 @@ lesorchideesrouges.org
 
 @Satria: On ne t’en a pas parlé, en France ? À l’école ou quoi ?
 
-<img class="center" src="/assets/illustrations/dian/seq6/little-girl-muted.png" alt="Une main recouvre la bouche d'une petite fille "/>
+<img class="center" src="/assets/illustrations/dian/seq6/little-girls-muted.png" alt="Une main recouvre la bouche d'une petite fille "/>
 
 @(Dian): Jamais...
 
-@(Dian): Peut-être... peut-être que tu peux... c’est difficile, je sais, mais-
+@Satria: Peut-être... peut-être que tu peux... c’est difficile, je sais, mais...
 
 @(Dian): Je ne sais pas si je pourrai.
 
 @Satria: Prends ton temps, je sais que c’est dur, Dian.
+
 @(Dian): Maman sait ?
+
+
 @Satria: ... oui, forcément.
 
-''//Visage en colère//''
+<img src="/assets/illustrations/dian/seq2/pinch-lips.png" alt="Dian en colère"/>
 
-@(Dian): POURQUOI ?
+@@ POURQUOI ?
 
 <img src="/assets/illustrations/dian/seq6/crying-in-bed.png" alt="Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé."/>
 
@@ -305,7 +270,7 @@ lesorchideesrouges.org
 
 
 :: 6.A.2.A {"position":"675,950","size":"100,100"}
-//L'écran de l'ordinateur se reflète dans ses yeux //
+<img src="/assets/illustrations/dian/seq6/eye-screen.png" alt="L'écran se reflète dans ses yeux"/>
 
 “Excision”
 
@@ -315,9 +280,9 @@ lesorchideesrouges.org
 :: 6.A.2.B {"position":"675,825","size":"100,100"}
 @(Dian): Non... Non c'est pas ce que j'ai...
 
-//L'écran de l'ordinateur se reflète dans ses yeux //
+<img src="/assets/illustrations/dian/seq6/eye-screen.png" alt="L'écran se reflète dans ses yeux"/>
 
-“Excision”
+“Sujet relié : l'excision”
 
 [[Suivant->6.A.3]]
 
@@ -339,7 +304,7 @@ lesorchideesrouges.org
 
 <img src="/assets/illustrations/dian/seq6/forum.png" alt="Elle reprend son téléphone et continue à lire les informations sur l’excision"/>
 
-''“L’excision est pratiquée par tradition et est considéré comme un rite de passage car il est dit que les filles qui ne sont pas excisées risquent d'être atteintes de problèmes mentaux et handicaps".''
+''L’excision est pratiquée par tradition et est considéré comme un rite de passage car il est dit que les filles qui ne sont pas excisées risquent d'être atteintes de problèmes mentaux et handicaps.''
 
 <img src="/assets/illustrations/dian/seq6/socked.png" alt="Choc sur son visage"/>
 
@@ -368,20 +333,21 @@ lesorchideesrouges.org
 
 :: 7.1 {"position":"425,1250","size":"100,100"}
 @@ Si maman est au courant... je ne peux pas lui en parler...
-test
 <img class="left" src="/assets/illustrations/dian/seq7/door.png" alt="Porte de l’infirmerie (affiches de prévention contre plein de trucs). Dian fait les 100 pas"/>
 
 @@Infirmière: Dian, tu veux me dire quelque chose ?
 
 @(Dian): Ah ! Bonjour... Madame... je-
 
-''//Regard de bas en haut de l’infirmière, puis sourire//''
+<img class="left" src="/assets/illustrations/dian/seq7/nurse-look.png" alt="L'infirmière regarde Dian"/>
 
 @Infirmière: Je prends justement ma pause café, tu veux entrer ? J’aime pas être toute seule.
 
-<img src="/assets/illustrations/dian/seq7/shy.png" alt="Dian se tord les doigts nerveusement"/>
+<img class="right" src="/assets/illustrations/dian/seq7/shy.png" alt="Dian se tord les doigts nerveusement"/>
 
 @(Dian): ... D’accord...
+
+<img class="left" src="/assets/illustrations/dian/seq7/nurse-smile.png" alt="L'infirmière sourit à Dian"/>
 
 <img src="/assets/illustrations/dian/seq7/coffee-left.png"/>
 
@@ -418,9 +384,9 @@ test
 
 <!--Logos des associations qui apparaissent à l’écran ?-->
 
-@Infirmière: Ça t’intéresse de parler à quelqu’un ? Je peux te mettre en contact avec une gynéco, ou parler à quelqu’un de l’association.
-
 <img class="right" src="/assets/illustrations/dian/seq7/seat.png" alt="Dian se serre les bras"/>
+
+@Infirmière: Ça t’intéresse de parler à quelqu’un ? Je peux te mettre en contact avec une gynéco, ou parler à quelqu’un de l’association.
 
 @(Dian): Je ne sais pas...
 
@@ -460,10 +426,40 @@ La blessure dans le cœur de Dian n’est pas encore prête à cicatriser mais e
 
 [[Suivant->9.1]]
 
-
 :: 9.1 {"position":"425,1700","size":"100,100"}
 Cette histoire représente une réalité qui touche aujourd’hui plus de 200 millions de femmes dans le monde. 
 
 Avec cette expérience que tu viens de réaliser, nous voulions te sensibiliser sur ce sujet et te faire prendre conscience que cela nous concerne tous et toutes.
 
 [[Suivant->10.2]]
+
+
+:: 10.2 {"position":"550,1700","size":"100,100"}
+* 6 filles sont mutilées toute les minutes <br>
+* 125 000 femmes vivant en France sont touchées par l’excision <br>
+* Cette pratique concerne toutes les cultures et toutes les religions <br><br>
+
+Les conséquences sont nombreuses :
+<br><br>
+- Douleurs <br>
+- Traumatismes <br>
+- Troubles psychologiques <br>
+- Exclusion <br>
+- Rapports sexuels sans plaisir <br>
+- Douleurs et infections chroniques <br>
+- Difficultés lors de l'accouchement <br>
+<br>
+Cela se produit aux quatre coins du monde.
+
+''//Carte des endroits ou ça se passe//''
+
+[[Suivant->10.5]]
+
+
+:: 10.5 {"position":"675,1700","size":"100,100"}
+Les Orchidées Rouges est une ONG qui permet d’accompagner les survivantes d’excision dans leur reconstruction physique et psychique et leur réinsertion socio-professionnelle.
+<br><br>
+Plus d’informations : 
+<br>
+lesorchideesrouges.org <br>
++33 5 57 34 92 37

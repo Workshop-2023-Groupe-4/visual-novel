@@ -10,7 +10,7 @@ expandedTitle = '1 minute dans le monde'
     weight = 1
   [[menu.main]]
     name = "Les Histoires"
-    url = "/histoires/"
+    url = "/stories/"
     weight = 2
   [[menu.main]]
     name = "Mentions légales"

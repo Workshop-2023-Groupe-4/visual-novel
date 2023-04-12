@@ -3,19 +3,19 @@
     display: flex
     flex-direction: column
     justify-content: center
-    align-items: center
     width: 100%
+    min-height: 100vh
     margin: $spacing-4 0
     span
-      color: $black
-      font-size: $body-highlight-font-size
-      text-transform: uppercase
-      text-align: center
+      font-size: $body-font-size-lg
+      font-weight: 700
       font-family: $body-font-family
-      font-weight: bold
-      transform: translateY(-$spacing-1)
-    .items__second-text
-      margin-top: $spacing-2
-      font-size: $body-font-size
-    span:has(+.items__second-text)
-      color: $red-dark
+      text-transform: uppercase
+    > .home-btn
+      margin-top: $spacing-1
+    b
+      color: $red-light
+    img + h2
+      transform: translateY(-$spacing-3)
+    img
+      margin: 0 auto
