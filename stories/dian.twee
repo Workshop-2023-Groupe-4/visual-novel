@@ -200,11 +200,11 @@ lesorchideesrouges.org
 
 @(Dian): N- Non...
 
-//''Silence, on voit Dian serrer le téléphone contre elle en pleurant''//
+<img class="right" src="/assets/illustrations/dian/seq6/rub-wrist.png" alt="Silence, on voit Dian serrer le téléphone contre elle en pleurant">
 
 @Satria: Ok. Qu’est-ce qu’il se passe, //sayang// (ma puce) ?
 
-//''Grande inspiration de Dian —> zoom sur elle''//
+<!--Grande inspiration de Dian —> zoom sur elle-->
 
 @(Dian): J’ai... J’ai eu ce cours... en sciences... et
 
@@ -221,7 +221,7 @@ lesorchideesrouges.org
 
 @Satria: Ah...
 
-''//La cousine ferme les yeux d'un air douloureux.//''
+<img class="left" src="/assets/illustrations/dian/seq6/satria-sad.png" alt="La cousine ferme les yeux d'un air douloureux.">
 
 @@ ...
 
@@ -233,9 +233,9 @@ lesorchideesrouges.org
 
 @(Dian): Non...
 
-''//Les mains réapparaissent à l’écran//''
+<!--Les mains réapparaissent à l’écran-->
 
-Ce sont des... souvenirs...?
+@@ Ce sont des... souvenirs...?
 
 @Satria: Oui. J’ai vécu la même chose ?
 
@@ -247,13 +247,13 @@ Ce sont des... souvenirs...?
 
 @Satria: Oui... pour mon mariage.
 
-''//Images de cloches et symboles du mariages qui se transforment en rasoir.//''
+<!--Images de cloches et symboles du mariages qui se transforment en rasoir.-->
 
 @(Dian): Pourquoi ?
 
 @Satria: D’après nenek, les femmes doivent être sages pour le mariage.
 
-''//Sang qui coule entre les jambes //''
+<!--Sang qui coule entre les jambes-->
 
 [[Mais... je suis sage... et même pas mariée ?->6.2.14]]
 [[C’est injuste ! Nous ne méritons pas ça ! Je ne comprends pas...->6.2.14]]
@@ -285,8 +285,7 @@ Maman sait ?
 
 POURQUOI ?
 
-''//Dian pleure//''
-''//Dian s’endort au téléphone//''
+<img src="/assets/illustrations/dian/seq6/crying-in-bed.png" alt="Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé."/>
 
 [[Suivant->7.1]]
 
