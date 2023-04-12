@@ -4,7 +4,7 @@ gsap.registerPlugin(ScrollTrigger);
 
 const parallax = gsap.timeline({
   scrollTrigger: {
-    trigger: ".stories__page  ",
+    trigger: "main",
     start: "top top",
     end: "bottom top",
     scrub: true
