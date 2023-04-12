@@ -15,7 +15,7 @@ dian
 :: 1.1 {"position":"425,350","size":"100,100"}
 <img class="left" src="/assets/illustrations/dian/seq1/friend.png" alt="Image face à face avec son amie">
 
-@@Amie de Dian:  Dis Dian, tu es déjà partie dans le pays de tes parents ?
+@@Amie de Dian: Dis Dian, tu es déjà partie dans le pays de tes parents ?
 
 @(Dian): Oui ! On essaie d’y aller tous les ans... bon, avec le covid, ça a été pas mal compromis...
 
@@ -25,7 +25,7 @@ dian
 
 @Amie de Dian: C’est quoi ton souvenir le plus marquant ?
 
-@(Dian): ... (elle réfléchit) Je plonge de temps en temps à Sulawesi, je suis toujours émerveillée de voir les poissons multicolores !
+@(Dian): ... Je plonge de temps en temps à Sulawesi, je suis toujours émerveillée de voir les poissons multicolores !
 
 @Amie de Dian: La chance ! Ça doit être incroyable !
 @(Dian): Oui ! C’est-
@@ -135,11 +135,11 @@ lesorchideesrouges.org
 :: 3.1 {"position":"425,650","size":"100,100"}
 <img src="/assets/illustrations/dian/seq3/absent-minded.png" alt="Image d’elle assise en classe, elle est distraite">
 
-@@Maitresse: Dian tu m'écoutes ?
+@@Professeure: Dian tu m'écoutes ?
 
 <img src="/assets/illustrations/dian/seq3/tired.png" alt="Trait tirés, fatigués">
 
-@Maitresse: Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
+@Professeure: Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
 
 [[Non ! Tout va bien, pardon.->3.2]]
 [[Non.->3.2]]
@@ -402,7 +402,7 @@ test
 
 @Infirmière: C’est l’''excision''.
 
-@Infirmière: Aujourd’hui, en France, c’est interdit, mais jusque dans les années 60, plein de femmes étaient comme toi.
+@Infirmière: Aujourd’hui, en France, c’est interdit par la loi, mais ça n’a pas toujours été le cas et beaucoup de femmes subissaient cette pratique, comme toi aujourd’hui.
 
 [[Vraiment ?->7.3]]
 [[Alors je suis... normale ?->7.3]]
@@ -439,9 +439,9 @@ Certaines en meurent.
 
 Dian a développé des douleurs terribles et quotidiennes depuis sa sortie d’amnésie, sa gynécologue l’accompagne pour rendre sa vie supportable, mais ce n’est pas une solution à long terme.
 
-Elle a décidé d’attendre d’être majeure pour demander à bénéficier d’une chirurgie réparatrice.
+Elle a décidé de se reconstruire et elle envisagera peut-être plus tard une chirurgie réparatrice si elle en ressent le besoin.
 
-Celle-ci lui permettra de reprendre confiance en elle et de se réapproprier son corps.
+Cet accompagnement physique et psychologique lui permettra de reprendre confiance en elle et de se réapproprier son corps.
 
 [[Suivant->9.1]]
 
@@ -449,7 +449,7 @@ Celle-ci lui permettra de reprendre confiance en elle et de se réapproprier son
 :: 8.B {"position":"425,1550","size":"100,100"}
 Grâce à l’infirmière, Dian a pu en apprendre plus sur les associations qui accompagnent les jeunes femme et les jeunes filles victimes d’excision. 
 
-Elle a pu contacter l’une d’entre elles, les Orchidées rouges et a été reçue par une psychologue qui a pu la rassurer et l’écouter, cela lui a fait du bien de se sentir comprise. 
+Elle a pu contacter l’une d’entre elles, les Orchidées Rouges et a été reçue par une psychologue qui a pu la rassurer et l’écouter, cela lui a fait du bien de se sentir comprise. 
 
 Elle a pu assister à des ateliers thérapeutiques et rencontrer d’autres femmes qui comme elles ont vécu une excision, s’en sont remises et militent maintenant contre cette pratique qui perdure à travers les époques.
 

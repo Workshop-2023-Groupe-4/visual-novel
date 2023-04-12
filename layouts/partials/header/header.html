@@ -1,22 +1,26 @@
-
 {{ $home_hero_intro_1 := resources.Get "/media/logo.svg" }}
+
 <header id="header" role="header">
   <div class="container">
-    <a href="/" title="Retour à l'accueil"><img src="{{ $home_hero_intro_1.RelPermalink }}" alt=""></a>
-    <nav>
-      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Ouvrir/fermer le menu"><span>Menu</span></button>
-      <div class="menu" id="navigation">
-        {{ range .Site.Menus.main }}
-          <a href="{{ .URL }}">
-            {{ if .Pre }}
-              {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
-              {{ $icon }}
-            {{ end }}
-            {{ $text := print .Name | safeHTML }}
-            {{ $text }}
-          </a>
-        {{ end }}
-      </div>
-    </nav>
+    {{ if ne .body_class "stories__page " }}
+      <a href="/" title="Retour à l'accueil"><img src="{{ $home_hero_intro_1.RelPermalink }}" alt=""></a>
+      <nav>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navigation" aria-controls="navigation" aria-expanded="false" aria-label="Ouvrir/fermer le menu"><span>Menu</span></button>
+        <div class="menu" id="navigation">
+          {{ range .content.Site.Menus.main }}
+            <a href="{{ .URL }}">
+              {{ if .Pre }}
+                {{ $icon := printf "<i data-feather=\"%s\"></i> " .Pre | safeHTML }}
+                {{ $icon }}
+              {{ end }}
+              {{ $text := print .Name | safeHTML }}
+              {{ $text }}
+            </a>
+          {{ end }}
+        </div>
+      </nav>
+    {{ else }}
+      <a href="/stories" class="close-page"><span>Retour aux histoires</span></a>
+    {{ end }}
   </div>
 </header>
