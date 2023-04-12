@@ -10,6 +10,7 @@
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
     "extwee": "^2.0.6",
+    "gsap": "^3.11.5",
     "line-reader": "^0.4.0"
   },
   "devDependencies": {
