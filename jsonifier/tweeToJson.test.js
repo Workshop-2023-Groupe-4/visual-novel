@@ -22,12 +22,12 @@ describe('function identifyPassageHeader', function () {
 
     it('should return passage tags from line', function () {
         const simple = ':: An overgrown path';
-        const tags = ':: An overgrown path [forest spooky]';
+        const tags = ':: An overgrown path [forest]';
         const metadata = ':: An overgrown path {"position":"600,400","size":"100,200"}';
         const full = ':: An overgrown path [forest spooky] {"position":"600,400","size":"100,200"}';
 
         assert.equal(JSON.stringify(identifyPassageHeader(simple).tags), JSON.stringify([]))
-        assert.equal(JSON.stringify(identifyPassageHeader(tags).tags), JSON.stringify(['forest', 'spooky']))
+        assert.equal(JSON.stringify(identifyPassageHeader(tags).tags), JSON.stringify(['forest']))
         assert.equal(JSON.stringify(identifyPassageHeader(metadata).tags), JSON.stringify([]))
         assert.equal(JSON.stringify(identifyPassageHeader(full).tags), JSON.stringify(['forest', 'spooky']))
     })

@@ -131,6 +131,14 @@ function identifyPassageHeader(line) {
             return
         }
 
+        if (item.startsWith('[') && item.endsWith(']')) {
+            tags.push(
+                item.replace('[', '')
+                    .replace(']', '')
+            );
+            isInTags = false;
+            return
+        }
         if (item.startsWith('[')) {
             tags.push(item.replace('[', ''));
             isInTags = true;
