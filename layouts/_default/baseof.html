@@ -18,7 +18,7 @@
 
   <body class="{{- $body_class -}}">
     {{- partial "header/accessibility.html" -}}
-    {{- partial "header/header.html" (dict "body_class" $body_class) -}}
+    {{- partial "header/header.html" (dict "body_class" $body_class "content" .) -}}
 
     <main id="main" tabindex="-1" data-barba="wrapper">
       <div data-barba="container" data-barba-namespace="{{- if .IsHome -}}home{{- else -}} {{ $body_class }}{{- end -}}">
