@@ -235,7 +235,8 @@ lesorchideesrouges.org
 
 @(Dian): Non...
 
-<!--Les mains réapparaissent à l’écran.-->
+
+<img class="fill" src="/assets/illustrations/dian/seq6/hands.png" alt="Des mains apparaissent à l'écran">
 
 @@ Ce sont des... souvenirs...?
 
@@ -278,16 +279,17 @@ lesorchideesrouges.org
 
 @(Dian): Jamais...
 
-Peut-être... peut-être que tu peux... c’est difficile, je sais, mais-
-Je ne sais pas si je pourrai.
+@(Dian): Peut-être... peut-être que tu peux... c’est difficile, je sais, mais-
 
-Prends ton temps, je sais que c’est dur, Dian.
-Maman sait ?
-... oui, forcément.
+@(Dian): Je ne sais pas si je pourrai.
+
+@Satria: Prends ton temps, je sais que c’est dur, Dian.
+@(Dian): Maman sait ?
+@Satria: ... oui, forcément.
 
 ''//Visage en colère//''
 
-POURQUOI ?
+@(Dian): POURQUOI ?
 
 <img src="/assets/illustrations/dian/seq6/crying-in-bed.png" alt="Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé."/>
 
