@@ -3,13 +3,20 @@
 - hugo Go
 - npm / yarn
 ### Installation
+(Si vous avez un message d'erreur parlant de module, c'est que vous avez probablement sauté cette étape) 
 ```shell
 npm run install
 ```
+
 ### Développement
+Lancez dans deux shells côte à côte
 ```shell
 npm run hugo
 ```
+```shell
+npm run watch
+```
+
 # Écriture
 ### 1. Application d'édition de l'histoire 
 Nous utilisons [Twine](https://twinery.org/) pour créer et modifier l'histoire.
