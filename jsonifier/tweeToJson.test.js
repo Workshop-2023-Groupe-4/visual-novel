@@ -136,7 +136,7 @@ describe('function formattedLine', function () {
     it('should identity paper dialog', function () {
         const line = "@@Dian: Dian réveille toi !";
 
-        assert.equal(formattedLine(line), '<div class="paper" data-depth="0.50"><span>Dian</span><p>Dian réveille toi !</p></div>')
+        assert.equal(formattedLine(line), '<div class="paper parallax" data-depth="0.50"><span>Dian</span><p>Dian réveille toi !</p></div>')
     })
 
     it('should identity hero dialog', function () {
@@ -154,7 +154,7 @@ describe('function formattedLine', function () {
     it('should identity thoughts', function () {
         const line = "@@ Je n’en suis plus si sûre...";
 
-        assert.equal(formattedLine(line), '<p class="thoughts">Je n’en suis plus si sûre...</p>')
+        assert.equal(formattedLine(line), '<div class="thoughts"><p>Je n’en suis plus si sûre...</p></div>')
     })
 
     it('should identify bold text', function () {
