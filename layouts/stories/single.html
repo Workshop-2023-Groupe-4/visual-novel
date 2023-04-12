@@ -1,8 +1,9 @@
 {{ define "main" }}
 
-<section class="story">
+<section class="story{{ if eq .Title "Ending"}} is-ending{{ end }}">
     <div class="container">
         {{- .Render "single/passages" -}}
+        {{ .Content }}
     </div>
 </section>
 
