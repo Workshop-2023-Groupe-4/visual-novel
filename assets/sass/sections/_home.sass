@@ -1,81 +1,92 @@
 @keyframes anim-scroll
-    0%
-        opacity: 0
-        transform: translateY(35%)
-    10%
-        opacity: 1
-    75%
-        opacity: 1
-        transform: translateY(100%)
-    100%
-        opacity: 0
-        transform: translateY(100%)
+  0%
+    opacity: 0
+    transform: translateY(35%)
+  10%
+    opacity: 1
+  75%
+    opacity: 1
+    transform: translateY(100%)
+  100%
+    opacity: 0
+    transform: translateY(100%)
 
 .marquee
-    overflow: hidden
-    p
-        white-space: nowrap
+  text-align: center
+  overflow: hidden
 
 .home
+  position: relative
+  padding-top: 0
+
+  .home-btn
+    display: block
+    margin: 0 auto
+    // bottom: $content-margin-sm
+    // position: fixed
+    // left: 50%
+    // transform: translate(-50%)
+    @include media-breakpoint-up(md)
+      max-width: 200px
+
+  .home-hero
     position: relative
-    padding-top: 0
-    .home-btn
-        display: block
-        margin: 0 auto
-        // bottom: $content-margin-sm        
-        // position: fixed
-        // left: 50%
-        // transform: translate(-50%)
-        @include media-breakpoint-up(md)
-            max-width: 200px
-    .home-hero
-        position: relative
-        height: 100vh
-        display: flex
-        flex-direction: column
-        align-items: center
-        .cover
-            bottom: 0
-            height: 100%
-            object-fit: contain
-            position: absolute
-            top: 0
-        &__label
-            background:
-                image: url(/media/label.svg)
-                size: cover
-                repeat: no-repeat
-            padding: px2rem(6) px2rem(14)
-            position: absolute
-            text-align: center
-            min-width: 18vw
-            @include media-breakpoint-up(md)
-                padding: px2rem(10) px2rem(20)
-        span
-            color: white
-            font-family: $headings-font-family
-            font-size: $body-highlight-font-size
-        &__label:nth-child(2)
-            left: 45%
-            top: 25%
-        &__label:nth-child(3)
-            left: 5%
-            top: 50%
-        &__label:nth-child(4)
-            bottom: 35%
-            right: 15%
-        &__label:nth-child(5)
-            bottom: 24%
-            left: 50%
-            transform: translate(-50%)
-        @include media-breakpoint-up(md)
-            &__label:nth-child(3)
-                left: 10%
-            &__label:nth-child(5)
-                bottom: 20%
-        .scroll-arrow
-            bottom: $spacing-4
-            position: absolute
-            animation: 2s anim-scroll cubic-bezier(0.165, 0.84, 0.44, 1) infinite
-        + *
-            margin-top: $spacing-4
+    height: 100vh
+    display: flex
+    flex-direction: column
+    align-items: center
+
+    .cover
+      bottom: 0
+      height: 100%
+      object-fit: contain
+      position: absolute
+      top: 0
+
+    &__label
+      background:
+        image: url(/media/label.svg)
+        size: cover
+        repeat: no-repeat
+      padding: px2rem(6) px2rem(14)
+      position: absolute
+      text-align: center
+      min-width: 18vw
+      @include media-breakpoint-up(md)
+        padding: px2rem(10) px2rem(20)
+
+    span
+      color: white
+      font-family: $headings-font-family
+      font-size: $body-highlight-font-size
+
+    &__label:nth-child(2)
+      left: 45%
+      top: 25%
+
+    &__label:nth-child(3)
+      left: 5%
+      top: 50%
+
+    &__label:nth-child(4)
+      bottom: 35%
+      right: 15%
+
+    &__label:nth-child(5)
+      bottom: 24%
+      left: 50%
+      transform: translate(-50%)
+
+    @include media-breakpoint-up(md)
+      &__label:nth-child(3)
+        left: 10%
+      &__label:nth-child(5)
+        bottom: 20%
+
+    .scroll-arrow
+      bottom: $spacing-4
+      position: absolute
+      animation: 2s anim-scroll cubic-bezier(0.165, 0.84, 0.44, 1) infinite
+
+    + *
+      margin-top: $spacing-4
