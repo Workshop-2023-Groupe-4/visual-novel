@@ -88,6 +88,16 @@
         width: 50%
         margin-left: auto
 
+      &.fill
+        max-width: none
+        max-height: none
+        width: calc(100% + 2 * #{$content-margin-sm})
+        margin-left: -$content-margin-sm
+        margin-right: -$content-margin-sm
+        @include media-breakpoint-up(lg)
+          margin-left: -$content-margin
+          margin-right: -$content-margin
+
     > .storyPassage__links
       display: flex
       @include media-breakpoint-down(md)
