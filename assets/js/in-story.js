@@ -1,4 +1,4 @@
-import Story from './design-system/story';
+import Story from './pages/Story';
 
 window.story = new Story();
 

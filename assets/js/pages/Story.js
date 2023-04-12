@@ -1,3 +1,6 @@
+
+import LineScroller from '../animations/LineScroller';
+
 const CLASSES = {
     hidden: 'hidden',
     storyPassage: 'storyPassage',
@@ -34,6 +37,7 @@ export default class Story {
 
     showPassage(passageAnchor) {
         let passage = this.getPassageElementFromAnchor(passageAnchor);
+        this.splittedDialogs = new LineScroller(passage.querySelector('.dialog'), 'line');
 
         if (!passage) {
             return;
@@ -50,5 +54,6 @@ export default class Story {
         }
 
         this.showPassage(this.startPassage);
+        this.splittedDialogs.play();
     }
 }
