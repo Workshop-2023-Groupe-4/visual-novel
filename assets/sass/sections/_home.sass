@@ -61,15 +61,18 @@
         &__label:nth-child(3)
             left: 5%
             top: 50%
-            @include media-breakpoint-up(md)
-                left: 12%
         &__label:nth-child(4)
             bottom: 35%
             right: 15%
         &__label:nth-child(5)
-            bottom: 20%
+            bottom: 24%
             left: 50%
             transform: translate(-50%)
+        @include media-breakpoint-up(md)
+            &__label:nth-child(3)
+                left: 10%
+            &__label:nth-child(5)
+                bottom: 20%
         .scroll-arrow
             bottom: $spacing-4
             position: absolute
