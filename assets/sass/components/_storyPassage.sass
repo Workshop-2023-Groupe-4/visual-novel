@@ -1,7 +1,52 @@
 .storyPassage
-    color: $white
-    padding-bottom: $spacing-1
-    padding-top: $spacing-4
+  color: $white
+  padding-bottom: $spacing-1
+  padding-top: $spacing-4
+  position: relative
+  min-height: 100vh
+  display: flex
+  flex-direction: column
+
+  &.hidden
+    display: none
+
+  > i,
+  > b
+    margin-bottom: px2rem(35)
+
+  > .thoughts
+    $thoughtSize: 50
+    $thoughtHeight: -15
+    padding: px2rem(40) 0 px2rem(35) 0
+    margin-bottom: px2rem(35)
+    font-family: $thought-font-family
+    position: relative
+
+    &::before,
+    &::after
+      content: ''
+      display: block
+      position: absolute
+      height: px2rem($thoughtSize)
+      width: px2rem($thoughtSize)
+      background-position: center
+      background-size: contain
+      background-repeat: no-repeat
+
+    &::before
+      bottom: 0
+      left: 0
+      background-image: url('/assets/images/left-thought.png')
+
+    &::after
+      top: 0
+      right: 0
+      background-image: url('/assets/images/right-thought.png')
+
+    > p
+      padding: 0 px2rem($thoughtSize * 0.8)
+
+  > .dialog
     position: relative
     min-height: 100vh
     display: flex
