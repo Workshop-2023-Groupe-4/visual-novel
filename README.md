@@ -3,13 +3,20 @@
 - hugo Go
 - npm / yarn
 ### Installation
+(Si vous avez un message d'erreur parlant de module, c'est que vous avez probablement sauté cette étape) 
 ```shell
 npm run install
 ```
+
 ### Développement
+Lancez dans deux shells côte à côte
 ```shell
 npm run hugo
 ```
+```shell
+npm run watch
+```
+
 # Écriture
 ### 1. Application d'édition de l'histoire 
 Nous utilisons [Twine](https://twinery.org/) pour créer et modifier l'histoire.
@@ -38,6 +45,14 @@ Une fois que vous avez terminé, exportez l'histoire
 4. Si un du même nom existe déjà, écrasez-le sans pitié <img src="./doc/4-overwrite-file.png">
 
 ## Syntaxe Twee
+### Choix et liens vers d'autres passages
+Pour aller au passage 1.8  
+`[[Suivant->1.8]]`  
+
+Pour faire un choix, mettez plusieurs liens :  
+`[[Oui->1.4]]`
+`[[Non->1.5]]`
+
 ### Dialogues
 Faire parler le personnage principal  
 `@(Jhonette Doe): Lorem ipsum dolor sit amet` 
