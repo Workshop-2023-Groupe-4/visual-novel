@@ -17,39 +17,34 @@
   > .thoughts
     $thoughtSize: 50
     $thoughtHeight: -15
-    margin-left: auto
-    margin-top: px2rem(20)
-    margin-bottom: px2rem(70)
-    margin-right: px2rem($thoughtSize)
+    padding: px2rem(40) 0 px2rem(35) 0
+    margin-bottom: px2rem(35)
     font-family: $thought-font-family
     position: relative
-    text-align: right
+
+    &::before,
+    &::after
+      content: ''
+      display: block
+      position: absolute
+      height: px2rem($thoughtSize)
+      width: px2rem($thoughtSize)
+      background-position: center
+      background-size: contain
+      background-repeat: no-repeat
 
     &::before
-      display: block
-      position: absolute
-      top: calc(100% + #{px2rem($thoughtHeight)})
-      right: 100%
-      height: px2rem($thoughtSize)
-      width: px2rem($thoughtSize)
-      content: ''
+      bottom: 0
+      left: 0
       background-image: url('/assets/images/left-thought.png')
-      background-position: center
-      background-size: contain
-      background-repeat: no-repeat
 
     &::after
-      display: block
-      position: absolute
-      bottom: calc(100% + #{px2rem($thoughtHeight)})
-      left: 100%
-      height: px2rem($thoughtSize)
-      width: px2rem($thoughtSize)
-      content: ''
+      top: 0
+      right: 0
       background-image: url('/assets/images/right-thought.png')
-      background-position: center
-      background-size: contain
-      background-repeat: no-repeat
+
+    > p
+      padding: 0 px2rem($thoughtSize * 0.8)
 
   > .dialog
     position: relative
