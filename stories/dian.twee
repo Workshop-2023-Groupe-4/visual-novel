@@ -13,7 +13,7 @@ dian
 
 
 :: 1.1 {"position":"425,350","size":"100,100"}
-<img class="left" src="/assets/illustrations/dian/seq1/friend.png" alt="Image face à face avec son amie">
+<img class="left parallax" src="/assets/illustrations/dian/seq1/friend.png" data-depth='0.10' alt="Image face à face avec son amie">
 
 @@Amie de Dian:  Dis Dian, tu es déjà partie dans le pays de tes parents ?
 

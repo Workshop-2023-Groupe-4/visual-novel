@@ -47,7 +47,7 @@ Une fois que vous avez terminé, exportez l'histoire
 ## Syntaxe Twee
 ### Choix et liens vers d'autres passages
 Pour aller au passage 1.8  
-`[[Suivant->1.8]]`  
+`[[Suivant->1.8]]`
 
 Pour faire un choix, mettez plusieurs liens :  
 `[[Oui->1.4]]`
