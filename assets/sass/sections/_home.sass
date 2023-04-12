@@ -79,12 +79,13 @@
             position: absolute
             animation: 2s anim-scroll cubic-bezier(0.165, 0.84, 0.44, 1) infinite
         + *
-            margin-top: $spacing-4        
+            padding-top: $spacing-4        
     .introducing
         &__items
-            margin: $spacing-4 0
+            margin-bottom: $spacing-4
             &:not(:first-of-type)
                 height: 150vh
+                margin-top: $spacing-4
                 position: relative
                 > *
                     position: sticky

@@ -57,7 +57,7 @@ class Menu {
     onScroll () {
         const offset = this.element.offsetHeight,
             y = window.scrollY,
-            threshold = 50;
+            threshold = 30;
         let hasChanged = false;
 
         if (y > this.state.previousScrollY + threshold) {
