@@ -1,5 +1,4 @@
 header#header
-    background: $header-background-color
     left: 0
     pointer-events: none
     position: fixed
@@ -7,6 +6,8 @@ header#header
     width: 100%
     z-index: 9
     transition: transform .3s ease
+    &.global-header
+        background: $header-background-color
     &.hidden
         transform: translateY(-100%)
     > div
