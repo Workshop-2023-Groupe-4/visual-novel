@@ -79,4 +79,26 @@
             position: absolute
             animation: 2s anim-scroll cubic-bezier(0.165, 0.84, 0.44, 1) infinite
         + *
-            margin-top: $spacing-4
+            margin-top: $spacing-4        
+    .introducing
+        &__items
+            margin: $spacing-4 0
+            &:not(:first-of-type)
+                height: 150vh
+                position: relative
+            > *
+                position: sticky
+                top: 180px
+            span
+                font-size: $body-font-size-lg
+                font-weight: 700
+                font-family: $body-font-family
+                text-transform: uppercase
+            > .home-btn
+                margin-top: $spacing-1
+            b
+                color: $red-light
+            img + h2
+                transform: translateY(-$spacing-3)
+            img
+                margin: 0 auto
