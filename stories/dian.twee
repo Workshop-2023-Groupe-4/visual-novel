@@ -30,23 +30,18 @@ dian
 @Amie de Dian: La chance ! Ça doit être incroyable !
 @(Dian): Oui ! C’est-
 
-[[Suivant->1.2]]
-
-
-:: 1.2 {"position":"550,350","size":"100,100"}
-<img src="/assets/illustrations/dian/seq1/black.png" alt="Image noire symbolisant un flashback">
-
 [[Suivant->1.3]]
 
-
 :: 1.3 {"position":"675,350","size":"100,100"}
-<img class="right" src="/assets/illustrations/dian/seq1/eye-closed.png" alt="Dian ferme les yeux">
+<img class="right" src="/assets/illustrations/dian/seq1/dian-thinks.png" alt="Dian ferme les yeux">
 
-[[Suivant->1.4]]
+<img src="/assets/illustrations/dian/seq6/hands.png" alt="Souvenir : mains menaçantes">
 
+<img src="/assets/illustrations/dian/seq6/little-girl-screaming.png" alt="Souvenirs : visage flou qui crie">
 
-:: 1.4 {"position":"800,350","size":"100,100"}
-<img src="/assets/illustrations/dian/seq1/red.png" alt="Image rouge symbolisant le sang">
+<img class="right" src="/assets/illustrations/dian/seq1/dian-confused.png" alt="Dian ne comprend pas">
+
+@@ Qu'est-ce que...
 
 [[Suivant->1.5]]
 
@@ -142,13 +137,13 @@ dian
 
 <img src="/assets/illustrations/dian/seq4/eyes-open-wide.png" alt="Elle écarquille les yeux et sa bouche s’ouvre"/>
 
-<img src="/assets/illustrations/dian/seq4/remember.png" alt="Souvenir : elle petite qui pleure et voit du sang qui coule sur ses jambes ?"/>
-
 @@ Ce n’est pas normal...
 
-<img src="/assets/illustrations/dian/seq4/cry.png" alt="Elle pleure"/>
+<img src="/assets/illustrations/dian/seq4/remember.png" alt="Souvenir : elle petite qui pleure et voit du sang qui coule sur ses jambes ?"/>
 
 @@ JE ne suis pas normale...
+
+<img src="/assets/illustrations/dian/seq4/cry.png" alt="Elle pleure"/>
 
 @@ Qu’est-ce que je dois faire ?
 
@@ -195,7 +190,7 @@ dian
 
 @@ ...
 
-@Satria: Tu parles de ce qu’à fait //nenek//, non ?
+@Satria: Tu parles de ce qu’à fait //Nenek//, non ?
 
 @(Dian): Grand-mère ?
 
@@ -203,9 +198,9 @@ dian
 
 @(Dian): Non...
 
-<!--Les mains réapparaissent à l’écran.-->
+<img src="/assets/illustrations/dian/seq6/hands.png" alt="Un souvenir menaçant de main réaparait">
 
-@@ Ce sont des... souvenirs...?
+@(Dian): Ce sont des... souvenirs...?
 
 @Satria: Oui. J’ai vécu la même chose.
 
@@ -221,9 +216,9 @@ dian
 
 @(Dian): Pourquoi ?
 
-@Satria: D’après nenek, les femmes doivent être sages pour le mariage.
+@Satria: D’après //Nenek//, les femmes doivent être sages pour le mariage.
 
-<!--Sang qui coule entre les jambes.-->
+<img src="/assets/illustrations/dian/seq6/bloody-legs.png" alt="Jambes ensanglantées">
 
 [[Mais... je suis sage... et même pas mariée ?->6.2.14]]
 [[C’est injuste ! Nous ne méritons pas ça ! Je ne comprends pas...->6.2.14]]
@@ -242,20 +237,24 @@ dian
 
 @Satria: On ne t’en a pas parlé, en France ? À l’école ou quoi ?
 
-<img class="center" src="/assets/illustrations/dian/seq6/little-girl-muted.png" alt="Une main recouvre la bouche d'une petite fille "/>
+<img class="center" src="/assets/illustrations/dian/seq6/little-girls-muted.png" alt="Une main recouvre la bouche d'une petite fille "/>
 
 @(Dian): Jamais...
 
-Peut-être... peut-être que tu peux... c’est difficile, je sais, mais-
-Je ne sais pas si je pourrai.
+@Satria: Peut-être... peut-être que tu peux... c’est difficile, je sais, mais...
 
-Prends ton temps, je sais que c’est dur, Dian.
-Maman sait ?
-... oui, forcément.
+@(Dian): Je ne sais pas si je pourrai.
 
-''//Visage en colère//''
+@Satria: Prends ton temps, je sais que c’est dur, Dian.
 
-POURQUOI ?
+@(Dian): Maman sait ?
+
+
+@Satria: ... oui, forcément.
+
+<img src="/assets/illustrations/dian/seq2/pinch-lips.png" alt="Dian en colère"/>
+
+@@ POURQUOI ?
 
 <img src="/assets/illustrations/dian/seq6/crying-in-bed.png" alt="Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé."/>
 
@@ -271,7 +270,7 @@ POURQUOI ?
 
 
 :: 6.A.2.A {"position":"675,950","size":"100,100"}
-//L'écran de l'ordinateur se reflète dans ses yeux //
+<img src="/assets/illustrations/dian/seq6/eye-screen.png" alt="L'écran se reflète dans ses yeux"/>
 
 “Excision”
 
@@ -281,9 +280,9 @@ POURQUOI ?
 :: 6.A.2.B {"position":"675,825","size":"100,100"}
 @(Dian): Non... Non c'est pas ce que j'ai...
 
-//L'écran de l'ordinateur se reflète dans ses yeux //
+<img src="/assets/illustrations/dian/seq6/eye-screen.png" alt="L'écran se reflète dans ses yeux"/>
 
-“Excision”
+“Sujet relié : l'excision”
 
 [[Suivant->6.A.3]]
 
@@ -305,7 +304,7 @@ POURQUOI ?
 
 <img src="/assets/illustrations/dian/seq6/forum.png" alt="Elle reprend son téléphone et continue à lire les informations sur l’excision"/>
 
-''“L’excision est pratiquée par tradition et est considéré comme un rite de passage car il est dit que les filles qui ne sont pas excisées risquent d'être atteintes de problèmes mentaux et handicaps".''
+''L’excision est pratiquée par tradition et est considéré comme un rite de passage car il est dit que les filles qui ne sont pas excisées risquent d'être atteintes de problèmes mentaux et handicaps.''
 
 <img src="/assets/illustrations/dian/seq6/socked.png" alt="Choc sur son visage"/>
 
@@ -340,13 +339,15 @@ POURQUOI ?
 
 @(Dian): Ah ! Bonjour... Madame... je-
 
-''//Regard de bas en haut de l’infirmière, puis sourire//''
+<img class="left" src="/assets/illustrations/dian/seq7/nurse-look.png" alt="L'infirmière regarde Dian"/>
 
 @Infirmière: Je prends justement ma pause café, tu veux entrer ? J’aime pas être toute seule.
 
-<img src="/assets/illustrations/dian/seq7/shy.png" alt="Dian se tord les doigts nerveusement"/>
+<img class="right" src="/assets/illustrations/dian/seq7/shy.png" alt="Dian se tord les doigts nerveusement"/>
 
 @(Dian): ... D’accord...
+
+<img class="left" src="/assets/illustrations/dian/seq7/nurse-smile.png" alt="L'infirmière sourit à Dian"/>
 
 <img src="/assets/illustrations/dian/seq7/coffee-left.png"/>
 
