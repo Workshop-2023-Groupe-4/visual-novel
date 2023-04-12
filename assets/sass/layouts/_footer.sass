@@ -5,6 +5,8 @@ footer
     margin-top: $spacing-5
     padding-bottom: $content-margin-sm
     padding-top: $content-margin-sm
+    position: relative
+    z-index: 999
     @include media-breakpoint-up(md)
         padding-bottom: $content-margin
         padding-top: $content-margin
@@ -42,4 +44,5 @@ footer
             @include icon($icon-link, after)
             &::after
                 display: inline-table
-                margin-left: half($spacing-0)
+                margin-left: 3px
+                font-size: px2rem(12)
