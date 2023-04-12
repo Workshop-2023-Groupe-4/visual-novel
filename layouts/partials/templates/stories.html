@@ -1,32 +1,32 @@
 {{ with .Site.GetPage "/stories" }}
 
 <section>
-  <div class="splide" aria-label="Histoires proposées">
-    <div class="splide__track">
-      <ul class="splide__list stories-list">
-        {{ range .Pages }}
-          <li class="splide__slide" {{ if .Params.locked}}data-locked="true" {{end}}>
-            <div class="content">
-              <div class="story-heading">
-                <img src="{{ .Params.illustration }}" alt="">
-                {{ if .Params.locked}}
-                  <h3>{{ .Params.Title }}</h3>
-                  <span>À venir</span>
-                {{ else }}
-                  <h3>
-                    <a href="{{ if .Params.Link }}{{ .Params.Link }}{{ else }}{{ .Permalink}} {{end}}">
-                      {{ .Params.Title }}
-                    </a>
-                  </h3>
-                  <p class="story-summary">{{ .Summary }}</p>
-                {{ end}}
-              </div>
-            </div>
-          </li>
-        {{ end }}
-      </ul>
+    <div class="splide" aria-label="Histoires proposées">
+        <div class="splide__track">
+            <ul class="splide__list stories-list">
+                {{ range .Pages }}
+                <li class="splide__slide" {{ if .Params.locked}}data-locked="true" {{end}}>
+                    <div class="content">
+                        <div class="story-heading">
+                            <img src="{{ .Params.illustration }}" alt="">
+                            {{ if .Params.locked}}
+                            <h3>{{ .Params.Title }}</h3>
+                            <p class="story-summary">À venir</p>
+                            {{ else }}
+                            <h3>
+                                <a href="{{ if .Params.Link }}{{ .Params.Link }}{{ else }}{{ .Permalink}} {{end}}">
+                                    {{ .Params.Title }}
+                                </a>
+                            </h3>
+                            <p class="story-summary">{{ .Summary }}</p>
+                            {{ end}}
+                        </div>
+                    </div>
+                </li>
+                {{ end }}
+            </ul>
+        </div>
     </div>
-  </div>
 </section>
 
 {{ end }}

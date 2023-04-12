@@ -1,39 +1,38 @@
 .stories-list
+  color: $black
+
+  .story-heading
+    text-align: center
+    margin: auto
+    position: relative
+    width: fit-content
+
+  h3
+    @include h2
+    margin-top: px2rem(20)
+
+  a
+    @include stretched-link
+    text-decoration: none
     color: $black
 
-    .story-heading
-        text-align: center
-        margin: auto
-        position: relative
-        width: fit-content
+  img
+    @include image-mask("../assets/images/mask.svg", true)
+    max-height: 331px
+    aspect-ratio: 222/331
+    @include media-breakpoint-down(md)
+      transform: scale(.9)
 
-    h3
-        @include h2
-        margin-top: px2rem(20)
+  .story-summary
+    font-size: px2rem(12)
+    line-height: 140%
+    margin-top: $spacing-1
 
-    a
-        @include stretched-link
-        text-decoration: none
-        color: $black
-
-    img
-        @include image-mask("../assets/images/mask.svg", true)
-        max-height: 331px
-        aspect-ratio: 222/331
-        @include media-breakpoint-down(md)
-            transform: scale(.9)
-
-    .story-summary
-        font-size: px2rem(12)
-        line-height: 140%
-        margin-top: $spacing-1
-    [data-locked="true"]
-        .story-heading
-            img
-                filter: grayscale(1)
+  [data-locked="true"]
+    opacity: 0.7
 
 
 .stories__page
-    header#header
-        .container
-            justify-content: flex-end
+  header#header
+    .container
+      justify-content: flex-end
