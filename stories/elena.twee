@@ -92,7 +92,7 @@ Pour que d’autres femmes aient cette chance, elle a fondé une ONG travaillant
 
 
 :: 1.0 {"position":"700,250","size":"100,100"}
-<img src="/assets/illustrations/..." alt="[image du chirurgien et de son amie qui discutent dans le couloir en allant rejoindre la femme dans la salle d’attente]">
+<img src="/assets/illustrations/elena/seq1/raph-talking.png" alt="image du chirurgien et de son amie qui discutent dans le couloir en allant rejoindre la femme dans la salle d’attente">
 
 @@Collègue : — Au fait Raphaël, comment se passe ta reconversion ? C’est pas trop dur de changer de vie comme ça ?
 @Raphaël : — C’est pas évident. En France, on a tendance à ne pas être au courant ou à ne pas se sentir concernés par l’excision, mais avec ce boulot… j’écoute des histoires chaque fois plus dures…
@@ -105,14 +105,17 @@ Pour que d’autres femmes aient cette chance, elle a fondé une ONG travaillant
 
 
 :: 2.0 {"position":"700,375","size":"100,100"}
-<img src="/assets/illustrations/..." alt="IMAGE PAGE DE CALENDRIER AVEC TOUT LE MOIS DE JUIN 2023 : JOUR J" >
+<img src="/assets/illustrations/elena/seq2/calendar-june.png" alt="IMAGE PAGE DE CALENDRIER AVEC TOUT LE MOIS DE JUIN 2023 : JOUR J" >
 
-<img src="/assets/illustrations/..." alt="image d’Elena devant la porte, hésitante">
+<img src="/assets/illustrations/elena/seq2/big-door.png" alt="image d’Elena devant la porte, hésitante">
+<img src="/assets/illustrations/elena/seq2/little-elena.png" alt="image d’Elena devant la porte, hésitante">
+<br> <br> va falloir faire une animation ou alors combiner ces deux images <br> <br>
+
 @@Ça va vite passer, ça va aller. C’est juste un mauvais moment à passer.
 
-<img src="/assets/illustrations/..." alt="main sur la poignée de la porte, qui a retrouvé une taille normale">
+<img class="left" src="/assets/illustrations/elena/seq2/elena-opens-door.png" alt="main sur la poignée de la porte, qui a retrouvé une taille normale">
 
-<img src="/assets/illustrations/..." alt="Elle attend dans la salle d’attente, assise" >
+<img class="right" src="/assets/illustrations/elena/seq2/elena-waiting.png" alt="Elle attend dans la salle d’attente, assise" >
 
 <img src="/assets/illustrations/..." alt="même image qu’avant + le chirurgien en parallax par dessus, à droite, (png transparent du coup) + image gros plan sur Elena qui regarde dans la direction du chirurgien">
 
