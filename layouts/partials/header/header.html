@@ -1,6 +1,6 @@
 {{ $home_hero_intro_1 := resources.Get "/media/logo.svg" }}
 
-<header id="header" role="header">
+<header id="header" role="header" {{- if ne .body_class "stories__page " -}} class="global-header"{{- end -}}>
   <div class="container">
     {{ if ne .body_class "stories__page " }}
       <a href="/" title="Retour à l'accueil"><img src="{{ $home_hero_intro_1.RelPermalink }}" alt=""></a>

@@ -33,5 +33,6 @@
     header#header
         .container
             justify-content: flex-end
-    .paper
-        margin: 0 auto
+    @include media-breakpoint-down(up)
+        .paper
+            margin: 0 auto
