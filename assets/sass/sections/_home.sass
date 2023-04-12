@@ -7,23 +7,29 @@
     position: relative
     padding-top: 0
     .home-btn
+        bottom: $content-margin-sm
         position: fixed
-        bottom: $spacing-3
         left: 50%
         transform: translate(-50%)
+        @include media-breakpoint-up(md)
+            max-width: 200px
     .home-hero
         position: relative
         &__label
+            background:
+                image: url(/media/label.svg)
+                size: cover
+                repeat: no-repeat
+            padding: px2rem(6) px2rem(14)
             position: absolute
-            width: fit-content
+            text-align: center
+            min-width: 18vw
+            @include media-breakpoint-up(md)
+                padding: px2rem(10) px2rem(20)
         span
             color: white
             font-family: $headings-font-family
             font-size: $body-highlight-font-size
-            left: 50%
-            position: absolute
-            top: 0
-            transform: translate(-50%, 0)
         &__label:nth-child(2)
             top: 25%
             left: 45%
@@ -37,3 +43,4 @@
             bottom: 20%
             left: 50%
             transform: translate(-50%)
+        
