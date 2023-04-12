@@ -6,7 +6,7 @@ draft: false
 
 country: France
 protagonist: Dian
-summary: Dian est franco-indonésienne, c’est une adolescente qui a grandi dans une famille avec plusieurs origines. Son père est français et sa mère indonésienne. Son père décède prématurément. Elle repose alors toute sa confiance sur sa mère. Seulement, un jour au lycée, elle est prise de violentes douleurs dans le bas ventre. Indice par indice, elle
+summary: Dian est franco-indonésienne, c’est une adolescente qui a grandi dans une famille avec plusieurs origines. Seulement, un jour au lycée, elle est prise de violentes douleurs dans le bas ventre. Indice par indice, elle redécouvre son histoire.
 illustration: /assets/images/grad1.jpeg
 ---
 
