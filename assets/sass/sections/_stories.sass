@@ -1,38 +1,47 @@
 .stories-list
-  color: $black
-
-  .story-heading
-    text-align: center
-    margin: auto
-    position: relative
-    width: fit-content
-
-  h3
-    @include h2
-    margin-top: px2rem(20)
-
-  a
-    @include stretched-link
-    text-decoration: none
     color: $black
 
-  img
-    @include image-mask("../assets/images/mask.svg", true)
-    max-height: 331px
-    aspect-ratio: 222/331
-    @include media-breakpoint-down(md)
-      transform: scale(.9)
+    .story-heading
+        text-align: center
+        margin: auto
+        position: relative
+        width: fit-content
 
-  .story-summary
-    font-size: px2rem(12)
-    line-height: 140%
-    margin-top: $spacing-1
+    h3
+        @include h2
+        margin-top: px2rem(20)
 
-  [data-locked="true"]
-    opacity: 0.7
+    a
+        @include stretched-link
+        text-decoration: none
+        color: $black
+
+    img
+        @include image-mask("../assets/images/mask.svg", true)
+        max-height: 331px
+        aspect-ratio: 222/331
+        @include media-breakpoint-down(md)
+            transform: scale(.9)
+
+    .story-summary
+        font-size: px2rem(12)
+        line-height: 140%
+        margin-top: $spacing-1
+
+    [data-locked="true"]
+        opacity: 0.7
 
 
 .stories__page
-  header#header
-    .container
-      justify-content: flex-end
+    header#header .container
+        justify-content: flex-end
+    .story
+        background: $black
+        color: white
+        min-height: 100vh
+        padding-bottom: $spacing-4
+        &:not(.is-ending)
+            padding-top: 0
+        &.is-ending
+            ul
+                list-style: disc

@@ -25,6 +25,9 @@ class Menu {
         this.mainButton.addEventListener('click', () => {
             this.toggleMainMenu();
         });
+        ['scroll', 'touchmove'].forEach(event => {
+            window.addEventListener(event, this.onScroll.bind(this));
+        });
     }
     toggleMainMenu (open = !this.state.isOpened) {
         let classAction;
@@ -49,6 +52,25 @@ class Menu {
                 this.closeEverything();
             }
         });
+    }
+
+    onScroll () {
+        const offset = this.element.offsetHeight,
+            y = window.scrollY,
+            threshold = 50;
+        let hasChanged = false;
+
+        if (y > this.state.previousScrollY + threshold) {
+            this.element.classList.add("hidden");
+            hasChanged = true;
+        } else if (y < this.state.previousScrollY - threshold){
+            this.element.classList.remove("hidden");
+            hasChanged = true;
+        }
+
+        if (hasChanged) {
+            this.state.previousScrollY = y;
+        }
     }
 
     closeEverything () {
