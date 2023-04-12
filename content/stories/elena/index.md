@@ -7,6 +7,6 @@ draft: false
 country: France
 protagonist: Elena
 summary: Elena description
-illustration: /assets/images/grad1.jpeg
+illustration: /assets/images/previewDian.png
 ---
 

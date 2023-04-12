@@ -7,6 +7,6 @@ draft: false
 country: France
 protagonist: Dian
 summary: Dian est franco-indonésienne, c’est une adolescente qui a grandi dans une famille avec plusieurs origines. Seulement, un jour au lycée, elle est prise de violentes douleurs dans le bas ventre. Indice par indice, elle redécouvre son histoire.
-illustration: /assets/images/grad1.jpeg
+illustration: /assets/images/previewDian.png
 ---
 
