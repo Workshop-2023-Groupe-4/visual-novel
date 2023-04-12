@@ -1,8 +1,8 @@
 {{ define "main" }}
-  {{- partial "header/marquee.html" . -}}
   <div class="container home">
     {{- partial "header/home-hero.html" . -}}
+    <a href="/stories" class="primary-btn home-btn" id="home-cta">Lancer l’expérience</a>
     {{- partial "sections/introducing.html" . -}}
-    {{ partial "components/button.html" (dict "link" "/stories" "class" "primary-btn home-btn" "text" "Lancer l’expérience") }}
   </div>
+  {{- partial "header/marquee.html" . -}}
 {{ end }}

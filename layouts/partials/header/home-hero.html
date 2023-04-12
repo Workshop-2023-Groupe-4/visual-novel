@@ -1,8 +1,9 @@
 {{ $home_hero_img := resources.Get "/media/home-hero.png" }}
+{{ $home_scroll_arrow := resources.Get "/media/arrow-scroll.svg" }}
 {{ $home_hero_img_label := resources.Get "/media/label.svg" }}
 
 <header class="home-hero">
-  <img src="{{ $home_hero_img.RelPermalink }}" alt="" class="parallax" data-depth="-0.8">
+  <img src="{{ $home_hero_img.RelPermalink }}" alt="" class="parallax cover" data-depth="-0.8">
 
   <div class="home-hero__label parallax" data-depth="0.2">
     <span>souffrance</span>
@@ -19,4 +20,6 @@
   <div class="home-hero__label parallax" data-depth="0.8">
     <span>trauma</span>
   </div>
+  <a href="#home-cta"><img src="{{ $home_scroll_arrow.RelPermalink }}" alt="" class="scroll-arrow" data-depth="-0.8"></a>
+
 </header>
