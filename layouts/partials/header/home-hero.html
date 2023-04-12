@@ -1,6 +1,7 @@
 {{ $home_hero_img := resources.Get "/media/home-hero.png" }}
 {{ $home_hero_img_label := resources.Get "/media/label.svg" }}
-<section class="home-hero">
+
+<header class="home-hero">
   <img src="{{ $home_hero_img.RelPermalink }}" alt="" class="parallax" data-depth="-0.8">
 
   <div class="home-hero__label parallax" data-depth="0.2">
@@ -22,4 +23,4 @@
     <img src="{{ $home_hero_img_label.RelPermalink }}" alt="">
     <span>trauma</span>
   </div>
-</section>
+</header>
