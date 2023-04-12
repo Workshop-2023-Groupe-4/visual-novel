@@ -4,10 +4,36 @@
         white-space: nowrap
 
 .home
-  position: relative
-  padding-top: 0
-  .home-btn
-    position: fixed
-    bottom: $spacing-3
-    left: 50%
-    transform: translate(-50%)
+    position: relative
+    padding-top: 0
+    .home-btn
+        position: fixed
+        bottom: $spacing-3
+        left: 50%
+        transform: translate(-50%)
+    .home-hero
+        position: relative
+        &__label
+            position: absolute
+            width: fit-content
+        span
+            color: white
+            font-family: $headings-font-family
+            font-size: $body-highlight-font-size
+            left: 50%
+            position: absolute
+            top: 0
+            transform: translate(-50%, 0)
+        &__label:nth-child(2)
+            top: 25%
+            left: 45%
+        &__label:nth-child(3)
+            top: 50%
+            left: 5%
+        &__label:nth-child(4)
+            bottom: 35%
+            right: 15%
+        &__label:nth-child(5)
+            bottom: 20%
+            left: 50%
+            transform: translate(-50%)

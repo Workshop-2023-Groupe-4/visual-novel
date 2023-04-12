@@ -25,7 +25,9 @@
         {{- block "main" . }}{{- end }}
       </div>
     </main>
-    {{- partial "footer/footer.html" . -}}
+    {{ if ne .Section "stories"}}
+      {{- partial "footer/footer.html" . -}}
+    {{ end }}
     {{- partial "footer/js.html" . -}}
   </body>
 
