@@ -1,22 +1,35 @@
 @keyframes anim-scroll
-    0%
-        opacity: 0
-        transform: translateY(35%)
-    10%
-        opacity: 1
-    75%
-        opacity: 1
-        transform: translateY(100%)
-    100%
-        opacity: 0
-        transform: translateY(100%)
+  0%
+    opacity: 0
+    transform: translateY(35%)
+  10%
+    opacity: 1
+  75%
+    opacity: 1
+    transform: translateY(100%)
+  100%
+    opacity: 0
+    transform: translateY(100%)
 
 .marquee
-    overflow: hidden
-    p
-        white-space: nowrap
+  text-align: center
+  overflow: hidden
 
 .home
+  position: relative
+  padding-top: 0
+
+  .home-btn
+    display: block
+    margin: 0 auto
+    // bottom: $content-margin-sm
+    // position: fixed
+    // left: 50%
+    // transform: translate(-50%)
+    @include media-breakpoint-up(md)
+      max-width: 200px
+
+  .home-hero
     position: relative
     padding-top: 0
     .home-btn
