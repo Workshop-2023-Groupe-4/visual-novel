@@ -133,6 +133,20 @@ describe('function getJsonFromLines', function () {
 })
 
 describe('function formattedLine', function () {
+    it('should identify titles', function () {
+        const h1 = "# Title";
+        assert.equal(formattedLine(h1), '<h1>Title</h1>')
+
+        const h2 = "## Title";
+        assert.equal(formattedLine(h2), '<h2>Title</h2>')
+
+        const h3 = "### Title";
+        assert.equal(formattedLine(h3), '<h3>Title</h3>')
+
+        const h4 = "#### Title";
+        assert.equal(formattedLine(h4), '<h4>Title</h4>')
+    })
+
     it('should identity paper dialog', function () {
         const line = "@@Dian: Dian réveille toi !";
 
