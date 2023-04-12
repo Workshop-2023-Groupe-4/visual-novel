@@ -15,7 +15,7 @@ dian
 :: 1.1 {"position":"425,350","size":"100,100"}
 <img class="left parallax" src="/assets/illustrations/dian/seq1/friend.png" data-depth='0.10' alt="Image face à face avec son amie">
 
-@@Amie de Dian:  Dis Dian, tu es déjà partie dans le pays de tes parents ?
+@@Amie de Dian: Dis Dian, tu es déjà partie dans le pays de tes parents ?
 
 @(Dian): Oui ! On essaie d’y aller tous les ans... bon, avec le covid, ça a été pas mal compromis...
 
@@ -25,7 +25,7 @@ dian
 
 @Amie de Dian: C’est quoi ton souvenir le plus marquant ?
 
-@(Dian): ... (elle réfléchit) Je plonge de temps en temps à Sulawesi, je suis toujours émerveillée de voir les poissons multicolores !
+@(Dian): ... Je plonge de temps en temps à Sulawesi, je suis toujours émerveillée de voir les poissons multicolores !
 
 @Amie de Dian: La chance ! Ça doit être incroyable !
 @(Dian): Oui ! C’est-
@@ -60,7 +60,7 @@ dian
 
 @@ Je n’en suis plus si sûre...
 
-<img src="/assets/illustrations/dian/seq1/distraiteClass.svg" alt="Dian est en cours">
+<img src="/assets/illustrations/dian/seq1/distraiteClass.png" alt="Dian est en cours">
 
 @@ C'est bizarre... Je ne me sens pas bien...
 
@@ -135,11 +135,11 @@ lesorchideesrouges.org
 :: 3.1 {"position":"425,650","size":"100,100"}
 <img src="/assets/illustrations/dian/seq3/absent-minded.png" alt="Image d’elle assise en classe, elle est distraite">
 
-@@Maitresse: Dian tu m'écoutes ?
+@@Professeure: Dian tu m'écoutes ?
 
 <img src="/assets/illustrations/dian/seq3/tired.png" alt="Trait tirés, fatigués">
 
-@Maitresse: Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
+@Professeure: Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
 
 [[Non ! Tout va bien, pardon.->3.2]]
 [[Non.->3.2]]
@@ -204,7 +204,7 @@ lesorchideesrouges.org
 
 @Satria: Ok. Qu’est-ce qu’il se passe, //sayang// (ma puce) ?
 
-//''Grande inspiration de Dian —> zoom sur elle''//
+//''Grande inspiration de Dian> zoom sur elle''//
 
 @(Dian): J’ai... J’ai eu ce cours... en sciences... et
 
