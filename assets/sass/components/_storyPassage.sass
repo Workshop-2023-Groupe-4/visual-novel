@@ -12,15 +12,16 @@
 
   > i,
   > b
-    margin-bottom: px2rem(35)
+    margin-bottom: $spacing-2
 
   > .thoughts
     $thoughtSize: 50
     $thoughtHeight: -15
-    padding: px2rem(40) 0 px2rem(35) 0
-    margin-bottom: px2rem(35)
+    padding: calc(#{$spacing-1} * 2) $spacing-1
+    margin: 0 auto $spacing-2
     font-family: $thought-font-family
     position: relative
+    width: fit-content
 
     &::before,
     &::after
@@ -72,7 +73,7 @@
     justify-content: center
     width: fit-content
     aspect-ratio: 2.5 / 1
-    margin: 0 0 px2rem(35) 0
+    margin: 0 0 $spacing-2 0
     transform: rotate(-3.5deg)
 
     > span,
@@ -105,10 +106,11 @@
 
   > img
     width: 100%
-    margin-bottom: px2rem(35)
+    margin-bottom: $spacing-2
     height: auto
     @include media-breakpoint-up(md)
       max-height: 50vh
+      object-fit: contain
       width: auto
 
     &.left
