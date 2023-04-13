@@ -43,7 +43,7 @@ dian
 :: 1.2 {"position":"550,350","size":"100,100"}
 <img class="right" src="/assets/illustrations/dian/seq1/dian-thinks.png" alt="Dian ferme les yeux">
 
-<img src="/assets/illustrations/dian/seq6/hands.png" alt="Souvenir : mains menaçantes">
+<img class="fill" src="/assets/illustrations/dian/seq6/hands.png" alt="Souvenir : mains menaçantes">
 
 @@ Qu'est-ce que...
 
@@ -168,7 +168,7 @@ dian
 
 
 :: 3.A.0 {"position":"300,800","size":"100,100"}
-# Chapitre 5
+# Chapitre 3
 ## Recherches
 
 [[Suivant->3.A.1]]
@@ -245,7 +245,7 @@ dian
 
 
 :: 3.B.0 {"position":"300,950","size":"100,100"}
-# Chapitre 5
+# Chapitre 3
 ## Ta cousine Satria
 
 [[Suivant->3.B.1]]
@@ -362,7 +362,7 @@ dian
 
 
 :: 4.0 {"position":"300,1100","size":"100,100"}
-# Chapitre 6
+# Chapitre 4
 ## L'infirmerie
 
 [[Suivant->4.1]]

@@ -14,10 +14,10 @@ Elena
 :: 1.0 {"position":"700,250","size":"100,100"}
 <img src="/assets/illustrations/elena/seq1/raph-talking.png" alt="image du chirurgien et de son amie qui discutent dans le couloir en allant rejoindre la femme dans la salle d’attente">
 
-@@Collègue : — Au fait Raphaël, comment se passe ta reconversion ? C’est pas trop dur de changer de vie comme ça ?
-@Raphaël : — C’est pas évident. En France, on a tendance à ne pas être au courant ou à ne pas se sentir concernés par l’excision, mais avec ce boulot… j’écoute des histoires chaque fois plus dures…
-@Collègue : — À ce point ? C’est vrai que ça n’existe que dans certains pays, mais j’ai du mal à me rendre compte…
-@Raphaël : — C’est plus répandu que ce que tu crois. Ma dernière patiente vient de Russie, par exemple. Elle est venue en France exprès pour bénéficier de l’opération…
+@@Collègue : Au fait Raphaël, comment se passe ta reconversion ? C’est pas trop dur de changer de vie comme ça ?
+@Raphaël : C’est pas évident. En France, on a tendance à ne pas être au courant ou à ne pas se sentir concernés par l’excision, mais avec ce boulot… j’écoute des histoires chaque fois plus dures…
+@Collègue : À ce point ? C’est vrai que ça n’existe que dans certains pays, mais j’ai du mal à me rendre compte…
+@Raphaël : C’est plus répandu que ce que tu crois. Ma dernière patiente vient de Russie, par exemple. Elle est venue en France exprès pour bénéficier de l’opération…
 
 
 [[Suivant->2.0]]
@@ -49,28 +49,28 @@ Elena
 @Raphaël : — Venez avec moi, je vous en prie. Avez-vous besoin de quelque chose ? Un café, un thé ?
 
 Que répondre ?
-[[— Je veux bien un thé, merci.->2.0.1]]
-[[— Je veux bien un café, merci.->2.0.2]]
+[[Je veux bien un thé, merci.->2.0.1]]
+[[Je veux bien un café, merci.->2.0.2]]
 [[Garder le silence.->2.0.3]]
 
 
 
 :: 2.0.1 {"position":"825,375","size":"100,100"}
-@(Elena): — Je veux bien un thé, merci.
+@(Elena): Je veux bien un thé, merci.
 
 <img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="le chirurgien et Elena autour du bureau">
 
-@@Raphaël: — Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
+@@Raphaël: Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
 
 <img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="sourire compatissant du chirurgien">
 
-@(Elena): — D’accord...
-@Raphaël : — Est-ce que vous pouvez me dire pourquoi vous êtes ici ?
+@(Elena): D’accord...
+@Raphaël : Est-ce que vous pouvez me dire pourquoi vous êtes ici ?
 
 <img class="right" src="/assets/illustrations/elena/seq2/hands-distord.png" alt="gros plan sur ses mains qu’elle tord de nervosité">
 
-@(Elena): — Euh… V- Vous savez en partie… pourquoi. C’est plus possible, j’ai besoin d’aide.
-@Raphaël : — Si vous êtes d’accord, j’aimerais entendre votre histoire.
+@(Elena): Euh… V- Vous savez en partie… pourquoi. C’est plus possible, j’ai besoin d’aide.
+@Raphaël : Si vous êtes d’accord, j’aimerais entendre votre histoire.
 <img  class="right" src="/assets/illustrations/elena/seq2/pinced-mouth.png" alt="gros plan sur sa bouche pincée">
 
 [[Suivant->2.1]]
@@ -78,21 +78,21 @@ Que répondre ?
 
 
 :: 2.0.2 {"position":"950,375","size":"100,100"}
-@(Elena): — Je veux bien un café, merci.
+@(Elena): Je veux bien un café, merci.
 
 <img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="le chirurgien et Elena autour du bureau">
 
-@@Raphaël: — Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
+@@Raphaël: Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
 
 <img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="sourire compatissant du chirurgien">
 
-@(Elena): — D’accord...
-@Raphaël : — Est-ce que vous pouvez me dire pourquoi vous êtes ici ?
+@(Elena): D’accord...
+@Raphaël : Est-ce que vous pouvez me dire pourquoi vous êtes ici ?
 
 <img class="right" src="/assets/illustrations/elena/seq2/hands-distord.png" alt="gros plan sur ses mains qu’elle tord de nervosité">
 
-@(Elena): — Euh… V- Vous savez en partie… pourquoi. C’est plus possible, j’ai besoin d’aide.
-@Raphaël : — Si vous êtes d’accord, j’aimerais entendre votre histoire.
+@(Elena): Euh… V- Vous savez en partie… pourquoi. C’est plus possible, j’ai besoin d’aide.
+@Raphaël : Si vous êtes d’accord, j’aimerais entendre votre histoire.
 <img  class="right" src="/assets/illustrations/elena/seq2/pinced-mouth.png" alt="gros plan sur sa bouche pincée">
 
 
@@ -101,21 +101,21 @@ Que répondre ?
 
 
 :: 2.0.3 {"position":"1075,375","size":"100,100"}
-@(Elena): — ...
+@(Elena): ...
 
 <img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="le chirurgien et Elena autour du bureau">
 
-@@Raphaël: — Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
+@@Raphaël: Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
 
 <img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="sourire compatissant du chirurgien">
 
-@(Elena): — D’accord...
-@Raphaël : — Est-ce que vous pouvez me dire pourquoi vous êtes ici ?
+@(Elena): D’accord...
+@Raphaël : Est-ce que vous pouvez me dire pourquoi vous êtes ici ?
 
 <img class="right" src="/assets/illustrations/elena/seq2/hands-distord.png" alt="gros plan sur ses mains qu’elle tord de nervosité">
 
-@(Elena): — Euh… V- Vous savez en partie… pourquoi. C’est plus possible, j’ai besoin d’aide.
-@Raphaël : — Si vous êtes d’accord, j’aimerais entendre votre histoire.
+@(Elena): Euh… V- Vous savez en partie… pourquoi. C’est plus possible, j’ai besoin d’aide.
+@Raphaël : Si vous êtes d’accord, j’aimerais entendre votre histoire.
 <img  class="right" src="/assets/illustrations/elena/seq2/pinced-mouth.png" alt="gros plan sur sa bouche pincée">
 
 
@@ -142,8 +142,8 @@ Que faire ?
 :: 2.1.1 {"position":"700,625","size":"100,100"}
 <img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="même image de Elena et le chirurgien de chaque côté du bureau">
 
-@(Elena): — Qu’est ce qui m’est arrivé exactement ? Médicalement, que s’est-il passé ?
-@@Raphaël : — Chaque histoire est différente, il y a plusieurs types d’excisions, regarde.  
+@(Elena): Qu’est ce qui m’est arrivé exactement ? Médicalement, que s’est-il passé ?
+@@Raphaël : Chaque histoire est différente, il y a plusieurs types d’excisions, regarde.  
 
 <img src="/assets/illustrations/elena/seq2/affiche-excision.png" alt="image grande affiche avec les différents types d’excisions">
 
@@ -199,13 +199,13 @@ Tout autre intervention sur les organes génitaux externes tels que piqûres, pe
 :: 2.1.2 {"position":"700,750","size":"100,100"}
 <img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="même image de Elena et le chirurgien de chaque côté du bureau">
 
-@(Elena): — Comment va se passer l’opération ?
-@@Raphaël : — Il y a plusieurs types d’interventions possibles. Dans votre cas, vous avez subi une clitoridectomie. heureusement c’est le stade le plus simple à traiter.
+@(Elena): Comment va se passer l’opération ?
+@@Raphaël : Il y a plusieurs types d’interventions possibles. Dans votre cas, vous avez subi une clitoridectomie. heureusement c’est le stade le plus simple à traiter.
 
 <img class="left" src="/assets/illustrations/elena/seq2/clitoridectomie.png" alt="schéma de la clitoridectomie">
 
-@(Elena): — Vraiment ?
-@Raphaël : — Oui, l’opération dure moins d’une heure. Nous cherchons la partie du clitoris qui reste à l’intérieur de votre corps afin de la relier à l’emplacement initial du clitoris, pour le reconstruire.
+@(Elena): Vraiment ?
+@Raphaël : Oui, l’opération dure moins d’une heure. Nous cherchons la partie du clitoris qui reste à l’intérieur de votre corps afin de la relier à l’emplacement initial du clitoris, pour le reconstruire.
 
 <img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="image chirurgien qui lui sourit">
 
@@ -253,7 +253,7 @@ Tout autre intervention sur les organes génitaux externes tels que piqûres, pe
 
 <img class="right" src="/assets/illustrations/elena/seq5/elena-zoom.png" alt="image Elena assise sur une chaise, seule, cheveux plus courts, heureuse, visage plus détendu, meilleure posture, elle est droite pas recroquevillée">
 
-@@Animatrice : — Est-ce que quelqu’un d’autre veut nous partager son expérience ? 
+@@Animatrice : Est-ce que quelqu’un d’autre veut nous partager son expérience ? 
 
 <img src="/assets/illustrations/elena/seq5/elena-speaking-group.png" alt="image dezoom, on voit que Elena fait partie d’un groupe de parole, des chaises sont disposées en rond et d’autres femmes sont assises">
 
@@ -266,7 +266,7 @@ Que faire ?
 
 <img src="/assets/illustrations/elena/seq5/speaking-group.png" alt="image dezoom, on voit que Elena fait partie d’un groupe de parole, elle se lève pour parler">
 
-@(Elena): — Bonjour à toutes, je m’appelle Elena… Je vais mieux aujourd’hui, j’arrive à vivre «  normalement » grâce à une chirurgie. C’est encore difficile pour moi d’en parler, mais je vais essayer…
+@(Elena): Bonjour à toutes, je m’appelle Elena… Je vais mieux aujourd’hui, j’arrive à vivre «  normalement » grâce à une chirurgie. C’est encore difficile pour moi d’en parler, mais je vais essayer…
 
 <img src="/assets/illustrations/elena/seq5/hand-on-shoulder.png" alt="image d’une main qui se pose sur une épaule">
 
@@ -274,7 +274,7 @@ Que faire ?
 
 
 :: 5.0.2 {"position":"700,1250","size":"100,100"}
-@@Youlia : — Bonjour, moi c’est Youlia. Mes grands-parents vivent au Daghestan et… quand j’étais petite… vraiment petite, j’ai été excisée.
+@@Youlia : Bonjour, moi c’est Youlia. Mes grands-parents vivent au Daghestan et… quand j’étais petite… vraiment petite, j’ai été excisée.
 
 <img src="/assets/illustrations/elena/seq5/hand-on-shoulder.png" alt="image d’une main qui se pose sur une épaule">
 
@@ -289,28 +289,28 @@ Que faire ?
 @(Elena): — Allô ?
 @éditrice : — Bonjour Elena ! Comment avance ton manuscrit ? Ce n'est pas trop dur de te replonger dans ces souvenirs ?  
 
-<img class="right" src="/assets/illustrations/elena/seq6/phone-on.png" alt="téléphone allumé en haut parleur">
 
 @(Elena): — J'avance plutôt bien. Il y a des moments plus durs que d'autres...
 @éditrice : — Tu arrives à jongler avec tes études, ça va ?
 @(Elena): — Eh bien...
+<img class="right" src="/assets/illustrations/elena/seq6/phone-on.png" alt="téléphone allumé en haut parleur">
 
 Que dire ?
-[[— J’ai choisi de laisser ça de côté pour terminer mes études. ->6.0.1]]
-[[— J’ai choisi de me concentrer sur l’écriture…->6.0.2]]
+[[J’ai choisi de laisser ça de côté pour terminer mes études. ->6.0.1]]
+[[J’ai choisi de me concentrer sur l’écriture…->6.0.2]]
 
 
 
 :: 6.0.1 {"position":"825,1375","size":"100,100"}
-@(Elena): — J’ai choisi de me concentrer sur mes études pour le moment, les examens de droit arrivent bientôt. 
-@@éditrice : — C’est ton choix, fais ce qui te semble bon.
+@(Elena): J’ai choisi de me concentrer sur mes études pour le moment, les examens de droit arrivent bientôt. 
+@@éditrice : C’est ton choix, fais ce qui te semble bon.
 
 [[Suivant->6.1.1]]
 
 
 :: 6.0.2 {"position":"700,1500","size":"100,100"}
-@(Elena): — J’ai choisi de me concentrer sur l’écriture…c’est vraiment important pour moi et je sens que c’est la bonne chose à faire.
-@@éditrice : — C’est ton choix, tant que tu t’y retrouves c’est l’essentiel !
+@(Elena): J’ai choisi de me concentrer sur l’écriture…c’est vraiment important pour moi et je sens que c’est la bonne chose à faire.
+@@éditrice : C’est ton choix, tant que tu t’y retrouves c’est l’essentiel !
 
 
 [[Suivant->6.1.2]]
