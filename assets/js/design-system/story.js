@@ -42,11 +42,11 @@ export default class Story {
             return;
         }
 
-        this.playAnimations(passage);
-
         this.hideAllPassages();
         passage.classList.remove(CLASSES.hidden);
         scrollTo(0, 0);
+
+        this.playAnimations(passage);
     }
 
     playAnimations(passage) {
