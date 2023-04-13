@@ -22,12 +22,12 @@ describe('function identifyPassageHeader', function () {
 
     it('should return passage tags from line', function () {
         const simple = ':: An overgrown path';
-        const tags = ':: An overgrown path [forest spooky]';
+        const tags = ':: An overgrown path [forest]';
         const metadata = ':: An overgrown path {"position":"600,400","size":"100,200"}';
         const full = ':: An overgrown path [forest spooky] {"position":"600,400","size":"100,200"}';
 
         assert.equal(JSON.stringify(identifyPassageHeader(simple).tags), JSON.stringify([]))
-        assert.equal(JSON.stringify(identifyPassageHeader(tags).tags), JSON.stringify(['forest', 'spooky']))
+        assert.equal(JSON.stringify(identifyPassageHeader(tags).tags), JSON.stringify(['forest']))
         assert.equal(JSON.stringify(identifyPassageHeader(metadata).tags), JSON.stringify([]))
         assert.equal(JSON.stringify(identifyPassageHeader(full).tags), JSON.stringify(['forest', 'spooky']))
     })
@@ -133,6 +133,20 @@ describe('function getJsonFromLines', function () {
 })
 
 describe('function formattedLine', function () {
+    it('should identify titles', function () {
+        const h1 = "# Title";
+        assert.equal(formattedLine(h1), '<h1>Title</h1>')
+
+        const h2 = "## Title";
+        assert.equal(formattedLine(h2), '<h2>Title</h2>')
+
+        const h3 = "### Title";
+        assert.equal(formattedLine(h3), '<h3>Title</h3>')
+
+        const h4 = "#### Title";
+        assert.equal(formattedLine(h4), '<h4>Title</h4>')
+    })
+
     it('should identity paper dialog', function () {
         const line = "@@Dian: Dian réveille toi !";
 

@@ -134,18 +134,20 @@
         margin-left: -$content-margin
         margin-right: -$content-margin
 
+  a
+    display: block
+    background: $white
+    color: $black
+    padding: $spacing-0
+    margin-top: $spacing-1
+    border-radius: $rounded-1
+
   > .storyPassage__links
+    margin-top: auto
     display: flex
     gap: $spacing-0
     @include media-breakpoint-down(md)
       flex-direction: column
 
     a
-      display: block
-      background: $white
-      color: $black
-      padding: $spacing-0
-      border-radius: $rounded-1
-
-  &:not(:first-child) > .storyPassage__links
-    margin-top: auto
+      margin-top: 0
