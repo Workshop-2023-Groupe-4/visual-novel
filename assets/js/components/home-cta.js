@@ -1,22 +1,34 @@
+import { gsap } from "gsap";
+
 const homeCta = document.querySelector(".home-btn");
-
-if (!homeCta) {
-    return;
-}
-
-const ctaTrigger = document.getElementById("footer");
+const ctaTrigger = document.getElementById("home-sections");
 
 const observer = new IntersectionObserver((entries) => {
     entries.forEach(entry => {
         if (entry.isIntersecting) {
-            homeCta.classList.add('visible');
-            console.log("visible normalmeent")
+            gsap.to(homeCta, {
+                autoAlpha: 1,
+                display: "flex",
+                duration: .2,
+                ease: "power2",
+                y: 0,
+                x: -100
+            })
+
         } else {
-            homeCta.classList.remove('visible');
-            console.log('finito')
+            gsap.to(homeCta, {
+                autoAlpha: 0,
+                display: "none",
+                duration: .2,
+                ease: "power2",
+                y: 50,
+                x: -100
+            })
         }
     })
-}, {threshold: 1}
+}, {threshold: 0.2}
 )
 
 observer.observe(ctaTrigger);
+
+
