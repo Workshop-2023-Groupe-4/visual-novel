@@ -6,7 +6,7 @@ gsap.registerPlugin(ScrollTrigger);
 export default class StoryImage {
 	constructor(passage) {
         this.dom = passage;
-        this.images = this.dom.querySelectorAll('img');
+        this.images = this.dom.querySelectorAll('img:not(:first-child)');
     }
     init() {
         this.images.forEach(image => {
@@ -16,7 +16,7 @@ export default class StoryImage {
             else if (image.className === "right") {
                 this.translateImage(image, '50%');
             }
-            else if (image.className === "fill" || image.className === "") {
+            else if (image.className === "fill" || image.className === "center" || image.className === "") {
                 this.scaleImage(image);
             }
         })
@@ -44,7 +44,9 @@ export default class StoryImage {
             opacity: 1,
             scrollTrigger: {
                 trigger: image,
-                scrub: true
+                scrub: true,
+                start: "top top",
+                end: "bottom bottom"
             },
         }) 
     }

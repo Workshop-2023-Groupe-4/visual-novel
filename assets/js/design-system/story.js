@@ -37,6 +37,7 @@ export default class Story {
     showPassage(passageAnchor) {
         let passage = this.getPassageElementFromAnchor(passageAnchor);
         passage.classList.add('active');
+        console.log("ça change")
 
         if (!passage) {
             return;
