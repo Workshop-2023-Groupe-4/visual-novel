@@ -9,11 +9,10 @@ export default class Story {
 
         this.startPassage = this.passagesElement.dataset.start;
 
-        this.#listen();
+        this.listen();
     }
 
-    // méthode privée, voir https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Classes/Private_class_fields
-    #listen() {
+    listen() {
         window.addEventListener('popstate', event => {
             this.showPassage(document.location.hash)
         });
@@ -41,6 +40,7 @@ export default class Story {
 
         this.hideAllPassages();
         passage.classList.remove(CLASSES.hidden);
+        document.body.scrollTo(0, 0);
     }
 
     start() {
