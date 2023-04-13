@@ -139,8 +139,12 @@ Que faire ?
 
 @(Elena): — Qu’est ce qui m’est arrivé exactement ? Médicalement, que s’est-il passé ?
 @@Raphaël : — Chaque histoire est différente, il y a plusieurs types d’excisions.  
+=======
+<img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="même image de Elena et le chirurgien de chaque côté du bureau">
 
-<img src="/assets/illustrations/..." alt="image grande affiche avec les différents types d’excisions" > -> 4 images différentes avec l’image, le nom et la petite description. 
+@(Elena): — Qu’est ce qui m’est arrivé exactement ? Médicalement, que s’est-il passé ?
+@@Raphaël : — Chaque histoire est différente, il y a plusieurs types d’excisions, regarde.  
+>>>>>>> Stashed changes
 
 [[Clitoridectomie->2.1.1.A]] <img class="left" src="/assets/illustrations/elena/seq2/clitoridectomie.png" alt="image Clitoridectomie">
 [[Excision->2.1.1.B]] <img src="/assets/illustrations/..." alt="image Excision" >
