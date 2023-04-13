@@ -53,6 +53,9 @@ Pour faire un choix, mettez plusieurs liens :
 `[[Oui->1.4]]`
 `[[Non->1.5]]`
 
+### Liens vers une autre page
+`[Fin->/stories/ending]`
+
 ### Dialogues
 Faire parler le personnage principal  
 `@(Jhonette Doe): Lorem ipsum dolor sit amet` 

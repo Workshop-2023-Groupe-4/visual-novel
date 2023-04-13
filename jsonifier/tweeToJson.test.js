@@ -200,13 +200,18 @@ describe('function extractLinksFromLines', function () {
             'sqds [[Suivant->1.1]]',
             'zdqsd',
             '[[Non ! Tout va bien, pardon.->1.2]]',
+            '[Suivant->/test]'
         ];
 
         const {links} = extractLinksFromLines(lines);
 
-        assert.equal(links.length, 2);
-        assert.equal(JSON.stringify(links[0]), JSON.stringify({text: 'Suivant', href: '1.1'}));
-        assert.equal(JSON.stringify(links[1]), JSON.stringify({text: 'Non ! Tout va bien, pardon.', href: '1.2'}));
+        assert.equal(links.length, 3);
+        assert.equal(JSON.stringify(links[0]), JSON.stringify({text: 'Suivant', href: '#passage-1.1'}));
+        assert.equal(JSON.stringify(links[1]), JSON.stringify({
+            text: 'Non ! Tout va bien, pardon.',
+            href: '#passage-1.2'
+        }));
+        assert.equal(JSON.stringify(links[2]), JSON.stringify({text: 'Suivant', href: '/test'}));
     })
 
     it('should return lines without links', function () {
@@ -216,6 +221,7 @@ describe('function extractLinksFromLines', function () {
             'line 3 [[Suivant->1.1]]',
             'line 4',
             '[[Non ! Tout va bien, pardon.->1.2]]',
+            '[Suivant->/test]'
         ];
 
         const expectedLines = [

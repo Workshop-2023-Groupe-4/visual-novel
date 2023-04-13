@@ -1,7 +1,8 @@
 const fs = require('fs');
 const lineReader = require('line-reader');
 
-const linkRegex = /\[\[(.+)->([\w.-]+)]]/gm;
+const passageLinkRegex = /\[\[(.+)->([\w.-]+)]]/gm;
+const urlLinkRegex = /\[(.+)->([\w/.-]+)]/gm;
 
 const h1Regex = /^# (.+)/gm;
 const h1Substitution = '<h1>$1</h1>';
@@ -207,7 +208,14 @@ function extractLinksFromLines(lines) {
     const links = [];
     const text = lines.join('\n');
 
-    const textWithoutLinks = text.replace(linkRegex, (match, $1, $2) => {
+    const textWithoutLinks = text.replace(passageLinkRegex, (match, $1, $2) => {
+        links.push({
+            text: $1,
+            href: '#passage-' + $2
+        })
+
+        return ''
+    }).replace(urlLinkRegex, (match, $1, $2) => {
         links.push({
             text: $1,
             href: $2
