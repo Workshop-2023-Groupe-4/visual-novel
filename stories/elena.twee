@@ -214,7 +214,11 @@ Autres : Tout autre intervention sur les organes génitaux externes tels que piq
 
 :: 3.0 {"position":"700,875","size":"100,100"}
 
-<img src="/assets/illustrations/elena/seq3/" alt="Elena ferme les yeux">
+<img src="/assets/illustrations/elena/seq3/eyes-opened.png" alt="Elena a les yeux ouverts">
+
+@@ Plus de retour en arrière... 
+
+<img src="/assets/illustrations/elena/seq3/eyes-closed.png" alt="Elena ferme les yeux">
 
 
 [[Suivant->4.0]]
@@ -270,7 +274,7 @@ Que faire ?
 :: 6.0 {"position":"700,1375","size":"100,100"}
 <img src="/assets/illustrations/elena/seq" alt="image Elena en train de taper à l'ordinateur, téléphone posé sur le côté, avec le code pénal à côté, on comprend qu’elle étudie le droit">
 
-<img src="/assets/illustrations/elena/seq" alt="image mobile qui vibre/sonne">
+<img class="left" src="/assets/illustrations/elena/seq6/phone-ringing.png" alt="image mobile qui vibre/sonne">
 
 <img src="/assets/illustrations/elena/seq" alt="image Elena à son bureau mais téléphone allumé en haut parleur">
 
