@@ -2,7 +2,7 @@ import { gsap } from "gsap";
 
 const homeCta = document.querySelector(".home-btn");
 
-if (homeCta) {
+if (homeCta && IntersectionObserver) {
 
     const ctaTrigger = document.getElementById("home-sections");
     
@@ -16,7 +16,7 @@ if (homeCta) {
                     ease: "power2",
                     y: 0,
                     x: "-50%"
-                })
+                });
     
             } else {
                 gsap.to(homeCta, {
@@ -26,7 +26,7 @@ if (homeCta) {
                     ease: "power2",
                     y: 50,
                     x: "-50%"
-                })
+                });
             }
         })
     }, {threshold: 0.2}

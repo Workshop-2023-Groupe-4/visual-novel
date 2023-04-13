@@ -2,6 +2,8 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
+const homeIllustration = document.querySelector(".home-btn");
+
 const parallax = gsap.timeline({
   scrollTrigger: {
     trigger: "main",
@@ -11,9 +13,22 @@ const parallax = gsap.timeline({
   }
 });
 
-gsap.utils.toArray(".parallax").forEach(layer => {
-  console.log(layer.offsetWidth)
-  const depth = layer.dataset.depth;
-  const movement = -(200 * depth)
-  parallax.to(layer, {y: movement, ease: "none"}, 0)
-});
+if (homeIllustration && IntersectionObserver) {
+
+    const illustrationTrigger = document.getElementById("illustration-trigger");
+    
+    const observer = new IntersectionObserver((entries) => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+              gsap.utils.toArray(".parallax").forEach(layer => {
+                const depth = layer.dataset.depth;
+                const movement = -(70 * depth)
+                parallax.to(layer, {y: movement, ease: "none"}, 0)
+              });
+            }
+        })
+    }, {threshold: 1}
+    )
+    
+    observer.observe(illustrationTrigger);    
+}
