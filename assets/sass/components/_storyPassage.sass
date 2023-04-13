@@ -154,26 +154,51 @@
   > .storyPassage__links
     margin-top: auto
     display: flex
-    gap: $spacing-0
+    flex-wrap: wrap
+    &:not(.choicesList)
+      justify-content: flex-end
+      gap: $spacing-0
+      a 
+        @include icon($icon-arrow-down, after)
+        &::after
+          border: 1px solid $white
+          border-radius: $rounded-full
+          margin-left: $spacing-0
+          padding: half($spacing-0)
+          transform: rotate(-45deg)
+    &.choicesList
+      justify-content: space-between
+      gap: $spacing-2
+      margin-top: $spacing-3
+      li
+        align-items: center
+        display: flex
+        justify-content: center
+        position: relative
+        &::before
+          aspect-ratio: 787/689
+          content: ''
+          background:
+            image: url('/assets/images/choice.svg')
+            position: center
+            repeat: no-repeat
+          height: 10vh
+          pointer-events: none
+          opacity: .3
+          position: absolute
+      a
+        @include stretched-link
     @include media-breakpoint-down(md)
       flex-direction: column
 
     a
+      align-items: center
       display: flex
       justify-content: space-between
-      align-items: center
-      text-decoration: none
-      padding: $spacing-0
       margin-left: -$spacing-0
       margin-right: -$spacing-0
-
-      @include icon($icon-arrow-down, after)
-
-      &::after
-        transform: rotate(-45deg)
-        border-radius: $rounded-full
-        padding: half($spacing-0)
-        border: 1px solid $white
+      padding: $spacing-0
+      text-decoration: none
 
   > img.chapter + .storyPassage__links
     margin-top: $spacing-0
