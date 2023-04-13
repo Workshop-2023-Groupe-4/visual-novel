@@ -16,14 +16,17 @@ export default class StoryImage {
             else if (image.className === "right") {
                 this.translateImage(image, '50%');
             }
-            else if (image.className === "fill" || image.className === "center" || image.className === "") {
-                this.scaleImage(image);
+            else if (image.className === "fill") {
+                this.scaleImage(image, 2);
+            } 
+            else if (image.className === "" || image.className === "center") {
+                this.scaleImage(image, 1.2);
             }
         })
     }
-    scaleImage(image) {
+    scaleImage(image, scaleFinal) {
         gsap.to(image, {
-            scale: 1.5,
+            scale: scaleFinal,
             scrollTrigger: {
                 trigger: image,
                 scrub: true
