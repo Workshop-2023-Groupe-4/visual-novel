@@ -79,11 +79,16 @@
         content: close-quote
 
   > .paper
+    background:
+      image: url("/assets/images/paper.png")
+      size: contain
+      repeat: no-repeat
+      position: center
     display: flex
     flex-direction: column
     justify-content: center
-    width: fit-content
-    aspect-ratio: 2.5 / 1
+    min-height: 252px
+    width: 100%
     margin: 0 0 $spacing-2 0
     transform: rotate(-3.5deg)
 
@@ -100,20 +105,6 @@
 
       &::after
         content: close-quote
-
-    &::before
-      z-index: -1
-      position: absolute
-      display: block
-      content: " "
-      background-image: url("/assets/images/paper.png")
-      background-size: contain
-      background-repeat: no-repeat
-      background-position: center
-      top: 0
-      left: 0
-      width: 100%
-      height: 100%
 
   > img
     width: 100%
