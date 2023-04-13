@@ -20,7 +20,7 @@ dian
 
 
 :: 1.1 {"position":"425,350","size":"100,100"}
-<img src="/assets/illustrations/dian/seq1/friend.png" alt="Image face à face avec son amie">
+<img src="/assets/illustrations/dian/seq1/friend.png" alt="Dian en face à face avec une amie, elles discutent">
 
 @@Amie de Dian: Dis Dian, tu es déjà partie en Indonésie dans le pays de tes parents ?
 
@@ -43,11 +43,11 @@ dian
 :: 1.2 {"position":"550,350","size":"100,100"}
 <img class="right" src="/assets/illustrations/dian/seq1/dian-thinks.png" alt="Dian ferme les yeux">
 
-<img class="fill" src="/assets/illustrations/dian/seq6/hands.png" alt="Souvenir : mains menaçantes">
+<img class="fill" src="/assets/illustrations/dian/seq6/hands.png" alt="Souvenir : mains menaçantes qui essaient d'attraper">
 
 @@ Qu'est-ce que...
 
-<img class="right" src="/assets/illustrations/dian/seq1/dian-confused.png" alt="Dian ne comprend pas">
+<img class="right" src="/assets/illustrations/dian/seq1/dian-confused.png" alt="Dian est confuse">
 
 @@ ...
 
@@ -63,7 +63,7 @@ dian
 
 @@ Je n’en suis plus si sûre...
 
-<img src="/assets/illustrations/dian/seq1/distraiteClass.png" alt="Dian est en cours">
+<img src="/assets/illustrations/dian/seq1/distraiteClass.png" alt="Dian est en cours, elle est distraite">
 
 @@ C'est bizarre... Je ne me sens pas bien...
 
@@ -78,7 +78,7 @@ dian
 :: 1.4 {"position":"800,350","size":"100,100"}
 <img src="/assets/illustrations/dian/seq2/in-bed.png" alt="Dian est roulée en boule dans sa couette, c’est la nuit">
 
-<img src="/assets/illustrations/dian/seq2/flashback.png" alt="On voit des souvenirs un peu flash dans sa tête">
+<img src="/assets/illustrations/dian/seq2/flashback.png" alt="Souvenir : visage flous qui crient, encore des mains menaçantes">
 
 @@Nenek: Non !
 
@@ -113,7 +113,7 @@ dian
 
 
 :: 2.1 {"position":"425,500","size":"100,100"}
-<img src="/assets/illustrations/dian/seq3/absent-minded.png" alt="Image d’elle assise en classe, elle est distraite">
+<img src="/assets/illustrations/dian/seq3/absent-minded.png" alt="Elle est assise en classe, elle a le regard ailleurs">
 
 @@Professeure: Dian tu m'écoutes ?
 
@@ -127,7 +127,7 @@ dian
 
 
 :: 2.2 {"position":"550,500","size":"100,100"}
-<img class="right" src="/assets/illustrations/dian/seq3/huddled.png" alt="Elle se recroqueville">
+<img class="right" src="/assets/illustrations/dian/seq3/huddled.png" alt="Dian se recroqueville">
 
 @@ Je n’ai pas besoin. Je suis normale.
 
@@ -145,7 +145,7 @@ dian
 
 
 :: 2.3 {"position":"675,500","size":"100,100"}
-<img class="left" src="/assets/illustrations/dian/seq4/mirror.png" alt="Elle est assise devant un miroir un peu enfantin (tout mims), elle sourit de curiosité"/>
+<img class="left" src="/assets/illustrations/dian/seq4/mirror.png" alt="Elle est assise devant un miroir un peu enfantin, elle sourit de curiosité"/>
 
 <img class="right" src="/assets/illustrations/dian/seq4/close-eyes.png" alt="Elle plisse les yeux"/>
 
@@ -155,7 +155,7 @@ dian
 
 @@ Ce n’est pas normal...
 
-<img src="/assets/illustrations/dian/seq4/remember.png" alt="Souvenir : elle petite qui pleure et voit du sang qui coule sur ses jambes ?"/>
+<img src="/assets/illustrations/dian/seq4/remember.png" alt="Souvenir : c'est Dian plus jeune, qui pleure et voit du sang qui coule sur ses jambes"/>
 
 @@ JE ne suis pas normale...
 
@@ -175,7 +175,7 @@ dian
 
 
 :: 3.A.1 {"position":"425,800","size":"100,100"}
-<img src="/assets/illustrations/dian/seq6/forum.png" alt="Défilement forum"/>
+<img src="/assets/illustrations/dian/seq6/forum.png" alt="Défilement du forum sur son téléphone"/>
 
 [[Pathologie->3.A.2.B]]
 [[Ablation->3.A.2.B]]
@@ -203,7 +203,7 @@ dian
 :: 3.A.3 {"position":"675,800","size":"100,100"}
 @@ Est-ce vraiment ce qui m'est arrivé ?
 
-<img class="fill" src="/assets/illustrations/dian/seq6/razor.png" alt="Image avec des rasoirs qui remplissent la scène petit à petit"/>
+<img class="fill" src="/assets/illustrations/dian/seq6/razor.png" alt="Des rasoirs remplissent la scène petit à petit"/>
 
 @@ Je crois qu'il y avait des cris, des pleurs... Je sais que je n’étais pas toute seule.
 
@@ -223,11 +223,9 @@ dian
 
 ''6 petites filles excisées toutes les minutes dans le monde''
 
-<!--<img src="/assets/illustrations/dian/seq6/blood.png" alt="Transition avec du sang"/>-->
-
 @(Dian): Impossible...
 
-@@ Je me souviens, Maman était là, il y avait aussi Nenek (mot étranger pas en italique).
+@@ Je me souviens, Maman était là, il y avait aussi Nenek.
 
 @@ C’est elles qui m’ont fait ça.
 
@@ -318,7 +316,7 @@ dian
 
 @Satria: D’après //Nenek//, les femmes doivent être sages pour le mariage.
 
-<img src="/assets/illustrations/dian/seq6/bloody-legs.png" alt="Jambes ensanglantées">
+<img src="/assets/illustrations/dian/seq6/bloody-legs.png" alt="Souvenir : jambes ensanglantées">
 
 [[Mais... je suis sage... et même pas mariée ?->3.B.2]]
 [[C’est injuste ! Nous ne méritons pas ça ! Je ne comprends pas...->3.B.2]]
@@ -331,7 +329,7 @@ dian
 
 @Satria: Je sais, ce n’est pas normal, Dian, ce n’est pas normal du tout.
 
-<img class="left" src="/assets/illustrations/dian/seq6/satria-sad.png" alt="Satria à l’air triste, elle pleure en silence."/>
+<img class="left" src="/assets/illustrations/dian/seq6/satria-sad.png" alt="Satria a l’air triste, elle pleure en silence."/>
 
 <img class="right" src="/assets/illustrations/dian/seq6/dian-shocked.png" alt="Dian fronce les sourcils, perdue"/>
 
@@ -370,7 +368,7 @@ dian
 
 :: 4.1 {"position":"425,1100","size":"100,100"}
 @@ Si maman est au courant... je ne peux pas lui en parler...
-<img class="left" src="/assets/illustrations/dian/seq7/door.png" alt="Porte de l’infirmerie (affiches de prévention contre plein de trucs). Dian fait les 100 pas"/>
+<img class="left" src="/assets/illustrations/dian/seq7/door.png" alt="Porte de l’infirmerie (affiches de prévention scotchées à la porte). Dian fait les 100 pas"/>
 
 @@Infirmière: Dian, tu veux me dire quelque chose ?
 
@@ -418,8 +416,6 @@ dian
 @@Infirmière: Oui, mais c’est puni par la loi l'excision maintenant. 
 
 @Infirmière: Et il y a plein d’associations qui aident les femmes ayant subi ça.
-
-<!--Logos des associations qui apparaissent à l’écran ?-->
 
 <img class="right" src="/assets/illustrations/dian/seq7/seat.png" alt="Dian se serre les bras"/>
 
