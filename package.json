@@ -1,6 +1,15 @@
 {
   "name": "visual-novel",
+  "watch": {
+    "jsonifier": {
+      "patterns": [
+        "stories"
+      ],
+      "extensions": "twee"
+    }
+  },
   "scripts": {
+    "watch": "npm-watch",
     "hugo": "npm run jsonifier && hugo serve --disableFastRender",
     "hugo:build": "hugo --gc --minify",
     "jsonifier:test": "mocha jsonifier/tweeToJson.test.js",
@@ -10,7 +19,9 @@
   "dependencies": {
     "@splidejs/splide": "^4.1.4",
     "extwee": "^2.0.6",
-    "line-reader": "^0.4.0"
+    "gsap": "^3.11.5",
+    "line-reader": "^0.4.0",
+    "npm-watch": "^0.11.0"
   },
   "devDependencies": {
     "mocha": "^10.2.0",

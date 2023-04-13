@@ -1,19 +1,30 @@
 header#header
     left: 0
+    pointer-events: none
     position: fixed
     top: 0
     width: 100%
     z-index: 9
+    transition: transform .3s ease
+    &.global-header
+        background: $header-background-color
+    &.hidden
+        transform: translateY(-100%)
     > div
         align-items: center
         display: flex
         justify-content: space-between
         padding-bottom: $content-margin-sm
         padding-top: $content-margin-sm
+    a,
+    button
+        pointer-events: all
+    img 
+        height: 40px
     nav
         button
             @include icon($icon-menu, before)
-            color: white
+            color: $white
             position: relative
             z-index: 3
             span
@@ -53,3 +64,10 @@ header#header
                   color: $white
             .menu
                 display: flex
+    .close-page 
+        @include icon($icon-close, before)
+        color: $white
+        font-size: px2rem(24)
+        text-decoration: none
+        span
+            font-size: 0

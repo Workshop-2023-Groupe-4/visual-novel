@@ -12,828 +12,458 @@ dian
 }
 
 
-:: 1.0 {"position":"425,350","size":"100,100"}
-<!-- Image face à face avec son amie -->
-<img src="/assets/illustrations/story-1/seq1/seq1-1.svg" width="256" height="256">
-
-
+:: 1.0 {"position":"300,350","size":"100,100"}
+# Chapitre 1
+## Résurgence
 
 [[Suivant->1.1]]
 
 
-:: 1.1 {"position":"550,350","size":"100,100"}
-<!-- Image face à face avec son amie -->
-<img src="/assets/illustrations/story-1/seq1/seq1-1.svg" width="256" height="256">
+:: 1.1 {"position":"425,350","size":"100,100"}
+<img src="/assets/illustrations/dian/seq1/friend.png" alt="Image face à face avec son amie">
 
+@@Amie de Dian: Dis Dian, tu es déjà partie dans le pays de tes parents ?
 
+@(Dian): Oui ! On essaie d’y aller tous les ans... bon, avec le covid, ça a été pas mal compromis...
 
+@Amie de Dian: Tu t’entends bien avec ta famille ? C’est pas trop dur ?
 
+@(Dian): Non, tout le monde est super gentil avec moi, je suis bien intégrée !
 
+@Amie de Dian: C’est quoi ton souvenir le plus marquant ?
 
+@(Dian): ... Je plonge de temps en temps à Sulawesi, je suis toujours émerveillée de voir les poissons multicolores !
 
-
-
-— Dis Dian, tu es déjà partie dans le pays de tes parents ?
-
-— Oui ! On essaie d’y aller tous les ans… bon, avec le covid, ça a été pas mal compromis…
-
+@Amie de Dian: La chance ! Ça doit être incroyable !
+@(Dian): Oui ! C’est-
 
 [[Suivant->1.2]]
 
 
-:: 1.2 {"position":"675,350","size":"100,100"}
-<!-- Image face à face avec son amie -->
-<img src="/assets/illustrations/story-1/seq1/seq1-1.svg" width="256" height="256">
+:: 1.2 {"position":"550,350","size":"100,100"}
+<img class="right" src="/assets/illustrations/dian/seq1/dian-thinks.png" alt="Dian ferme les yeux">
 
+<img src="/assets/illustrations/dian/seq6/hands.png" alt="Souvenir : mains menaçantes">
 
+<img src="/assets/illustrations/dian/seq6/little-girl-screaming.png" alt="Souvenirs : visage flou qui crie">
 
+<img class="right" src="/assets/illustrations/dian/seq1/dian-confused.png" alt="Dian ne comprend pas">
 
-
-
-
-
-— Tu t’entends bien avec ta famille ? C’est pas trop dur ?
-— Non, tout le monde est super gentil avec moi, je suis bien intégrée !
+@@ Qu'est-ce que...
 
 [[Suivant->1.3]]
 
 
-:: 1.3 {"position":"800,350","size":"100,100"}
-<!-- Image face à face avec son amie -->
-<img src="/assets/illustrations/story-1/seq1/seq1-1.svg" width="256" height="256">
+:: 1.3 {"position":"675,350","size":"100,100"}
+<img src="/assets/illustrations/dian/seq1/friend.png" alt="Dian est face à face avec son amie">
+
+@@Amie de Dian: J’aimerais tellement vivre là-bas !
+
+@(Dian): Je...
+
+@@ Je n’en suis plus si sûre...
+
+<img src="/assets/illustrations/dian/seq1/distraiteClass.png" alt="Dian est en cours">
+
+@@ C'est bizarre... Je ne me sens pas bien...
+
+<img src="/assets/illustrations/dian/seq1/bus.png" alt="Dian se tord de douleur devant l'arrêt de bus">
 
 
-
-
-
-
-
-
-— C’est quoi ton souvenir le plus marquant ?
-— … (elle réfléchit) Je plonge de temps en temps à Sulawesi, je suis toujours émerveillée de voir les poissons multicolores !
-
+@@ J’ai si mal... qu’est-ce qui se passe ? C’est pas normal...
 
 [[Suivant->1.4]]
 
 
-:: 1.4 {"position":"925,350","size":"100,100"}
-<!-- Image face à face avec son amie -->
-<img src="/assets/illustrations/story-1/seq1/seq1-1.svg" width="256" height="256">
+:: 1.4 {"position":"800,350","size":"100,100"}
+<img src="/assets/illustrations/dian/seq2/in-bed.png" alt="Dian est roulée en boule dans sa couette, c’est la nuit">
 
+<img src="/assets/illustrations/dian/seq2/flashback.png" alt="On voit des souvenirs un peu flash dans sa tête">
 
+@@Nenek: Non !
 
+@Nenek: Reste tranquille !
 
+<img src="/assets/illustrations/dian/seq2/hand-on-ground.png" alt="Une femme, sa grand-mère (on ne voit que la main) l’attrape par la main et la maintient au sol">
 
+@(Dian): Non Nenek stop  !
 
+@Nenek: Arrête Dian, c’est pour ton bien !
 
+<img src="/assets/illustrations/dian/seq2/scream.png" alt="Dian crie dans son sommeil">
 
-— La chance ! Ça doit être incroyable !
-— Oui ! C’est-
+<img src="/assets/illustrations/dian/seq2/cry.png" alt="Elle ouvre les yeux, en larmes">
 
+@@ C’était quoi... ça ?
 
+<img src="/assets/illustrations/dian/seq2/rub-wrist.png" alt="Elle frotte ses poignets comme pour soulager la douleur du rêve">
 
-[[Suivant->full-illu--black]]
+@Maman de Dian: Dian, c’est l’heure de se réveiller, tu vas être en retard en cours !
 
-
-:: 1.5 {"position":"1425,350","size":"100,100"}
-<!-- Image face à face avec son amie -->
-<img src="/assets/illustrations/story-1/seq1/seq1-1.svg" width="256" height="256">
-
-
-
-
-
-
-
-
-— J’aimerais tellement vivre là-bas !
-— Je…
-
-
-[[Suivant->1.6]]
-
-
-:: 1.6 {"position":"1550,350","size":"100,100"}
-<!-- Image face à face avec son amie -->
-<img src="/assets/illustrations/story-1/seq1/seq1-1.svg" width="256" height="256">
-
-
-
-
-
-
-
-
-//Je n’en suis plus si sûre…//
-
-
-[[Suivant->1.7]]
-
-
-:: 1.7 {"position":"1675,350","size":"100,100"}
-<!-- Image en classe -->
-<img src="/assets/illustrations/story-1/seq1/seq1-3.svg" width="256" height="256">
-
-
-
-
-
-
-
-
-//C’est bizarre… Je ne me sens pas bien…//
-
-[[Suivant->1.8]]
-
-
-:: 1.8 {"position":"1800,350","size":"100,100"}
-<!-- Image en classe -->
-<img src="/assets/illustrations/story-1/seq1/seq1-4.svg" width="256" height="256">
-
-
-
-
-
-
-
-
-//J’ai si mal… qu’est-ce qui se passe ? C’est pas normal…//
-
-
+<img src="/assets/illustrations/dian/seq2/pinch-lips.png" alt="Dian pince les lèvres d’un air préoccupé">
 
 [[Suivant->2.0]]
 
 
-:: 10.1 {"position":"425,1825","size":"100,100"}
-Cette histoire représente une réalité qui touche aujourd’hui plus de 200 millions de femmes dans le monde. 
-
-Avec cette expérience que tu viens de réaliser, nous voulions te sensibiliser sur ce sujet et te faire prendre conscience que cela nous concerne tous et toutes.
-
-[[Suivant->10.2]]
-
-
-:: 10.2 {"position":"550,1825","size":"100,100"}
-* 6 filles sont mutilées toute les minutes.
-* 125 mille femmes excisées en France.
-* Cette pratique concerne toutes les cultures et toutes les religions.
-
-[[Suivant->10.3]]
-
-
-:: 10.3 {"position":"675,1825","size":"100,100"}
-Les conséquences sont nombreuses :
-
-* Douleurs
-* Traumatismes
-* Troubles psychologiques
-* Exclusion
-* Rapports sexuels sans plaisir
-* Douleurs et infections chroniques
-
-[[Suivant->10.4]]
-
-
-:: 10.4 {"position":"800,1825","size":"100,100"}
-Cela se produit aux quatre coins du monde.
-
-''//Carte des endroits ou ça se passe//''
-
-[[Suivant->10.5]]
-
-
-:: 10.5 {"position":"925,1825","size":"100,100"}
-Les orchidées rouges est une association qui permet d’accompagner les victimes d’excision dans la guérison et la réinsertion. 
-
-Plus d’informations : 
-
-lesorchideesrouges.org
-+33 5 57 34 92 37
-
-
-:: 2.0 {"position":"425,500","size":"100,100"}
-//''Image d’elle roulée en boule dans sa couette, c’est la nuit''//
-<img src="/assets/illustrations/story-1/seq2/seq2-1.svg" width="256" height="256">
-
-
-
+:: 2.0 {"position":"300,500","size":"100,100"}
+# Chapitre 2
+## Questionnement
 
 [[Suivant->2.1]]
 
 
-:: 2.1 {"position":"550,500","size":"100,100"}
-//''On voit des souvenirs un peu flash dans sa tête ''//
+:: 2.1 {"position":"425,500","size":"100,100"}
+<img src="/assets/illustrations/dian/seq3/absent-minded.png" alt="Image d’elle assise en classe, elle est distraite">
+
+@@Professeure: Dian tu m'écoutes ?
+
+<img src="/assets/illustrations/dian/seq3/tired.png" alt="Trait tirés, fatigués">
+
+@Professeure: Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
+
+[[Non ! Tout va bien, pardon.->2.2]]
+[[Non.->2.2]]
+[[Garder le silence->2.2]]
 
 
+:: 2.2 {"position":"550,500","size":"100,100"}
+<img src="/assets/illustrations/dian/seq3/huddled.png" alt="Elle se recroqueville">
 
+@@ Je n’ai pas besoin. Je suis normale.
 
+<img src="/assets/illustrations/dian/seq3/class.png" alt="Elle relève le nez vers le tableau où la professeure a dessiné un schéma de vulve">
 
+@@ On dirait une fleur, une espèce d’orchidée...
 
-— Non !
-— Reste tranquille !
+<img src="/assets/illustrations/dian/seq3/surprised.png" alt="Ses yeux sont fascinés">
 
+@@ On est toutes pareilles ?
 
-
-
-
-//''Une femme, sa grand-mère (on ne voit que la main/bras → possible tatouages/marques traditionnelles ?) l’attrape par le bras et la maintient au sol''//
-
-
-
-
-
-
-
-— Non Nenek stop  !
-— Arrête Dian, c’est pour ton bien !
-
-
-
-[[Suivant->2.2]]
-
-
-:: 2.2 {"position":"675,500","size":"100,100"}
-//''Elle crie dans son sommeil''//
-<img src="/assets/illustrations/story-1/seq2/seq2-4.svg" width="256" height="256">
-
-
-
-
+<img src="/assets/illustrations/dian/seq3/hand-up.png" alt="Elle lève la main pour poser une question">
 
 [[Suivant->2.3]]
 
 
-:: 2.3 {"position":"800,500","size":"100,100"}
-//''Elle ouvre les yeux, en larmes''//
-<img src="/assets/illustrations/story-1/seq2/seq2-5.svg" width="256" height="256">
+:: 2.3 {"position":"675,500","size":"100,100"}
+<img src="/assets/illustrations/dian/seq4/mirror.png" alt="Elle est assise devant un miroir un peu enfantin (tout mims), elle sourit de curiosité"/>
+
+<img src="/assets/illustrations/dian/seq4/close-eyes.png" alt="Elle plisse les yeux"/>
+
+<img src="/assets/illustrations/dian/seq4/open-eyes.png" alt="Son sourire s’efface"/>
+
+<img src="/assets/illustrations/dian/seq4/eyes-open-wide.png" alt="Elle écarquille les yeux et sa bouche s’ouvre"/>
+
+@@ Ce n’est pas normal...
+
+<img src="/assets/illustrations/dian/seq4/remember.png" alt="Souvenir : elle petite qui pleure et voit du sang qui coule sur ses jambes ?"/>
+
+@@ JE ne suis pas normale...
+
+<img src="/assets/illustrations/dian/seq4/cry.png" alt="Elle pleure"/>
+
+@@ Qu’est-ce que je dois faire ?
+
+[[Rechercher sur internet : Vulve pas normale pourquoi ?->3.A.0]]
+[[Appeler Satria, ta cousine indonésienne que tu adores->3.B.0]]
 
 
+:: 3.A.0 {"position":"300,800","size":"100,100"}
+# Chapitre 5
+## Recherches
+
+[[Suivant->3.A.1]]
 
 
+:: 3.A.1 {"position":"425,800","size":"100,100"}
+<img src="/assets/illustrations/dian/seq6/forum.png" alt="Défilement forum"/>
 
-— C’était quoi… ça ?
-
-
-
-[[Suivant->2.4]]
-
-
-:: 2.4 {"position":"925,500","size":"100,100"}
-//''Elle frotte ses poignets comme pour soulager la douleur du rêve''//
-<img src="/assets/illustrations/story-1/seq2/seq2-6.svg" width="256" height="256">
+[[Pathologie->3.A.2.B]]
+[[Ablation->3.A.2.B]]
+[[Excision->3.A.2.A]]
 
 
+:: 3.A.2.A {"position":"550,800","size":"100,100"}
+<img src="/assets/illustrations/dian/seq6/eye-screen.png" alt="L'écran se reflète dans ses yeux"/>
+
+“Excision”
+
+[[Suivant->3.A.3]]
 
 
+:: 3.A.2.B {"position":"550,675","size":"100,100"}
+@(Dian): Non... Non c'est pas ce que j'ai...
+
+<img src="/assets/illustrations/dian/seq6/eye-screen.png" alt="L'écran se reflète dans ses yeux"/>
+
+“Sujet relié : l'excision”
+
+[[Suivant->3.A.3]]
 
 
+:: 3.A.3 {"position":"675,800","size":"100,100"}
+@@ Est-ce vraiment ce qui m'est arrivé ?
 
-— Dian, c’est l’heure de se réveiller, tu vas être en retard en cours !
+<img class="fill" src="/assets/illustrations/dian/seq6/razor.png" alt="Image avec des rasoirs qui remplissent la scène petit à petit"/>
 
+@@ Je crois qu'il y avait des cris, des pleurs... Je sais que je n’étais pas toute seule.
 
+<img src="/assets/illustrations/dian/seq6/little-girl-screaming.png" alt="Visage d’elle petite fille, déformé par les cris"/>
 
-[[Suivant->2.5]]
+@(Dian): Est-ce que Maman était là ?
 
+<img src="/assets/illustrations/dian/seq6/mother-shadow.png" alt="Dian se prend la tête dans les mains, autour d’elle des bribes de souvenirs reviennent, elle revoit sa mère,  présente"/>
 
-:: 2.5 {"position":"1050,500","size":"100,100"}
-//''Elle pince les lèvres d’un air préoccupé''//
-<img src="/assets/illustrations/story-1/seq2/seq2-7.svg" width="256" height="256">
+@(Dian): Mais //pourquoi// ?
 
-[[Suivant->3.1]]
+<img src="/assets/illustrations/dian/seq6/forum.png" alt="Elle reprend son téléphone et continue à lire les informations sur l’excision"/>
 
+''L’excision est pratiquée par tradition et est considéré comme un rite de passage car il est dit que les filles qui ne sont pas excisées risquent d'être atteintes de problèmes mentaux et handicaps.''
 
-:: 3.1 {"position":"425,650","size":"100,100"}
-//''Image d’elle assise en classe, elle est distraite''//
-<img src="/assets/illustrations/story-1/seq3/seq3-1.svg" width="256" height="256">
+<img src="/assets/illustrations/dian/seq6/socked.png" alt="Choc sur son visage"/>
 
-— Dian tu m'écoutes ?
+''6 petites filles excisées toutes les minutes dans le monde''
 
-[[Suivant->3.2]]
+<!--<img src="/assets/illustrations/dian/seq6/blood.png" alt="Transition avec du sang"/>-->
 
+@(Dian): Impossible...
 
-:: 3.2 {"position":"550,650","size":"100,100"}
-//''Trait tirés, fatigués''//
-<img src="/assets/illustrations/story-1/seq3/seq3-2.svg" width="256" height="256">
-— Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
+@@ Je me souviens, Maman était là, il y avait aussi Nenek (mot étranger pas en italique).
 
-[[Non ! Tout va bien, pardon.->3.3]]
-[[Non.->3.3]]
-[[Garder le silence->3.3]]
+@@ C’est elles qui m’ont fait ça.
 
+@@ Qui NOUES ont fait ça.
 
-:: 3.3 {"position":"675,650","size":"100,100"}
-//''Elle se recroqueville''//
-<img src="/assets/illustrations/story-1/seq3/seq3-3.svg" width="256" height="256">
-//Je n’ai pas besoin. Je suis normale.//
+<img src="/assets/illustrations/dian/seq6/little-girls.png" alt="Autour d'elle, d'autres petites filles apparaissent, floues et transparentes."/>
 
-[[Suivant->3.4]]
+@@ Je n’étais pas seule, d’autres petites filles encore plus jeunes que moi criaient et pleuraient de douleur.
 
+@@ Je ne comprends pas.
 
-:: 3.4 {"position":"800,650","size":"100,100"}
-//''Elle relève le nez vers le tableau où la professeure a dessiné un schéma de vulve''//
-<img src="/assets/illustrations/story-1/seq3/seq3-4.svg" width="256" height="256">
-On dirait une fleur, une espèce d’orchidée…
+<img src="/assets/illustrations/dian/seq6/crying-in-bed.png" alt="Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé."/>
 
-[[Suivant->3.5]]
+[[Suivant->4.0]]
 
 
-:: 3.5 {"position":"925,650","size":"100,100"}
-//''Ses yeux sont fascinés''//
-<img src="/assets/illustrations/story-1/seq3/seq3-5.svg" width="256" height="256">
-On est toutes pareilles ?
+:: 3.B.0 {"position":"300,950","size":"100,100"}
+# Chapitre 5
+## Ta cousine Satria
 
-//''Elle lève la main pour poser une question''//
-<img src="/assets/illustrations/story-1/seq3/seq3-6.svg" width="256" height="256">
+[[Suivant->3.B.1]]
+
+
+:: 3.B.1 {"position":"425,950","size":"100,100"}
+<img class="left" src="/assets/illustrations/dian/seq6/satria-tired.png" alt="La cousine de Dian, au téléphone (celle-ci était en train de dormir car 5h de décalage)"/>
+
+@Satria: Allô ? Whaou Dian, tu sais qu’il est 3 heures du matin, ici ?
+
+<img class="right" src="/assets/illustrations/dian/seq6/dian-calling.png" alt="Dian au téléphone"/>
+
+@(Dian): Désolée, je-
+
+@Satria: Ça va ?
+
+@(Dian): N- Non...
+
+<img class="right" src="/assets/illustrations/dian/seq6/rub-wrist.png" alt="Silence, on voit Dian serrer le téléphone contre elle en pleurant.">
+
+@Satria: Ok. Qu’est-ce qu’il se passe, //sayang// (ma puce) ?
+
+<!--Grande inspiration de Dian —> zoom sur elle-->
+
+@(Dian): J’ai... J’ai eu ce cours... en sciences... et
+
+<img class="center" src="/assets/illustrations/dian/seq6/orchidee-start.png" alt="Orchidée qui fleurit."/>
+
+@Satria: Prends ton temps, t’inquiète.
+
+@(Dian): Je... Je crois que je ne suis pas normale.
+
+@Satria: Pourquoi ?
+
+<img class="center" src="/assets/illustrations/dian/seq6/orchidee-end.png" alt="L'orchidée fâne."/>
+
+@(Dian): C’est... intime...
+
+@Satria: Ah...
+
+<img class="left" src="/assets/illustrations/dian/seq6/satria-sad.png" alt="La cousine ferme les yeux d'un air douloureux.">
+
+@@ ...
+
+@Satria: Tu parles de ce qu’à fait //Nenek//, non ?
+
+@(Dian): Grand-mère ?
+
+@Satria: Oui, tu ne te souviens pas ?
+
+@(Dian): Non...
+
+<img class="fill" src="/assets/illustrations/dian/seq6/hands.png" alt="Un souvenir menaçant de main réaparait">
+
+@(Dian): Ce sont des... souvenirs...?
+
+@Satria: Oui. J’ai vécu la même chose.
+
+<img class="right" src="/assets/illustrations/dian/seq6/socked.png" alt="Les yeux de Dian s'écarquillent.">
+
+@(Dian): Toi aussi ?!
+
+@@ Je suis peut-être normale !
+
+<img class="left" src="/assets/illustrations/dian/seq6/satria-tired.png" alt="Ceux de la cousine se ferment.">
+
+@Satria: Oui... pour mon mariage.
+
+@(Dian): Pourquoi ?
+
+@Satria: D’après //Nenek//, les femmes doivent être sages pour le mariage.
+
+<img src="/assets/illustrations/dian/seq6/bloody-legs.png" alt="Jambes ensanglantées">
+
+[[Mais... je suis sage... et même pas mariée ?->3.B.2]]
+[[C’est injuste ! Nous ne méritons pas ça ! Je ne comprends pas...->3.B.2]]
+
+
+:: 3.B.2 {"position":"550,950","size":"100,100"}
+@Satria: Pour elle, c’est notre devoir.
+
+@(Dian): Mais...
+
+@Satria: Je sais, ce n’est pas normal, Dian, ce n’est pas normal du tout.
+
+<img class="left" src="/assets/illustrations/dian/seq6/satria-sad.png" alt="Satria à l’air triste, elle pleure en silence."/>
+
+<img class="right" src="/assets/illustrations/dian/seq6/dian-shocked.png" alt="Dian fronce les sourcils, perdue"/>
+
+@Satria: On ne t’en a pas parlé, en France ? À l’école ou quoi ?
+
+<img class="center" src="/assets/illustrations/dian/seq6/little-girls-muted.png" alt="Une main recouvre la bouche d'une petite fille "/>
+
+@(Dian): Jamais...
+
+@Satria: Peut-être... peut-être que tu peux... c’est difficile, je sais, mais...
+
+@(Dian): Je ne sais pas si je pourrai.
+
+@Satria: Prends ton temps, je sais que c’est dur, Dian.
+
+@(Dian): Maman sait ?
+
+
+@Satria: ... oui, forcément.
+
+<img src="/assets/illustrations/dian/seq2/pinch-lips.png" alt="Dian en colère"/>
+
+@@ POURQUOI ?
+
+<img src="/assets/illustrations/dian/seq6/crying-in-bed.png" alt="Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé."/>
+
+[[Suivant->4.0]]
+
+
+:: 4.0 {"position":"300,1100","size":"100,100"}
+# Chapitre 6
+## L'infirmerie
 
 [[Suivant->4.1]]
 
 
-:: 4.1 {"position":"425,800","size":"100,100"}
-''//Elle est assise devant un miroir un peu enfantin, elle sourit de curiosité//''
+:: 4.1 {"position":"425,1100","size":"100,100"}
+@@ Si maman est au courant... je ne peux pas lui en parler...
+<img class="left" src="/assets/illustrations/dian/seq7/door.png" alt="Porte de l’infirmerie (affiches de prévention contre plein de trucs). Dian fait les 100 pas"/>
+
+@@Infirmière: Dian, tu veux me dire quelque chose ?
+
+@(Dian): Ah ! Bonjour... Madame... je-
+
+<img class="left" src="/assets/illustrations/dian/seq7/nurse-look.png" alt="L'infirmière regarde Dian"/>
+
+@Infirmière: Je prends justement ma pause café, tu veux entrer ? J’aime pas être toute seule.
+
+<img class="right" src="/assets/illustrations/dian/seq7/shy.png" alt="Dian se tord les doigts nerveusement"/>
+
+@(Dian): ... D’accord...
+
+<img class="left" src="/assets/illustrations/dian/seq7/nurse-smile.png" alt="L'infirmière sourit à Dian"/>
+
+<img src="/assets/illustrations/dian/seq7/coffee-left.png"/>
 
 [[Suivant->4.2]]
 
 
-:: 4.2 {"position":"550,800","size":"100,100"}
-''//Elle plisse les yeux, son sourire s’efface.//''
+:: 4.2 {"position":"550,1100","size":"100,100"}
+<img src="/assets/illustrations/dian/seq7/coffee-right.png"/>
 
-[[Suivant->4.3]]
+<img class="right" src="/assets/illustrations/dian/seq7/seat.png" alt="L’infirmière prend et serre chaleureusement la main de Dian"/>
 
+@@Infirmière: Merci... Merci de m’avoir parlé, Dian.
 
-:: 4.3 {"position":"675,800","size":"100,100"}
-''//Elle écarquille les yeux et sa bouche s’ouvre//''
+<img class="right" src="/assets/illustrations/dian/seq7/tears.png" alt="Dian a les yeux rouges et fermés, la tête baissée"/>
 
-''//Souvenir : elle petite qui pleure et voit du sang qui coule sur ses jambes ?//''
+@(Dian): ...
 
-[[Suivant->4.4]]
+@Infirmière: Tu sais comment ça s’appelle, cette pratique ?
 
+@(Dian): Je crois... je suis pas sûre...
 
-:: 4.4 {"position":"800,800","size":"100,100"}
-''//Elle pleure//''
+@Infirmière: C’est l’''excision''.
 
-Ce n’est pas normal…
+@Infirmière: Aujourd’hui, en France, c’est interdit par la loi, mais ça n’a pas toujours été le cas et beaucoup de femmes subissaient cette pratique, comme toi aujourd’hui.
 
-[[Suivant->4.5]]
+[[Vraiment ?->4.3]]
+[[Alors je suis... normale ?->4.3]]
 
 
-:: 4.5 {"position":"925,800","size":"100,100"}
-JE ne suis pas normale…
+:: 4.3 {"position":"675,1100","size":"100,100"}
+@@Infirmière: Oui, mais c’est puni par la loi l'excision maintenant. 
 
-[[Suivant->5.1]]
+@Infirmière: Et il y a plein d’associations qui aident les femmes ayant subi ça.
 
+<!--Logos des associations qui apparaissent à l’écran ?-->
 
-:: 5.1 {"position":"425,950","size":"100,100"}
-Qu’est-ce que je dois faire ?
+<img class="right" src="/assets/illustrations/dian/seq7/seat.png" alt="Dian se serre les bras"/>
 
-[[Rechercher sur internet : Vulve pas normale pourquoi ?->6.1.1]]
-[[Appeler Satria, ta cousine indonésienne que tu adores->6.2.1]]
+@Infirmière: Ça t’intéresse de parler à quelqu’un ? Je peux te mettre en contact avec une gynéco, ou parler à quelqu’un de l’association.
 
+@(Dian): Je ne sais pas...
 
-:: 6.1.1 {"position":"425,1075","size":"100,100"}
-''//Défilement forum//''
+@Infirmière: C’est ton choix, Dian, va à ton rythme.
 
-[[Pathologie->6.1.2.1]]
-[[Ablation->6.1.2.1]]
-[[Excision->6.1.2]]
+[[Demander un rendez-vous chez la gynéco->5.A.0]]
+[[Demander à entrer à entrer en contact avec Les Orchidées Rouges->5.B]]
 
 
-:: 6.1.10 {"position":"1425,1075","size":"100,100"}
-Je me souviens, Maman était là, il y avait aussi Nenek (mot étranger pas en italique). 
+:: 5.A.0 {"position":"300,1250","size":"100,100"}
+<p>Dian s’est rendue chez une gynécologue de confiance.</p>
 
-[[Suivant->6.1.11]]
+<p>Cela s’est fait en plusieurs séances, Dian n’étant pas en confiance avec son corps mutilé.
+Celle-ci lui a expliqué avec plus de précision la nature de la mutilation génitale qu’elle a subi.</p>
 
+<p>Elle a appris que partout dans le monde, et même à Paris, des petites filles subissent le même sort, parfois avec des amputations plus importantes.</p>
 
-:: 6.1.11 {"position":"1550,1075","size":"100,100"}
-C’est elles qui m’ont fait ça.
+<p>Certaines en meurent.</p>
 
-[[Suivant->6.1.12]]
+[[Suivant->5.A.1]]
 
 
-:: 6.1.12 {"position":"1675,1075","size":"100,100"}
-Qui NOUES ont fait ça.
+:: 5.A.1 {"position":"425,1250","size":"100,100"}
+<p>Dian a développé des douleurs terribles et quotidiennes depuis sa sortie d’amnésie, sa gynécologue l’accompagne pour rendre sa vie supportable, mais ce n’est pas une solution à long terme.</p>
 
-[[Suivant->6.1.13]]
+<p>Elle a décidé de se reconstruire et elle envisagera peut-être plus tard une chirurgie réparatrice si elle en ressent le besoin.</p>
 
+<p>Cet accompagnement physique et psychologique lui permettra de reprendre confiance en elle et de se réapproprier son corps.</p>
 
-:: 6.1.13 {"position":"1800,1075","size":"100,100"}
-''//Autour d'elle, d'autres petites filles apparaissent, floues et transparentes.//''
+<a href="/stories/ending/">Suivant</a>
 
-Je n’étais pas seule, d’autres petites filles encore plus jeunes que moi criaient et pleuraient de douleur.
 
-Je ne comprends pas.
+:: 5.B {"position":"300,1375","size":"100,100"}
+<p>Grâce à l’infirmière, Dian a pu en apprendre plus sur les associations qui accompagnent les jeunes femme et les jeunes filles victimes d’excision.</p>
 
-''//Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé//''
+<p>Elle a pu contacter l’une d’entre elles, les Orchidées Rouges et a été reçue par une psychologue qui a pu la rassurer et l’écouter, cela lui a fait du bien de se sentir comprise.</p>
 
-[[Suivant->7.1]]
+<p>Elle a pu assister à des ateliers thérapeutiques et rencontrer d’autres femmes qui comme elles ont vécu une excision, s’en sont remises et militent maintenant contre cette pratique qui perdure à travers les époques.</p>
 
+<p>La blessure dans le cœur de Dian n’est pas encore prête à cicatriser mais elle est un peu plus apaisée, mais elle sait à présent qu’elle n’est pas seule.</p>
 
-:: 6.1.2 {"position":"550,1075","size":"100,100"}
-''//L'écran de l'ordinateur se reflète dans ses yeux //''
 
-“Excision”
-
-[[Suivant->6.1.3]]
-
-
-:: 6.1.2.1 {"position":"550,950","size":"100,100"}
-Non... Non c'est pas ce que j'ai...
-
-''//L'écran de l'ordinateur se reflète dans ses yeux //''
-
-“Excision”
-
-[[Suivant->6.1.3]]
-
-
-:: 6.1.3 {"position":"675,1075","size":"100,100"}
-Est-ce vraiment ce qui m'est arrivé ?
-
-''//Image avec des rasoirs qui remplissent la scène petit à petit//''
-
-[[Suivant->6.1.4]]
-
-
-:: 6.1.4 {"position":"800,1075","size":"100,100"}
-Je crois qu'il y avait des cris, des pleurs… Je sais que je n’étais pas toute seule.
-
-[[Suivant->6.1.5]]
-
-
-:: 6.1.5 {"position":"925,1075","size":"100,100"}
-''//Visage d’elle petite fille, déformé par les cris//''
-
-''//Puis visage de sa mère, flou//''
-
-Est-ce que Maman était là ?
-
-[[Suivant->6.1.6]]
-
-
-:: 6.1.6 {"position":"1050,1075","size":"100,100"}
-''//Dian se prend la tête dans les mains, autour d’elle des bribes de souvenirs reviennent, elle revoit sa mère,  présente//''
-
-Mais //pourquoi// ?
-
-[[Suivant->6.1.8]]
-
-
-:: 6.1.8 {"position":"1175,1075","size":"100,100"}
-''//Elle reprend son téléphone et continue à lire les informations sur l’excision//''
-
-''//En gras les mots : “L’excision est pratiquée par tradition et est considéré comme un rite de passage car il est dit que les filles qui ne sont pas excisées risquent d'être atteintes de "problèmes mentaux et handicaps".//''
-
-[[Suivant->6.1.9]]
-
-
-:: 6.1.9 {"position":"1300,1075","size":"100,100"}
-''//Choc sur son visage//''
-
-6 petites filles excisées toutes les minutes dans le monde
-
-''//transition avec du sang ?//''
-
-— Impossible…
-
-[[Suivant->6.1.10]]
-
-
-:: 6.2.1 {"position":"425,1225","size":"100,100"}
-''//Ecran divisé : Dian d’un côté et sa cousine de l’autre, au téléphone (celle-ci était en train de dormir car 5h de décalage)//''
-
-— Allô ? Whaou Dian, tu sais qu’il est 3 heures du matin, ici ?
-— Désolée, je-
-
-[[Suivant->6.2.2]]
-
-
-:: 6.2.10 {"position":"1550,1225","size":"100,100"}
-— Oui. J’ai vécu la même chose ?
-
-''//Les yeux de Dian s'écarquillent, ceux de la cousine se ferment.//''
-
-— Toi aussi ?! 
-
-[[Suivant->6.2.11]]
-
-
-:: 6.2.11 {"position":"1675,1225","size":"100,100"}
-//Je suis peut-être normale !//
-
-[[Suivant->6.2.12]]
-
-
-:: 6.2.12 {"position":"1800,1225","size":"100,100"}
-— Oui… pour mon mariage.
-
-''//Images de cloches et symboles du mariages qui se transforment en rasoir.//''
-
-— Pourquoi ?
-
-[[Suivant->6.2.13]]
-
-
-:: 6.2.13 {"position":"1925,1225","size":"100,100"}
-— D’après nenek, les femmes doivent être sages pour le mariage.
-
-''//Sang qui coule entre les jambes //''
-
-[[Mais… je suis sage… et même pas mariée ?->6.2.14]]
-[[C’est injuste ! Nous ne méritons pas ça ! Je ne comprends pas…->6.2.14]]
-
-
-:: 6.2.14 {"position":"2050,1225","size":"100,100"}
-— Pour elle, c’est notre devoir.
-— Mais…
-
-[[Suivant->6.2.15]]
-
-
-:: 6.2.15 {"position":"2175,1225","size":"100,100"}
-— Je sais, ce n’est pas normal, Dian, ce n’est pas normal du tout.
-
-''//Dian fronce les sourcils, perdue / de l’autre côté Satria à l’air triste ? elle pleure en silence ?//''
-
-[[Suivant->6.2.16]]
-
-
-:: 6.2.16 {"position":"2300,1225","size":"100,100"}
-— On ne t’en a pas parlé, en France ? À l’école ou quoi ?
-
-''//Images de mains qui se mettent sur des bouches (peut-être certaines sont cousues, comme pour l'excision)//''
-
-— Jamais…
-
-[[Suivant->6.2.17]]
-
-
-:: 6.2.17 {"position":"2425,1225","size":"100,100"}
-— Peut-être… peut-être que tu peux… c’est difficile, je sais, mais-
-— Je ne sais pas si je pourrai.
-
-[[Suivant->6.2.18]]
-
-
-:: 6.2.18 {"position":"2550,1225","size":"100,100"}
-— Prends ton temps, je sais que c’est dur, Dian.
-— Maman sait ?
-— … oui, forcément.
-
-[[Suivant->6.2.19]]
-
-
-:: 6.2.19 {"position":"2675,1225","size":"100,100"}
-''//Visage en colère//''
-
-POURQUOI ?
-
-[[Suivant->6.2.20]]
-
-
-:: 6.2.2 {"position":"550,1225","size":"100,100"}
-— Ça va ?
-— N- Non…
-
-
-[[Suivant->6.2.3]]
-
-
-:: 6.2.20 {"position":"2800,1225","size":"100,100"}
-''//Dian pleure
-Dian s’endort au téléphone//''
-
-[[Suivant->7.1]]
-
-
-:: 6.2.3 {"position":"675,1225","size":"100,100"}
-— Ça va ?
-— N- Non…
-
-[[Suivant->6.2.4]]
-
-
-:: 6.2.4 {"position":"800,1225","size":"100,100"}
-//''Silence, on voit Dian serrer le téléphone contre elle en pleurant''//
-
-— Ok. Qu’est-ce qu’il se passe, //sayang// (ma puce) ?
-
-[[Suivant->6.2.5]]
-
-
-:: 6.2.5 {"position":"925,1225","size":"100,100"}
-//''Grande inspiration de Dian —> zoom sur elle''//
-
-— J’ai… J’ai eu ce cours… en sciences… et
-
-''//Orchidée qui fleurit //''
-
-— Prends ton temps, t’inquiète.
-
-[[Suivant->6.2.6]]
-
-
-:: 6.2.6 {"position":"1050,1225","size":"100,100"}
-— Je… Je crois que je ne suis pas normale.
-— Pourquoi ?
-
-[[Suivant->6.2.7]]
-
-
-:: 6.2.7 {"position":"1175,1225","size":"100,100"}
-''//L'orchidée fâne//''
-— C’est… intime…
-
-— Ah…
-
-''//La cousine ferme les yeux d'un air douloureux.//''
-
-[[Suivant->6.2.8]]
-
-
-:: 6.2.8 {"position":"1300,1225","size":"100,100"}
-— …
-— Tu parles de ce qu’à fait //nenek//, non ?
-— Grand-mère ?
-
-[[Suivant->6.2.9]]
-
-
-:: 6.2.9 {"position":"1425,1225","size":"100,100"}
-— Oui, tu ne te souviens pas ?
-— Non…
-
-''//Les mains réapparaissent à l’écran//''
-
-— Ce sont des... souvenirs…?
-
-[[Suivant->6.2.10]]
-
-
-:: 7.1 {"position":"425,1375","size":"100,100"}
-''//Trajet de bus//''
-
-Si maman est au courant… je ne peux pas lui en parler…
-
-[[Suivant->7.2]]
-
-
-:: 7.2 {"position":"550,1375","size":"100,100"}
-''//Porte de l’infirmerie (affiches de prévention contre plein de trucs). Dian fait les 100 pas//''
-
-— Dian, tu veux me dire quelque chose ?
-— Ah ! Bonjour… Madame… je-
-
-[[Suivant->7.3]]
-
-
-:: 7.3 {"position":"675,1375","size":"100,100"}
-''//Regard de bas en haut de l’infirmière, puis sourire//''
-
-— Je prends justement ma pause café, tu veux entrer ? J’aime pas être toute seule.
-
-''//Dian se tord les doigts nerveusement//''
-
-— … D’accord…
-
-[[Suivant->7.4]]
-
-
-:: 7.4 {"position":"800,1375","size":"100,100"}
-''//Image d’une tasse de café et d’un verre d’eau sur une table.//''
-
-''//L’infirmière prend et serre chaleureusement la main de Dian//''
-
-— Merci… Merci de m’avoir parlé, Dian.
-
-[[Suivant->7.5]]
-
-
-:: 7.5 {"position":"925,1375","size":"100,100"}
-''//Dian a les yeux rouges et fermés, la tête baissée (on peut ne pas voir son visage par ex)//''
-— …
-— Tu sais comment ça s’appelle, cette pratique ?
-— Je crois… je suis pas sûre…
-
-[[Suivant->7.6]]
-
-
-:: 7.6 {"position":"1050,1375","size":"100,100"}
-— C’est l’excision. 
-
-''//Le mot est représenté en écho (ou une étiquette) //''
-Aujourd’hui, en France, c’est interdit, mais jusque dans les années 60, plein de femmes étaient comme toi.
-
-[[Vraiment ?->7.7]]
-[[Alors je suis... normale ?->7.7]]
-
-
-:: 7.7 {"position":"1175,1375","size":"100,100"}
-— Oui, mais c’est puni par la loi maintenant. Et il y a plein d’associations qui aident les femmes ayant subi ça.
-
-''//Logos des associations qui apparaissent à l’écran ?//''
-
-[[Suivant->7.8]]
-
-
-:: 7.8 {"position":"1300,1375","size":"100,100"}
-— Ça t’intéresse de parler à quelqu’un ? Je peux te mettre en contact avec une gynéco, ou parler à quelqu’un de l’association.
-
-''//Dian se serre les bras//''
-
-— Je ne sais pas…
-
-[[Suivant->7.9]]
-
-
-:: 7.9 {"position":"1425,1375","size":"100,100"}
-— C’est ton choix, Dian, va à ton rythme.
-
-[[Demander un rendez-vous chez la gynéco->8.1]]
-
-[[Demander à entrer à entrer en contact avec Les Orchidées Rouges->9.1]]
-
-
-:: 8.1 {"position":"425,1525","size":"100,100"}
-Dian s’est rendue chez une gynécologue de confiance.
-
-Cela s’est fait en plusieurs séances, Dian n’étant pas en confiance avec son corps mutilé.
-Celle-ci lui a expliqué avec plus de précision la nature de la mutilation génitale qu’elle a subi.
-
-[[Suivant->8.2]]
-
-
-:: 8.2 {"position":"550,1525","size":"100,100"}
-Elle a appris que partout dans le monde, et même à Paris, des petites filles subissent le même sort, parfois avec des amputations plus importantes.
-
-[[Suivant->8.3]]
-
-
-:: 8.3 {"position":"675,1525","size":"100,100"}
-Certaines en meurent.
-
-[[Suivant->8.4]]
-
-
-:: 8.4 {"position":"800,1525","size":"100,100"}
-Dian a développé des douleurs terribles et quotidiennes depuis sa sortie d’amnésie, sa gynécologue l’accompagne pour rendre sa vie supportable, mais ce n’est pas une solution à long terme.
-
-[[Suivant->8.5]]
-
-
-:: 8.5 {"position":"925,1525","size":"100,100"}
-Elle a décidé d’attendre d’être majeure pour demander à bénéficier d’une chirurgie réparatrice.
-
-[[Suivant->8.6]]
-
-
-:: 8.6 {"position":"1050,1525","size":"100,100"}
-Celle-ci lui permettra de reprendre confiance en elle et de se réapproprier son corps.
-
-[[Suivant->10.1]]
-
-
-:: 9.1 {"position":"425,1675","size":"100,100"}
-Grâce à l’infirmière, Dian a pu en apprendre plus sur les associations qui accompagnent les jeunes femme et les jeunes filles victimes d’excision. 
-
-[[Suivant->9.2]]
-
-
-:: 9.2 {"position":"550,1675","size":"100,100"}
-Elle a pu contacter l’une d’entre elles, les Orchidées rouges et a été reçue par une psychologue qui a pu la rassurer et l’écouter, cela lui a fait du bien de se sentir comprise. 
-
-[[Suivant->9.3]]
-
-
-:: 9.3 {"position":"675,1675","size":"100,100"}
-Elle a pu assister à des ateliers thérapeutiques et rencontrer d’autres femmes qui comme elles ont vécu une excision, s’en sont remises et militent maintenant contre cette pratique qui perdure à travers les époques.
-
-[[Suivant->9.4]]
-
-
-:: 9.4 {"position":"800,1675","size":"100,100"}
-La blessure dans le cœur de Dian n’est pas encore prête à cicatriser mais elle est un peu plus apaisée, mais elle sait à présent qu’elle n’est pas seule.
-
-[[Suivant->10.1]]
-
-
-:: full-illu--black {"position":"1050,350","size":"100,100"}
-<img src="/assets/illustrations/story-1/seq1/black.png" width="300" height="400">
-
-(t8n-time:0.5s)[[Suivant->full-illu--closed-eyes]]
-
-
-:: full-illu--closed-eyes {"position":"1175,350","size":"100,100"}
-<!-- Image: elle ferme les yeux -->
-<img src="/assets/illustrations/story-1/seq1/seq1-2.svg" width="256" height="256">
-
-
-
-
-
-
-[[Suivant->full-illu--red]]
-
-
-:: full-illu--red {"position":"1300,350","size":"100,100"}
-<img src="/assets/illustrations/story-1/seq1/red.png" width="300" height="400">
-
-
-[[Suivant->1.5]]
+[Suivant->/stories/ending/]

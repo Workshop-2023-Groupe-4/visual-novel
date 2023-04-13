@@ -1,18 +1,16 @@
 {{ define "main" }}
 
-<section class="story">
+  <section class="story{{ if eq .Title "Ending"}} is-ending{{ end }}">
     <div class="container">
-        <article class="story__summary">
-            <h2>{{ .Title }}</h2>
-        </article>
-
-        {{- .Render "single/passages" -}}
-
-        {{- .Render "single/navigation" -}}
+      {{- .Render "single/passages" -}}
+      {{ .Content }}
+      {{ if eq .Title "Ending"}}
+        {{- partial "stories/organizations.html" -}}
+      {{ end }}
     </div>
-</section>
+  </section>
 
-{{ $js := resources.Get "js/in-story.js" | js.Build (dict "minify" hugo.IsProduction) | fingerprint }}
-<script src="{{ $js.RelPermalink }}" defer integrity="{{ $js.Data.Integrity }}"></script>
+  {{ $js := resources.Get "js/in-story.js" | js.Build (dict "minify" hugo.IsProduction) | fingerprint }}
+  <script src="{{ $js.RelPermalink }}" defer integrity="{{ $js.Data.Integrity }}"></script>
 
 {{ end }}

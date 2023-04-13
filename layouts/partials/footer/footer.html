@@ -1,7 +1,9 @@
+{{ $logo := resources.Get "/media/logo-white.svg" }}
+
 <footer id="footer" role="contentinfo">
   <div class="container">
     <div class="footer-title">
-      <h2>{{.Site.Title}}</h2>
+      <img src="{{ $logo.RelPermalink }}" class="footer-logo" alt="">
       <p>Une expérience proposée par <a href="https://lesorchideesrouges.org/" title="site officiel" target="_blank">Les Orchidées Rouges</a>.</p>
     </div>
     <div class="footer-resources">

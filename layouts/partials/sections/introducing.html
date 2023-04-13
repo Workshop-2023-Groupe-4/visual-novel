@@ -1,17 +1,49 @@
-<section class="introducing">
-  {{ $home_hero_intro_1 := resources.Get "/media/intro-1.png" }}
-  {{ $home_hero_intro_2 := resources.Get "/media/intro-2.png" }}
+<section class="introducing" id="home-sections">
+  {{ $home_hero_intro_1 := resources.Get "/assets/illustrations/home/intro-1.png" }}
+  {{ $home_hero_intro_2 := resources.Get "/assets/illustrations/home/intro-2.png" }}
 
   <div class="introducing__items">
-    <img src="{{ $home_hero_intro_1.RelPermalink }}" alt="">
-    <span>Une expérience interactive</span>
+    <hgroup>
+      <h2 class="h1">L'excision</h2>
+      <span>Un sujet <b>tabou</b></span>
+    </hgroup>
+    <p>Dans le monde, de nombreuses petites <b>filles</b> et jeunes <b>femmes</b> sont victime de <b>mutilations</b> génitales, pour des raisons diverses, qu’elles soient culturelles, traditionnelles ou religieuses. </p>
+    <a href="/stories" class="primary-btn home-btn" id="home-cta">Accéder aux histoires</a>
   </div>
+
+
   <div class="introducing__items">
-    <img src="{{ $home_hero_intro_2.RelPermalink }}" alt="">
-    <span>forte</span>
+    <hgroup>
+      <h2 class="h1"><b>1’</b> Dans le monde</h2>
+      <p>C’est 6 petites filles <b>excisées</b>...</p>
+    </hgroup>
   </div>
+
+
   <div class="introducing__items">
-    <span>Basé sur des témoignages réels de femmes excisées</span>
-    <span class="items__second-text">Un projet réalisé pour l’association ‘les Orchidées rouges’</span>
+    <div>
+      <img src="{{ $home_hero_intro_2 }}" alt="">
+      <h2 class="h1">Une expérience interactive</h2>
+    </div>
   </div>
+
+  <div class="introducing__items">
+    <div>
+      <h2 class="h1">Forte</h2>
+      <h2 class="h1">Frappante</h2>
+      <h2 class="h1">Marquante</h2>
+    </div>
+  </div>
+
+  <div class="introducing__items">
+    <div>
+      <hgroup>
+        <h2 class="h1">Le projet</h2>
+        <span>Sensibilisation & réalisme</span>
+      </hgroup>
+      <p>Au cours de quelques minutes, nous vous proposons de vous plonger dans le quotidien de plusieurs <b>personnages</b>.</p>
+      <p>Ces histoires sont élaborées à partir de <b>témoignages</b> de personnes concernées, femmes excisées et médecins, pour garantir un récit au plus près du <b>réel</b>.</p>
+    </div>
+  </div>
+
 </section>

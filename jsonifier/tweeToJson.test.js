@@ -22,12 +22,12 @@ describe('function identifyPassageHeader', function () {
 
     it('should return passage tags from line', function () {
         const simple = ':: An overgrown path';
-        const tags = ':: An overgrown path [forest spooky]';
+        const tags = ':: An overgrown path [forest]';
         const metadata = ':: An overgrown path {"position":"600,400","size":"100,200"}';
         const full = ':: An overgrown path [forest spooky] {"position":"600,400","size":"100,200"}';
 
         assert.equal(JSON.stringify(identifyPassageHeader(simple).tags), JSON.stringify([]))
-        assert.equal(JSON.stringify(identifyPassageHeader(tags).tags), JSON.stringify(['forest', 'spooky']))
+        assert.equal(JSON.stringify(identifyPassageHeader(tags).tags), JSON.stringify(['forest']))
         assert.equal(JSON.stringify(identifyPassageHeader(metadata).tags), JSON.stringify([]))
         assert.equal(JSON.stringify(identifyPassageHeader(full).tags), JSON.stringify(['forest', 'spooky']))
     })
@@ -133,6 +133,44 @@ describe('function getJsonFromLines', function () {
 })
 
 describe('function formattedLine', function () {
+    it('should identify titles', function () {
+        const h1 = "# Title";
+        assert.equal(formattedLine(h1), '<h1>Title</h1>')
+
+        const h2 = "## Title";
+        assert.equal(formattedLine(h2), '<h2>Title</h2>')
+
+        const h3 = "### Title";
+        assert.equal(formattedLine(h3), '<h3>Title</h3>')
+
+        const h4 = "#### Title";
+        assert.equal(formattedLine(h4), '<h4>Title</h4>')
+    })
+
+    it('should identity paper dialog', function () {
+        const line = "@@Dian: Dian réveille toi !";
+
+        assert.equal(formattedLine(line), '<div class="paper parallax" data-depth="0.50"><span>Dian</span><p>Dian réveille toi !</p></div>')
+    })
+
+    it('should identity hero dialog', function () {
+        const line = "@(Dian): (elle réfléchit) Coucou (elle s'avance) ça va?";
+
+        assert.equal(formattedLine(line), '<div class="dialog" data-hero="true"><span>Dian</span><p>(elle réfléchit) Coucou (elle s\'avance) ça va?</p></div>')
+    })
+
+    it('should identity dialog', function () {
+        const line = "@Infirmière scolaire: (elle réfléchit) Coucou (elle s'avance) ça va?";
+
+        assert.equal(formattedLine(line), '<div class="dialog" data-hero="false"><span>Infirmière scolaire</span><p>(elle réfléchit) Coucou (elle s\'avance) ça va?</p></div>')
+    })
+
+    it('should identity thoughts', function () {
+        const line = "@@ Je n’en suis plus si sûre...";
+
+        assert.equal(formattedLine(line), '<div class="thoughts"><p>Je n’en suis plus si sûre...</p></div>')
+    })
+
     it('should identify bold text', function () {
         const line = "''Image de la classe''";
         assert.equal(formattedLine(line), '<b>Image de la classe</b>')
@@ -162,13 +200,18 @@ describe('function extractLinksFromLines', function () {
             'sqds [[Suivant->1.1]]',
             'zdqsd',
             '[[Non ! Tout va bien, pardon.->1.2]]',
+            '[Suivant->/test]'
         ];
 
         const {links} = extractLinksFromLines(lines);
 
-        assert.equal(links.length, 2);
-        assert.equal(JSON.stringify(links[0]), JSON.stringify({text: 'Suivant', href: '1.1'}));
-        assert.equal(JSON.stringify(links[1]), JSON.stringify({text: 'Non ! Tout va bien, pardon.', href: '1.2'}));
+        assert.equal(links.length, 3);
+        assert.equal(JSON.stringify(links[0]), JSON.stringify({text: 'Suivant', href: '#passage-1.1'}));
+        assert.equal(JSON.stringify(links[1]), JSON.stringify({
+            text: 'Non ! Tout va bien, pardon.',
+            href: '#passage-1.2'
+        }));
+        assert.equal(JSON.stringify(links[2]), JSON.stringify({text: 'Suivant', href: '/test'}));
     })
 
     it('should return lines without links', function () {
@@ -178,6 +221,7 @@ describe('function extractLinksFromLines', function () {
             'line 3 [[Suivant->1.1]]',
             'line 4',
             '[[Non ! Tout va bien, pardon.->1.2]]',
+            '[Suivant->/test]'
         ];
 
         const expectedLines = [

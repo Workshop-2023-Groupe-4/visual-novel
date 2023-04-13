@@ -1,9 +1,36 @@
 const fs = require('fs');
 const lineReader = require('line-reader');
 
-const linkRegex = /\[\[(.+)->([\w.-]+)]]/gm
+const passageLinkRegex = /\[\[(.+)->([\w.-]+)]]/gm;
+const urlLinkRegex = /\[(.+)->([\w/.-]+)]/gm;
+
+const h1Regex = /^# (.+)/gm;
+const h1Substitution = '<h1>$1</h1>';
+
+const h2Regex = /^## (.+)/gm;
+const h2Substitution = '<h2>$1</h2>';
+
+const h3Regex = /^### (.+)/gm;
+const h3Substitution = '<h3>$1</h3>';
+
+const h4Regex = /^#### (.+)/gm;
+const h4Substitution = '<h4>$1</h4>';
+
+const paperDialogRegex = /^@@([ a-zA-ZÀ-ÖÙ-öù-ÿ0-9]+): (.+)/gm;
+const paperDialogSubstitution = '<div class="paper parallax" data-depth="0.50"><span>$1</span><p>$2</p></div>';
+
+const thoughtRegex = /^@@ (.+)/gm;
+const thoughtSubstitution = '<div class="thoughts"><p>$1</p></div>'
+
+const heroDialogRegex = /^@\(([ a-zA-ZÀ-ÖÙ-öù-ÿ0-9]+)\): (.+)/gm;
+const heroDialogSubstitution = '<div class="dialog" data-hero="true"><span>$1</span><p>$2</p></div>'
+
+const dialogRegex = /^@([ a-zA-ZÀ-ÖÙ-öù-ÿ0-9]+): (.+)/gm;
+const dialogSubstitution = '<div class="dialog" data-hero="false"><span>$1</span><p>$2</p></div>'
+
 const italicRegex = /\/\/(.+)\/\//gm;
 const italicSubstitution = '<i>$1</i>';
+
 const boldRegex = /''(.+)''/gm;
 const boldSubstitution = '<b>$1</b>';
 
@@ -123,6 +150,14 @@ function identifyPassageHeader(line) {
             return
         }
 
+        if (item.startsWith('[') && item.endsWith(']')) {
+            tags.push(
+                item.replace('[', '')
+                    .replace(']', '')
+            );
+            isInTags = false;
+            return
+        }
         if (item.startsWith('[')) {
             tags.push(item.replace('[', ''));
             isInTags = true;
@@ -154,6 +189,15 @@ function isLineAPassageHeader(line) {
 }
 
 function formattedLine(line) {
+    line = line.replace(h1Regex, h1Substitution);
+    line = line.replace(h2Regex, h2Substitution);
+    line = line.replace(h3Regex, h3Substitution);
+    line = line.replace(h4Regex, h4Substitution);
+
+    line = line.replace(paperDialogRegex, paperDialogSubstitution);
+    line = line.replace(thoughtRegex, thoughtSubstitution);
+    line = line.replace(heroDialogRegex, heroDialogSubstitution);
+    line = line.replace(dialogRegex, dialogSubstitution);
     line = line.replace(italicRegex, italicSubstitution);
     line = line.replace(boldRegex, boldSubstitution);
 
@@ -164,7 +208,14 @@ function extractLinksFromLines(lines) {
     const links = [];
     const text = lines.join('\n');
 
-    const textWithoutLinks = text.replace(linkRegex, (match, $1, $2) => {
+    const textWithoutLinks = text.replace(passageLinkRegex, (match, $1, $2) => {
+        links.push({
+            text: $1,
+            href: '#passage-' + $2
+        })
+
+        return ''
+    }).replace(urlLinkRegex, (match, $1, $2) => {
         links.push({
             text: $1,
             href: $2

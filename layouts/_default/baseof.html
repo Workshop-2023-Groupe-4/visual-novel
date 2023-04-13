@@ -12,20 +12,22 @@
     <title>{{ $title }}</title>
   </head>
 
-  {{ $body_class := printf "%s__%s" .Type .Kind }}
-  {{ $pageclass := partial "GetBodyclass" . }}
-  {{ $body_class = printf "%s %s" $body_class $pageclass }}
+  {{- $body_class := printf "%s__%s" .Type .Kind -}}
+  {{- $pageclass := partial "GetBodyclass" . -}}
+  {{- $body_class = printf "%s %s" $body_class $pageclass -}}
 
-  <body class="{{ $body_class }}">
+  <body class="{{- $body_class -}}">
     {{- partial "header/accessibility.html" -}}
-    {{- partial "header/header.html" . -}}
+    {{- partial "header/header.html" (dict "body_class" $body_class "content" .) -}}
 
     <main id="main" tabindex="-1" data-barba="wrapper">
       <div data-barba="container" data-barba-namespace="{{- if .IsHome -}}home{{- else -}} {{ $body_class }}{{- end -}}">
         {{- block "main" . }}{{- end }}
       </div>
     </main>
-    {{- partial "footer/footer.html" . -}}
+    {{ if ne .Section "stories"}}
+      {{- partial "footer/footer.html" . -}}
+    {{ end }}
     {{- partial "footer/js.html" . -}}
   </body>
 

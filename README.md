@@ -3,13 +3,20 @@
 - hugo Go
 - npm / yarn
 ### Installation
+(Si vous avez un message d'erreur parlant de module, c'est que vous avez probablement sauté cette étape) 
 ```shell
 npm run install
 ```
+
 ### Développement
+Lancez dans deux shells côte à côte
 ```shell
 npm run hugo
 ```
+```shell
+npm run watch
+```
+
 # Écriture
 ### 1. Application d'édition de l'histoire 
 Nous utilisons [Twine](https://twinery.org/) pour créer et modifier l'histoire.
@@ -36,3 +43,51 @@ Une fois que vous avez terminé, exportez l'histoire
 2. Exportez l'histoire en fichier .twee <img src="./doc/2-export-as-twee.png">
 3. Exportez le fichier à la racine du repo <img src="./doc/3-export-file.png">
 4. Si un du même nom existe déjà, écrasez-le sans pitié <img src="./doc/4-overwrite-file.png">
+
+## Syntaxe Twee
+### Choix et liens vers d'autres passages
+Pour aller au passage 1.8  
+`[[Suivant->1.8]]`
+
+Pour faire un choix, mettez plusieurs liens :  
+`[[Oui->1.4]]`
+`[[Non->1.5]]`
+
+### Liens vers une autre page
+`[Fin->/stories/ending]`
+
+### Dialogues
+Faire parler le personnage principal  
+`@(Jhonette Doe): Lorem ipsum dolor sit amet` 
+
+Faire parler un personnage secondaire  
+`@Jhonette Doe: Lorem ipsum dolor sit amet`  
+
+Faire parler un personnage sur le papier
+`@@Jhonette Doe: Lorem ipsum dolor sit amet`
+
+Afficher des pensées  
+`@@ Lorem ipsum dolor sit amet`  
+
+### Mettre une image
+Largeur complète  
+`<img src="/assets/illustrations/...">`  
+
+Moitié gauche  
+`<img class="left" src="/assets/illustrations/...">`  
+
+Moitié droite  
+`<img class="right" src="/assets/illustrations/...">`
+
+Moitié centrée  
+`<img class="center" src="/assets/illustrations/...">`
+
+Largeur pleine sans marge à gauche ni à droite 
+`<img class="fill" src="/assets/illustrations/...">`
+
+### Texte
+Gras  
+`''Lorem ipsum dolor sit amet''`
+
+Italique  
+`//Lorem ipsum dolor sit amet//`
