@@ -26,7 +26,6 @@
         gap: $spacing-0
         justify-content: center
         left: 50%
-        margin: 0 auto
         position: fixed
         transform: translateX(-50%)
         width: 100%
@@ -36,6 +35,8 @@
         @include media-breakpoint-up(md)
             bottom: $content-margin-sm
             max-width: 260px
+        @include media-breakpoint-down(md)
+            width: calc(100% - calc(#{$content-margin-sm} * 2))
         &::before
             font-size: px2rem(24)
     .home-hero
