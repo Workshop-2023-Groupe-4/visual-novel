@@ -1,3 +1,6 @@
+
+import StoryImage from '../components/StoryImage';
+
 const CLASSES = {
     hidden: 'hidden',
     storyPassage: 'storyPassage',
@@ -33,10 +36,14 @@ export default class Story {
 
     showPassage(passageAnchor) {
         let passage = this.getPassageElementFromAnchor(passageAnchor);
+        passage.classList.add('active');
 
         if (!passage) {
             return;
         }
+
+        window.storyImage = new StoryImage(passage);
+        storyImage.init();
 
         this.hideAllPassages();
         passage.classList.remove(CLASSES.hidden);
