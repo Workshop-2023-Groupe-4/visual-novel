@@ -10,6 +10,15 @@
   &.hidden
     display: none
 
+  > h1
+    text-align: center
+    margin-bottom: px2rem(30)
+
+  > h2
+    text-align: center
+    text-transform: none
+    font-weight: normal
+
   > p,
   > i,
   > b
@@ -128,7 +137,10 @@
       margin-left: auto
       margin-right: auto
 
-    &.fill
+
+    &.fill,
+    &.chapter
+      margin-top: auto
       max-width: none
       max-height: none
       width: calc(100% + 2 * #{$content-margin-sm})
@@ -137,6 +149,7 @@
       @include media-breakpoint-up(lg)
         margin-left: -$content-margin
         margin-right: -$content-margin
+
 
   > .storyPassage__links
     margin-top: auto
@@ -161,3 +174,6 @@
         border-radius: $rounded-full
         padding: half($spacing-0)
         border: 1px solid $white
+
+  > img.chapter + .storyPassage__links
+    margin-top: $spacing-0
