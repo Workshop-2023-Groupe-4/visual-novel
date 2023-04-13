@@ -37,18 +37,21 @@ export default class Story {
     showPassage(passageAnchor) {
         let passage = this.getPassageElementFromAnchor(passageAnchor);
         passage.classList.add('active');
-        console.log("ça change")
 
         if (!passage) {
             return;
         }
 
-        window.storyImage = new StoryImage(passage);
-        storyImage.init();
+        this.playAnimations(passage);
 
         this.hideAllPassages();
         passage.classList.remove(CLASSES.hidden);
         scrollTo(0, 0);
+    }
+
+    playAnimations(passage) {
+        window.storyImage = new StoryImage(passage);
+        storyImage.init();
     }
 
     start() {
