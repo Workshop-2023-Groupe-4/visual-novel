@@ -43,7 +43,7 @@ dian
 :: 1.2 {"position":"550,350","size":"100,100"}
 <img class="right" src="/assets/illustrations/dian/seq1/dian-thinks.png" alt="Dian ferme les yeux">
 
-<img src="/assets/illustrations/dian/seq6/hands.png" alt="Souvenir : mains menaçantes">
+<img class="fill" src="/assets/illustrations/dian/seq6/hands.png" alt="Souvenir : mains menaçantes">
 
 <img class="right" src="/assets/illustrations/dian/seq1/dian-confused.png" alt="Dian ne comprend pas">
 
@@ -94,7 +94,7 @@ dian
 
 @@ C’était quoi... ça ?
 
-<img src="/assets/illustrations/dian/seq2/rub-wrist.png" alt="Elle frotte ses poignets comme pour soulager la douleur du rêve">
+<img class="right" src="/assets/illustrations/dian/seq2/rub-wrist.png" alt="Elle frotte ses poignets comme pour soulager la douleur du rêve">
 
 @Maman de Dian: Dian, c’est l’heure de se réveiller, tu vas être en retard en cours !
 
