@@ -40,7 +40,7 @@ export default class Story {
 
         this.hideAllPassages();
         passage.classList.remove(CLASSES.hidden);
-        document.body.scrollTo(0, 0);
+        scrollTo(0, 0);
     }
 
     start() {
