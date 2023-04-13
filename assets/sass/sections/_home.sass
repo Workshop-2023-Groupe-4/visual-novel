@@ -12,25 +12,42 @@
         transform: translateY(100%)
 
 .marquee
-    text-align: center
     overflow: hidden
+    text-align: center
 
 .home
-    position: relative
     padding-top: 0
+    position: relative
     .home-btn
-        display: block
-        margin: 0 auto
+        @include icon($icon-book, before)
+        align-items: center
+        bottom: $content-margin-sm
+        color: $white
+        display: none
+        gap: $spacing-0
+        justify-content: center
+        left: 50%
+        position: fixed
+        transform: translateX(-50%)
         width: 100%
+        z-index: 9
+        &.visible
+            display: flex
         @include media-breakpoint-up(md)
-            max-width: 200px
+            bottom: $content-margin-sm
+            max-width: 260px
+        @include media-breakpoint-down(md)
+            width: calc(100% - calc(#{$content-margin-sm} * 2))
+        &::before
+            color: $white
+            font-size: px2rem(24)
     .home-hero
         align-items: center
         display: flex
         flex-direction: column
         height: 100vh
         justify-content: center
-        padding-top: 0
+        padding-top: 120px
         position: relative
         .cover
             height: 100%
@@ -77,19 +94,10 @@
         .scroll-arrow
             bottom: $spacing-4
             position: absolute
-            animation: 2s anim-scroll cubic-bezier(0.165, 0.84, 0.44, 1) infinite
-        + *
-            padding-top: $spacing-4        
+            animation: 2s anim-scroll cubic-bezier(0.165, 0.84, 0.44, 1) infinite    
     .introducing
         &__items
             margin-bottom: $spacing-4
-            &:not(:first-of-type)
-                height: 150vh
-                margin-top: $spacing-4
-                position: relative
-                > *
-                    position: sticky
-                    top: 180px
             span
                 font-size: $body-font-size-lg
                 font-weight: 700

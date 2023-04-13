@@ -1,12 +1,11 @@
 @mixin button
-  padding: $spacing-0 $spacing-0
+  padding: $spacing-0 $spacing-1
   border-radius: $rounded-1
   text-decoration: none
   text-align: center
-  transition: background .3s ease-out
   border: 1px solid transparent
   width: calc(100% - #{$content-margin-sm})
-
+  transition: .3s ease-out
   @include media-breakpoint-down(lg)
     width: calc(100% - #{$content-margin})
 
@@ -22,7 +21,8 @@
   &:hover
     background-color: $white
     color: $black
-    border: 1px solid $black
+    border-color: $black
+    transition: .3s ease-out
 
 .secondary-btn
   @include button
