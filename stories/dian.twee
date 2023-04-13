@@ -13,8 +13,10 @@ dian
 
 
 :: 1.0 {"position":"300,350","size":"100,100"}
-# Chapitre 1
+# Chapitre 1 / 4
 ## Résurgence
+
+<img class="chapter" src="/assets/illustrations/dian/chapters/chapter-1.svg" alt=" ">
 
 [[Suivant->1.1]]
 
@@ -106,8 +108,10 @@ dian
 
 
 :: 2.0 {"position":"300,500","size":"100,100"}
-# Chapitre 2
+# Chapitre 2 / 4
 ## Questionnement
+
+<img class="chapter" src="/assets/illustrations/dian/chapters/chapter-2.svg" alt=" ">
 
 [[Suivant->2.1]]
 
@@ -168,8 +172,10 @@ dian
 
 
 :: 3.A.0 {"position":"300,800","size":"100,100"}
-# Chapitre 3
+# Chapitre 3 / 4
 ## Recherches
+
+<img class="chapter" src="/assets/illustrations/dian/chapters/chapter-3.svg" alt=" ">
 
 [[Suivant->3.A.1]]
 
@@ -245,8 +251,10 @@ dian
 
 
 :: 3.B.0 {"position":"300,950","size":"100,100"}
-# Chapitre 3
+# Chapitre 3 / 4
 ## Ta cousine Satria
+
+<img class="chapter" src="/assets/illustrations/dian/chapters/chapter-3.svg" alt=" ">
 
 [[Suivant->3.B.1]]
 
@@ -362,8 +370,10 @@ dian
 
 
 :: 4.0 {"position":"300,1100","size":"100,100"}
-# Chapitre 4
+# Chapitre 4 / 4
 ## L'infirmerie
+
+<img class="chapter" src="/assets/illustrations/dian/chapters/chapter-4.svg" alt=" ">
 
 [[Suivant->4.1]]
 
