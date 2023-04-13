@@ -22,7 +22,7 @@ dian
 :: 1.1 {"position":"425,350","size":"100,100"}
 <img src="/assets/illustrations/dian/seq1/friend.png" alt="Image face à face avec son amie">
 
-@@Amie de Dian: Dis Dian, tu es déjà partie dans le pays de tes parents ?
+@@Amie de Dian: Dis Dian, tu es déjà partie en Indonésie dans le pays de tes parents ?
 
 @(Dian): Oui ! On essaie d’y aller tous les ans... bon, avec le covid, ça a été pas mal compromis...
 
@@ -45,9 +45,11 @@ dian
 
 <img src="/assets/illustrations/dian/seq6/hands.png" alt="Souvenir : mains menaçantes">
 
+@@ Qu'est-ce que...
+
 <img class="right" src="/assets/illustrations/dian/seq1/dian-confused.png" alt="Dian ne comprend pas">
 
-@@ Qu'est-ce que...
+@@ ...
 
 [[Suivant->1.3]]
 
@@ -82,19 +84,19 @@ dian
 
 @Nenek: Reste tranquille !
 
-<img src="/assets/illustrations/dian/seq2/hand-on-ground.png" alt="Une femme, sa grand-mère (on ne voit que la main) l’attrape par la main et la maintient au sol">
+<img class="left" src="/assets/illustrations/dian/seq2/hand-on-ground.png" alt="Une femme, sa grand-mère (on ne voit que la main) l’attrape par la main et la maintient au sol">
 
 @(Dian): Non Nenek stop  !
 
 @Nenek: Arrête Dian, c’est pour ton bien !
 
-<img src="/assets/illustrations/dian/seq2/scream.png" alt="Dian crie dans son sommeil">
+<img class="right" src="/assets/illustrations/dian/seq2/scream.png" alt="Dian crie dans son sommeil">
 
-<img src="/assets/illustrations/dian/seq2/cry.png" alt="Elle ouvre les yeux, en larmes">
+<img class="left" src="/assets/illustrations/dian/seq2/cry.png" alt="Elle ouvre les yeux, en larmes">
 
 @@ C’était quoi... ça ?
 
-<img src="/assets/illustrations/dian/seq2/rub-wrist.png" alt="Elle frotte ses poignets comme pour soulager la douleur du rêve">
+<img class="right" src="/assets/illustrations/dian/seq2/rub-wrist.png" alt="Elle frotte ses poignets comme pour soulager la douleur du rêve">
 
 @Maman de Dian: Dian, c’est l’heure de se réveiller, tu vas être en retard en cours !
 
@@ -115,7 +117,7 @@ dian
 
 @@Professeure: Dian tu m'écoutes ?
 
-<img src="/assets/illustrations/dian/seq3/tired.png" alt="Trait tirés, fatigués">
+<img class="right" src="/assets/illustrations/dian/seq3/tired.png" alt="Trait tirés, fatigués">
 
 @Professeure: Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
 
@@ -125,7 +127,7 @@ dian
 
 
 :: 2.2 {"position":"550,500","size":"100,100"}
-<img src="/assets/illustrations/dian/seq3/huddled.png" alt="Elle se recroqueville">
+<img class="right" src="/assets/illustrations/dian/seq3/huddled.png" alt="Elle se recroqueville">
 
 @@ Je n’ai pas besoin. Je suis normale.
 
@@ -137,19 +139,19 @@ dian
 
 @@ On est toutes pareilles ?
 
-<img src="/assets/illustrations/dian/seq3/hand-up.png" alt="Elle lève la main pour poser une question">
+<img class="right" src="/assets/illustrations/dian/seq3/hand-up.png" alt="Elle lève la main pour poser une question">
 
 [[Suivant->2.3]]
 
 
 :: 2.3 {"position":"675,500","size":"100,100"}
-<img src="/assets/illustrations/dian/seq4/mirror.png" alt="Elle est assise devant un miroir un peu enfantin (tout mims), elle sourit de curiosité"/>
+<img class="left" src="/assets/illustrations/dian/seq4/mirror.png" alt="Elle est assise devant un miroir un peu enfantin (tout mims), elle sourit de curiosité"/>
 
-<img src="/assets/illustrations/dian/seq4/close-eyes.png" alt="Elle plisse les yeux"/>
+<img class="right" src="/assets/illustrations/dian/seq4/close-eyes.png" alt="Elle plisse les yeux"/>
 
 <img src="/assets/illustrations/dian/seq4/open-eyes.png" alt="Son sourire s’efface"/>
 
-<img src="/assets/illustrations/dian/seq4/eyes-open-wide.png" alt="Elle écarquille les yeux et sa bouche s’ouvre"/>
+<img class="right" src="/assets/illustrations/dian/seq4/eyes-open-wide.png" alt="Elle écarquille les yeux et sa bouche s’ouvre"/>
 
 @@ Ce n’est pas normal...
 
@@ -162,7 +164,7 @@ dian
 @@ Qu’est-ce que je dois faire ?
 
 [[Rechercher sur internet : Vulve pas normale pourquoi ?->3.A.0]]
-[[Appeler Satria, ta cousine indonésienne que tu adores->3.B.0]]
+[[Appeler Satria, ta cousine indonésienne pour des conseils->3.B.0]]
 
 
 :: 3.A.0 {"position":"300,800","size":"100,100"}
@@ -229,7 +231,7 @@ dian
 
 @@ C’est elles qui m’ont fait ça.
 
-@@ Qui NOUES ont fait ça.
+@@ Qui NOUS ont fait ça.
 
 <img src="/assets/illustrations/dian/seq6/little-girls.png" alt="Autour d'elle, d'autres petites filles apparaissent, floues et transparentes."/>
 
