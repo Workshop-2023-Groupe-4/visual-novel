@@ -31,15 +31,20 @@ Elena
 <img src="/assets/illustrations/elena/seq2/little-elena.png" alt="image d’Elena devant la porte, hésitante">
 <br> <br> va falloir faire une animation ou alors combiner ces deux images <br> <br>
 
-@@ Ça va vite passer, ça va aller. C’est juste un mauvais moment à passer.
+@@ Ça va vite passer, ça va aller.
 
 <img class="left" src="/assets/illustrations/elena/seq2/elena-opens-door.png" alt="main sur la poignée de la porte, qui a retrouvé une taille normale">
 
+@@ C’est juste un mauvais moment à passer.
+
 <img class="right" src="/assets/illustrations/elena/seq2/elena-seat.png" alt="Elle attend dans la salle d’attente, assise" >
 
-<img src="/assets/illustrations/elena/seq2/..." alt="même image qu’avant + le chirurgien en parallax par dessus, à droite, (png transparent du coup) + image gros plan sur Elena qui regarde dans la direction du chirurgien">
-
 @@Raphaël : — Madame Elena Krylov ? Bonjour !
+
+<img class="left" src="/assets/illustrations/elena/seq2/raph-standing.png" alt="chirurgien qui arrive dans la salle d'attente">
+
+<img class="right" src="/assets/illustrations/elena/seq2/elena-looking-up.png" alt="gros plan sur Elena qui regarde dans la direction du chirurgien">
+
 @(Elena): — Bonjour.
 @Raphaël : — Venez avec moi, je vous en prie. Avez-vous besoin de quelque chose ? Un café, un thé ?
 
@@ -53,11 +58,11 @@ Que répondre ?
 :: 2.0.1 {"position":"825,375","size":"100,100"}
 @(Elena): — Je veux bien un thé, merci.
 
-<img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="sourire compatissant du chirurgien">
+<img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="le chirurgien et Elena autour du bureau">
 
 @@Raphaël: — Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
 
-<img src="/assets/illustrations/..." alt="Bureau : cette fois c’est la chaise du chirurgien (et lui) qui semble disproportionnés, Elena est toute petite face à lui">
+<img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="sourire compatissant du chirurgien">
 
 @(Elena): — D’accord...
 @Raphaël : — Est-ce que vous pouvez me dire pourquoi vous êtes ici ?
@@ -75,11 +80,11 @@ Que répondre ?
 :: 2.0.2 {"position":"950,375","size":"100,100"}
 @(Elena): — Je veux bien un café, merci.
 
-<img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="sourire compatissant du chirurgien">
+<img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="le chirurgien et Elena autour du bureau">
 
 @@Raphaël: — Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
 
-<img src="/assets/illustrations/..." alt="Bureau : cette fois c’est la chaise du chirurgien (et lui) qui semble disproportionnés, Elena est toute petite face à lui">
+<img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="sourire compatissant du chirurgien">
 
 @(Elena): — D’accord...
 @Raphaël : — Est-ce que vous pouvez me dire pourquoi vous êtes ici ?
@@ -98,11 +103,11 @@ Que répondre ?
 :: 2.0.3 {"position":"1075,375","size":"100,100"}
 @(Elena): — ...
 
-<img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="sourire compatissant du chirurgien">
+<img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="le chirurgien et Elena autour du bureau">
 
 @@Raphaël: — Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
 
-<img src="/assets/illustrations/..." alt="Bureau : cette fois c’est la chaise du chirurgien (et lui) qui semble disproportionnés, Elena est toute petite face à lui">
+<img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="sourire compatissant du chirurgien">
 
 @(Elena): — D’accord...
 @Raphaël : — Est-ce que vous pouvez me dire pourquoi vous êtes ici ?
@@ -205,9 +210,9 @@ Autres : Tout autre intervention sur les organes génitaux externes tels que piq
 @Raphaël : – C’est ce qu’on espère. Si tout se passe bien, d’ici un à deux mois votre clitoris reprendra forme et dans 4 à 6 mois, vous pourrez regagner du plaisir.
 @(Elena): – D’accord… je comprends.
 
-@@ J’espère.
-
 <img class="right" src="/assets/illustrations/elena/seq2/little-smile.png" alt="même image d' Elena dans le bureau, seule + gros plan sur un maigre sourire">
+
+@@ J’espère.
 
 [[Suivant->3.0]]
 
@@ -272,14 +277,15 @@ Que faire ?
 
 
 :: 6.0 {"position":"700,1375","size":"100,100"}
-<img src="/assets/illustrations/elena/seq" alt="image Elena en train de taper à l'ordinateur, téléphone posé sur le côté, avec le code pénal à côté, on comprend qu’elle étudie le droit">
+<img src="/assets/illustrations/elena/seq6/elena-study.png" alt="image Elena en train de taper à l'ordinateur, téléphone posé sur le côté, avec le code pénal à côté, on comprend qu’elle étudie le droit">
 
 <img class="left" src="/assets/illustrations/elena/seq6/phone-ringing.png" alt="image mobile qui vibre/sonne">
 
-<img src="/assets/illustrations/elena/seq" alt="image Elena à son bureau mais téléphone allumé en haut parleur">
-
 @(Elena): — Allô ?
-@@éditrice : — Bonjour Elena ! Comment avance ton manuscrit ? Ce n'est pas trop dur de te replonger dans ces souvenirs ?  <img src="/assets/illustrations/..." alt="la parole de l’éditrice est dans une bulle de bd qui sort du tel">
+@éditrice : — Bonjour Elena ! Comment avance ton manuscrit ? Ce n'est pas trop dur de te replonger dans ces souvenirs ?  
+
+<img class="right" src="/assets/illustrations/elena/seq6/phone-on.png" alt="téléphone allumé en haut parleur">
+
 @(Elena): — J'avance plutôt bien. Il y a des moments plus durs que d'autres...
 @éditrice : — Tu arrives à jongler avec tes études, ça va ?
 @(Elena): — Eh bien...
