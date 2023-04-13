@@ -1,16 +1,21 @@
 html
-    scroll-behavior: smooth
+  scroll-behavior: smooth
+
+html:has(.stories__page)
+  scroll-behavior: initial
+
 body
-    background: $white
-    color: $base-color
-    position: relative
+  background: $white
+  color: $base-color
+  position: relative
 
 main
-    min-height: 100vh
-    > div > *
-        padding-top: $spacing-4
+  min-height: 100vh
+
+  > div > *
+    padding-top: $spacing-4
 
 .container
-    @include container
+  @include container
 
     
