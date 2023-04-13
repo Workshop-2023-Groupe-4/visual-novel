@@ -298,7 +298,7 @@ dian
 
 @(Dian): Non...
 
-<img src="/assets/illustrations/dian/seq6/hands.png" alt="Un souvenir menaçant de main réaparait">
+<img class="fill" src="/assets/illustrations/dian/seq6/hands.png" alt="Un souvenir menaçant de main réaparait">
 
 @(Dian): Ce sont des... souvenirs...?
 
@@ -434,70 +434,32 @@ dian
 
 
 :: 5.A {"position":"300,1250","size":"100,100"}
-Dian s’est rendue chez une gynécologue de confiance.
+<p>Dian s’est rendue chez une gynécologue de confiance.</p>
 
-Cela s’est fait en plusieurs séances, Dian n’étant pas en confiance avec son corps mutilé.
-Celle-ci lui a expliqué avec plus de précision la nature de la mutilation génitale qu’elle a subi.
+<p>Cela s’est fait en plusieurs séances, Dian n’étant pas en confiance avec son corps mutilé.
+Celle-ci lui a expliqué avec plus de précision la nature de la mutilation génitale qu’elle a subi.</p>
 
-Elle a appris que partout dans le monde, et même à Paris, des petites filles subissent le même sort, parfois avec des amputations plus importantes.
+<p>Elle a appris que partout dans le monde, et même à Paris, des petites filles subissent le même sort, parfois avec des amputations plus importantes.</p>
 
-Certaines en meurent.
+<p>Certaines en meurent.</p>
 
-Dian a développé des douleurs terribles et quotidiennes depuis sa sortie d’amnésie, sa gynécologue l’accompagne pour rendre sa vie supportable, mais ce n’est pas une solution à long terme.
+<p>Dian a développé des douleurs terribles et quotidiennes depuis sa sortie d’amnésie, sa gynécologue l’accompagne pour rendre sa vie supportable, mais ce n’est pas une solution à long terme.</p>
 
-Elle a décidé de se reconstruire et elle envisagera peut-être plus tard une chirurgie réparatrice si elle en ressent le besoin.
+<p>Elle a décidé de se reconstruire et elle envisagera peut-être plus tard une chirurgie réparatrice si elle en ressent le besoin.</p>
 
-Cet accompagnement physique et psychologique lui permettra de reprendre confiance en elle et de se réapproprier son corps.
+<p>Cet accompagnement physique et psychologique lui permettra de reprendre confiance en elle et de se réapproprier son corps.</p>
 
-[[Suivant->6.0]]
+<a href="/stories/ending/">Suivant</a>
 
 
 :: 5.B {"position":"300,1375","size":"100,100"}
-Grâce à l’infirmière, Dian a pu en apprendre plus sur les associations qui accompagnent les jeunes femme et les jeunes filles victimes d’excision. 
+<p>Grâce à l’infirmière, Dian a pu en apprendre plus sur les associations qui accompagnent les jeunes femme et les jeunes filles victimes d’excision.</p>
 
-Elle a pu contacter l’une d’entre elles, les Orchidées Rouges et a été reçue par une psychologue qui a pu la rassurer et l’écouter, cela lui a fait du bien de se sentir comprise. 
+<p>Elle a pu contacter l’une d’entre elles, les Orchidées Rouges et a été reçue par une psychologue qui a pu la rassurer et l’écouter, cela lui a fait du bien de se sentir comprise.</p>
 
-Elle a pu assister à des ateliers thérapeutiques et rencontrer d’autres femmes qui comme elles ont vécu une excision, s’en sont remises et militent maintenant contre cette pratique qui perdure à travers les époques.
+<p>Elle a pu assister à des ateliers thérapeutiques et rencontrer d’autres femmes qui comme elles ont vécu une excision, s’en sont remises et militent maintenant contre cette pratique qui perdure à travers les époques.</p>
 
-La blessure dans le cœur de Dian n’est pas encore prête à cicatriser mais elle est un peu plus apaisée, mais elle sait à présent qu’elle n’est pas seule.
-
-[[Suivant->6.0]]
+<p>La blessure dans le cœur de Dian n’est pas encore prête à cicatriser mais elle est un peu plus apaisée, mais elle sait à présent qu’elle n’est pas seule.</p>
 
 
-:: 6.0 {"position":"300,1500","size":"100,100"}
-Cette histoire représente une réalité qui touche aujourd’hui plus de 200 millions de femmes dans le monde. 
-
-Avec cette expérience que tu viens de réaliser, nous voulions te sensibiliser sur ce sujet et te faire prendre conscience que cela nous concerne tous et toutes.
-
-[[Suivant->6.1]]
-
-
-:: 6.1 {"position":"425,1500","size":"100,100"}
-* 6 filles sont mutilées toute les minutes <br>
-* 125 000 femmes vivant en France sont touchées par l’excision <br>
-* Cette pratique concerne toutes les cultures et toutes les religions <br><br>
-
-Les conséquences sont nombreuses :
-<br><br>
-- Douleurs <br>
-- Traumatismes <br>
-- Troubles psychologiques <br>
-- Exclusion <br>
-- Rapports sexuels sans plaisir <br>
-- Douleurs et infections chroniques <br>
-- Difficultés lors de l'accouchement <br>
-<br>
-Cela se produit aux quatre coins du monde.
-
-''//Carte des endroits ou ça se passe//''
-
-[[Suivant->6.2]]
-
-
-:: 6.2 {"position":"550,1500","size":"100,100"}
-Les Orchidées Rouges est une ONG qui permet d’accompagner les survivantes d’excision dans leur reconstruction physique et psychique et leur réinsertion socio-professionnelle.
-<br><br>
-Plus d’informations : 
-<br>
-lesorchideesrouges.org <br>
-+33 5 57 34 92 37
+<a href="/stories/ending/">Suivant</a>
