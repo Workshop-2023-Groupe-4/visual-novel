@@ -14,6 +14,7 @@ dian
 
 :: 1.0 {"position":"300,350","size":"100,100"}
 # Chapitre 1
+## Résurgence
 
 [[Suivant->1.1]]
 
@@ -71,16 +72,10 @@ dian
 
 @@ J’ai si mal... qu’est-ce qui se passe ? C’est pas normal...
 
-[[Suivant->2.0]]
+[[Suivant->1.4]]
 
 
-:: 2.0 {"position":"300,500","size":"100,100"}
-# Chapitre 2
-
-[[Suivant->2.1]]
-
-
-:: 2.1 {"position":"425,500","size":"100,100"}
+:: 1.4 {"position":"800,350","size":"100,100"}
 <img src="/assets/illustrations/dian/seq2/in-bed.png" alt="Dian est roulée en boule dans sa couette, c’est la nuit">
 
 <img src="/assets/illustrations/dian/seq2/flashback.png" alt="On voit des souvenirs un peu flash dans sa tête">
@@ -107,16 +102,17 @@ dian
 
 <img src="/assets/illustrations/dian/seq2/pinch-lips.png" alt="Dian pince les lèvres d’un air préoccupé">
 
-[[Suivant->3.0]]
+[[Suivant->2.0]]
 
 
-:: 3.0 {"position":"300,650","size":"100,100"}
-# Chapitre 3
+:: 2.0 {"position":"300,500","size":"100,100"}
+# Chapitre 2
+## Questionnement
 
-[[Suivant->3.1]]
+[[Suivant->2.1]]
 
 
-:: 3.1 {"position":"425,650","size":"100,100"}
+:: 2.1 {"position":"425,500","size":"100,100"}
 <img src="/assets/illustrations/dian/seq3/absent-minded.png" alt="Image d’elle assise en classe, elle est distraite">
 
 @@Professeure: Dian tu m'écoutes ?
@@ -125,12 +121,12 @@ dian
 
 @Professeure: Tout va bien ? C’est rare que tu sois distraite comme ça. Tu veux aller à l’infirmerie ?
 
-[[Non ! Tout va bien, pardon.->3.2]]
-[[Non.->3.2]]
-[[Garder le silence->3.2]]
+[[Non ! Tout va bien, pardon.->2.2]]
+[[Non.->2.2]]
+[[Garder le silence->2.2]]
 
 
-:: 3.2 {"position":"550,650","size":"100,100"}
+:: 2.2 {"position":"550,500","size":"100,100"}
 <img src="/assets/illustrations/dian/seq3/huddled.png" alt="Elle se recroqueville">
 
 @@ Je n’ai pas besoin. Je suis normale.
@@ -145,16 +141,10 @@ dian
 
 <img src="/assets/illustrations/dian/seq3/hand-up.png" alt="Elle lève la main pour poser une question">
 
-[[Suivant->4.0]]
+[[Suivant->2.3]]
 
 
-:: 4.0 {"position":"300,800","size":"100,100"}
-# Chapitre 4
-
-[[Suivant->4.1]]
-
-
-:: 4.1 {"position":"425,800","size":"100,100"}
+:: 2.3 {"position":"675,500","size":"100,100"}
 <img src="/assets/illustrations/dian/seq4/mirror.png" alt="Elle est assise devant un miroir un peu enfantin (tout mims), elle sourit de curiosité"/>
 
 <img src="/assets/illustrations/dian/seq4/close-eyes.png" alt="Elle plisse les yeux"/>
@@ -173,43 +163,44 @@ dian
 
 @@ Qu’est-ce que je dois faire ?
 
-[[Rechercher sur internet : Vulve pas normale pourquoi ?->6.A.0]]
-[[Appeler Satria, ta cousine indonésienne que tu adores->6.B.0]]
+[[Rechercher sur internet : Vulve pas normale pourquoi ?->3.A.0]]
+[[Appeler Satria, ta cousine indonésienne que tu adores->3.B.0]]
 
 
-:: 6.A.0 {"position":"300,950","size":"100,100"}
+:: 3.A.0 {"position":"300,800","size":"100,100"}
 # Chapitre 5
+## Recherches
 
-[[Suivant->6.A.1]]
+[[Suivant->3.A.1]]
 
 
-:: 6.A.1 {"position":"425,950","size":"100,100"}
+:: 3.A.1 {"position":"425,800","size":"100,100"}
 <img src="/assets/illustrations/dian/seq6/forum.png" alt="Défilement forum"/>
 
-[[Pathologie->6.A.2.B]]
-[[Ablation->6.A.2.B]]
-[[Excision->6.A.2.A]]
+[[Pathologie->3.A.2.B]]
+[[Ablation->3.A.2.B]]
+[[Excision->3.A.2.A]]
 
 
-:: 6.A.2.A {"position":"550,950","size":"100,100"}
+:: 3.A.2.A {"position":"550,800","size":"100,100"}
 <img src="/assets/illustrations/dian/seq6/eye-screen.png" alt="L'écran se reflète dans ses yeux"/>
 
 “Excision”
 
-[[Suivant->6.A.3]]
+[[Suivant->3.A.3]]
 
 
-:: 6.A.2.B {"position":"550,825","size":"100,100"}
+:: 3.A.2.B {"position":"550,675","size":"100,100"}
 @(Dian): Non... Non c'est pas ce que j'ai...
 
 <img src="/assets/illustrations/dian/seq6/eye-screen.png" alt="L'écran se reflète dans ses yeux"/>
 
 “Sujet relié : l'excision”
 
-[[Suivant->6.A.3]]
+[[Suivant->3.A.3]]
 
 
-:: 6.A.3 {"position":"675,950","size":"100,100"}
+:: 3.A.3 {"position":"675,800","size":"100,100"}
 @@ Est-ce vraiment ce qui m'est arrivé ?
 
 <img class="fill" src="/assets/illustrations/dian/seq6/razor.png" alt="Image avec des rasoirs qui remplissent la scène petit à petit"/>
@@ -250,16 +241,17 @@ dian
 
 <img src="/assets/illustrations/dian/seq6/crying-in-bed.png" alt="Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé."/>
 
-[[Suivant->7.0]]
+[[Suivant->4.0]]
 
 
-:: 6.B.0 {"position":"300,1100","size":"100,100"}
+:: 3.B.0 {"position":"300,950","size":"100,100"}
 # Chapitre 5
+## Ta cousine Satria
 
-[[Suivant->6.B.1]]
+[[Suivant->3.B.1]]
 
 
-:: 6.B.1 {"position":"425,1100","size":"100,100"}
+:: 3.B.1 {"position":"425,950","size":"100,100"}
 <img class="left" src="/assets/illustrations/dian/seq6/satria-tired.png" alt="La cousine de Dian, au téléphone (celle-ci était en train de dormir car 5h de décalage)"/>
 
 @Satria: Allô ? Whaou Dian, tu sais qu’il est 3 heures du matin, ici ?
@@ -328,11 +320,11 @@ dian
 
 <img src="/assets/illustrations/dian/seq6/bloody-legs.png" alt="Jambes ensanglantées">
 
-[[Mais... je suis sage... et même pas mariée ?->6.B.2]]
-[[C’est injuste ! Nous ne méritons pas ça ! Je ne comprends pas...->6.B.2]]
+[[Mais... je suis sage... et même pas mariée ?->3.B.2]]
+[[C’est injuste ! Nous ne méritons pas ça ! Je ne comprends pas...->3.B.2]]
 
 
-:: 6.B.2 {"position":"550,1100","size":"100,100"}
+:: 3.B.2 {"position":"550,950","size":"100,100"}
 @Satria: Pour elle, c’est notre devoir.
 
 @(Dian): Mais...
@@ -366,16 +358,17 @@ dian
 
 <img src="/assets/illustrations/dian/seq6/crying-in-bed.png" alt="Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé."/>
 
-[[Suivant->7.0]]
+[[Suivant->4.0]]
 
 
-:: 7.0 {"position":"300,1250","size":"100,100"}
+:: 4.0 {"position":"300,1100","size":"100,100"}
 # Chapitre 6
+## L'infirmerie
 
-[[Suivant->7.1]]
+[[Suivant->4.1]]
 
 
-:: 7.1 {"position":"425,1250","size":"100,100"}
+:: 4.1 {"position":"425,1100","size":"100,100"}
 @@ Si maman est au courant... je ne peux pas lui en parler...
 <img class="left" src="/assets/illustrations/dian/seq7/door.png" alt="Porte de l’infirmerie (affiches de prévention contre plein de trucs). Dian fait les 100 pas"/>
 
@@ -395,10 +388,10 @@ dian
 
 <img src="/assets/illustrations/dian/seq7/coffee-left.png"/>
 
-[[Suivant->7.2]]
+[[Suivant->4.2]]
 
 
-:: 7.2 {"position":"550,1250","size":"100,100"}
+:: 4.2 {"position":"550,1100","size":"100,100"}
 <img src="/assets/illustrations/dian/seq7/coffee-right.png"/>
 
 <img class="right" src="/assets/illustrations/dian/seq7/seat.png" alt="L’infirmière prend et serre chaleureusement la main de Dian"/>
@@ -417,11 +410,11 @@ dian
 
 @Infirmière: Aujourd’hui, en France, c’est interdit par la loi, mais ça n’a pas toujours été le cas et beaucoup de femmes subissaient cette pratique, comme toi aujourd’hui.
 
-[[Vraiment ?->7.3]]
-[[Alors je suis... normale ?->7.3]]
+[[Vraiment ?->4.3]]
+[[Alors je suis... normale ?->4.3]]
 
 
-:: 7.3 {"position":"675,1250","size":"100,100"}
+:: 4.3 {"position":"675,1100","size":"100,100"}
 @@Infirmière: Oui, mais c’est puni par la loi l'excision maintenant. 
 
 @Infirmière: Et il y a plein d’associations qui aident les femmes ayant subi ça.
@@ -436,11 +429,11 @@ dian
 
 @Infirmière: C’est ton choix, Dian, va à ton rythme.
 
-[[Demander un rendez-vous chez la gynéco->8.A]]
-[[Demander à entrer à entrer en contact avec Les Orchidées Rouges->8.B]]
+[[Demander un rendez-vous chez la gynéco->5.A]]
+[[Demander à entrer à entrer en contact avec Les Orchidées Rouges->5.B]]
 
 
-:: 8.A {"position":"300,1400","size":"100,100"}
+:: 5.A {"position":"300,1250","size":"100,100"}
 Dian s’est rendue chez une gynécologue de confiance.
 
 Cela s’est fait en plusieurs séances, Dian n’étant pas en confiance avec son corps mutilé.
@@ -456,10 +449,10 @@ Elle a décidé de se reconstruire et elle envisagera peut-être plus tard une c
 
 Cet accompagnement physique et psychologique lui permettra de reprendre confiance en elle et de se réapproprier son corps.
 
-[[Suivant->9.0]]
+[[Suivant->6.0]]
 
 
-:: 8.B {"position":"300,1525","size":"100,100"}
+:: 5.B {"position":"300,1375","size":"100,100"}
 Grâce à l’infirmière, Dian a pu en apprendre plus sur les associations qui accompagnent les jeunes femme et les jeunes filles victimes d’excision. 
 
 Elle a pu contacter l’une d’entre elles, les Orchidées Rouges et a été reçue par une psychologue qui a pu la rassurer et l’écouter, cela lui a fait du bien de se sentir comprise. 
@@ -468,18 +461,18 @@ Elle a pu assister à des ateliers thérapeutiques et rencontrer d’autres femm
 
 La blessure dans le cœur de Dian n’est pas encore prête à cicatriser mais elle est un peu plus apaisée, mais elle sait à présent qu’elle n’est pas seule.
 
-[[Suivant->9.0]]
+[[Suivant->6.0]]
 
 
-:: 9.0 {"position":"300,1650","size":"100,100"}
+:: 6.0 {"position":"300,1500","size":"100,100"}
 Cette histoire représente une réalité qui touche aujourd’hui plus de 200 millions de femmes dans le monde. 
 
 Avec cette expérience que tu viens de réaliser, nous voulions te sensibiliser sur ce sujet et te faire prendre conscience que cela nous concerne tous et toutes.
 
-[[Suivant->9.1]]
+[[Suivant->6.1]]
 
 
-:: 9.1 {"position":"425,1650","size":"100,100"}
+:: 6.1 {"position":"425,1500","size":"100,100"}
 * 6 filles sont mutilées toute les minutes <br>
 * 125 000 femmes vivant en France sont touchées par l’excision <br>
 * Cette pratique concerne toutes les cultures et toutes les religions <br><br>
@@ -498,10 +491,10 @@ Cela se produit aux quatre coins du monde.
 
 ''//Carte des endroits ou ça se passe//''
 
-[[Suivant->9.2]]
+[[Suivant->6.2]]
 
 
-:: 9.2 {"position":"550,1650","size":"100,100"}
+:: 6.2 {"position":"550,1500","size":"100,100"}
 Les Orchidées Rouges est une ONG qui permet d’accompagner les survivantes d’excision dans leur reconstruction physique et psychique et leur réinsertion socio-professionnelle.
 <br><br>
 Plus d’informations : 
