@@ -1,7 +1,8 @@
 {{ define "main" }}
 <div class="container home">
-    {{- partial "header/home-hero.html" . -}}
-    <a href="/stories" class="primary-btn home-btn">Accéder aux histoires</a>
+    {{- partial "header/home-header.html" . -}}
+    {{- partial "sections/home-illustration.html" . -}}
     {{- partial "sections/introducing.html" . -}}
+    <a href="/stories" class="primary-btn home-btn">Accéder aux histoires</a>
 </div>
 {{ end }}

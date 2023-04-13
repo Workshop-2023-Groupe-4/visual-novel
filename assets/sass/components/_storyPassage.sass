@@ -1,6 +1,6 @@
 .storyPassage
   color: $white
-  padding-bottom: $spacing-1
+  padding-bottom: $spacing-3
   padding-top: $spacing-4
   position: relative
   min-height: 100vh
@@ -140,8 +140,18 @@
       flex-direction: column
 
     a
-      display: block
-      background: $white
-      color: $black
+      display: flex
+      justify-content: space-between
+      align-items: center
+      text-decoration: none
       padding: $spacing-0
-      border-radius: $rounded-1
+      margin-left: -$spacing-0
+      margin-right: -$spacing-0
+
+      @include icon($icon-arrow-down, after)
+
+      &::after
+        transform: rotate(-45deg)
+        border-radius: $rounded-full
+        padding: half($spacing-0)
+        border: 1px solid $white
