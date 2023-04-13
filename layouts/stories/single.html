@@ -4,6 +4,9 @@
     <div class="container">
         {{- .Render "single/passages" -}}
         {{ .Content }}
+        {{ if eq .Title "Ending"}}
+            {{- partial "stories/organizations.html" -}}
+        {{ end }}
     </div>
 </section>
 

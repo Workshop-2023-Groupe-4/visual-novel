@@ -1,0 +1,9 @@
+<ul>
+  {{ range .Site.organizations.ending }}
+    <li>
+      <a href="{{ .url }}">
+        <img src="{{.logo}}" alt="">
+      </a>
+    </li>
+  {{ end }}
+</ul>
