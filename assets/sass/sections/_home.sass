@@ -22,6 +22,7 @@
         @include icon($icon-book, before)
         align-items: center
         bottom: $content-margin-sm
+        color: $white
         display: none
         gap: $spacing-0
         justify-content: center
@@ -38,6 +39,7 @@
         @include media-breakpoint-down(md)
             width: calc(100% - calc(#{$content-margin-sm} * 2))
         &::before
+            color: $white
             font-size: px2rem(24)
     .home-hero
         align-items: center
