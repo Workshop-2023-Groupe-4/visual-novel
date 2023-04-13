@@ -1,9 +1,32 @@
+
 @function px2rem($size)
     $remSize: $size / 16
     @return #{$remSize}rem
 
 @function half($size)
     @return calc(#{$size} / 2)
+
+@mixin button($background: $black, $color: $white)
+    background: $background
+    border: 1px solid transparent
+    border-radius: $rounded-1
+    color: $color
+    padding: $spacing-0 $spacing-1
+    text-decoration: none
+    text-align: center
+    width: calc(100% - #{$content-margin-sm})
+    transition: .3s ease-out
+    &::before
+        color: $color
+    &:hover
+        background: $color
+        border-color: $background
+        color: $background
+        &::before
+            color: $background
+
+    @include media-breakpoint-down(lg)
+        width: calc(100% - #{$content-margin})
 
 @mixin container
     margin-left: auto
@@ -13,9 +36,6 @@
     padding-right: $content-margin-sm
     width: 100%
     @include media-breakpoint-up(md)
-        padding-left: $content-margin-sm
-        padding-right: $content-margin-sm
-    @include media-breakpoint-up(lg)
         padding-left: $content-margin
         padding-right: $content-margin
 

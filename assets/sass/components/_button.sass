@@ -1,21 +1,5 @@
-@mixin button
-  padding: $spacing-0 $spacing-1
-  border-radius: $rounded-1
-  text-decoration: none
-  text-align: center
-  border: 1px solid transparent
-  width: calc(100% - #{$content-margin-sm})
-  transition: .3s ease-out
-  @include media-breakpoint-down(lg)
-    width: calc(100% - #{$content-margin})
-
-  &:hover
-    border: 1px solid $black
-
-
 .primary-btn
   @include button
-  background-color: $black
   color: $white
 
   &:hover
@@ -25,8 +9,7 @@
     transition: .3s ease-out
 
 .secondary-btn
-  @include button
-  background-color: $white
+  @include button($white)
   color: $red-dark
 
   &:visited
