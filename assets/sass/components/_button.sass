@@ -1,15 +1,38 @@
-.primary-btn
+@mixin button
   padding: $spacing-0 $spacing-0
   border-radius: $rounded-1
-  width: calc(100% - #{$content-margin-sm})
   text-decoration: none
-  background-color: $black
-  color: $white
   text-align: center
   transition: background .3s ease-out
+  border: 1px solid transparent
+  width: calc(100% - #{$content-margin-sm})
+
   @include media-breakpoint-down(lg)
     width: calc(100% - #{$content-margin})
+
+  &:hover
+    border: 1px solid $black
+
+
+.primary-btn
+  @include button
+  background-color: $black
+  color: $white
+
   &:hover
     background-color: $white
     color: $black
     border: 1px solid $black
+
+.secondary-btn
+  @include button
+  background-color: $white
+  color: $red-dark
+
+  &:visited
+    color: $red-dark
+
+  &:hover
+    background-color: $black
+    color: $white
+    border: 1px solid $white
