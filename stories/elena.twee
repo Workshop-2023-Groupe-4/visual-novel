@@ -12,7 +12,7 @@ Elena
 }
 
 :: 1.0 {"position":"700,250","size":"100,100"}
-<img src="/assets/illustrations/elena/seq1/raph-talking.png" alt="image du chirurgien et de son amie qui discutent dans le couloir en allant rejoindre la femme dans la salle d’attente">
+<img src="/assets/illustrations/elena/seq1/raph-talking.png" alt="Un chirurgien et sa collègue discutent dans un couloir">
 
 @@Collègue : Au fait Raphaël, comment se passe ta reconversion ? C’est pas trop dur de changer de vie comme ça ?
 @Raphaël : C’est pas évident. En France, on a tendance à ne pas être au courant ou à ne pas se sentir concernés par l’excision, mais avec ce boulot… j’écoute des histoires chaque fois plus dures…
@@ -25,25 +25,25 @@ Elena
 
 
 :: 2.0 {"position":"700,375","size":"100,100"}
-<img src="/assets/illustrations/elena/seq2/calendar-june.png" alt="IMAGE PAGE DE CALENDRIER AVEC TOUT LE MOIS DE JUIN 2023 : JOUR J" >
+<img src="/assets/illustrations/elena/seq2/calendar-june.png" alt="calendrier du mois de juin avec l'insicription Jour J à la date d'ajourd'hui" >
 
-<img src="/assets/illustrations/elena/seq2/big-door.png" alt="image d’Elena devant la porte, hésitante">
-<img src="/assets/illustrations/elena/seq2/little-elena.png" alt="image d’Elena devant la porte, hésitante">
+<img src="/assets/illustrations/elena/seq2/big-door.png" alt="Une jeune femme se tient devant la porte">
+<img src="/assets/illustrations/elena/seq2/little-elena.png" alt="Elle hésite à rentrer">
 <br> <br> va falloir faire une animation ou alors combiner ces deux images <br> <br>
 
 @@ Ça va vite passer, ça va aller.
 
-<img class="left" src="/assets/illustrations/elena/seq2/elena-opens-door.png" alt="main sur la poignée de la porte, qui a retrouvé une taille normale">
+<img class="left" src="/assets/illustrations/elena/seq2/elena-opens-door.png" alt="Elle pose sa main sur la poignée">
 
 @@ C’est juste un mauvais moment à passer.
 
-<img class="right" src="/assets/illustrations/elena/seq2/elena-seat.png" alt="Elle attend dans la salle d’attente, assise" >
+<img class="right" src="/assets/illustrations/elena/seq2/elena-seat.png" alt="Elle attend dans la salle d’attente, assise">
 
 @@Raphaël : — Madame Elena Krylov ? Bonjour !
 
-<img class="left" src="/assets/illustrations/elena/seq2/raph-standing.png" alt="chirurgien qui arrive dans la salle d'attente">
+<img class="left" src="/assets/illustrations/elena/seq2/raph-standing.png" alt="Le chhirurgien arrive dans la salle d'attente">
 
-<img class="right" src="/assets/illustrations/elena/seq2/elena-looking-up.png" alt="gros plan sur Elena qui regarde dans la direction du chirurgien">
+<img class="right" src="/assets/illustrations/elena/seq2/elena-looking-up.png" alt="Elena regarde dans la direction du chirurgien">
 
 @(Elena): — Bonjour.
 @Raphaël : — Venez avec moi, je vous en prie. Avez-vous besoin de quelque chose ? Un café, un thé ?
@@ -58,20 +58,20 @@ Que répondre ?
 :: 2.0.1 {"position":"825,375","size":"100,100"}
 @(Elena): Je veux bien un thé, merci.
 
-<img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="le chirurgien et Elena autour du bureau">
+<img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="le chirurgien et Elena sont autour du bureau">
 
 @@Raphaël: Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
 
-<img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="sourire compatissant du chirurgien">
+<img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="le chirurgien sourit avec compassion">
 
 @(Elena): D’accord...
 @Raphaël : Est-ce que vous pouvez me dire pourquoi vous êtes ici ?
 
-<img class="right" src="/assets/illustrations/elena/seq2/hands-distord.png" alt="gros plan sur ses mains qu’elle tord de nervosité">
+<img class="right" src="/assets/illustrations/elena/seq2/hands-distord.png" alt="Elena tord ses mains de nervosité">
 
 @(Elena): Euh… V- Vous savez en partie… pourquoi. C’est plus possible, j’ai besoin d’aide.
 @Raphaël : Si vous êtes d’accord, j’aimerais entendre votre histoire.
-<img  class="right" src="/assets/illustrations/elena/seq2/pinced-mouth.png" alt="gros plan sur sa bouche pincée">
+<img  class="right" src="/assets/illustrations/elena/seq2/pinced-mouth.png" alt="sa bouche est bouche pincée">
 
 [[Suivant->2.1]]
 
@@ -80,20 +80,20 @@ Que répondre ?
 :: 2.0.2 {"position":"950,375","size":"100,100"}
 @(Elena): Je veux bien un café, merci.
 
-<img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="le chirurgien et Elena autour du bureau">
+<img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="le chirurgien et Elena sont autour du bureau">
 
 @@Raphaël: Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
 
-<img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="sourire compatissant du chirurgien">
+<img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="le chirurgien sourit avec compassion">
 
 @(Elena): D’accord...
 @Raphaël : Est-ce que vous pouvez me dire pourquoi vous êtes ici ?
 
-<img class="right" src="/assets/illustrations/elena/seq2/hands-distord.png" alt="gros plan sur ses mains qu’elle tord de nervosité">
+<img class="right" src="/assets/illustrations/elena/seq2/hands-distord.png" alt="Elena tord ses mains de nervosité">
 
 @(Elena): Euh… V- Vous savez en partie… pourquoi. C’est plus possible, j’ai besoin d’aide.
 @Raphaël : Si vous êtes d’accord, j’aimerais entendre votre histoire.
-<img  class="right" src="/assets/illustrations/elena/seq2/pinced-mouth.png" alt="gros plan sur sa bouche pincée">
+<img  class="right" src="/assets/illustrations/elena/seq2/pinced-mouth.png" alt="sa bouche est bouche pincée">
 
 
 [[Suivant->2.1]]
@@ -103,27 +103,27 @@ Que répondre ?
 :: 2.0.3 {"position":"1075,375","size":"100,100"}
 @(Elena): ...
 
-<img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="le chirurgien et Elena autour du bureau">
+<img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="le chirurgien et Elena sont autour du bureau">
 
 @@Raphaël: Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
 
-<img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="sourire compatissant du chirurgien">
+<img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="le chirurgien sourit avec compassion">
 
 @(Elena): D’accord...
 @Raphaël : Est-ce que vous pouvez me dire pourquoi vous êtes ici ?
 
-<img class="right" src="/assets/illustrations/elena/seq2/hands-distord.png" alt="gros plan sur ses mains qu’elle tord de nervosité">
+<img class="right" src="/assets/illustrations/elena/seq2/hands-distord.png" alt="Elena tord ses mains de nervosité">
 
 @(Elena): Euh… V- Vous savez en partie… pourquoi. C’est plus possible, j’ai besoin d’aide.
 @Raphaël : Si vous êtes d’accord, j’aimerais entendre votre histoire.
-<img  class="right" src="/assets/illustrations/elena/seq2/pinced-mouth.png" alt="gros plan sur sa bouche pincée">
+<img  class="right" src="/assets/illustrations/elena/seq2/pinced-mouth.png" alt="sa bouche est bouche pincée">
 
 
 [[Suivant->2.1]]
 
 
 :: 2.1 {"position":"700,500","size":"100,100"}
-<img src="/assets/illustrations/elena/seq2/opened-mouth.png" alt="gros plan sur sa bouche pincée qui s’ouvre" >
+<img src="/assets/illustrations/elena/seq2/opened-mouth.png" alt="Elena ouvre la bouche pour parler">
 
 @@ J’ai mal tout le temps.
 
@@ -140,12 +140,12 @@ Que faire ?
 
 
 :: 2.1.1 {"position":"700,625","size":"100,100"}
-<img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="même image de Elena et le chirurgien de chaque côté du bureau">
+<img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="Elena et le chirurgien sont de chaque côté du bureau">
 
 @(Elena): Qu’est ce qui m’est arrivé exactement ? Médicalement, que s’est-il passé ?
 @@Raphaël : Chaque histoire est différente, il y a plusieurs types d’excisions, regarde.  
 
-<img src="/assets/illustrations/elena/seq2/affiche-excision.png" alt="image grande affiche avec les différents types d’excisions">
+<img src="/assets/illustrations/elena/seq2/affiche-excision.png" alt="Grande affiche avec les différents types d’excisions">
 
 En savoir plus sur :
 [[La clitoridectomie->2.1.1.A]]
@@ -159,7 +159,7 @@ En savoir plus sur :
 
 :: 2.1.1.A {"position":"825,625","size":"100,100"}
 
-<img src="/assets/illustrations/elena/seq2/clitoridectomie.png" alt="image Clitoridectomie">
+<img src="/assets/illustrations/elena/seq2/clitoridectomie.png" alt="schéma Clitoridectomie">
 
 <h2>Clitoridectomie</h2>
 
@@ -169,7 +169,7 @@ Retrait du clitoris externe et / ou du capuchon du clitoris.
 
 :: 2.1.1.B {"position":"950,625","size":"100,100"}
 
-<img src="/assets/illustrations/elena/seq2/excision.png" alt="image Excision en plus gros">
+<img src="/assets/illustrations/elena/seq2/excision.png" alt="schéma Excision">
 
 <h2>Excision</h2>
 Retrait partiel ou total du clitoris externe et des petites lèvres avec / sans les grandes lèvres.
@@ -178,7 +178,7 @@ Retrait partiel ou total du clitoris externe et des petites lèvres avec / sans 
 
 :: 2.1.1.C {"position":"1075,625","size":"100,100"}
 
-<img src="/assets/illustrations/elena/seq2/infibulation.png" alt="image Infibulation en plus gros">
+<img src="/assets/illustrations/elena/seq2/infibulation.png" alt="schéma Infibulation">
 
 <h2>Infibulation</h2>
 Le clitoris et les lèvres sont excisées puis recousues ensembles pour refermer le vagin
@@ -187,7 +187,7 @@ Le clitoris et les lèvres sont excisées puis recousues ensembles pour refermer
 
 :: 2.1.1.D {"position":"1200,625","size":"100,100"}
 
-<img src="/assets/illustrations/elena/seq2/autres.png" alt="image Autres en plus gros">
+<img src="/assets/illustrations/elena/seq2/autres.png" alt="schéma Autres">
 
 <h2>Autres</h2> 
 Tout autre intervention sur les organes génitaux externes tels que piqûres, perforation, incision sur le clitoris…
@@ -197,7 +197,7 @@ Tout autre intervention sur les organes génitaux externes tels que piqûres, pe
 
 
 :: 2.1.2 {"position":"700,750","size":"100,100"}
-<img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="même image de Elena et le chirurgien de chaque côté du bureau">
+<img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="Elena et le chirurgien sont de chaque côté du bureau">
 
 @(Elena): Comment va se passer l’opération ?
 @@Raphaël : Il y a plusieurs types d’interventions possibles. Dans votre cas, vous avez subi une clitoridectomie. heureusement c’est le stade le plus simple à traiter.
@@ -207,7 +207,7 @@ Tout autre intervention sur les organes génitaux externes tels que piqûres, pe
 @(Elena): Vraiment ?
 @Raphaël : Oui, l’opération dure moins d’une heure. Nous cherchons la partie du clitoris qui reste à l’intérieur de votre corps afin de la relier à l’emplacement initial du clitoris, pour le reconstruire.
 
-<img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="image chirurgien qui lui sourit">
+<img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="Le chirurgien sourit">
 
 @(Elena): – Est-ce que j’aurais mal ?
 @Raphaël : – Ne vous inquiétez pas, vous ne sentirez rien pendant l’opération. Mais… je ne vais pas vous le cacher, vous aurez des douleurs par la suite pendant une dizaine de jours.
@@ -215,7 +215,7 @@ Tout autre intervention sur les organes génitaux externes tels que piqûres, pe
 @Raphaël : – C’est ce qu’on espère. Si tout se passe bien, d’ici un à deux mois votre clitoris reprendra forme et dans 4 à 6 mois, vous pourrez regagner du plaisir.
 @(Elena): – D’accord… je comprends.
 
-<img class="right" src="/assets/illustrations/elena/seq2/little-smile.png" alt="même image d' Elena dans le bureau, seule + gros plan sur un maigre sourire">
+<img class="right" src="/assets/illustrations/elena/seq2/little-smile.png" alt="Elena sourit faiblement">
 
 @@ J’espère.
 
@@ -228,20 +228,20 @@ Tout autre intervention sur les organes génitaux externes tels que piqûres, pe
 
 @@ Plus de retour en arrière... 
 
-<img src="/assets/illustrations/elena/seq3/eyes-closed.png" alt="Elena ferme les yeux">
+<img src="/assets/illustrations/elena/seq3/eyes-closed.png" alt="Elena ferme les yeux, elle s'endort">
 
 
 [[Suivant->4.0]]
 
 
 :: 4.0 {"position":"700,1000","size":"100,100"}
-<img src="/assets/illustrations/elena/seq4/calendar-june2.png" alt="image calendrier de juin 2023 : le jour J est passé d’une semaine, 7 cases après le jour J sont barrées">
+<img src="/assets/illustrations/elena/seq4/calendar-june2.png" alt="calendrier de juin 2023 : le jour J est passé d’une semaine, 7 cases après le jour J sont barrées">
 
-<img src="/assets/illustrations/elena/seq4/walk-in-moscow.png" alt="image Elena qui se balade dans la ville avec le kremlin en fond">
+<img src="/assets/illustrations/elena/seq4/walk-in-moscow.png" alt="Elena qui se balade à Moscou avec le kremlin en fond">
 
 @(Elena): Il faut que je me dépêche, je ne veux pas être en retard pour mon rendez-vous. J’avais oublié à quel point Moscou est grande, avec le temps passé en convalescence en France.
 
-<img class="left" src="/assets/illustrations/elena/seq4/psychologist.png" alt="image Elena qui sonne sur un interphone">
+<img class="left" src="/assets/illustrations/elena/seq4/psychologist.png" alt="Elena sonne sur un interphone">
 
 <img class="right" src="/assets/illustrations/elena/seq4/zoom-psychologist.png" alt="l'interphone porte l'inscription : Ильин Ольга, psychologue">
 
@@ -249,13 +249,13 @@ Tout autre intervention sur les organes génitaux externes tels que piqûres, pe
 
 
 :: 5.0 {"position":"700,1125","size":"100,100"}
-<img src="/assets/illustrations/elena/seq5/calendar-december.png" alt="image calendrier de décembre 2023">
+<img src="/assets/illustrations/elena/seq5/calendar-december.png" alt="calendrier de décembre 2023">
 
-<img class="right" src="/assets/illustrations/elena/seq5/elena-zoom.png" alt="image Elena assise sur une chaise, seule, cheveux plus courts, heureuse, visage plus détendu, meilleure posture, elle est droite pas recroquevillée">
+<img class="right" src="/assets/illustrations/elena/seq5/elena-zoom.png" alt="Elena assise sur une chaise, seule, cheveux plus courts, heureuse, visage plus détendu, meilleure posture">
 
 @@Animatrice : Est-ce que quelqu’un d’autre veut nous partager son expérience ? 
 
-<img src="/assets/illustrations/elena/seq5/elena-speaking-group.png" alt="image dezoom, on voit que Elena fait partie d’un groupe de parole, des chaises sont disposées en rond et d’autres femmes sont assises">
+<img src="/assets/illustrations/elena/seq5/elena-speaking-group.png" alt="Elena fait partie d’un groupe de parole, des chaises sont disposées en rond et d’autres femmes sont assises">
 
 Que faire ?
 [[Prendre la parole->5.0.1]]
@@ -264,11 +264,11 @@ Que faire ?
 
 :: 5.0.1 {"position":"825,1125","size":"100,100"}
 
-<img src="/assets/illustrations/elena/seq5/speaking-group.png" alt="image dezoom, on voit que Elena fait partie d’un groupe de parole, elle se lève pour parler">
+<img src="/assets/illustrations/elena/seq5/speaking-group.png" alt="Elena se lève pour parler">
 
 @(Elena): Bonjour à toutes, je m’appelle Elena… Je vais mieux aujourd’hui, j’arrive à vivre «  normalement » grâce à une chirurgie. C’est encore difficile pour moi d’en parler, mais je vais essayer…
 
-<img src="/assets/illustrations/elena/seq5/hand-on-shoulder.png" alt="image d’une main qui se pose sur une épaule">
+<img src="/assets/illustrations/elena/seq5/hand-on-shoulder.png" alt="Une main qui se pose sur son épaule">
 
 [[Suivant->6.0]]
 
@@ -276,24 +276,24 @@ Que faire ?
 :: 5.0.2 {"position":"700,1250","size":"100,100"}
 @@Youlia : Bonjour, moi c’est Youlia. Mes grands-parents vivent au Daghestan et… quand j’étais petite… vraiment petite, j’ai été excisée.
 
-<img src="/assets/illustrations/elena/seq5/hand-on-shoulder.png" alt="image d’une main qui se pose sur une épaule">
+<img src="/assets/illustrations/elena/seq5/hand-on-shoulder.png" alt="une main qui se pose sur son épaule">
 
 [[Suivant->6.0]]
 
 
 :: 6.0 {"position":"700,1375","size":"100,100"}
-<img src="/assets/illustrations/elena/seq6/elena-study.png" alt="image Elena en train de taper à l'ordinateur, téléphone posé sur le côté, avec le code pénal à côté, on comprend qu’elle étudie le droit">
+<img src="/assets/illustrations/elena/seq6/elena-study.png" alt="Elena tape à l'ordinateur, son téléphone est posé sur le côté, avec le code pénal à côté, on comprend qu’elle étudie le droit">
 
-<img class="left" src="/assets/illustrations/elena/seq6/phone-ringing.png" alt="image mobile qui vibre/sonne">
+<img class="left" src="/assets/illustrations/elena/seq6/phone-ringing.png" alt="son téléphone sonne">
 
 @(Elena): — Allô ?
 @éditrice : — Bonjour Elena ! Comment avance ton manuscrit ? Ce n'est pas trop dur de te replonger dans ces souvenirs ?  
 
+<img class="right" src="/assets/illustrations/elena/seq6/phone-on.png" alt="téléphone allumé en haut parleur">
 
 @(Elena): — J'avance plutôt bien. Il y a des moments plus durs que d'autres...
 @éditrice : — Tu arrives à jongler avec tes études, ça va ?
 @(Elena): — Eh bien...
-<img class="right" src="/assets/illustrations/elena/seq6/phone-on.png" alt="téléphone allumé en haut parleur">
 
 Que dire ?
 [[J’ai choisi de laisser ça de côté pour terminer mes études. ->6.0.1]]
