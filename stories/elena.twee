@@ -135,23 +135,19 @@ Que faire ?
 
 
 :: 2.1.1 {"position":"700,625","size":"100,100"}
-<img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="même image de Elena et le chirurgien de chaque côté du bureau" >
-
-@(Elena): — Qu’est ce qui m’est arrivé exactement ? Médicalement, que s’est-il passé ?
-@@Raphaël : — Chaque histoire est différente, il y a plusieurs types d’excisions.  
-=======
 <img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="même image de Elena et le chirurgien de chaque côté du bureau">
 
 @(Elena): — Qu’est ce qui m’est arrivé exactement ? Médicalement, que s’est-il passé ?
 @@Raphaël : — Chaque histoire est différente, il y a plusieurs types d’excisions, regarde.  
->>>>>>> Stashed changes
 
-[[Clitoridectomie->2.1.1.A]] <img class="left" src="/assets/illustrations/elena/seq2/clitoridectomie.png" alt="image Clitoridectomie">
-[[Excision->2.1.1.B]] <img src="/assets/illustrations/..." alt="image Excision" >
-[[Infibulation->2.1.1.C]] <img src="/assets/illustrations/..." alt="image Infibulation" >
-[[Autres->2.1.1.D]] <img src="/assets/illustrations/..." alt="image Autres" >
+<img src="/assets/illustrations/elena/seq2/affiche-excision.png" alt="image grande affiche avec les différents types d’excisions">
 
-Schéma des différents types d'excisions
+En savoir plus sur :
+[[La clitoridectomie->2.1.1.A]]
+[[L'excision->2.1.1.B]]
+[[L'infibulation->2.1.1.C]]
+[[Les autres cas->2.1.1.D]]
+
 
 [[Suivant->2.1.2]]
 
@@ -166,21 +162,27 @@ Clitoridectomie : retrait du clitoris externe et / ou du capuchon du clitoris.
 
 :: 2.1.1.B {"position":"950,625","size":"100,100"}
 
-<img src="/assets/illustrations/elena/seq" alt="image Excision en plus gros">
+<img src="/assets/illustrations/elena/seq2/excision.png" alt="image Excision en plus gros">
 
 Excision : retrait partiel ou total du clitoris externe et des petites lèvres avec / sans les grandes lèvres.
 
+[[Retour->2.1.1]]
+
 :: 2.1.1.C {"position":"1075,625","size":"100,100"}
 
-<img src="/assets/illustrations/elena/seq" alt="image Infibulation en plus gros">
+<img src="/assets/illustrations/elena/seq2/infibulation.png" alt="image Infibulation en plus gros">
 
 Infibulation : Le clitoris et les lèvres sont excisées puis recousues ensembles pour refermer le vagin
 
+[[Retour->2.1.1]]
+
 :: 2.1.1.D {"position":"1200,625","size":"100,100"}
 
-<img src="/assets/illustrations/elena/seq" alt="image Autres en plus gros">
+<img src="/assets/illustrations/elena/seq2/autres.png" alt="image Autres en plus gros">
 
 Autres : Tout autre intervention sur les organes génitaux externes tels que piqûres, perforation, incision sur le clitoris…
+
+[[Retour->2.1.1]]
 
 
 
