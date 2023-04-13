@@ -1,11 +1,11 @@
 <article class="storyPassage hidden" id="passage-{{.name}}">
-  {{ range .lines }}
+    {{ range .lines }}
     {{ safeHTML . }}
-  {{ end}}
-
-  <ul class="storyPassage__links">
-    {{ range .links }}
-      <li><a href="#passage-{{ .href }}">{{ .text }}</a></li>
     {{ end}}
-  </ul>
+
+    <ul class="storyPassage__links">
+        {{ range .links }}
+        <li><a href="{{ .href }}">{{ .text }}</a></li>
+        {{ end}}
+    </ul>
 </article>
