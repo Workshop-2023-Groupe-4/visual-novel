@@ -26,13 +26,17 @@
         opacity: 0.7
 
 .stories__page
+    background: $black
     header#header .container
         justify-content: flex-end
     .story
-        background: $black
         color: white
+        max-width: 900px
         min-height: 100vh
+        margin: 0 auto
         padding-bottom: $spacing-4
+        @include media-breakpoint-up(xxl)
+            max-width: 1100px
         &:not(.is-ending)
             padding-top: 0
     .is-ending
