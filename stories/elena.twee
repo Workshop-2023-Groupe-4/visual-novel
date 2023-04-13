@@ -39,7 +39,7 @@ Elena
 
 <img src="/assets/illustrations/elena/seq2/..." alt="même image qu’avant + le chirurgien en parallax par dessus, à droite, (png transparent du coup) + image gros plan sur Elena qui regarde dans la direction du chirurgien">
 
-@Raphaël : — Madame Elena Krylov ? Bonjour !
+@@Raphaël : — Madame Elena Krylov ? Bonjour !
 @(Elena): — Bonjour.
 @Raphaël : — Venez avec moi, je vous en prie. Avez-vous besoin de quelque chose ? Un café, un thé ?
 
@@ -55,7 +55,7 @@ Que répondre ?
 
 <img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="sourire compatissant du chirurgien">
 
-@Raphaël: — Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
+@@Raphaël: — Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
 
 <img src="/assets/illustrations/..." alt="Bureau : cette fois c’est la chaise du chirurgien (et lui) qui semble disproportionnés, Elena est toute petite face à lui">
 
@@ -77,7 +77,7 @@ Que répondre ?
 
 <img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="sourire compatissant du chirurgien">
 
-@Raphaël: — Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
+@@Raphaël: — Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
 
 <img src="/assets/illustrations/..." alt="Bureau : cette fois c’est la chaise du chirurgien (et lui) qui semble disproportionnés, Elena est toute petite face à lui">
 
@@ -100,7 +100,7 @@ Que répondre ?
 
 <img class="left" src="/assets/illustrations/elena/seq2/raph-smile.png" alt="sourire compatissant du chirurgien">
 
-@Raphaël: — Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
+@@Raphaël: — Ne vous inquiétez pas, tout ce qui est dit dans ce cabinet reste ici. Vous pouvez parler librement sans vous sentir jugée.
 
 <img src="/assets/illustrations/..." alt="Bureau : cette fois c’est la chaise du chirurgien (et lui) qui semble disproportionnés, Elena est toute petite face à lui">
 
@@ -138,7 +138,7 @@ Que faire ?
 <img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="même image de Elena et le chirurgien de chaque côté du bureau" >
 
 @(Elena): — Qu’est ce qui m’est arrivé exactement ? Médicalement, que s’est-il passé ?
-@Raphaël : — Chaque histoire est différente, il y a plusieurs types d’excisions.  
+@@Raphaël : — Chaque histoire est différente, il y a plusieurs types d’excisions.  
 
 <img src="/assets/illustrations/..." alt="image grande affiche avec les différents types d’excisions" > -> 4 images différentes avec l’image, le nom et la petite description. 
 
@@ -184,7 +184,7 @@ Autres : Tout autre intervention sur les organes génitaux externes tels que piq
 <img src="/assets/illustrations/elena/seq2/elena-raph.png" alt="même image de Elena et le chirurgien de chaque côté du bureau">
 
 @(Elena): — Comment va se passer l’opération ?
-@Raphaël : — Il y a plusieurs types d’interventions possibles. Dans votre cas, vous avez subi une clitoridectomie. heureusement c’est le stade le plus simple à traiter.
+@@Raphaël : — Il y a plusieurs types d’interventions possibles. Dans votre cas, vous avez subi une clitoridectomie. heureusement c’est le stade le plus simple à traiter.
 
 <img class="left" src="/assets/illustrations/elena/seq2/clitoridectomie.png" alt="schéma de la clitoridectomie">
 
@@ -233,7 +233,7 @@ Autres : Tout autre intervention sur les organes génitaux externes tels que piq
 
 <img class="right" src="/assets/illustrations/elena/seq5/elena-zoom.png" alt="image Elena assise sur une chaise, seule, cheveux plus courts, heureuse, visage plus détendu, meilleure posture, elle est droite pas recroquevillée">
 
-@Animatrice : — Est-ce que quelqu’un d’autre veut nous partager son expérience ? 
+@@Animatrice : — Est-ce que quelqu’un d’autre veut nous partager son expérience ? 
 
 <img src="/assets/illustrations/elena/seq5/..." alt="image dezoom, on voit que Elena fait partie d’un groupe de parole, des chaises sont disposées en rond et d’autres femmes sont assises">
 
@@ -254,7 +254,7 @@ Que faire ?
 
 
 :: 5.0.2 {"position":"700,1250","size":"100,100"}
-@Youlia : — Bonjour, moi c’est Youlia. Mes grands-parents vivent au Daghestan et… quand j’étais petite… vraiment petite, j’ai été excisée.
+@@Youlia : — Bonjour, moi c’est Youlia. Mes grands-parents vivent au Daghestan et… quand j’étais petite… vraiment petite, j’ai été excisée.
 
 <img src="/assets/illustrations/elena/seq5/hand-on-shoulder.png" alt="image d’une main qui se pose sur une épaule">
 
@@ -269,7 +269,7 @@ Que faire ?
 <img src="/assets/illustrations/elena/seq" alt="image Elena à son bureau mais téléphone allumé en haut parleur">
 
 @(Elena): — Allô ?
-@éditrice : — Bonjour Elena ! Comment avance ton manuscrit ? Ce n'est pas trop dur de te replonger dans ces souvenirs ?  <img src="/assets/illustrations/..." alt="la parole de l’éditrice est dans une bulle de bd qui sort du tel">
+@@éditrice : — Bonjour Elena ! Comment avance ton manuscrit ? Ce n'est pas trop dur de te replonger dans ces souvenirs ?  <img src="/assets/illustrations/..." alt="la parole de l’éditrice est dans une bulle de bd qui sort du tel">
 @(Elena): — J'avance plutôt bien. Il y a des moments plus durs que d'autres...
 @éditrice : — Tu arrives à jongler avec tes études, ça va ?
 @(Elena): — Eh bien...
@@ -277,6 +277,22 @@ Que faire ?
 Que dire ?
 [[— J’ai choisi de laisser ça de côté pour terminer mes études. ->6.0.1]]
 [[— J’ai choisi de me concentrer sur l’écriture…->6.0.2]]
+
+
+
+:: 6.0.1 {"position":"825,1375","size":"100,100"}
+@(Elena): — J’ai choisi de me concentrer sur mes études pour le moment, les examens de droit arrivent bientôt. 
+@@éditrice : — C’est ton choix, fais ce qui te semble bon.
+
+[[Suivant->6.1.1]]
+
+
+:: 6.0.2 {"position":"700,1500","size":"100,100"}
+@(Elena): — J’ai choisi de me concentrer sur l’écriture…c’est vraiment important pour moi et je sens que c’est la bonne chose à faire.
+@@éditrice : — C’est ton choix, tant que tu t’y retrouves c’est l’essentiel !
+
+
+[[Suivant->6.1.2]]
 
 
 
@@ -305,20 +321,6 @@ Grâce à l’opération dont elle a bénéficié en France, elle n’a plus de 
 
 Pour que d’autres femmes aient cette chance, elle a fondé une ONG travaillant main dans la main avec d’autres organismes, à l’étranger.
 
-
-:: 6.0.1 {"position":"825,1375","size":"100,100"}
-@(Elena): — J’ai choisi de me concentrer sur mes études pour le moment, les examens de droit arrivent bientôt. 
-@éditrice : — C’est ton choix, fais ce qui te semble bon.
-
-[[Suivant->6.1.1]]
-
-
-:: 6.0.2 {"position":"700,1500","size":"100,100"}
-@(Elena): — J’ai choisi de me concentrer sur l’écriture…c’est vraiment important pour moi et je sens que c’est la bonne chose à faire.
-@éditrice : — C’est ton choix, tant que tu t’y retrouves c’est l’essentiel !
-
-
-[[Suivant->6.1.2]]
 
 
 :: café ou thé {"position":"975,250","size":"100,100"}
