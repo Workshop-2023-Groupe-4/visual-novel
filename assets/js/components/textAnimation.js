@@ -1,34 +1,55 @@
+
+
+//   // Selecting just the first of my bars
+//   const myBar = example0.querySelector('.bar');
+
+//   function callback (entries, observer) {
+  //     console.log('entries:', entries);
+  //     console.log('observer:', observer);
+  //   }
+
+  //   // Instancing a new IntersectionObserver
+  //   const observer = new IntersectionObserver(callback);
+
+  //   // Adding a target to be observed
+  //   observer.observe(myBar);
+
+  // var tl = gsap.timeline({
+    //   scrollTrigger: {
+      //     trigger: ".active .dialog",
+      //     toggleActions: "restart none none none"
+      //   }
+      // }),
+      //   getLines = new TextSplitter(".active .dialog", {
+        //     type: "lines"
+        //   });
+
+        // tl.from(getLines.lines, { opacity: 0, y: 50, ease: "power2", stagger: 0.05 });
+
+
+
 import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-gsap.registerPlugin(ScrollTrigger);
+import TextSplitter from '../helpers/TextSplitter';
 
+// gsap.registerPlugin(ScrollTrigger);
+// gsap.registerPlugin(TextSplitter);
 
-  // Selecting just the first of my bars
-  const myBar = example0.querySelector('.bar');
+var tl = gsap.timeline(),
+  mySplitText = new TextSplitter(".dialog", { type: "words,chars" }),
+  chars = mySplitText.chars; //an array of all the divs that wrap each character
 
-  function callback (entries, observer) {
-    console.log('entries:', entries);
-    console.log('observer:', observer);
-  }
-  
-  // Instancing a new IntersectionObserver
-  const observer = new IntersectionObserver(callback);
+gsap.set(".dialog", { perspective: 400 });
 
-  // Adding a target to be observed
-  observer.observe(myBar);
+console.log(chars);
 
-var tl = gsap.timeline({
-  scrollTrigger: {
-    trigger: ".splittext",
-    toggleActions: "restart none none none"
-  }
-}),
-  mySplitText = new SplitText(".splittext", {
-    type: "words, lines, chars"
-  });
-
-tl.from(mySplitText.chars, { opacity: 0, y: 50, ease: "power2", stagger: 0.05 });
-
-document.querySelector("#animate").addEventListener("click", function() {
-  tl.restart();
+tl.from(chars, {
+  duration: 0.8,
+  opacity: 0,
+  scale: 0,
+  y: 80,
+  rotationX: 180,
+  transformOrigin: "0% 50% -50",
+  ease: "back",
+  stagger: 0.01
 });

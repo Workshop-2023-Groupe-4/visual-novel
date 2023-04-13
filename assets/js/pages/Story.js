@@ -1,5 +1,5 @@
 
-import LineScroller from '../animations/LineScroller';
+// import LineScroller from '../animations/LineScroller';
 
 const CLASSES = {
     hidden: 'hidden',
@@ -38,10 +38,21 @@ export default class Story {
     showPassage(passageAnchor) {
         let passage = this.getPassageElementFromAnchor(passageAnchor);
         passage.classList.add('active');
-        
-        let activeDialogs = document.querySelectorAll('.active .dialog')
 
-        this.splittedDialogs = new LineScroller(activeDialogs, 'line');
+
+
+        // this.activeDialogs = document.querySelectorAll('.active .dialog');
+        // if (this.activeDialogs.length > 0) {
+        //   console.log(this.activeDialogs);
+        //   this.activeDialogs.forEach(activeDialog =>{
+        //     console.log("1  " + activeDialog)
+        //     this.splittedDialog = new LineScroller(activeDialog, 'line');
+        //     console.log("2  " + activeDialog)
+        //   })
+        // }
+
+
+
 
         if (!passage) {
             return;
@@ -58,6 +69,6 @@ export default class Story {
         }
 
         this.showPassage(this.startPassage);
-        this.splittedDialogs.play();
+        // this.splittedDialog.play();
     }
 }

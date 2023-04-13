@@ -8,11 +8,12 @@ export default class LineScroller {
         this.init();
     }
     init() {
-        if (this.element.innerText.length > 0) {
-            this.split = new TextSplitter(this.element, {
-                type: this.type,
-                overflow: 'hidden'
-            });
+      if (this.element.innerText.length > 0) {
+        this.split = new TextSplitter(this.element, {
+          type: this.type,
+          overflow: 'hidden'
+        });
+        console.log("in lS   "+ this.element.innerText)
         }
         this.prepare();
         this.element.classList.add('is-ready');
