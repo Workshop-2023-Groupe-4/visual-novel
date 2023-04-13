@@ -1,7 +1,7 @@
 import gsap from 'gsap';
 import TextSplitter from '../helpers/TextSplitter';
 
-export default class LetteredText {
+export default class LineScroller {
     constructor(element, type) {
         this.element = element;
         this.type = type;

@@ -37,7 +37,11 @@ export default class Story {
 
     showPassage(passageAnchor) {
         let passage = this.getPassageElementFromAnchor(passageAnchor);
-        this.splittedDialogs = new LineScroller(passage.querySelector('.dialog'), 'line');
+        passage.classList.add('active');
+        
+        let activeDialogs = document.querySelectorAll('.active .dialog')
+
+        this.splittedDialogs = new LineScroller(activeDialogs, 'line');
 
         if (!passage) {
             return;
