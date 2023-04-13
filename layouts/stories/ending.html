@@ -1,0 +1,10 @@
+{{ define "main" }}
+
+<section class="story is-ending">
+    <div class="container">
+        {{ .Content }}
+        {{- partial "stories/organizations.html" -}}
+    </div>
+</section>
+
+{{ end }}
