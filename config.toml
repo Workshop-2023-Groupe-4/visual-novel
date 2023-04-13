@@ -40,23 +40,3 @@ expandedTitle = '1 minute dans le monde'
     name = "À propos"
     url = "/a-propos"
     weight = 3
-
-[organizations]
-  [[organizations.ending]]
-    logo = "/assets/images/logos/orchidees-rouges.svg"
-    url = "/url"
-  [[organizations.ending]]
-    logo = "/assets/images/logos/excision-parlons-en.svg"
-    url = "/url"
-  [[organizations.ending]]
-    logo = "/assets/images/logos/rsce.svg"
-    url = "/url"
-  [[organizations.ending]]
-    logo = "/assets/images/logos/gams.png"
-    url = "/url"
-  [[organizations.ending]]
-    logo = "/assets/images/logos/generation-egalite.png"
-    url = "/url"
-  [[organizations.ending]]
-    logo = "/assets/images/logos/gams.jpeg"
-    url = "/url"

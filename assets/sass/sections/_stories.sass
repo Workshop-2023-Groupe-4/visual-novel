@@ -35,13 +35,40 @@
         padding-bottom: $spacing-4
         &:not(.is-ending)
             padding-top: 0
-        &.is-ending
-            ul
-                list-style: disc
     .is-ending
         .container > * + *
             margin-top: $spacing-2
-        ul 
+        ul:not(.organizations-list)
+            list-style: disc
             padding-left: $spacing-0
             li + li
                 margin-top: $spacing-0
+        .organizations-list
+            display: flex
+            flex-wrap: wrap
+            justify-content: space-between
+            column-gap: $spacing-3
+            row-gap: $spacing-2
+            li
+                align-items: center
+                display: flex
+                flex-direction: column
+                text-align: center
+                width: 40%
+                @include media-breakpoint-up(lg)
+                    width: 25%
+                img
+                    aspect-ratio: 1
+                    object-fit: contain
+                    height: 100px
+                    width: 100px
+                    @include media-breakpoint-up(md)
+                        height: 200px
+                        width: 200px
+                a
+                    @include icon($icon-link, after)
+                    text-decoration: none
+                    &::after
+                        display: inline-table
+                        margin-left: 3px
+                        font-size: px2rem(12)
