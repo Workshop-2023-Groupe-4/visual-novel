@@ -27,8 +27,8 @@ Elena
 :: 2.0 {"position":"700,375","size":"100,100"}
 <img src="/assets/illustrations/elena/seq2/calendar-june.png" alt="calendrier du mois de juin avec l'insicription Jour J à la date d'ajourd'hui" >
 
-<img src="/assets/illustrations/elena/seq2/big-door.png" alt="Une jeune femme se tient devant la porte">
-<img src="/assets/illustrations/elena/seq2/little-elena.png" alt="Elle hésite à rentrer">
+<img class="center" src="/assets/illustrations/elena/seq2/big-door.png" alt="Une jeune femme se tient devant la porte">
+<img class="center" src="/assets/illustrations/elena/seq2/little-elena.png" alt="Elle hésite à rentrer">
 <br> <br> va falloir faire une animation ou alors combiner ces deux images <br> <br>
 
 @@ Ça va vite passer, ça va aller.
