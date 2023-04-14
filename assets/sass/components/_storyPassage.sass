@@ -1,6 +1,6 @@
 .storyPassage
   color: $white
-  padding-bottom: $spacing-3
+  padding-bottom: $spacing-4
   padding-top: $spacing-4
   position: relative
   min-height: 100vh
@@ -149,26 +149,32 @@
     margin-top: auto
     display: flex
     flex-wrap: wrap
+
     &:not(.choicesList)
       justify-content: flex-end
       gap: $spacing-0
-      a 
+
+      a
         @include icon($icon-arrow-down, after)
+
         &::after
           border: 1px solid $white
           border-radius: $rounded-full
           margin-left: $spacing-0
           padding: half($spacing-0)
           transform: rotate(-45deg)
+
     &.choicesList
       justify-content: space-between
       gap: $spacing-2
       margin-top: $spacing-3
+
       li
         align-items: center
         display: flex
         justify-content: center
         position: relative
+
         &::before
           aspect-ratio: 787/689
           content: ''
@@ -180,8 +186,10 @@
           pointer-events: none
           opacity: .3
           position: absolute
+
       a
         @include stretched-link
+
     @include media-breakpoint-down(md)
       flex-direction: column
 
