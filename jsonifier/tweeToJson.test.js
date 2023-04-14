@@ -20,6 +20,27 @@ describe('function identifyPassageHeader', function () {
         assert.equal(identifyPassageHeader(full).name, 'An overgrown path')
     })
 
+    it('should return isChapter chapter from line', function () {
+        const chapter = ':: chapter-1.0';
+        const passage = ':: 1.0';
+
+        assert.equal(identifyPassageHeader(chapter).isChapter, true)
+        assert.equal(identifyPassageHeader(passage).isChapter, false)
+    })
+
+    it('should return chapter data from line', function () {
+        const chapter = ':: chapter-1';
+        const chapterWithVariant = ':: chapter-1.A';
+        const passage = ':: 1.A.1';
+
+        assert.equal(JSON.stringify(identifyPassageHeader(chapter).chapterData), JSON.stringify({chapter: '1'}))
+        assert.equal(JSON.stringify(identifyPassageHeader(chapterWithVariant).chapterData), JSON.stringify({
+            chapter: '1',
+            variant: 'A'
+        }))
+        assert.equal(identifyPassageHeader(passage).chapterData, null)
+    })
+
     it('should return passage tags from line', function () {
         const simple = ':: An overgrown path';
         const tags = ':: An overgrown path [forest]';
@@ -78,10 +99,10 @@ describe('function getJsonFromLines', function () {
             '    "ifid": "70EA29AA-352A-417D-B70E-35692C303992",',
             '    "format": "Harlowe",',
             '    "format-version": "3.3.5",',
-            '    "start": "1.0",',
+            '    "start": "chapter-1",',
             '    "zoom": 1',
             '}',
-            ':: 1.0 {"position":"425,350","size":"100,100"}',
+            ':: chapter-1 {"position":"425,350","size":"100,100"}',
             "Image face à face avec son amie",
             '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
             "",
@@ -100,13 +121,15 @@ describe('function getJsonFromLines', function () {
         const expectedJson = {
             data: {
                 title: 'Histoire amnésie',
-                start: '1.0',
+                start: 'chapter-1',
             },
             passages: {
-                '1.0': {
-                    name: '1.0',
+                'chapter-1': {
+                    name: 'chapter-1',
                     tags: [],
                     metadata: {position: "425,350", size: "100,100"},
+                    isChapter: true,
+                    chapterData: {chapter: "1"},
                     lines: [
                         "Image face à face avec son amie",
                         '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
@@ -117,6 +140,8 @@ describe('function getJsonFromLines', function () {
                     name: '1.1',
                     tags: [],
                     metadata: {position: "550,350", size: "100,100"},
+                    isChapter: false,
+                    chapterData: null,
                     lines: [
                         "Image face à face avec son amie",
                         '<img src="../front/static/assets/illustrations/seq1.svg" width="256" height="256">',
