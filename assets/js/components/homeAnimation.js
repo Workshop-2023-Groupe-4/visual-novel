@@ -2,27 +2,26 @@ import { gsap } from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
+const triggerElt = document.querySelector(".gradation-animation");
 
-const allElt = gsap.utils.toArray(".gradation-animation__item");
-allElt.forEach((elt) => {
-  let tl = gsap.timeline({
+if(triggerElt){
+
+  const line1 = document.querySelector(".line-1");
+  const line2 = document.querySelector(".line-2");
+  const line3 = document.querySelector(".line-3");
+  const tlHome = gsap.timeline({
     scrollTrigger: {
-      trigger: elt,
-      pin: true,
-      pinSpacing: false,
-      scrub: true
+      trigger: triggerElt,
+      start: "-=200",
+      end: "bottom top",
+      scrub: 1,
+      pin: true
     }
   });
-  tl.to(elt, {
-    autoAlpha: 1,
-    color: '#FF2222',
-    scale: 1.5,
-    duration: 0.7
-  }).to(
-    elt,
-    {
-      autoAlpha: 0
-    },
-    0.5
-  );
-});
+  tlHome.to(line1, {display: "block", scale: 1.5, color: '#FF2222', duration: .3})
+  tlHome.to(line1, {display: "none", duration: .3})
+  tlHome.to(line2, {display: "block", scale: 1.5, color: '#FF2222', duration: .3})
+  tlHome.to(line2, {display: "none", duration: .3})
+  tlHome.to(line3, {display: "block", scale: 1.5, color: '#FF2222', duration: .3})
+  tlHome.to(line3, {display: "none", duration: .3})
+}

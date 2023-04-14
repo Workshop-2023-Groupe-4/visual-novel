@@ -132,16 +132,20 @@
                 transform: translateY(-$spacing-3)
             img
                 margin: 0 auto
-        & .gradation-animation__item
-          opacity: 0
-          padding: $spacing-4 0
         & .gradation-animation
           display: flex
           flex-direction: column
           justify-content: center
           align-items: center
-          & .active
-            opacity: 1
-            padding-top: $spacing-1
-            color: $red-light
-            transform: scale(1.5)
+          &__item
+            padding: $spacing-4 0
+          & .anim
+            position: relative
+            min-width: 100%
+            min-height: 30vh
+            & > h2
+              position: absolute
+              top: 0
+              left: 50%
+              transform: translateX(-50%)
+              display: none
