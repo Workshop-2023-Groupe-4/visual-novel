@@ -218,7 +218,7 @@ dian
 
 <img src="/assets/illustrations/dian/seq6/crying-in-bed.png" alt="Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé."/>
 
-[[Suivant->4]]
+[[Suivant->chapitre-4]]
 
 
 :: 3.B.1 {"position":"425,950","size":"100,100"}
@@ -328,16 +328,7 @@ dian
 
 <img src="/assets/illustrations/dian/seq6/crying-in-bed.png" alt="Dian pleure et s’endort à côté de son téléphone encore allumé, l’esprit chamboulé."/>
 
-[[Suivant->4]]
-
-
-:: 4 [Chapitre-4] {"position":"300,1100","size":"100,100"}
-# Chapitre 4 / 4
-## L'infirmerie
-
-<img class="chapter" src="/assets/illustrations/dian/chapters/chapter-4.svg" alt=" ">
-
-[[Suivant->4.1]]
+[[Suivant->chapitre-4]]
 
 
 :: 4.1 {"position":"425,1100","size":"100,100"}
@@ -437,6 +428,15 @@ Celle-ci lui a expliqué avec plus de précision la nature de la mutilation gén
 
 
 [Suivant->/stories/ending/]
+
+
+:: chapitre-4 {"position":"300,1100","size":"100,100"}
+# Chapitre 4 / 4
+## L'infirmerie
+
+<img class="chapter" src="/assets/illustrations/dian/chapters/chapter-4.svg" alt=" ">
+
+[[Suivant->4.1]]
 
 
 :: chapter-1 {"position":"300,350","size":"100,100"}
