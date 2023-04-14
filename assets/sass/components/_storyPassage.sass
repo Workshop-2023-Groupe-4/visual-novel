@@ -154,6 +154,11 @@
       gap: $spacing-0
       a 
         @include icon($icon-arrow-down, after)
+        align-items: center
+        display: flex
+        justify-content: space-between
+        margin-left: -$spacing-0
+        margin-right: -$spacing-0
         &::after
           border: 1px solid $white
           border-radius: $rounded-full
@@ -165,34 +170,35 @@
       gap: $spacing-2
       margin-top: $spacing-3
       li
-        align-items: center
-        display: flex
-        justify-content: center
+        flex: 1
         position: relative
+        padding: $spacing-0 $spacing-1
+        width: 100%
         &::before
-          aspect-ratio: 787/689
           content: ''
           background:
-            image: url('/assets/images/choice.svg')
-            position: center
+            image: url('/assets/illustrations/UI/choices.svg')
+            position: right
+            size: contain
             repeat: no-repeat
-          height: 10vh
-          pointer-events: none
+          height: 100%
           opacity: .3
+          pointer-events: none
           position: absolute
+          right: 0
+          top: -45%
+          width: 100%
+          @include media-breakpoint-down(md)
+            height: 120%
       a
         @include stretched-link
+        display: block
+        text-align: center
+    a
+      text-decoration: none
+      padding: $spacing-0
     @include media-breakpoint-down(md)
       flex-direction: column
-
-    a
-      align-items: center
-      display: flex
-      justify-content: space-between
-      margin-left: -$spacing-0
-      margin-right: -$spacing-0
-      padding: $spacing-0
-      text-decoration: none
 
   > img.chapter + .storyPassage__links
     margin-top: $spacing-0
