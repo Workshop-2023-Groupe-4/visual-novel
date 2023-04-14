@@ -74,4 +74,4 @@ class Menu {
     }
 }
 
-export default new Menu('.global-header');
+export default new Menu('header#header');
