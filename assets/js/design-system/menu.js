@@ -6,6 +6,8 @@ const CLASSES = {
 class Menu {
     constructor (selector) {
         this.element = document.querySelector(selector);
+        this.globalHeader = document.querySelector("header.global-header");
+        this.storyNavLinks = this.element.querySelectorAll(".menu a");
         if (!this.element) {
             return;
         }
@@ -47,19 +49,24 @@ class Menu {
                 this.closeEverything();
             }
         });
+        this.storyNavLinks.forEach(link => {
+            link.addEventListener("click", () => {
+                this.closeEverything();
+            })
+        })
     }
 
     onScroll () {
-        const offset = this.element.offsetHeight,
+        const offset = this.globalHeader.offsetHeight,
             y = window.scrollY,
             threshold = 30;
         let hasChanged = false;
 
         if (y > this.state.previousScrollY + threshold) {
-            this.element.classList.add("hidden");
+            this.globalHeader.classList.add("hidden");
             hasChanged = true;
         } else if (y < this.state.previousScrollY - threshold){
-            this.element.classList.remove("hidden");
+            this.globalHeader.classList.remove("hidden");
             hasChanged = true;
         }
 
