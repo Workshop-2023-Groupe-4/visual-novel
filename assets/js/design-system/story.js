@@ -4,6 +4,7 @@ import StoryImage from '../components/StoryImage';
 const CLASSES = {
     hidden: 'hidden',
     storyPassage: 'storyPassage',
+    choicesList: 'choicesList'
 };
 
 export default class Story {
@@ -42,6 +43,8 @@ export default class Story {
             return;
         }
 
+        this.getChoices(passage);
+
         this.hideAllPassages();
         passage.classList.remove(CLASSES.hidden);
         scrollTo(0, 0);
@@ -52,6 +55,13 @@ export default class Story {
     playAnimations(passage) {
         window.storyImage = new StoryImage(passage);
         storyImage.init();
+    }
+    getChoices(passage) {
+        this.linksContainer = passage.querySelector('.storyPassage__links');
+        this.links = this.linksContainer.querySelectorAll('li');
+        if (this.links.length > 1) {
+            this.linksContainer.classList.add(CLASSES.choicesList);
+        }
     }
 
     start() {

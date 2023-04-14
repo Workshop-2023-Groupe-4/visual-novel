@@ -1,6 +1,6 @@
 .storyPassage
   color: $white
-  padding-bottom: $spacing-3
+  padding-bottom: $spacing-4
   padding-top: $spacing-4
   position: relative
   min-height: 100vh
@@ -79,13 +79,21 @@
         content: close-quote
 
   > .paper
+    background:
+      image: url("/assets/images/paper.png")
+      size: contain
+      repeat: no-repeat
+      position: center
     display: flex
     flex-direction: column
     justify-content: center
-    width: fit-content
-    aspect-ratio: 2.5 / 1
+    min-height: 252px
+    width: 100%
     margin: 0 0 $spacing-2 0
     transform: rotate(-3.5deg)
+    @include media-breakpoint-up(md)
+      padding: 0 $spacing-3
+
 
     > span,
     > p
@@ -100,20 +108,6 @@
 
       &::after
         content: close-quote
-
-    &::before
-      z-index: -1
-      position: absolute
-      display: block
-      content: " "
-      background-image: url("/assets/images/paper.png")
-      background-size: contain
-      background-repeat: no-repeat
-      background-position: center
-      top: 0
-      left: 0
-      width: 100%
-      height: 100%
 
   > img
     width: 100%
@@ -154,26 +148,61 @@
   > .storyPassage__links
     margin-top: auto
     display: flex
-    gap: $spacing-0
-    @include media-breakpoint-down(md)
-      flex-direction: column
+    flex-wrap: wrap
 
-    a
-      display: flex
+    &:not(.choicesList)
+      justify-content: flex-end
+      gap: $spacing-0
+
+      a
+        @include icon($icon-arrow-down, after)
+        align-items: center
+        display: flex
+        justify-content: space-between
+        margin-left: -$spacing-0
+        margin-right: -$spacing-0
+        &::after
+          border: 1px solid $white
+          border-radius: $rounded-full
+          margin-left: $spacing-0
+          padding: half($spacing-0)
+          transform: rotate(-45deg)
+
+    &.choicesList
       justify-content: space-between
-      align-items: center
+      gap: $spacing-2
+      margin-top: $spacing-3
+
+      li
+        flex: 1
+        position: relative
+        padding: $spacing-0 $spacing-1
+        width: 100%
+        &::before
+          content: ''
+          background:
+            image: url('/assets/illustrations/UI/choices.svg')
+            position: right
+            size: contain
+            repeat: no-repeat
+          height: 100%
+          opacity: .3
+          pointer-events: none
+          position: absolute
+          right: 0
+          top: -45%
+          width: 100%
+          @include media-breakpoint-down(md)
+            height: 120%
+      a
+        @include stretched-link
+        display: block
+        text-align: center
+    a
       text-decoration: none
       padding: $spacing-0
-      margin-left: -$spacing-0
-      margin-right: -$spacing-0
-
-      @include icon($icon-arrow-down, after)
-
-      &::after
-        transform: rotate(-45deg)
-        border-radius: $rounded-full
-        padding: half($spacing-0)
-        border: 1px solid $white
+    @include media-breakpoint-down(md)
+      flex-direction: column
 
   > img.chapter + .storyPassage__links
     margin-top: $spacing-0
