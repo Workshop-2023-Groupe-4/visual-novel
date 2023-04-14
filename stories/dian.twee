@@ -180,7 +180,7 @@ dian
 :: 3.A.3 {"position":"675,800","size":"100,100"}
 @@ Est-ce vraiment ce qui m'est arrivé ?
 
-<img class="parallax" data-depth="0.8" src="/assets/illustrations/dian/seq6/razor.png" alt="Des rasoirs remplissent la scène petit à petit"/>
+<img class="parallaxScale" data-scale="2" data-depth="0.8" src="/assets/illustrations/dian/seq6/razor.png" alt="Des rasoirs remplissent la scène petit à petit"/>
 
 @@ Je crois qu'il y avait des cris, des pleurs... Je sais que je n’étais pas toute seule.
 

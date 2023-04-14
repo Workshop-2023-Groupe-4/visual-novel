@@ -28,7 +28,7 @@ Elena
 <img src="/assets/illustrations/elena/seq2/calendar-june.png" alt="calendrier du mois de juin avec l'insicription Jour J à la date d'ajourd'hui" >
 
 <img data-depth="-1.6" class="parallax" src="/assets/illustrations/elena/seq2/big-door.png" alt="Une jeune femme se tient devant la porte">
-<img data-depth="-2.5" class="parallax" src="/assets/illustrations/elena/seq2/little-elena.png" alt="Elle hésite à rentrer">
+<img data-depth="-1.1" data-scale=".2" class="parallaxScale" src="/assets/illustrations/elena/seq2/little-elena.png" alt="Elle hésite à rentrer">
 
 @@ Ça va vite passer, ça va aller.
 
