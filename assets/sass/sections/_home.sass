@@ -44,23 +44,29 @@
         @include icon($icon-book, before)
         @include button
         align-items: center
-        bottom: $content-margin-sm
         color: $white
-        display: none
+        display: flex
         gap: $spacing-0
         justify-content: center
-        left: 50%
-        position: fixed
-        transform: translateX(-50%)
         width: 100%
         z-index: 9
+        &.js-btn
+            bottom: $content-margin-sm
+            display: none
+            left: 50%
+            position: fixed
+            transform: translateX(-50%)
+            @include media-breakpoint-down(md)
+                width: calc(100% - calc(#{$content-margin-sm} * 2))
+        &:not(.js-btn)
+            margin: 0 auto
+            position: sticky
+            top: $spacing-3
         &.visible
             display: flex
         @include media-breakpoint-up(md)
             bottom: $content-margin-sm
             max-width: 260px
-        @include media-breakpoint-down(md)
-            width: calc(100% - calc(#{$content-margin-sm} * 2))
         &::before
             color: $white
             font-size: px2rem(24)
@@ -114,6 +120,9 @@
                 left: 10%
             &__label:nth-child(5)
                 bottom: 20%
+    #home-cta
+        position: relative
+        height: 25vh
     .introducing
         &__items
             margin-bottom: $spacing-4

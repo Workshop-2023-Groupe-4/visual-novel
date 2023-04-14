@@ -14,7 +14,6 @@
     padding: $spacing-0 $spacing-1
     text-decoration: none
     text-align: center
-    width: calc(100% - #{$content-margin-sm})
     transition: .3s ease-out
     &::before
         color: $color
@@ -24,9 +23,6 @@
         color: $background
         &::before
             color: $background
-
-    @include media-breakpoint-down(lg)
-        width: calc(100% - #{$content-margin})
 
 @mixin container
     margin-left: auto

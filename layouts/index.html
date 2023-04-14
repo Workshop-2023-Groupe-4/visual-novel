@@ -3,6 +3,9 @@
     {{- partial "header/home-header.html" . -}}
     {{- partial "sections/home-illustration.html" . -}}
     {{- partial "sections/introducing.html" . -}}
-    <a href="/stories" class="primary-btn home-btn">Accéder aux histoires</a>
+    <div id="home-cta">
+        <a href="/stories" class="primary-btn home-btn js-btn">Accéder aux histoires</a>
+        <a href="/stories" class="primary-btn home-btn">Accéder aux histoires</a>
+    </div>
 </div>
 {{ end }}
