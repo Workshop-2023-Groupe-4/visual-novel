@@ -137,6 +137,11 @@
       margin-left: auto
       margin-right: auto
 
+    &.parallax
+      margin-bottom: -$spacing-3
+      margin-left: -15%
+      max-width: 130%
+      width: 130%
 
     &.fill,
     &.chapter
@@ -166,7 +171,6 @@
       padding: $spacing-0
       margin-left: -$spacing-0
       margin-right: -$spacing-0
-
       @include icon($icon-arrow-down, after)
 
       &::after
@@ -177,3 +181,4 @@
 
   > img.chapter + .storyPassage__links
     margin-top: $spacing-0
+    
