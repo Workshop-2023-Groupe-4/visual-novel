@@ -27,8 +27,8 @@ Elena
 :: 2.0 {"position":"700,375","size":"100,100"}
 <img src="/assets/illustrations/elena/seq2/calendar-june.png" alt="calendrier du mois de juin avec l'insicription Jour J à la date d'ajourd'hui" >
 
-<img src="/assets/illustrations/elena/seq2/big-door.png" alt="Une jeune femme se tient devant la porte">
-<img src="/assets/illustrations/elena/seq2/little-elena.png" alt="Elle hésite à rentrer">
+<img data-depth="-1.6" class="parallax" src="/assets/illustrations/elena/seq2/big-door.png" alt="Une jeune femme se tient devant la porte">
+<img data-depth="-1.1" data-scale=".2" class="parallaxScale" src="/assets/illustrations/elena/seq2/little-elena.png" alt="Elle hésite à rentrer">
 
 @@ Ça va vite passer, ça va aller.
 
@@ -38,14 +38,14 @@ Elena
 
 <img class="right" src="/assets/illustrations/elena/seq2/elena-seat.png" alt="Elle attend dans la salle d’attente, assise">
 
-@@Raphaël : — Madame Elena Krylov ? Bonjour !
+@@Raphaël : Madame Elena Krylov ? Bonjour !
 
-<img class="left" src="/assets/illustrations/elena/seq2/raph-standing.png" alt="Le chhirurgien arrive dans la salle d'attente">
+<img class="left" src="/assets/illustrations/elena/seq2/raph-standing.png" alt="Le chirurgien arrive dans la salle d'attente">
 
 <img class="right" src="/assets/illustrations/elena/seq2/elena-looking-up.png" alt="Elena regarde dans la direction du chirurgien">
 
-@(Elena): — Bonjour.
-@Raphaël : — Venez avec moi, je vous en prie. Avez-vous besoin de quelque chose ? Un café, un thé ?
+@(Elena): Bonjour.
+@Raphaël : Venez avec moi, je vous en prie. Avez-vous besoin de quelque chose ? Un café, un thé ?
 
 Que répondre ?
 [[Je veux bien un thé, merci.->2.0.1]]
@@ -315,14 +315,14 @@ Que faire ?
 
 <img class="left" src="/assets/illustrations/elena/seq6/phone-ringing.png" alt="son téléphone sonne">
 
-@(Elena): — Allô ?
-@éditrice : — Bonjour Elena ! Comment avance ton manuscrit ? Ce n'est pas trop dur de te replonger dans ces souvenirs ?  
+@(Elena): Allô ?
+@éditrice : Bonjour Elena ! Comment avance ton manuscrit ? Ce n'est pas trop dur de te replonger dans ces souvenirs ?  
 
 <img class="right" src="/assets/illustrations/elena/seq6/phone-on.png" alt="téléphone allumé en haut parleur">
 
-@(Elena): — J'avance plutôt bien. Il y a des moments plus durs que d'autres...
-@éditrice : — Tu arrives à jongler avec tes études, ça va ?
-@(Elena): — Eh bien...
+@(Elena): J'avance plutôt bien. Il y a des moments plus durs que d'autres...
+@éditrice : Tu arrives à jongler avec tes études, ça va ?
+@(Elena): Eh bien...
 
 Que dire ?
 [[J’ai choisi de laisser ça de côté pour terminer mes études. ->6.0.1]]
