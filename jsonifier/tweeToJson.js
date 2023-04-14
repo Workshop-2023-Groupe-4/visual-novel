@@ -96,7 +96,7 @@ function getJsonFromLines(lines) {
             json.passages[passage.name] = passage;
         }
 
-        const {name, tags, metadata} = identifyPassageHeader(line);
+        const {name, tags, metadata, isChapter, chapterData} = identifyPassageHeader(line);
 
         if (name === "StoryTitle") {
             isInStoryTitle = true;
@@ -113,6 +113,8 @@ function getJsonFromLines(lines) {
             name,
             tags,
             metadata,
+            isChapter,
+            chapterData,
             lines: []
         };
         if (namesUsed.includes(name)) {
@@ -177,10 +179,30 @@ function identifyPassageHeader(line) {
         nameItems.push(item);
     })
 
+    const name = nameItems.length ? nameItems.join(' ') : null;
+
     return {
-        name: nameItems.length ? nameItems.join(' ') : null,
+        isChapter: isChapterFromName(name),
+        chapterData: getChapterDataFromName(name),
+        name,
         tags,
         metadata
+    };
+}
+
+function isChapterFromName(name) {
+    return name && name.startsWith('chapter-')
+}
+
+function getChapterDataFromName(name) {
+    if (!name.startsWith('chapter-')) {
+        return null
+    }
+
+    const [chapter, variant] = name.replace('chapter-', '').split('.')
+
+    return {
+        chapter, variant
     }
 }
 

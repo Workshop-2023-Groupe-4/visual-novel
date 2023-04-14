@@ -32,6 +32,24 @@ header#header
             &::before
                 color: $black
                 font-size: px2rem(24)
+        &.story-nav 
+            button
+                @include icon($icon-book, before)
+                align-items: center
+                color: $white
+                display: flex
+                gap: $spacing-0
+                span
+                    font-family: $body-font-family
+                    font-size: px2rem(14)
+                &::before
+                    color: $white
+            @include media-breakpoint-down(md)
+                .menu a
+                    font-size: px2rem(24)
+        &.story-nav.menu-is-opened
+            span
+                font-size: 0
         .menu
             @extend .container
             background: $black

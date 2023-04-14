@@ -1,8 +1,11 @@
 {{ with .Resources.GetMatch "story.json" }}
-{{ $story := .Content | unmarshal }}
-<section class="story__passages" id="storyPassages" data-start="#passage-{{ $story.data.start }}">
-    {{ range $story.passages }}
-    {{ partial "stories/passage" . }}
-    {{ end }}
-</section>
+
+    {{ $story := .Content | unmarshal }}
+
+    <section class="story__passages" id="storyPassages" data-start="#passage-{{ $story.data.start }}">
+        {{ range $story.passages }}
+            {{ partial "stories/passage" . }}
+        {{ end }}
+    </section>
+
 {{ end }}
