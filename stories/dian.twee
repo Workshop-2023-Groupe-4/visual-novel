@@ -65,7 +65,7 @@ dian
 
 @@ Je n’en suis plus si sûre...
 
-<img src="/assets/illustrations/dian/seq1/distraiteClass.png" alt="Dian est en cours, elle est distraite">
+<img class="fill" src="/assets/illustrations/dian/seq1/distraiteClass.png" alt="Dian est en cours, elle est distraite">
 
 @@ C'est bizarre... Je ne me sens pas bien...
 
@@ -80,7 +80,7 @@ dian
 :: 1.4 {"position":"800,350","size":"100,100"}
 <img src="/assets/illustrations/dian/seq2/in-bed.png" alt="Dian est roulée en boule dans sa couette, c’est la nuit">
 
-<img src="/assets/illustrations/dian/seq2/flashback.png" alt="Souvenir : visage flous qui crient, encore des mains menaçantes">
+<img class="fill" src="/assets/illustrations/dian/seq2/flashback.png" alt="Souvenir : visage flous qui crient, encore des mains menaçantes">
 
 @@Nenek: Non !
 
@@ -207,7 +207,7 @@ dian
 :: 3.A.3 {"position":"675,800","size":"100,100"}
 @@ Est-ce vraiment ce qui m'est arrivé ?
 
-<img class="fill" src="/assets/illustrations/dian/seq6/razor.png" alt="Des rasoirs remplissent la scène petit à petit"/>
+<img class="parallax" data-depth="0.8" src="/assets/illustrations/dian/seq6/razor.png" alt="Des rasoirs remplissent la scène petit à petit"/>
 
 @@ Je crois qu'il y avait des cris, des pleurs... Je sais que je n’étais pas toute seule.
 
@@ -341,7 +341,7 @@ dian
 
 @Satria: On ne t’en a pas parlé, en France ? À l’école ou quoi ?
 
-<img src="/assets/illustrations/dian/seq6/little-girls-muted.png" alt="Une main recouvre la bouche d'une petite fille "/>
+<img class="fill" src="/assets/illustrations/dian/seq6/little-girls-muted.png" alt="Une main recouvre la bouche d'une petite fille "/>
 
 @(Dian): Jamais...
 
