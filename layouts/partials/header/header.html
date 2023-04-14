@@ -29,7 +29,7 @@
 
             {{ range $story.passages }}
              {{ if .isChapter }}
-                <a href="#passage-{{ .name }}">Chapitre {{ .chapterData.chapter }}</a>
+                <a href="#passage-{{ .name }}">Chapitre {{ .chapterData.chapter }}{{ with .chapterData.variant}} route {{.}}{{ end }}</a>
               {{ end}}
             {{ end }}
           {{ end }}
