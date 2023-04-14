@@ -28,8 +28,8 @@
             {{ $story := .Content | unmarshal }}
 
             {{ range $story.passages }}
-             {{ if hasPrefix .name "chapter" }}
-                <a href="#passage-{{ .name }}">{{ .name }}</a>
+             {{ if .isChapter }}
+                <a href="#passage-{{ .name }}">Chapitre {{ .name }}</a>
               {{ end}}
             {{ end }}
           {{ end }}
