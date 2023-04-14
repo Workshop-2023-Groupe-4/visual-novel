@@ -18,10 +18,10 @@ if(triggerElt){
       pin: true
     }
   });
-  tlHome.to(line1, {display: "block", scale: 1.5, color: '#FF2222', duration: .3})
-  tlHome.to(line1, {display: "none", duration: .3})
-  tlHome.to(line2, {display: "block", scale: 1.5, color: '#FF2222', duration: .3})
-  tlHome.to(line2, {display: "none", duration: .3})
-  tlHome.to(line3, {display: "block", scale: 1.5, color: '#FF2222', duration: .3})
-  tlHome.to(line3, {display: "none", duration: .3})
+  tlHome.to(line1, {display: "block", scale: 1.5, color: '#FF2222', duration: .6, ease: "power2"})
+  tlHome.to(line1, {display: "none", duration: .6, ease: "power2"})
+  tlHome.to(line2, {display: "block", scale: 1.5, color: '#FF2222', duration: .6, ease: "power2"})
+  tlHome.to(line2, {display: "none", duration: .6, ease: "power2"})
+  tlHome.to(line3, {display: "block", scale: 1.5, color: '#FF2222', duration: .6, ease: "power2"})
+  tlHome.to(line3, {display: "none", duration: .6, ease: "power2"})
 }
