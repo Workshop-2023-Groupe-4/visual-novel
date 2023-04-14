@@ -153,9 +153,7 @@ dian
 
 <img class="right" src="/assets/illustrations/dian/seq4/close-eyes.png" alt="Elle plisse les yeux"/>
 
-<img src="/assets/illustrations/dian/seq4/open-eyes.png" alt="Son sourire s’efface"/>
-
-<img class="right" src="/assets/illustrations/dian/seq4/eyes-open-wide.png" alt="Elle écarquille les yeux et sa bouche s’ouvre"/>
+<img class="left" src="/assets/illustrations/dian/seq4/eyes-open-wide.png" alt="Elle écarquille les yeux et sa bouche s’ouvre"/>
 
 @@ Ce n’est pas normal...
 
@@ -163,7 +161,7 @@ dian
 
 @@ JE ne suis pas normale...
 
-<img src="/assets/illustrations/dian/seq4/cry.png" alt="Elle pleure"/>
+<img class=left" src="/assets/illustrations/dian/seq4/cry.png" alt="Elle pleure"/>
 
 @@ Qu’est-ce que je dois faire ?
 
@@ -225,7 +223,7 @@ dian
 
 ''L’excision est pratiquée par tradition et est considéré comme un rite de passage car il est dit que les filles qui ne sont pas excisées risquent d'être atteintes de problèmes mentaux et handicaps.''
 
-<img src="/assets/illustrations/dian/seq6/socked.png" alt="Choc sur son visage"/>
+<img class="right" src="/assets/illustrations/dian/seq6/socked.png" alt="Choc sur son visage"/>
 
 ''6 petites filles excisées toutes les minutes dans le monde''
 
