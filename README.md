@@ -82,8 +82,11 @@ Moitié droite
 Moitié centrée  
 `<img class="center" src="/assets/illustrations/...">`
 
-Largeur pleine sans marge à gauche ni à droite 
+Largeur pleine sans marge à gauche ni à droite  
 `<img class="fill" src="/assets/illustrations/...">`
+
+Mettre un parallax (depth gère la vitesse de défilement de l'élément par rapport au reste)
+`<img class="parallax" data-depth="0.8" src="/assets/illustrations/...">`
 
 ### Texte
 Gras  
