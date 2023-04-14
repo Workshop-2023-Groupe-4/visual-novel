@@ -27,7 +27,9 @@ class Menu {
             this.toggleMainMenu();
         });
         ['scroll', 'touchmove'].forEach(event => {
+          if(this.globalHeader) {
             window.addEventListener(event, this.onScroll.bind(this));
+          }
         });
     }
     toggleMainMenu (open = !this.state.isOpened) {
