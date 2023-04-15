@@ -1,7 +1,10 @@
-baseURL = '/'
+baseURL = 'https://1minute.lesorchideesrouges.org'
 languageCode = 'fr'
-title = '1 minute'
-expandedTitle = '1 minute dans le monde'
+title = '1 minute dans le monde'
+
+[params]
+  description = "Narration interactive de sensibilisation contre l'excision. Projet porté par l'association Les Orchidées Rouges en collaboration avec MMI Bordeaux."
+  heroUrl = 'https://1minute.lesorchideesrouges.org/assets/hero-min.png'
 
 [menu]
   [[menu.main]]

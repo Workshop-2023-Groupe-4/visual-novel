@@ -1,18 +1,53 @@
 {{- $seoTitle := htmlUnescape site.Title -}}
 {{- $seoDescription := "" -}}
 {{- $seoUrl := .Permalink -}}
+{{- $baseUrl := site.Site.BaseURL -}}
+{{- $heroUrl := site.Site.Params.heroUrl -}}
 
 {{- if .Title -}}
-  {{- $seoTitle = printf "%s | %s" (chomp (htmlUnescape .Title)) $seoTitle -}}
+{{- $seoTitle = printf "%s | %s" (chomp (htmlUnescape .Title)) $seoTitle -}}
 {{- end -}}
 
 {{- if .Params.meta_description -}}
-  {{- $seoDescription = .Params.meta_description -}}
+{{- $seoDescription = .Params.meta_description -}}
 {{- else if .Params.summary -}}
-  {{- $seoDescription = .Params.summary -}}
+{{- $seoDescription = .Params.summary -}}
 {{- else if .Content -}}
-  {{- $seoDescription = .Content -}}
+{{- $seoDescription = .Content -}}
+{{- else if site.Site.Params.description -}}
+{{- $seoDescription = site.Site.Params.description -}}
 {{- end -}}
 
+<meta name="robots" content="all">
+<meta name="target" content="all">
+
+<meta name="author" content="MMI Bordeaux">
+<meta name="owner" content="Les Orchidées Rouges">
+<meta name="language" content="fr">
+<meta http-equiv="content-language" content="fr">
+
+<meta name="url" content="{{ $baseUrl }}">
+<meta name="identifier-URL" content="{{ $baseUrl }}">
+<link rel="canonical" href="{{ $seoUrl }}"/>
+
 <title>{{ $seoTitle }}</title>
-<meta name="description" content="{{ $seoDescription }}">
+<meta name="description" content="{{ $seoDescription }}"/>
+
+<meta property="og:title" content="{{ $seoTitle }}"/>
+<meta property="og:type" content="website"/>
+<meta property="og:description" content="{{ $seoDescription }}"/>
+<meta property="og:site_name" content="{{ $seoTitle }}"/>
+<meta property="og:url" content="{{ .Permalink }}"/>
+<meta property="og:locale" content="fr"/>
+<meta property="og:image" content="{{ $heroUrl }}"/>
+
+<meta name="twitter:card" content="summary_large_image"/>
+<meta property="twitter:url" content="{{ .Permalink }}">
+<meta name="twitter:title" content="{{ $seoTitle }}"/>
+<meta name="twitter:description" content="{{ $seoDescription }}"/>
+<meta name="twitter:image" content="{{ $heroUrl }}"/>
+
+<meta name="apple-mobile-web-app-capable" content="yes"/>
+<meta name="apple-mobile-web-app-title" content="{{ $seoTitle }}"/>
+<meta name="apple-mobile-web-app-status-bar-style" content="#ffffff">
+<meta name="theme-color" content="#ffffff">
